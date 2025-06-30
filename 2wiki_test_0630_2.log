@@ -1,0 +1,231 @@
+nohup: ignoring input
+08:16:12 HiRAG INFO: 🚀 Starting document processing: benchmark/2wiki/2wiki_corpus_100.txt
+08:16:12 HiRAG INFO: 📄 Loaded 36 documents
+08:16:12 HiRAG INFO: ✂️ Created 43 chunks
+[2025-06-30T08:16:12Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+08:16:12 HiRAG INFO: 🔍 Checking resume state for document: benchmark/2wiki/2wiki_corpus_100.txt
+[2025-06-30T08:16:12Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+08:16:12 HiRAG INFO: 📋 Found existing document with ID: doc-63abced470b52160e5170b9a8f057fb2
+08:16:12 HiRAG INFO: 📋 Found 43 existing chunks by URI
+08:16:12 HiRAG INFO: 📊 Matched 43/43 chunks by ID
+[2025-06-30T08:16:12Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+08:16:12 HiRAG WARNING: Error checking existing entities: lance error: LanceError(IO): sql parser error: Expected: (, found: chunk_ids, /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lance-datafusion-0.29.0/src/sql.rs:106:8
+08:16:12 HiRAG INFO: 🔗 No existing relations found
+08:16:12 HiRAG INFO: 📋 RESUME PLAN:
+08:16:12 HiRAG INFO:   📄 Document: benchmark/2wiki/2wiki_corpus_100.txt
+08:16:12 HiRAG INFO:   🆔 Document ID: doc-63abced470b52160e5170b9a8f057fb2
+08:16:12 HiRAG INFO:   ✅ Chunks: 43/43 complete
+08:16:12 HiRAG INFO:   📝 Entity extraction: 0/43 complete
+08:16:12 HiRAG INFO:   🔗 Entities: 0 processed
+08:16:12 HiRAG INFO:   🌐 Relations: 0 processed
+08:16:12 HiRAG INFO:   ⏳ Will process 0 chunks and extract entities from 43 chunks
+08:16:12 HiRAG INFO: ⏭️ All chunks already processed, skipping chunk upsert
+08:16:12 HiRAG INFO: 🔍 Extracting entities from 43 pending chunks...
+08:16:18 root INFO: [Entity] Finished extracting entities for chunk chunk-6f0a4ec951ffa0d7c60695104c565cb0, took 6.17 seconds
+08:16:19 root INFO: [Entity] Finished extracting entities for chunk chunk-71950cb48537100bdccae648ba49dbff, took 7.26 seconds
+08:16:22 root INFO: [Entity] Finished extracting entities for chunk chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1, took 9.54 seconds
+08:16:23 root INFO: [Entity] Finished extracting entities for chunk chunk-1f91bfd918df15f1bc5fee82a634df24, took 10.68 seconds
+08:16:27 root INFO: [Entity] Finished extracting entities for chunk chunk-9549ccd9e8ff759c531183f83ba2d19f, took 7.33 seconds
+08:16:27 root INFO: [Entity] Finished extracting entities for chunk chunk-4fa26b2f1061b735530fc3d080a65ded, took 9.02 seconds
+08:16:28 root INFO: [Entity] Finished extracting entities for chunk chunk-4d88a1c85531fd8fe852f44c733f0d98, took 6.03 seconds
+08:16:33 root INFO: [Entity] Finished extracting entities for chunk chunk-a460d016ad25a0f5b5ec8b0303e00fcf, took 10.56 seconds
+08:16:34 root INFO: [Entity] Finished extracting entities for chunk chunk-574f5da01d385c6e77d1398235a7786a, took 6.53 seconds
+08:16:36 root INFO: [Entity] Finished extracting entities for chunk chunk-b61f96f5e65b7f879bb66a2c5aaabbb8, took 9.30 seconds
+08:16:40 root INFO: [Entity] Finished extracting entities for chunk chunk-8692c07e38cb3529acd8b567575c0f30, took 6.02 seconds
+08:16:41 root INFO: [Entity] Finished extracting entities for chunk chunk-0dcaf1d9beef97069c7f986932362c42, took 12.86 seconds
+08:16:43 root INFO: [Entity] Finished extracting entities for chunk chunk-5d6c7f3653eea9bec7f2e50fefb320d5, took 9.88 seconds
+08:16:44 root INFO: [Entity] Finished extracting entities for chunk chunk-97c6779a0556749b42634f1b59c72967, took 8.20 seconds
+08:16:45 root INFO: [Entity] Finished extracting entities for chunk chunk-4afcb52d5e1151133a4cb7b509379c8d, took 5.48 seconds
+08:16:48 root INFO: [Entity] Finished extracting entities for chunk chunk-530aa8e3ab97ff9507e29afcc9a4d2a3, took 7.13 seconds
+08:16:49 root INFO: [Entity] Finished extracting entities for chunk chunk-6e0ec089d5878634e20fe1f2f9924ab9, took 4.58 seconds
+08:16:51 root INFO: [Entity] Finished extracting entities for chunk chunk-b4b691b124873e04328823cb3545c80c, took 7.67 seconds
+08:16:52 root INFO: [Entity] Finished extracting entities for chunk chunk-30fd97885ea5a20d234ddf6b018dc747, took 6.30 seconds
+08:16:52 root INFO: [Entity] Finished extracting entities for chunk chunk-3284e8bf504e24d68ca5f47b964f1640, took 4.34 seconds
+08:16:54 root INFO: [Entity] Finished extracting entities for chunk chunk-38292aa941e10e1a21ac8c97a2ae6fba, took 5.27 seconds
+08:16:57 root INFO: [Entity] Finished extracting entities for chunk chunk-64d8945379a2c1b3c3890af0b2ce2f9f, took 6.45 seconds
+08:17:00 root INFO: [Entity] Finished extracting entities for chunk chunk-1e96b3f6244190cd53c9e61d84402e29, took 8.20 seconds
+08:17:00 root INFO: [Entity] Finished extracting entities for chunk chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb, took 8.12 seconds
+08:17:01 root INFO: [Entity] Finished extracting entities for chunk chunk-55c463593ff4ecd4ec28c25a6adaf53a, took 6.58 seconds
+08:17:04 root INFO: [Entity] Finished extracting entities for chunk chunk-56866585f6b6dd98d2b27d520b96d74d, took 4.03 seconds
+08:17:07 root INFO: [Entity] Finished extracting entities for chunk chunk-55870cf6a965457a09397167e73d6194, took 7.30 seconds
+08:17:09 root INFO: [Entity] Finished extracting entities for chunk chunk-37390a57136d7db357f4fd4abb3c1b5d, took 8.17 seconds
+08:17:11 root INFO: [Entity] Finished extracting entities for chunk chunk-7d28723cedfec09ce9670ad9ecbea796, took 6.62 seconds
+08:17:12 root INFO: [Entity] Finished extracting entities for chunk chunk-a004db36c4c6bcb89239bc5512e01734, took 4.99 seconds
+08:17:14 root INFO: [Entity] Finished extracting entities for chunk chunk-0eaa8cb11922647e3ba7c909e15588a8, took 16.89 seconds
+08:17:16 root INFO: [Entity] Finished extracting entities for chunk chunk-ca13daf51e9fbe8c78b9e48c407a7357, took 6.69 seconds
+08:17:17 root INFO: [Entity] Finished extracting entities for chunk chunk-66f157968a4d7cd460f5121ebb47a581, took 6.55 seconds
+08:17:18 root INFO: [Entity] Finished extracting entities for chunk chunk-c380bc6d12367172e99c89510787feff, took 5.56 seconds
+08:17:20 root INFO: [Entity] Finished extracting entities for chunk chunk-40f30ef93df62cb4a1971b9273724594, took 4.77 seconds
+08:17:22 root INFO: [Entity] Finished extracting entities for chunk chunk-c5c10fdf80339b1fef8eb45dd8ff5c5a, took 7.60 seconds
+08:17:25 root INFO: [Entity] Finished extracting entities for chunk chunk-a37292ef07814787d257177e0548b16d, took 7.20 seconds
+08:17:26 root INFO: [Entity] Finished extracting entities for chunk chunk-a46e296c13027db67b309de2d789d236, took 8.73 seconds
+08:17:29 root INFO: [Entity] Finished extracting entities for chunk chunk-621a3a7e53076803ce6174936ca00e71, took 9.05 seconds
+08:17:30 root INFO: [Entity] Finished extracting entities for chunk chunk-49f3b35aebfbf69a9527b4cbdbdfd709, took 8.32 seconds
+08:17:31 root INFO: [Entity] Finished extracting entities for chunk chunk-41a5ed94f57282505a8a81915b2d7f8e, took 4.76 seconds
+08:17:34 root INFO: [Entity] Finished extracting entities for chunk chunk-b8e84dc765bad8edcf1445529776c141, took 8.71 seconds
+08:17:36 root INFO: [Entity] Finished extracting entities for chunk chunk-df434da3e0a88db02e658db0605d3290, took 6.59 seconds
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'TEUTBERGA', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'TEUTBERGA': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'LOTHARINGIA', count=4
+08:17:36 root INFO: [Entity-Merge] Merged entity 'LOTHARINGIA': type=GEO, chunk_ids=4, descriptions=4
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'TUSCANY', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'TUSCANY': type=GEO, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'ADALBERT II OF TUSCANY', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'ADALBERT II OF TUSCANY': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'HUCBERT', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'HUCBERT': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'LOTHAIR II', count=3
+08:17:36 root INFO: [Entity-Merge] Merged entity 'LOTHAIR II': type=PERSON, chunk_ids=3, descriptions=3
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'BRONX', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'BRONX': type=GEO, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'BERTHA', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'BERTHA': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'THEOBALD OF ARLES', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'THEOBALD OF ARLES': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'WALDRADA', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'WALDRADA': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'NICKI MINAJ', count=4
+08:17:36 root INFO: [Entity-Merge] Merged entity 'NICKI MINAJ': type=PERSON, chunk_ids=4, descriptions=4
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'YOUNG MONEY ENTERTAINMENT', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'YOUNG MONEY ENTERTAINMENT': type=ORGANIZATION, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'THE DECEMBERISTS', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'THE DECEMBERISTS': type=ORGANIZATION, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'COLIN MELOY', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'COLIN MELOY': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'QUEEN', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'QUEEN': type=TECHNOLOGY, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'THE OTHER WOMAN', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'THE OTHER WOMAN': type=TECHNOLOGY, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity '2012', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity '2012': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity '2018', count=3
+08:17:36 root INFO: [Entity-Merge] Merged entity '2018': type=EVENT, chunk_ids=3, descriptions=3
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'CULTURAL IMPACT', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'CULTURAL IMPACT': type=CONCEPT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'CHRIS BALLEW', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'CHRIS BALLEW': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'LUBNOWY', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'LUBNOWY': type=GEO, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'IŁAWA COUNTY', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'IŁAWA COUNTY': type=GEO, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'WARMIAN-MASURIAN VOIVODESHIP', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'WARMIAN-MASURIAN VOIVODESHIP': type=GEO, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'ALTID BALLADE', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'ALTID BALLADE': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'GABRIEL AXEL', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'GABRIEL AXEL': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'EDITH CARLMAR', count=3
+08:17:36 root INFO: [Entity-Merge] Merged entity 'EDITH CARLMAR': type=PERSON, chunk_ids=3, descriptions=3
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'ALDRI ANNET ENN BRÅK', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'ALDRI ANNET ENN BRÅK': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'FILM NOIR', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'FILM NOIR': type=CONCEPT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'MICHAEL CURTIZ', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'MICHAEL CURTIZ': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'CASABLANCA', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'CASABLANCA': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'ARTISTIC LIGHTING', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'ARTISTIC LIGHTING': type=CONCEPT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'SONS OF LIBERTY', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'SONS OF LIBERTY': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'TOMOO SHIMOGAWARA', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'TOMOO SHIMOGAWARA': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'ROBERT NORTH BRADBURY', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'ROBERT NORTH BRADBURY': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'CHARLIE DAY', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'CHARLIE DAY': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'THE LUCKY TEXAN', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'THE LUCKY TEXAN': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'RIDERS OF DESTINY', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'RIDERS OF DESTINY': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'LAWLESS RANGE', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'LAWLESS RANGE': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'THE MAN FROM UTAH', count=3
+08:17:36 root INFO: [Entity-Merge] Merged entity 'THE MAN FROM UTAH': type=EVENT, chunk_ids=3, descriptions=3
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'THE TRAIL BEYOND', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'THE TRAIL BEYOND': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'TEXAS TERROR', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'TEXAS TERROR': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'WEST OF THE DIVIDE', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'WEST OF THE DIVIDE': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'BLUE STEEL', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'BLUE STEEL': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'THE LAWLESS FRONTIER', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'THE LAWLESS FRONTIER': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'RAINBOW VALLEY', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'RAINBOW VALLEY': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'THE DAWN RIDER', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'THE DAWN RIDER': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'THE STAR PACKER', count=3
+08:17:36 root INFO: [Entity-Merge] Merged entity 'THE STAR PACKER': type=EVENT, chunk_ids=3, descriptions=3
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'THE GREAT DEPRESSION', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'THE GREAT DEPRESSION': type=CONCEPT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'RONALD E. BRADBURY', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'RONALD E. BRADBURY': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'HARTLEY LOBBAN', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'HARTLEY LOBBAN': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'FIRST-CLASS CRICKET', count=3
+08:17:36 root INFO: [Entity-Merge] Merged entity 'FIRST-CLASS CRICKET': type=CONCEPT, chunk_ids=3, descriptions=3
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'CRICKETER', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'CRICKETER': type=CONCEPT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'SOMERSET', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'SOMERSET': type=ORGANIZATION, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'JOHN WESTLEY', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'JOHN WESTLEY': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'RUAIDHRÍ MAC RUAIDHRÍ', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'RUAIDHRÍ MAC RUAIDHRÍ': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'CLANN RUAIDHRÍ', count=3
+08:17:36 root INFO: [Entity-Merge] Merged entity 'CLANN RUAIDHRÍ': type=ORGANIZATION, chunk_ids=3, descriptions=3
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'CAIRISTÍONA', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'CAIRISTÍONA': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'ÁINE', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'ÁINE': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'SCOTTISH MAGNATE', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'SCOTTISH MAGNATE': type=CONCEPT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'HEBRIDES', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'HEBRIDES': type=GEO, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'CLANN DOMHNAILL', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'CLANN DOMHNAILL': type=ORGANIZATION, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'FRANK LAUNDER', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'FRANK LAUNDER': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'THE LADY VANISHES', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'THE LADY VANISHES': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'GREEN FOR DANGER', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'GREEN FOR DANGER': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'BERNADETTE O'FARRELL', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'BERNADETTE O'FARRELL': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'LUKE GOSS', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'LUKE GOSS': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'INTERVIEW WITH A HITMAN', count=3
+08:17:36 root INFO: [Entity-Merge] Merged entity 'INTERVIEW WITH A HITMAN': type=EVENT, chunk_ids=3, descriptions=3
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'VIKTOR', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'VIKTOR': type=EVENT, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'PERRY BHANDAL', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'PERRY BHANDAL': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'LEO FONG', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'LEO FONG': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'JOHN FARRELL', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'JOHN FARRELL': type=PERSON, chunk_ids=2, descriptions=2
+08:17:36 root INFO: [Entity-Merge] Start merging entity 'YOUTUBE', count=2
+08:17:36 root INFO: [Entity-Merge] Merged entity 'YOUTUBE': type=ORGANIZATION, chunk_ids=2, descriptions=2
+08:17:36 HiRAG INFO: ✅ Entity extraction completed in 83.812s
+08:17:36 HiRAG INFO: 📤 Upserting 641 new entities...
+08:17:37 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.486s
+08:17:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.875s
+08:17:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=2.271s
+08:17:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=2.668s
+08:17:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.576s
+08:17:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.591s
+08:17:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.610s
+08:17:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.615s
+08:17:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.614s
+08:17:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.602s
+08:17:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.584s
+08:17:42 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.582s
+08:17:42 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.566s
+08:17:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.569s
+08:17:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.569s
+08:17:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.552s
+08:17:44 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.558s
+08:17:44 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.542s
+08:17:44 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_139867452344560', elapsed=1.526s

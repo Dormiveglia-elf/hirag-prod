@@ -1,0 +1,873 @@
+nohup: ignoring input
+09:40:47 HiRAG INFO: Loading the document from the document path: benchmark/2wiki/2wiki_corpus_100.txt
+[2025-06-24T09:40:47Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+09:40:47 HiRAG INFO: Loaded 36 documents
+09:40:47 HiRAG INFO: Chunked 43 chunks
+09:40:47 HiRAG INFO: Submitting upsert_text for 43 chunks...
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-1f91bfd918df15f1bc5fee82a634df24
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-71950cb48537100bdccae648ba49dbff
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-6f0a4ec951ffa0d7c60695104c565cb0
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-4fa26b2f1061b735530fc3d080a65ded
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-9549ccd9e8ff759c531183f83ba2d19f
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-4d88a1c85531fd8fe852f44c733f0d98
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-a460d016ad25a0f5b5ec8b0303e00fcf
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-b61f96f5e65b7f879bb66a2c5aaabbb8
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-574f5da01d385c6e77d1398235a7786a
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-0dcaf1d9beef97069c7f986932362c42
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-5d6c7f3653eea9bec7f2e50fefb320d5
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-8692c07e38cb3529acd8b567575c0f30
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-97c6779a0556749b42634f1b59c72967
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-4afcb52d5e1151133a4cb7b509379c8d
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-530aa8e3ab97ff9507e29afcc9a4d2a3
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-b4b691b124873e04328823cb3545c80c
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-6e0ec089d5878634e20fe1f2f9924ab9
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-30fd97885ea5a20d234ddf6b018dc747
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-3284e8bf504e24d68ca5f47b964f1640
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-38292aa941e10e1a21ac8c97a2ae6fba
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-64d8945379a2c1b3c3890af0b2ce2f9f
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-1e96b3f6244190cd53c9e61d84402e29
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-55c463593ff4ecd4ec28c25a6adaf53a
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-0eaa8cb11922647e3ba7c909e15588a8
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-55870cf6a965457a09397167e73d6194
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-56866585f6b6dd98d2b27d520b96d74d
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-37390a57136d7db357f4fd4abb3c1b5d
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-7d28723cedfec09ce9670ad9ecbea796
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-a004db36c4c6bcb89239bc5512e01734
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-ca13daf51e9fbe8c78b9e48c407a7357
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-66f157968a4d7cd460f5121ebb47a581
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-c380bc6d12367172e99c89510787feff
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-c5c10fdf80339b1fef8eb45dd8ff5c5a
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-40f30ef93df62cb4a1971b9273724594
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-a46e296c13027db67b309de2d789d236
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-a37292ef07814787d257177e0548b16d
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-621a3a7e53076803ce6174936ca00e71
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-49f3b35aebfbf69a9527b4cbdbdfd709
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-b8e84dc765bad8edcf1445529776c141
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-41a5ed94f57282505a8a81915b2d7f8e
+09:40:47 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-df434da3e0a88db02e658db0605d3290
+09:40:47 HiRAG INFO: [upsert_text] All chunk upserts submitted, waiting for completion...
+09:40:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.311s
+09:40:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.391s
+09:40:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.839s
+09:40:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.912s
+09:40:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.854s
+09:40:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.931s
+09:40:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.054s
+09:40:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.353s
+09:40:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.864s
+09:40:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.888s
+09:40:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.849s
+09:40:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.851s
+09:40:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.824s
+09:41:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=10.205s
+09:41:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=9.360s
+09:41:05 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.370s
+09:41:05 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.449s
+09:41:06 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.847s
+09:41:06 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.918s
+09:41:06 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.827s
+09:41:07 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.884s
+09:41:07 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.842s
+09:41:08 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.850s
+09:41:08 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.920s
+09:41:08 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.848s
+09:41:09 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.851s
+09:41:09 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.872s
+09:41:10 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.920s
+09:41:11 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.037s
+09:41:12 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=2.191s
+09:41:12 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.836s
+09:41:12 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.885s
+09:41:13 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.909s
+09:41:23 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=10.457s
+09:41:23 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=10.156s
+09:41:24 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.313s
+09:41:24 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.304s
+09:41:25 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.917s
+09:41:25 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.989s
+09:41:26 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.845s
+09:41:26 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.853s
+09:41:27 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.898s
+09:41:27 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=/kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.822s
+09:41:27 HiRAG INFO: [upsert_text] All chunk upserts completed.
+09:41:27 HiRAG INFO: Upsert chunks time: 39.696s
+09:41:34 root INFO: [Entity] Finished extracting entities for chunk chunk-6f0a4ec951ffa0d7c60695104c565cb0, took 7.08 seconds
+09:41:36 root INFO: [Entity] Finished extracting entities for chunk chunk-71950cb48537100bdccae648ba49dbff, took 8.88 seconds
+09:41:37 root INFO: [Entity] Finished extracting entities for chunk chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1, took 9.68 seconds
+09:41:37 root INFO: [Entity] Finished extracting entities for chunk chunk-1f91bfd918df15f1bc5fee82a634df24, took 9.72 seconds
+09:41:43 root INFO: [Entity] Finished extracting entities for chunk chunk-4fa26b2f1061b735530fc3d080a65ded, took 9.06 seconds
+09:41:44 root INFO: [Entity] Finished extracting entities for chunk chunk-9549ccd9e8ff759c531183f83ba2d19f, took 8.51 seconds
+09:41:44 root INFO: [Entity] Finished extracting entities for chunk chunk-4d88a1c85531fd8fe852f44c733f0d98, took 7.86 seconds
+09:41:49 root INFO: [Entity] Finished extracting entities for chunk chunk-a460d016ad25a0f5b5ec8b0303e00fcf, took 12.06 seconds
+09:41:52 root INFO: [Entity] Finished extracting entities for chunk chunk-574f5da01d385c6e77d1398235a7786a, took 7.46 seconds
+09:41:54 root INFO: [Entity] Finished extracting entities for chunk chunk-b61f96f5e65b7f879bb66a2c5aaabbb8, took 11.20 seconds
+09:41:56 root INFO: [Entity] Finished extracting entities for chunk chunk-0dcaf1d9beef97069c7f986932362c42, took 11.88 seconds
+09:41:59 root INFO: [Entity] Finished extracting entities for chunk chunk-5d6c7f3653eea9bec7f2e50fefb320d5, took 10.17 seconds
+09:42:00 root INFO: [Entity] Finished extracting entities for chunk chunk-8692c07e38cb3529acd8b567575c0f30, took 8.47 seconds
+09:42:05 root INFO: [Entity] Finished extracting entities for chunk chunk-97c6779a0556749b42634f1b59c72967, took 10.82 seconds
+09:42:05 root INFO: [Entity] Finished extracting entities for chunk chunk-4afcb52d5e1151133a4cb7b509379c8d, took 8.89 seconds
+09:42:06 root INFO: [Entity] Finished extracting entities for chunk chunk-530aa8e3ab97ff9507e29afcc9a4d2a3, took 7.51 seconds
+09:42:09 root INFO: [Entity] Finished extracting entities for chunk chunk-b4b691b124873e04328823cb3545c80c, took 8.33 seconds
+09:42:11 root INFO: [Entity] Finished extracting entities for chunk chunk-6e0ec089d5878634e20fe1f2f9924ab9, took 6.13 seconds
+09:42:12 root INFO: [Entity] Finished extracting entities for chunk chunk-3284e8bf504e24d68ca5f47b964f1640, took 6.05 seconds
+09:42:22 root INFO: [Entity] Finished extracting entities for chunk chunk-38292aa941e10e1a21ac8c97a2ae6fba, took 13.14 seconds
+09:42:24 root INFO: [Entity] Finished extracting entities for chunk chunk-64d8945379a2c1b3c3890af0b2ce2f9f, took 12.85 seconds
+09:42:25 root INFO: [Entity] Finished extracting entities for chunk chunk-30fd97885ea5a20d234ddf6b018dc747, took 20.19 seconds
+09:42:28 root INFO: [Entity] Finished extracting entities for chunk chunk-1e96b3f6244190cd53c9e61d84402e29, took 15.37 seconds
+09:42:33 root INFO: [Entity] Finished extracting entities for chunk chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb, took 11.64 seconds
+09:42:36 root INFO: [Entity] Finished extracting entities for chunk chunk-55c463593ff4ecd4ec28c25a6adaf53a, took 12.22 seconds
+09:42:37 root INFO: [Entity] Finished extracting entities for chunk chunk-55870cf6a965457a09397167e73d6194, took 9.34 seconds
+09:42:41 root INFO: [Entity] Finished extracting entities for chunk chunk-56866585f6b6dd98d2b27d520b96d74d, took 7.72 seconds
+09:42:44 root INFO: [Entity] Finished extracting entities for chunk chunk-7d28723cedfec09ce9670ad9ecbea796, took 6.94 seconds
+09:42:46 root INFO: [Entity] Finished extracting entities for chunk chunk-0eaa8cb11922647e3ba7c909e15588a8, took 20.47 seconds
+09:42:48 root INFO: [Entity] Finished extracting entities for chunk chunk-a004db36c4c6bcb89239bc5512e01734, took 6.81 seconds
+09:42:49 root INFO: [Entity] Finished extracting entities for chunk chunk-37390a57136d7db357f4fd4abb3c1b5d, took 12.77 seconds
+09:42:53 root INFO: [Entity] Finished extracting entities for chunk chunk-ca13daf51e9fbe8c78b9e48c407a7357, took 8.69 seconds
+09:42:56 root INFO: [Entity] Finished extracting entities for chunk chunk-66f157968a4d7cd460f5121ebb47a581, took 10.39 seconds
+09:43:01 root INFO: [Entity] Finished extracting entities for chunk chunk-c380bc6d12367172e99c89510787feff, took 12.71 seconds
+09:43:01 root INFO: [Entity] Finished extracting entities for chunk chunk-40f30ef93df62cb4a1971b9273724594, took 8.07 seconds
+09:43:05 root INFO: [Entity] Finished extracting entities for chunk chunk-c5c10fdf80339b1fef8eb45dd8ff5c5a, took 15.68 seconds
+09:43:10 root INFO: [Entity] Finished extracting entities for chunk chunk-a37292ef07814787d257177e0548b16d, took 9.11 seconds
+09:43:14 root INFO: [Entity] Finished extracting entities for chunk chunk-a46e296c13027db67b309de2d789d236, took 17.33 seconds
+09:43:16 root INFO: [Entity] Finished extracting entities for chunk chunk-49f3b35aebfbf69a9527b4cbdbdfd709, took 11.44 seconds
+09:43:22 root INFO: [Entity] Finished extracting entities for chunk chunk-41a5ed94f57282505a8a81915b2d7f8e, took 8.06 seconds
+09:43:22 root INFO: [Entity] Finished extracting entities for chunk chunk-df434da3e0a88db02e658db0605d3290, took 5.66 seconds
+09:43:22 root INFO: [Entity] Finished extracting entities for chunk chunk-b8e84dc765bad8edcf1445529776c141, took 12.63 seconds
+09:43:54 root INFO: [Entity] Finished extracting entities for chunk chunk-621a3a7e53076803ce6174936ca00e71, took 53.60 seconds
+09:44:53 HiRAG INFO: Entity extraction time: 206.471s
+09:44:53 HiRAG INFO: Submitting upsert_text for 618 entities...
+09:44:53 HiRAG INFO: [upsert_text] All entity upserts submitted, waiting for completion...
+09:44:55 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.959s
+09:44:55 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=2.091s
+09:44:56 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.901s
+09:44:56 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.956s
+09:44:57 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.051s
+09:44:57 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.996s
+09:44:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.896s
+09:44:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.961s
+09:44:59 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.689s
+09:44:59 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.954s
+09:45:00 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.000s
+09:45:00 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.894s
+09:45:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.911s
+09:45:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.149s
+09:45:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.912s
+09:45:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.016s
+09:45:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.938s
+09:45:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.928s
+09:45:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.911s
+09:46:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=105.878s
+09:46:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=106.083s
+09:46:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.332s
+09:46:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.369s
+09:46:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.940s
+09:46:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.898s
+09:46:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.934s
+09:46:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.975s
+09:46:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.909s
+09:46:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.906s
+09:46:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.903s
+09:46:55 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.917s
+09:46:56 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.949s
+09:46:56 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.557s
+09:46:57 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.896s
+09:46:57 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.900s
+09:46:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.949s
+09:46:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.993s
+09:46:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.944s
+09:46:59 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.930s
+09:48:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=105.596s
+09:48:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=105.865s
+09:48:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.362s
+09:48:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.389s
+09:48:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.926s
+09:48:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.944s
+09:48:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.908s
+09:48:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.898s
+09:48:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.972s
+09:48:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.020s
+09:48:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.646s
+09:48:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.896s
+09:48:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.166s
+09:48:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.933s
+09:48:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.008s
+09:48:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.970s
+09:48:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.917s
+09:48:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.899s
+09:48:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.893s
+09:48:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.962s
+09:50:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=108.512s
+09:50:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=108.135s
+09:50:43 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.501s
+09:50:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.497s
+09:50:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.945s
+09:50:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.927s
+09:50:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.922s
+09:50:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.187s
+09:50:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.219s
+09:50:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.972s
+09:50:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.624s
+09:50:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.899s
+09:50:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.885s
+09:50:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.911s
+09:50:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.920s
+09:50:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.919s
+09:50:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.966s
+09:50:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.919s
+09:50:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.973s
+09:50:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.954s
+09:52:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=108.549s
+09:52:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=108.183s
+09:52:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.454s
+09:52:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.420s
+09:52:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.965s
+09:54:29 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=108.524s
+09:54:30 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=108.252s
+09:54:31 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.512s
+09:54:32 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=2.086s
+09:54:32 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.026s
+09:54:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.019s
+09:54:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.985s
+09:54:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.982s
+09:54:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.012s
+09:54:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.008s
+09:54:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.997s
+09:54:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.003s
+09:54:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.021s
+09:54:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.025s
+09:54:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.976s
+09:54:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.167s
+09:54:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.974s
+09:54:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.954s
+09:54:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.069s
+09:54:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.919s
+09:56:29 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=110.744s
+09:56:30 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=109.495s
+09:56:31 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.594s
+09:56:31 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.384s
+09:56:32 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.988s
+09:56:32 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.882s
+09:56:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.966s
+09:56:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.972s
+09:56:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.990s
+09:56:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.990s
+09:56:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.947s
+09:56:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.578s
+09:56:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.073s
+09:56:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.918s
+09:56:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.936s
+09:56:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.926s
+09:56:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.029s
+09:56:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.962s
+09:56:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.911s
+09:56:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.975s
+09:58:30 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=111.299s
+09:58:30 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=110.332s
+09:58:31 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.502s
+09:58:32 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.536s
+09:58:32 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.011s
+09:58:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.996s
+09:58:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.952s
+09:58:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.982s
+09:58:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.919s
+09:58:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.909s
+09:58:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.970s
+09:58:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.957s
+09:58:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.973s
+09:58:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.973s
+09:58:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.899s
+09:58:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.020s
+09:58:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.915s
+09:58:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.064s
+09:58:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.023s
+09:58:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.902s
+10:00:31 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=112.033s
+10:00:31 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=111.881s
+10:00:32 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.274s
+10:00:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.525s
+10:00:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.161s
+10:00:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.008s
+10:00:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.089s
+10:00:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.100s
+10:00:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.015s
+10:00:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.998s
+10:00:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.088s
+10:00:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.069s
+10:00:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.014s
+10:00:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.982s
+10:00:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.213s
+10:00:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.048s
+10:00:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.049s
+10:00:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.990s
+10:00:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.034s
+10:00:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.021s
+10:02:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=115.199s
+10:02:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=115.390s
+10:02:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.579s
+10:02:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.712s
+10:02:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.950s
+10:02:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.997s
+10:02:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.980s
+10:02:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.976s
+10:02:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.187s
+10:02:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.946s
+10:02:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.953s
+10:02:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.068s
+10:02:43 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.048s
+10:02:43 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.942s
+10:02:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.997s
+10:02:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.949s
+10:02:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.991s
+10:02:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.002s
+10:02:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.019s
+10:02:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.976s
+10:04:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=116.508s
+10:04:43 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=116.610s
+10:04:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.566s
+10:04:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.594s
+10:04:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.979s
+10:04:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.975s
+10:04:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.058s
+10:04:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.885s
+10:04:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.947s
+10:04:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.885s
+10:04:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.945s
+10:04:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.422s
+10:04:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.152s
+10:04:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.152s
+10:04:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.988s
+10:04:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.014s
+10:04:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.008s
+10:04:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.047s
+10:04:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.571s
+10:04:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.958s
+10:06:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=114.265s
+10:06:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=113.505s
+10:06:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.511s
+10:06:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.475s
+10:06:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.046s
+10:06:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.919s
+10:06:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.979s
+10:06:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.029s
+10:06:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.973s
+10:06:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.975s
+10:06:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=2.541s
+10:06:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.494s
+10:06:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.927s
+10:06:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.976s
+10:06:55 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.912s
+10:06:55 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.954s
+10:06:55 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.937s
+10:06:56 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.098s
+10:06:56 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.013s
+10:06:57 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.084s
+10:08:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=113.647s
+10:08:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=113.196s
+10:08:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.403s
+10:08:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.414s
+10:08:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.004s
+10:08:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.922s
+10:08:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.018s
+10:08:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.999s
+10:08:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.921s
+10:08:55 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.292s
+10:08:55 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.958s
+10:08:56 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.004s
+10:08:56 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.972s
+10:08:57 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.926s
+10:08:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.890s
+10:08:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=2.085s
+10:08:59 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.754s
+10:08:59 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.974s
+10:09:00 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.928s
+10:09:00 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.909s
+10:11:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=121.358s
+10:11:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=121.534s
+10:11:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.714s
+10:11:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.399s
+10:11:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.024s
+10:11:05 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.360s
+10:11:05 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.940s
+10:13:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=173.241s
+10:13:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=173.555s
+10:14:00 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.612s
+10:14:00 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.496s
+10:14:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.967s
+10:14:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.583s
+10:14:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.024s
+10:14:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.004s
+10:14:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.083s
+10:14:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.003s
+10:14:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.988s
+10:14:05 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.567s
+10:14:05 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.030s
+10:14:06 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.091s
+10:14:06 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.977s
+10:14:07 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.110s
+10:14:07 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.988s
+10:14:08 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.080s
+10:14:08 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.292s
+10:14:09 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.131s
+10:16:11 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=123.057s
+10:16:12 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=122.960s
+10:16:13 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.621s
+10:16:13 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.432s
+10:16:14 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.106s
+10:16:14 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.012s
+10:16:15 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.314s
+10:16:16 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.597s
+10:16:17 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.167s
+10:16:17 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.070s
+10:16:18 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.165s
+10:16:18 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.020s
+10:16:19 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.164s
+10:16:19 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.117s
+10:16:20 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.025s
+10:16:20 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.039s
+10:16:21 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.170s
+10:16:21 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.157s
+10:16:22 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.943s
+10:16:23 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.191s
+10:18:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=132.213s
+10:18:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=132.306s
+10:18:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=4.096s
+10:18:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=4.983s
+10:18:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.515s
+10:18:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.153s
+10:18:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.161s
+10:18:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.990s
+10:18:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.085s
+10:18:43 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.099s
+10:18:43 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.051s
+10:18:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.065s
+10:18:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.053s
+10:18:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.019s
+10:18:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.040s
+10:18:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.120s
+10:18:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.044s
+10:18:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.057s
+10:18:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.047s
+10:18:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.955s
+10:22:21 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=213.069s
+10:22:21 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=212.661s
+10:22:23 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.652s
+10:22:23 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=2.210s
+10:22:24 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.104s
+10:22:24 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.103s
+10:22:25 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.930s
+10:22:26 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.968s
+10:22:27 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=3.408s
+10:22:28 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.932s
+10:22:28 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.022s
+10:22:29 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.003s
+10:22:29 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.008s
+10:22:30 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.074s
+10:22:30 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.951s
+10:22:31 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.039s
+10:22:31 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.047s
+10:22:32 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.943s
+10:22:32 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.063s
+10:22:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.980s
+10:24:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=132.025s
+10:24:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=131.734s
+10:24:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.530s
+10:24:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.246s
+10:24:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.030s
+10:24:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.028s
+10:24:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.930s
+10:24:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.923s
+10:24:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.887s
+10:24:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.953s
+10:24:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.952s
+10:24:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.947s
+10:24:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.004s
+10:24:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.936s
+10:24:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.918s
+10:24:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.964s
+10:24:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.983s
+10:24:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.005s
+10:24:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.023s
+10:24:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.975s
+10:27:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=128.143s
+10:27:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=128.423s
+10:27:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.458s
+10:27:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.552s
+10:27:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.219s
+10:27:05 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.968s
+10:27:05 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.017s
+10:27:06 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.968s
+10:27:06 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.007s
+10:27:07 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.932s
+10:27:08 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.191s
+10:27:09 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.092s
+10:27:10 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=3.364s
+10:27:10 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.078s
+10:27:11 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.040s
+10:27:11 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.172s
+10:27:12 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.153s
+10:27:12 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.020s
+10:27:13 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.159s
+10:27:13 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.156s
+10:29:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=141.839s
+10:29:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=142.397s
+10:29:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.446s
+10:29:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.147s
+10:29:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.029s
+10:29:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.057s
+10:29:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.075s
+10:29:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.922s
+10:29:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.958s
+10:29:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.035s
+10:29:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.039s
+10:29:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.947s
+10:29:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.923s
+10:29:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.321s
+10:29:43 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.904s
+10:29:43 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.988s
+10:29:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.022s
+10:29:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.969s
+10:29:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.971s
+10:29:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.019s
+10:32:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=172.462s
+10:32:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=172.757s
+10:32:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.658s
+10:32:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.665s
+10:32:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.658s
+10:32:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.323s
+10:32:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.067s
+10:32:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.595s
+10:32:43 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=2.022s
+10:32:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=2.019s
+10:32:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.025s
+10:32:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.080s
+10:32:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.824s
+10:32:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.116s
+10:32:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.082s
+10:32:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.973s
+10:32:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.916s
+10:32:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.747s
+10:32:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.962s
+10:32:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.950s
+10:34:59 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=130.856s
+10:34:59 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=130.953s
+10:35:00 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.392s
+10:35:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.406s
+10:35:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.213s
+10:35:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.062s
+10:35:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.943s
+10:35:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.111s
+10:35:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.056s
+10:35:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.076s
+10:35:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.966s
+10:35:05 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.959s
+10:35:06 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.976s
+10:35:07 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.943s
+10:35:08 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=4.088s
+10:35:08 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.961s
+10:35:09 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.918s
+10:35:09 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.066s
+10:35:10 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.941s
+10:35:10 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.064s
+10:37:27 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=137.468s
+10:37:28 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=137.503s
+10:37:29 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.526s
+10:37:29 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.430s
+10:37:30 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.044s
+10:37:30 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.936s
+10:37:31 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.095s
+10:37:31 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.165s
+10:37:32 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.229s
+10:37:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.582s
+10:37:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.050s
+10:37:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.967s
+10:37:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.041s
+10:37:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.029s
+10:37:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.131s
+10:37:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.994s
+10:37:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.121s
+10:37:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.485s
+10:37:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.915s
+10:37:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.901s
+10:40:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=144.046s
+10:40:08 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=149.247s
+10:40:08 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=6.122s
+10:40:09 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.056s
+10:40:09 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.509s
+10:40:10 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.932s
+10:40:10 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.961s
+10:40:11 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.992s
+10:40:11 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.110s
+10:40:12 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.945s
+10:40:12 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.962s
+10:40:13 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.049s
+10:40:13 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.987s
+10:40:14 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.024s
+10:40:14 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.063s
+10:40:15 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.278s
+10:40:15 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.010s
+10:40:16 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.045s
+10:40:17 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.708s
+10:40:17 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.422s
+10:42:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=147.611s
+10:42:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=148.602s
+10:42:46 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.529s
+10:42:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.155s
+10:42:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=2.000s
+10:42:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.138s
+10:42:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.146s
+10:42:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.980s
+10:42:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.034s
+10:42:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.994s
+10:42:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.075s
+10:42:51 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.968s
+10:42:52 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.086s
+10:42:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.049s
+10:42:53 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.901s
+10:42:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.088s
+10:42:54 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.373s
+10:42:55 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.986s
+10:42:55 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.988s
+10:42:56 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.935s
+10:42:56 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.218s
+10:42:57 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.035s
+10:42:57 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.053s
+10:42:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.060s
+10:42:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.049s
+10:45:14 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=136.001s
+10:45:14 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=136.149s
+10:45:16 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.531s
+10:45:16 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.391s
+10:45:17 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.001s
+10:45:17 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.012s
+10:45:17 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.696s
+10:47:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=137.572s
+10:47:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=137.599s
+10:47:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.551s
+10:47:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.455s
+10:47:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.020s
+10:47:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.031s
+10:47:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.014s
+10:47:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.023s
+10:47:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.972s
+10:47:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.006s
+10:47:40 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.992s
+10:47:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.966s
+10:47:41 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.015s
+10:47:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.002s
+10:47:42 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.174s
+10:47:43 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.983s
+10:47:43 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.041s
+10:47:43 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.992s
+10:47:44 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.757s
+10:47:45 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.169s
+10:49:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=134.044s
+10:49:59 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=133.920s
+10:50:00 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.470s
+10:50:00 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.343s
+10:50:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.934s
+10:50:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.478s
+10:50:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.965s
+10:50:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.563s
+10:50:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.771s
+10:50:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.856s
+10:50:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.789s
+10:50:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.771s
+10:50:05 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.850s
+10:50:06 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.836s
+10:50:07 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.810s
+10:50:07 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.933s
+10:50:09 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.130s
+10:50:10 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.007s
+10:50:10 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.781s
+10:50:12 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=8.112s
+10:52:28 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=138.071s
+10:52:29 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=137.266s
+10:52:31 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=2.313s
+10:52:31 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.697s
+10:52:32 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=3.033s
+10:52:32 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.960s
+10:52:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.088s
+10:52:33 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.728s
+10:52:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.810s
+10:52:34 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.099s
+10:52:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.831s
+10:52:35 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.851s
+10:52:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.045s
+10:52:36 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.029s
+10:52:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.820s
+10:52:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.013s
+10:52:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.847s
+10:52:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.538s
+10:52:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.481s
+10:52:39 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.254s
+10:54:56 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=137.197s
+10:54:56 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=136.928s
+10:54:57 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.188s
+10:54:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.744s
+10:54:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.539s
+10:54:58 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.766s
+10:54:59 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.056s
+10:54:59 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.966s
+10:55:00 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.937s
+10:55:00 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.825s
+10:55:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.073s
+10:55:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.813s
+10:55:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.832s
+10:55:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.805s
+10:55:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.780s
+10:55:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.813s
+10:55:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.746s
+10:55:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.876s
+10:55:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.010s
+10:55:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.885s
+10:57:23 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=138.941s
+10:57:23 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=139.089s
+10:57:25 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.359s
+10:57:25 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.421s
+10:57:25 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.943s
+10:57:26 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.231s
+10:57:27 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.033s
+10:57:27 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.049s
+10:57:27 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.805s
+10:59:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=139.498s
+10:59:47 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=139.652s
+10:59:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.344s
+10:59:48 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.292s
+10:59:49 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.841s
+10:59:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.413s
+10:59:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.278s
+10:59:50 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.733s
+11:02:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=130.795s
+11:02:01 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=130.785s
+11:02:02 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.232s
+11:02:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.385s
+11:02:03 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.926s
+11:02:04 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.078s
+11:02:05 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.679s
+11:02:05 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.272s
+11:02:06 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.839s
+11:04:18 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=133.582s
+11:04:19 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=132.936s
+11:04:20 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.283s
+11:04:20 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.434s
+11:04:20 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=0.847s
+11:04:21 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.222s
+11:04:22 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=1.010s
+11:06:37 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=135.281s
+11:06:38 HiRAG.upsert_text INFO: [upsert_text] End:table/table_name='NativeTable(entities, uri=/kb/hirag.db/entities.lance, read_consistency_interval=None)', elapsed=136.974s
+11:06:38 HiRAG INFO: [upsert_text] All entity upserts completed.
+11:06:38 HiRAG INFO: Upsert entities time: 4904.948s
+11:06:38 HiRAG INFO: Upsert nodes time: 0.015s
+11:06:50 root INFO: [Relation] Finished extracting relations for chunk chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1, took 11.84 seconds
+11:06:53 root INFO: [Relation] Finished extracting relations for chunk chunk-71950cb48537100bdccae648ba49dbff, took 14.42 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:342: UserWarning: Source entity BOSON THE ELDER not found in entities_dict, skipping relation {'src_id': 'BOSON THE ELDER', 'tgt_id': 'TEUTBERGA', 'weight': 7.0, 'description': 'Boson the Elder is the father of Teutberga, creating a familial relationship.', 'source_id': 'chunk-1f91bfd918df15f1bc5fee82a634df24'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:342: UserWarning: Source entity LAMERT not found in entities_dict, skipping relation {'src_id': 'LAMERT', 'tgt_id': 'COUNT', 'weight': 6.0, 'description': 'Lambert held the title of count before becoming margrave, illustrating his ascent in the nobility hierarchy.', 'source_id': 'chunk-1f91bfd918df15f1bc5fee82a634df24'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity LAMERT not found in entities_dict, skipping relation {'src_id': 'MAROZIA', 'tgt_id': 'LAMERT', 'weight': 6.0, 'description': "Marozia was connected to Lambert's family through marriage to Hugh after Guy's death, indicating a familial and political connection.", 'source_id': 'chunk-1f91bfd918df15f1bc5fee82a634df24'}
+  warnings.warn(
+11:06:59 root INFO: [Relation] Finished extracting relations for chunk chunk-1f91bfd918df15f1bc5fee82a634df24, took 20.21 seconds
+11:07:06 root INFO: [Relation] Finished extracting relations for chunk chunk-6f0a4ec951ffa0d7c60695104c565cb0, took 27.60 seconds
+11:07:08 root INFO: [Relation] Finished extracting relations for chunk chunk-4fa26b2f1061b735530fc3d080a65ded, took 29.65 seconds
+11:07:12 root INFO: [Relation] Finished extracting relations for chunk chunk-4d88a1c85531fd8fe852f44c733f0d98, took 18.72 seconds
+11:07:12 root INFO: [Relation] Finished extracting relations for chunk chunk-9549ccd9e8ff759c531183f83ba2d19f, took 21.76 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity AC/DC not found in entities_dict, skipping relation {'src_id': 'BON SCOTT', 'tgt_id': 'AC/DC', 'weight': 9.0, 'description': 'Bon Scott was the lead singer of AC/DC, creating a direct association between the artist and the band.', 'source_id': 'chunk-b61f96f5e65b7f879bb66a2c5aaabbb8'}
+  warnings.warn(
+11:07:19 root INFO: [Relation] Finished extracting relations for chunk chunk-b61f96f5e65b7f879bb66a2c5aaabbb8, took 13.09 seconds
+11:07:31 root INFO: [Relation] Finished extracting relations for chunk chunk-574f5da01d385c6e77d1398235a7786a, took 23.40 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity 1961 not found in entities_dict, skipping relation {'src_id': 'AAS KA PANCHHI', 'tgt_id': '1961', 'weight': 6.0, 'description': 'Aas Ka Panchhi was released in 1961, indicating its historical significance in cinema.', 'source_id': 'chunk-a460d016ad25a0f5b5ec8b0303e00fcf'}
+  warnings.warn(
+11:07:32 root INFO: [Relation] Finished extracting relations for chunk chunk-a460d016ad25a0f5b5ec8b0303e00fcf, took 33.89 seconds
+11:07:35 root INFO: [Relation] Finished extracting relations for chunk chunk-8692c07e38cb3529acd8b567575c0f30, took 16.25 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity THE OTHER WOMAN not found in entities_dict, skipping relation {'src_id': 'NICKI MINAJ', 'tgt_id': 'THE OTHER WOMAN', 'weight': 6.0, 'description': "Nicki Minaj played a supporting role in 'The Other Woman', indicating her crossover into film and acting.", 'source_id': 'chunk-0dcaf1d9beef97069c7f986932362c42'}
+  warnings.warn(
+11:07:37 root INFO: [Relation] Finished extracting relations for chunk chunk-0dcaf1d9beef97069c7f986932362c42, took 25.17 seconds
+11:07:43 root INFO: [Relation] Finished extracting relations for chunk chunk-5d6c7f3653eea9bec7f2e50fefb320d5, took 31.50 seconds
+11:07:45 root INFO: [Relation] Finished extracting relations for chunk chunk-97c6779a0556749b42634f1b59c72967, took 13.56 seconds
+11:07:45 root INFO: [Relation] Finished extracting relations for chunk chunk-4afcb52d5e1151133a4cb7b509379c8d, took 12.86 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:342: UserWarning: Source entity ALTDID BALLADE not found in entities_dict, skipping relation {'src_id': 'ALTDID BALLADE', 'tgt_id': 'GABRIEL AXEL', 'weight': 9.0, 'description': 'Gabriel Axel directed the film Altid Ballade, indicating a professional relationship as director and film.', 'source_id': 'chunk-b4b691b124873e04328823cb3545c80c'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:342: UserWarning: Source entity ALTDID BALLADE not found in entities_dict, skipping relation {'src_id': 'ALTDID BALLADE', 'tgt_id': 'EDITH CARLMAR', 'weight': 8.0, 'description': "Altid Ballade is a remake of Edith Carlmar's earlier film, establishing a direct connection between their works.", 'source_id': 'chunk-b4b691b124873e04328823cb3545c80c'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity ALTDID BALLADE not found in entities_dict, skipping relation {'src_id': 'BODIL AWARD', 'tgt_id': 'ALTDID BALLADE', 'weight': 9.0, 'description': "The Bodil Award is linked to the film Altid Ballade through its recognition of Sigrid Horne-Rasmussen, showcasing the film's impact on her career.", 'source_id': 'chunk-b4b691b124873e04328823cb3545c80c'}
+  warnings.warn(
+11:07:47 root INFO: [Relation] Finished extracting relations for chunk chunk-b4b691b124873e04328823cb3545c80c, took 10.00 seconds
+11:07:47 root INFO: [Relation] Finished extracting relations for chunk chunk-530aa8e3ab97ff9507e29afcc9a4d2a3, took 11.49 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity EASTENDERS not found in entities_dict, skipping relation {'src_id': 'DAN MILNE', 'tgt_id': 'EASTENDERS', 'weight': 8.0, 'description': "Dan Milne is best known for his role in 'EastEnders', connecting him to the show.", 'source_id': 'chunk-6e0ec089d5878634e20fe1f2f9924ab9'}
+  warnings.warn(
+11:07:51 root INFO: [Relation] Finished extracting relations for chunk chunk-6e0ec089d5878634e20fe1f2f9924ab9, took 7.94 seconds
+11:07:56 root INFO: [Relation] Finished extracting relations for chunk chunk-3284e8bf504e24d68ca5f47b964f1640, took 10.92 seconds
+11:07:56 root INFO: [Relation] Finished extracting relations for chunk chunk-30fd97885ea5a20d234ddf6b018dc747, took 11.30 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity OLIVIA DE HAVILAND not found in entities_dict, skipping relation {'src_id': 'MICHAEL CURTIZ', 'tgt_id': 'OLIVIA DE HAVILAND', 'weight': 8.0, 'description': "Olivia de Havilland's rise to fame was significantly aided by her work with Michael Curtiz.", 'source_id': 'chunk-64d8945379a2c1b3c3890af0b2ce2f9f'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:342: UserWarning: Source entity OLIVIA DE HAVILAND not found in entities_dict, skipping relation {'src_id': 'OLIVIA DE HAVILAND', 'tgt_id': 'OSCAR NOMINATIONS', 'weight': 7.0, 'description': "Olivia de Havilland's recognition in Hollywood is linked to her roles in movies helmed by Michael Curtiz, impacting her career and nominations.", 'source_id': 'chunk-64d8945379a2c1b3c3890af0b2ce2f9f'}
+  warnings.warn(
+11:08:00 root INFO: [Relation] Finished extracting relations for chunk chunk-64d8945379a2c1b3c3890af0b2ce2f9f, took 13.22 seconds
+11:08:02 root INFO: [Relation] Finished extracting relations for chunk chunk-38292aa941e10e1a21ac8c97a2ae6fba, took 15.44 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity RINGO-EN NO SHŌJO not found in entities_dict, skipping relation {'src_id': 'TOMOO SHIMOGAWARA', 'tgt_id': 'RINGO-EN NO SHŌJO', 'weight': 8.0, 'description': 'Tomoo Shimogawara was the art director for Ringo-en no shōjo, establishing his involvement with the film.', 'source_id': 'chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb'}
+  warnings.warn(
+11:08:04 root INFO: [Relation] Finished extracting relations for chunk chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb, took 8.01 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity COMEDY not found in entities_dict, skipping relation {'src_id': 'LIFE WITH FATHER', 'tgt_id': 'COMEDY', 'weight': 7.0, 'description': "'Life With Father' showcases Curtiz's ability to direct comedies, enhancing his reputation across genres.", 'source_id': 'chunk-1e96b3f6244190cd53c9e61d84402e29'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity COMEDY not found in entities_dict, skipping relation {'src_id': "WE'RE NO ANGELS", 'tgt_id': 'COMEDY', 'weight': 7.0, 'description': "Curtiz directed 'We're No Angels', demonstrating his capability in comedic storytelling.", 'source_id': 'chunk-1e96b3f6244190cd53c9e61d84402e29'}
+  warnings.warn(
+11:08:05 root INFO: [Relation] Finished extracting relations for chunk chunk-1e96b3f6244190cd53c9e61d84402e29, took 13.40 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity NEW ZEALAND not found in entities_dict, skipping relation {'src_id': 'HENRY MOORE', 'tgt_id': 'NEW ZEALAND', 'weight': 6.0, 'description': 'Henry Moore spent most of his life in New Zealand, indicating a significant geographical and cultural connection.', 'source_id': 'chunk-55870cf6a965457a09397167e73d6194'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity WORCESTERSHIRE not found in entities_dict, skipping relation {'src_id': 'HARTLEY LOBBAN', 'tgt_id': 'WORCESTERSHIRE', 'weight': 7.0, 'description': 'Hartley Lobban played 17 matches for Worcestershire, establishing a direct involvement with the team.', 'source_id': 'chunk-55870cf6a965457a09397167e73d6194'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity DAVID BELASCO not found in entities_dict, skipping relation {'src_id': 'THE HEART OF MARYLAND', 'tgt_id': 'DAVID BELASCO', 'weight': 7.0, 'description': "The Heart of Maryland is based on David Belasco's 1895 play, indicating a literary connection.", 'source_id': 'chunk-55870cf6a965457a09397167e73d6194'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity SILENT FILM not found in entities_dict, skipping relation {'src_id': 'VITAGRAPH COMPANY OF AMERICA', 'tgt_id': 'SILENT FILM', 'weight': 8.0, 'description': 'Vitagraph Company of America produced silent films, showing a connection to the silent film era.', 'source_id': 'chunk-55870cf6a965457a09397167e73d6194'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity NIGERIA not found in entities_dict, skipping relation {'src_id': 'WALE ADEBANWI', 'tgt_id': 'NIGERIA', 'weight': 6.0, 'description': 'Wale Adebanwi is of Nigerian origin, establishing a connection to his home country.', 'source_id': 'chunk-55870cf6a965457a09397167e73d6194'}
+  warnings.warn(
+11:08:11 root INFO: [Relation] Finished extracting relations for chunk chunk-55870cf6a965457a09397167e73d6194, took 8.58 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity SURRY not found in entities_dict, skipping relation {'src_id': 'JOHN MCMAHON', 'tgt_id': 'SURRY', 'weight': 8.0, 'description': 'JOHN MCMAHON played as a first-class cricketer for Surrey from 1947 to 1957.', 'source_id': 'chunk-56866585f6b6dd98d2b27d520b96d74d'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:342: UserWarning: Source entity SURRY not found in entities_dict, skipping relation {'src_id': 'SURRY', 'tgt_id': 'FIRST-CLASS CRICKET', 'weight': 8.0, 'description': "Surrey is another team that participates in first-class cricket, relevant to JOHN MCMAHON's career.", 'source_id': 'chunk-56866585f6b6dd98d2b27d520b96d74d'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity SURRY not found in entities_dict, skipping relation {'src_id': 'JOHN MCMAHON', 'tgt_id': 'SURRY', 'weight': 8.0, 'description': 'JOHN MCMAHON played first-class cricket for Surrey from 1947 to 1957.', 'source_id': 'chunk-56866585f6b6dd98d2b27d520b96d74d'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:342: UserWarning: Source entity SURRY not found in entities_dict, skipping relation {'src_id': 'SURRY', 'tgt_id': 'FIRST-CLASS CRICKET', 'weight': 8.0, 'description': "Surrey's participation in first-class cricket is closely connected to JOHN MCMAHON's cricketing achievements.", 'source_id': 'chunk-56866585f6b6dd98d2b27d520b96d74d'}
+  warnings.warn(
+11:08:16 root INFO: [Relation] Finished extracting relations for chunk chunk-56866585f6b6dd98d2b27d520b96d74d, took 12.03 seconds
+11:08:20 root INFO: [Relation] Finished extracting relations for chunk chunk-37390a57136d7db357f4fd4abb3c1b5d, took 15.26 seconds
+11:08:24 root INFO: [Relation] Finished extracting relations for chunk chunk-7d28723cedfec09ce9670ad9ecbea796, took 12.88 seconds
+11:08:25 root INFO: [Relation] Finished extracting relations for chunk chunk-a004db36c4c6bcb89239bc5512e01734, took 8.38 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity 2017 not found in entities_dict, skipping relation {'src_id': 'FIST FIGHT', 'tgt_id': '2017', 'weight': 6.0, 'description': "'Fist Fight' was released in 2017, marking another of Charlie Day's later film projects.", 'source_id': 'chunk-55c463593ff4ecd4ec28c25a6adaf53a'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity RINGO-EN NO SHŌJO not found in entities_dict, skipping relation {'src_id': 'TOMOO SHIMOGAWARA', 'tgt_id': 'RINGO-EN NO SHŌJO', 'weight': 7.0, 'description': "Tomoo Shimogawara is identified as the art director in 'Ringo-en no shōjo', linking him to this specific film work.", 'source_id': 'chunk-55c463593ff4ecd4ec28c25a6adaf53a'}
+  warnings.warn(
+11:08:26 root INFO: [Relation] Finished extracting relations for chunk chunk-55c463593ff4ecd4ec28c25a6adaf53a, took 29.35 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:342: UserWarning: Source entity ROBER N. BRADBURY not found in entities_dict, skipping relation {'src_id': 'ROBER N. BRADBURY', 'tgt_id': 'GLENDALE, CALIFORNIA', 'weight': 6.0, 'description': 'Robert N. Bradbury died in Glendale, California, establishing a geographical link to his life and work.', 'source_id': 'chunk-0eaa8cb11922647e3ba7c909e15588a8'}
+  warnings.warn(
+11:08:29 root INFO: [Relation] Finished extracting relations for chunk chunk-0eaa8cb11922647e3ba7c909e15588a8, took 28.52 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity ZHAO LEJI not found in entities_dict, skipping relation {'src_id': 'ZHAO SHOUSHAN', 'tgt_id': 'ZHAO LEJI', 'weight': 7.0, 'description': 'Zhao Shoushan is the grandfather of Zhao Leji, establishing a direct family connection.', 'source_id': 'chunk-ca13daf51e9fbe8c78b9e48c407a7357'}
+  warnings.warn(
+11:08:30 root INFO: [Relation] Finished extracting relations for chunk chunk-ca13daf51e9fbe8c78b9e48c407a7357, took 9.44 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity ISLAMIC PROPHET MUHAMMAD not found in entities_dict, skipping relation {'src_id': 'ABD AL-MUTTALIB', 'tgt_id': 'ISLAMIC PROPHET MUHAMMAD', 'weight': 10.0, 'description': 'ABD AL-MUTTALIB is the grandfather of Islamic prophet Muhammad, which establishes a direct familial relationship.', 'source_id': 'chunk-66f157968a4d7cd460f5121ebb47a581'}
+  warnings.warn(
+11:08:36 root INFO: [Relation] Finished extracting relations for chunk chunk-66f157968a4d7cd460f5121ebb47a581, took 12.58 seconds
+11:08:38 root INFO: [Relation] Finished extracting relations for chunk chunk-c380bc6d12367172e99c89510787feff, took 13.80 seconds
+11:08:40 root INFO: [Relation] Finished extracting relations for chunk chunk-40f30ef93df62cb4a1971b9273724594, took 11.46 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity CXCLANN DOMHNAILL not found in entities_dict, skipping relation {'src_id': 'EÓIN MAC DOMHNAILL I', 'tgt_id': 'CXCLANN DOMHNAILL', 'weight': 8.0, 'description': 'Eóin Mac Domhnaill I is connected to the acquisition of the Clann Ruaidhrí territories through familial ties, linking the clans.', 'source_id': 'chunk-c5c10fdf80339b1fef8eb45dd8ff5c5a'}
+  warnings.warn(
+11:08:42 root INFO: [Relation] Finished extracting relations for chunk chunk-c5c10fdf80339b1fef8eb45dd8ff5c5a, took 16.34 seconds
+11:08:44 root INFO: [Relation] Finished extracting relations for chunk chunk-a37292ef07814787d257177e0548b16d, took 8.31 seconds
+11:08:48 root INFO: [Relation] Finished extracting relations for chunk chunk-621a3a7e53076803ce6174936ca00e71, took 9.10 seconds
+11:08:48 root INFO: [Relation] Finished extracting relations for chunk chunk-a46e296c13027db67b309de2d789d236, took 18.32 seconds
+11:08:51 root INFO: [Relation] Finished extracting relations for chunk chunk-49f3b35aebfbf69a9527b4cbdbdfd709, took 10.73 seconds
+11:08:55 root INFO: [Relation] Finished extracting relations for chunk chunk-df434da3e0a88db02e658db0605d3290, took 7.01 seconds
+/chatbot/src/hirag_prod/entity/vanilla.py:349: UserWarning: Target entity KYM BERLY PAIGE not found in entities_dict, skipping relation {'src_id': 'BLOOD STREET', 'tgt_id': 'KYM BERLY PAIGE', 'weight': 7.0, 'description': "Kymberly Paige appears in 'Blood Street' as part of the ensemble cast for the film's narrative.", 'source_id': 'chunk-b8e84dc765bad8edcf1445529776c141'}
+  warnings.warn(
+11:08:55 root INFO: [Relation] Finished extracting relations for chunk chunk-b8e84dc765bad8edcf1445529776c141, took 13.03 seconds
+11:08:56 root INFO: [Relation] Finished extracting relations for chunk chunk-41a5ed94f57282505a8a81915b2d7f8e, took 11.09 seconds
+11:08:56 HiRAG INFO: Relation extraction time: 137.227s
+11:08:56 HiRAG INFO: Submitting upsert_relation for 871 relations...
+11:08:56 HiRAG INFO: [upsert_relation] All relation upserts submitted, waiting for completion...
+11:08:56 HiRAG INFO: [upsert_relation] All relation upserts completed.
+11:08:56 HiRAG INFO: Upsert relations time: 0.016s
+11:08:56 HiRAG INFO: Total pipeline time: 5288.398s

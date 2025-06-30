@@ -1,0 +1,22 @@
+nohup: ignoring input
+11:21:24 HiRAG INFO: 🚀 Starting document processing: benchmark/2wiki/2wiki_corpus.txt
+11:21:24 HiRAG INFO: 📄 Loaded 2770 documents
+11:21:24 HiRAG INFO: ✂️ Created 3365 chunks
+[2025-06-30T11:21:24Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+11:21:24 HiRAG INFO: 🔍 Checking resume state for document: benchmark/2wiki/2wiki_corpus.txt
+[2025-06-30T11:21:24Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+11:21:24 HiRAG INFO: 📋 No existing chunks found for URI: benchmark/2wiki/2wiki_corpus.txt
+11:21:24 HiRAG INFO: 📊 No existing chunks found, full processing needed
+11:21:24 HiRAG INFO: 🏷️ No existing entities found
+11:21:24 HiRAG INFO: 🔗 No existing relations found
+11:21:24 HiRAG INFO: 📋 RESUME PLAN:
+11:21:24 HiRAG INFO:   📄 Document: benchmark/2wiki/2wiki_corpus.txt
+11:21:24 HiRAG INFO:   🆔 Document ID: doc-1f91bfd918df15f1bc5fee82a634df24
+11:21:24 HiRAG INFO:   ✅ Chunks: 0/3365 complete
+11:21:24 HiRAG INFO:   📝 Entity extraction: 0/3365 complete
+11:21:24 HiRAG INFO:   🔗 Entities: 0 processed
+11:21:24 HiRAG INFO:   🌐 Relations: 0 processed
+11:21:24 HiRAG INFO:   ⏳ Will process 3365 chunks and extract entities from 3365 chunks
+11:21:24 HiRAG INFO: 📤 Upserting 3365 pending chunks using BATCH operation...
+11:21:38 openai._base_client INFO: Retrying request to /embeddings in 0.415369 seconds
+11:21:53 openai._base_client INFO: Retrying request to /embeddings in 0.770517 seconds

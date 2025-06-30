@@ -1,0 +1,28 @@
+nohup: ignoring input
+07:00:27 HiRAG INFO: 🚀 Starting document processing: benchmark/2wiki/2wiki_corpus_100.txt
+07:00:27 HiRAG INFO: 📄 Loaded 36 documents
+07:00:27 HiRAG INFO: ✂️ Created 43 chunks
+[2025-06-26T07:00:27Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+07:00:27 HiRAG INFO: 🔍 Checking resume state for document: benchmark/2wiki/2wiki_corpus_100.txt
+[2025-06-26T07:00:27Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+07:00:27 HiRAG INFO: 📋 Found existing document with ID: doc-63abced470b52160e5170b9a8f057fb2
+07:00:27 HiRAG INFO: 📋 Found 43 existing chunks by URI
+07:00:27 HiRAG INFO: 📊 Matched 43/43 chunks by ID
+[2025-06-26T07:00:27Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+07:00:27 HiRAG WARNING: Error checking existing entities: lance error: LanceError(IO): sql parser error: Expected: (, found: chunk_ids, /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lance-datafusion-0.29.0/src/sql.rs:106:8
+07:00:27 HiRAG INFO: 🔗 No existing relations found
+07:00:27 HiRAG INFO: 📋 RESUME PLAN:
+07:00:27 HiRAG INFO:   📄 Document: benchmark/2wiki/2wiki_corpus_100.txt
+07:00:27 HiRAG INFO:   🆔 Document ID: doc-63abced470b52160e5170b9a8f057fb2
+07:00:27 HiRAG INFO:   ✅ Chunks: 43/43 complete
+07:00:27 HiRAG INFO:   📝 Entity extraction: 0/43 complete
+07:00:27 HiRAG INFO:   🔗 Entities: 0 processed
+07:00:27 HiRAG INFO:   🌐 Relations: 0 processed
+07:00:27 HiRAG INFO:   ⏳ Will process 0 chunks and extract entities from 43 chunks
+07:00:27 HiRAG INFO: ⏭️ All chunks already processed, skipping chunk upsert
+07:00:27 HiRAG INFO: 🔍 Extracting entities from 43 pending chunks...
+07:00:36 root INFO: [Entity] Finished extracting entities for chunk chunk-71950cb48537100bdccae648ba49dbff, took 8.98 seconds
+07:00:38 root INFO: [Entity] Finished extracting entities for chunk chunk-1f91bfd918df15f1bc5fee82a634df24, took 10.76 seconds
+07:00:40 root INFO: [Entity] Finished extracting entities for chunk chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1, took 12.66 seconds
+07:00:40 root INFO: [Entity] Finished extracting entities for chunk chunk-6f0a4ec951ffa0d7c60695104c565cb0, took 13.51 seconds
+07:00:44 root INFO: [Entity] Finished extracting entities for chunk chunk-4fa26b2f1061b735530fc3d080a65ded, took 8.54 seconds

@@ -1,0 +1,96 @@
+nohup: ignoring input
+10:37:18 HiRAG INFO: 🚀 Starting document processing: benchmark/2wiki/2wiki_corpus.txt
+10:37:18 HiRAG INFO: 📄 Loaded 2770 documents
+10:37:18 HiRAG INFO: ✂️ Created 3365 chunks
+[2025-06-30T10:37:18Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+10:37:18 HiRAG INFO: 🔍 Checking resume state for document: benchmark/2wiki/2wiki_corpus.txt
+[2025-06-30T10:37:18Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+10:37:18 HiRAG INFO: 📋 No existing chunks found for URI: benchmark/2wiki/2wiki_corpus.txt
+10:37:18 HiRAG INFO: 📊 No existing chunks found, full processing needed
+10:37:18 HiRAG INFO: 🏷️ No existing entities found
+10:37:18 HiRAG INFO: 🔗 No existing relations found
+10:37:18 HiRAG INFO: 📋 RESUME PLAN:
+10:37:18 HiRAG INFO:   📄 Document: benchmark/2wiki/2wiki_corpus.txt
+10:37:18 HiRAG INFO:   🆔 Document ID: doc-1f91bfd918df15f1bc5fee82a634df24
+10:37:18 HiRAG INFO:   ✅ Chunks: 0/3365 complete
+10:37:18 HiRAG INFO:   📝 Entity extraction: 0/3365 complete
+10:37:18 HiRAG INFO:   🔗 Entities: 0 processed
+10:37:18 HiRAG INFO:   🌐 Relations: 0 processed
+10:37:18 HiRAG INFO:   ⏳ Will process 3365 chunks and extract entities from 3365 chunks
+10:37:18 HiRAG INFO: 📤 Upserting 3365 pending chunks using BATCH operation...
+10:37:53 openai._base_client INFO: Retrying request to /embeddings in 0.394977 seconds
+10:38:09 openai._base_client INFO: Retrying request to /embeddings in 0.941686 seconds
+Traceback (most recent call last):
+  File "/chatbot/main.py", line 33, in <module>
+    asyncio.run(index())
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/chatbot/main.py", line 24, in index
+    await index.insert_to_kb(
+  File "/chatbot/src/hirag_prod/hirag.py", line 620, in insert_to_kb
+    await self._process_document_with_resume(all_chunks, state, with_graph)
+  File "/chatbot/src/hirag_prod/hirag.py", line 352, in _process_document_with_resume
+    await self.vdb.upsert_texts(
+  File "/chatbot/src/hirag_prod/storage/lancedb.py", line 161, in upsert_texts
+    embeddings = await self.embedding_func(texts_to_embed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_llm.py", line 57, in wrapper
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_llm.py", line 235, in create_embeddings
+    response = await self.client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/resources/embeddings.py", line 238, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 500 - {'error': {'message': "'$.input' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference. (request id: 20250630183815513385710dJ4ljbuo)", 'type': 'invalid_request_error', 'param': '', 'code': None}}

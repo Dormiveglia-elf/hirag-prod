@@ -1,0 +1,826 @@
+nohup: ignoring input
+06:54:48 HiRAG INFO: 🚀 Starting document processing: benchmark/2wiki/2wiki_corpus_100.txt
+06:54:48 HiRAG INFO: 📄 Loaded 36 documents
+06:54:48 HiRAG INFO: ✂️ Created 43 chunks
+[2025-06-26T06:54:48Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+06:54:48 HiRAG INFO: 🔍 Checking resume state for document: benchmark/2wiki/2wiki_corpus_100.txt
+[2025-06-26T06:54:48Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+06:54:48 HiRAG INFO: 📋 Found existing document with ID: doc-63abced470b52160e5170b9a8f057fb2
+06:54:48 HiRAG INFO: 📋 Found 43 existing chunks by URI
+06:54:48 HiRAG INFO: 📊 Matched 43/43 chunks by ID
+[2025-06-26T06:54:48Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+06:54:48 HiRAG WARNING: Error checking existing entities: lance error: LanceError(IO): sql parser error: Expected: (, found: chunk_ids, /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lance-datafusion-0.29.0/src/sql.rs:106:8
+06:54:48 HiRAG INFO: 🔗 No existing relations found
+06:54:48 HiRAG INFO: 📋 RESUME PLAN:
+06:54:48 HiRAG INFO:   📄 Document: benchmark/2wiki/2wiki_corpus_100.txt
+06:54:48 HiRAG INFO:   🆔 Document ID: doc-63abced470b52160e5170b9a8f057fb2
+06:54:48 HiRAG INFO:   ✅ Chunks: 43/43 complete
+06:54:48 HiRAG INFO:   📝 Entity extraction: 0/43 complete
+06:54:48 HiRAG INFO:   🔗 Entities: 0 processed
+06:54:48 HiRAG INFO:   🌐 Relations: 0 processed
+06:54:48 HiRAG INFO:   ⏳ Will process 0 chunks and extract entities from 43 chunks
+06:54:48 HiRAG INFO: ⏭️ All chunks already processed, skipping chunk upsert
+06:54:48 HiRAG INFO: 🔍 Extracting entities from 43 pending chunks...
+06:54:59 root INFO: [Entity] Finished extracting entities for chunk chunk-71950cb48537100bdccae648ba49dbff, took 10.71 seconds
+06:55:02 root INFO: [Entity] Finished extracting entities for chunk chunk-1f91bfd918df15f1bc5fee82a634df24, took 14.09 seconds
+06:55:04 root INFO: [Entity] Finished extracting entities for chunk chunk-6f0a4ec951ffa0d7c60695104c565cb0, took 15.60 seconds
+06:55:06 root INFO: [Entity] Finished extracting entities for chunk chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1, took 17.49 seconds
+06:55:13 root INFO: [Entity] Finished extracting entities for chunk chunk-4d88a1c85531fd8fe852f44c733f0d98, took 9.40 seconds
+06:55:26 root INFO: [Entity] Finished extracting entities for chunk chunk-9549ccd9e8ff759c531183f83ba2d19f, took 23.52 seconds
+06:55:26 root INFO: [Entity] Finished extracting entities for chunk chunk-4fa26b2f1061b735530fc3d080a65ded, took 27.38 seconds
+06:55:31 root INFO: [Entity] Finished extracting entities for chunk chunk-b61f96f5e65b7f879bb66a2c5aaabbb8, took 18.11 seconds
+06:55:34 root INFO: [Entity] Finished extracting entities for chunk chunk-574f5da01d385c6e77d1398235a7786a, took 8.40 seconds
+06:55:44 root INFO: [Entity] Finished extracting entities for chunk chunk-a460d016ad25a0f5b5ec8b0303e00fcf, took 38.51 seconds
+06:55:49 root INFO: [Entity] Finished extracting entities for chunk chunk-8692c07e38cb3529acd8b567575c0f30, took 14.43 seconds
+06:55:51 root INFO: [Entity] Finished extracting entities for chunk chunk-5d6c7f3653eea9bec7f2e50fefb320d5, took 20.16 seconds
+06:55:53 root INFO: [Entity] Finished extracting entities for chunk chunk-0dcaf1d9beef97069c7f986932362c42, took 26.92 seconds
+06:55:59 root INFO: [Entity] Finished extracting entities for chunk chunk-4afcb52d5e1151133a4cb7b509379c8d, took 10.56 seconds
+06:56:00 root INFO: [Entity] Finished extracting entities for chunk chunk-97c6779a0556749b42634f1b59c72967, took 15.84 seconds
+06:56:05 root INFO: [Entity] Finished extracting entities for chunk chunk-530aa8e3ab97ff9507e29afcc9a4d2a3, took 13.80 seconds
+06:56:09 root INFO: [Entity] Finished extracting entities for chunk chunk-b4b691b124873e04328823cb3545c80c, took 15.90 seconds
+06:56:17 root INFO: [Entity] Finished extracting entities for chunk chunk-3284e8bf504e24d68ca5f47b964f1640, took 11.49 seconds
+06:56:21 root INFO: [Entity] Finished extracting entities for chunk chunk-6e0ec089d5878634e20fe1f2f9924ab9, took 22.22 seconds
+06:56:22 root INFO: [Entity] Finished extracting entities for chunk chunk-38292aa941e10e1a21ac8c97a2ae6fba, took 12.50 seconds
+06:56:28 root INFO: [Entity] Finished extracting entities for chunk chunk-30fd97885ea5a20d234ddf6b018dc747, took 27.68 seconds
+06:56:39 root INFO: [Entity] Finished extracting entities for chunk chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb, took 17.63 seconds
+06:56:42 root INFO: [Entity] Finished extracting entities for chunk chunk-64d8945379a2c1b3c3890af0b2ce2f9f, took 25.00 seconds
+06:56:43 root INFO: [Entity] Finished extracting entities for chunk chunk-1e96b3f6244190cd53c9e61d84402e29, took 21.48 seconds
+06:56:49 root INFO: [Entity] Finished extracting entities for chunk chunk-55c463593ff4ecd4ec28c25a6adaf53a, took 21.75 seconds
+06:56:51 root INFO: [Entity] Finished extracting entities for chunk chunk-55870cf6a965457a09397167e73d6194, took 9.19 seconds
+06:56:54 root INFO: [Entity] Finished extracting entities for chunk chunk-56866585f6b6dd98d2b27d520b96d74d, took 10.68 seconds
+06:57:00 root INFO: [Entity] Finished extracting entities for chunk chunk-0eaa8cb11922647e3ba7c909e15588a8, took 21.16 seconds
+06:57:03 root INFO: [Entity] Finished extracting entities for chunk chunk-7d28723cedfec09ce9670ad9ecbea796, took 12.35 seconds
+06:57:04 root INFO: [Entity] Finished extracting entities for chunk chunk-a004db36c4c6bcb89239bc5512e01734, took 10.34 seconds
+06:57:06 root INFO: [Entity] Finished extracting entities for chunk chunk-37390a57136d7db357f4fd4abb3c1b5d, took 16.21 seconds
+06:57:13 root INFO: [Entity] Finished extracting entities for chunk chunk-ca13daf51e9fbe8c78b9e48c407a7357, took 12.72 seconds
+06:57:14 root INFO: [Entity] Finished extracting entities for chunk chunk-c380bc6d12367172e99c89510787feff, took 9.66 seconds
+06:57:21 root INFO: [Entity] Finished extracting entities for chunk chunk-66f157968a4d7cd460f5121ebb47a581, took 17.56 seconds
+06:57:21 root INFO: [Entity] Finished extracting entities for chunk chunk-c5c10fdf80339b1fef8eb45dd8ff5c5a, took 15.53 seconds
+06:57:25 root INFO: [Entity] Finished extracting entities for chunk chunk-40f30ef93df62cb4a1971b9273724594, took 11.46 seconds
+06:57:32 root INFO: [Entity] Finished extracting entities for chunk chunk-a37292ef07814787d257177e0548b16d, took 11.16 seconds
+06:57:41 root INFO: [Entity] Finished extracting entities for chunk chunk-a46e296c13027db67b309de2d789d236, took 27.45 seconds
+06:57:41 root INFO: [Entity] Finished extracting entities for chunk chunk-621a3a7e53076803ce6174936ca00e71, took 20.16 seconds
+06:57:52 root INFO: [Entity] Finished extracting entities for chunk chunk-df434da3e0a88db02e658db0605d3290, took 10.89 seconds
+06:57:54 root INFO: [Entity] Finished extracting entities for chunk chunk-49f3b35aebfbf69a9527b4cbdbdfd709, took 29.18 seconds
+06:57:58 root INFO: [Entity] Finished extracting entities for chunk chunk-41a5ed94f57282505a8a81915b2d7f8e, took 16.78 seconds
+06:58:01 root INFO: [Entity] Finished extracting entities for chunk chunk-b8e84dc765bad8edcf1445529776c141, took 28.69 seconds
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'TEUTBERGA', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'TEUTBERGA': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'LOTHARINGIA', count=4
+06:58:01 root INFO: [Entity-Merge] Merged entity 'LOTHARINGIA': type=GEO, chunk_ids=4, descriptions=4
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'TUSCANY', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'TUSCANY': type=GEO, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'BOSO THE ELDER', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'BOSO THE ELDER': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'LOTHAIR II', count=4
+06:58:01 root INFO: [Entity-Merge] Merged entity 'LOTHAIR II': type=PERSON, chunk_ids=4, descriptions=4
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'BERTHA', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'BERTHA': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'WALDRADA', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'WALDRADA': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'THEOBALD OF ARLES', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'THEOBALD OF ARLES': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'NICKI MINAJ', count=4
+06:58:01 root INFO: [Entity-Merge] Merged entity 'NICKI MINAJ': type=PERSON, chunk_ids=4, descriptions=4
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'YOUNG MONEY ENTERTAINMENT', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'YOUNG MONEY ENTERTAINMENT': type=ORGANIZATION, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity '2011', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity '2011': type=EVENT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity '2017', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity '2017': type=EVENT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'THE OTHER WOMAN', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'THE OTHER WOMAN': type=EVENT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'QUEEN', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'QUEEN': type=TECHNOLOGY, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'LUBNOWY', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'LUBNOWY': type=GEO, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'WARMIAN-MASURIAN VOIVODESHIP', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'WARMIAN-MASURIAN VOIVODESHIP': type=GEO, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'IŁAWA COUNTY', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'IŁAWA COUNTY': type=GEO, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'EDITH CARLMAR', count=4
+06:58:01 root INFO: [Entity-Merge] Merged entity 'EDITH CARLMAR': type=PERSON, chunk_ids=4, descriptions=4
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'ALDRI ANNET ENN BRÅK', count=3
+06:58:01 root INFO: [Entity-Merge] Merged entity 'ALDRI ANNET ENN BRÅK': type=EVENT, chunk_ids=3, descriptions=3
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'OSLO', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'OSLO': type=GEO, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'NOTHING BUT TROUBLE', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'NOTHING BUT TROUBLE': type=EVENT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'DAN MILNE', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'DAN MILNE': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'EASTENDERS', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'EASTENDERS': type=EVENT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'BEN PALMER', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'BEN PALMER': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'BO' SELECTA', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'BO' SELECTA': type=EVENT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'THE INBETWEENERS', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'THE INBETWEENERS': type=EVENT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'FILM NOIR', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'FILM NOIR': type=CONCEPT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'FILMS', count=3
+06:58:01 root INFO: [Entity-Merge] Merged entity 'FILMS': type=TECHNOLOGY, chunk_ids=3, descriptions=3
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'MICHAEL CURTIZ', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'MICHAEL CURTIZ': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'CASABLANCA', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'CASABLANCA': type=EVENT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'SONS OF LIBERTY', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'SONS OF LIBERTY': type=EVENT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'HOLLYWOOD', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'HOLLYWOOD': type=GEO, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'RINGO-EN NO SHŌJO', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'RINGO-EN NO SHŌJO': type=EVENT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'THE COOL KIDS', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'THE COOL KIDS': type=ORGANIZATION, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'HARTLEY LOBBAN', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'HARTLEY LOBBAN': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'WORCESTERSHIRE', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'WORCESTERSHIRE': type=ORGANIZATION, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'SOMERSET', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'SOMERSET': type=ORGANIZATION, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'FIRST-CLASS CRICKET', count=3
+06:58:01 root INFO: [Entity-Merge] Merged entity 'FIRST-CLASS CRICKET': type=CONCEPT, chunk_ids=3, descriptions=3
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'LANCASHIRE', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'LANCASHIRE': type=ORGANIZATION, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'JOHN WESTLEY', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'JOHN WESTLEY': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'RUAIDHRÍ MAC RUAIDHRÍ', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'RUAIDHRÍ MAC RUAIDHRÍ': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'CLANN RUAIDHRÍ', count=3
+06:58:01 root INFO: [Entity-Merge] Merged entity 'CLANN RUAIDHRÍ': type=ORGANIZATION, chunk_ids=3, descriptions=3
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'ÁINE', count=3
+06:58:01 root INFO: [Entity-Merge] Merged entity 'ÁINE': type=PERSON, chunk_ids=3, descriptions=3
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'CAIRISTÍONA', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'CAIRISTÍONA': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'CLANN DOMHNAILL', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'CLANN DOMHNAILL': type=ORGANIZATION, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'EÓIN MAC DOMHNAILL I', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'EÓIN MAC DOMHNAILL I': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'LORD OF THE ISLES', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'LORD OF THE ISLES': type=CONCEPT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'FRANK LAUNDER', count=3
+06:58:01 root INFO: [Entity-Merge] Merged entity 'FRANK LAUNDER': type=PERSON, chunk_ids=3, descriptions=3
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'RONALD SEARLE', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'RONALD SEARLE': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'BERNADETTE O'FARRELL', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'BERNADETTE O'FARRELL': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'BRITISH CINEMA', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'BRITISH CINEMA': type=CONCEPT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'YOUR LIFE', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'YOUR LIFE': type=EVENT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'CARTOONS', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'CARTOONS': type=CONCEPT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'ANARCHIC GIRLS SCHOOL', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'ANARCHIC GIRLS SCHOOL': type=CONCEPT, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'LUKE GOSS', count=3
+06:58:01 root INFO: [Entity-Merge] Merged entity 'LUKE GOSS': type=PERSON, chunk_ids=3, descriptions=3
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'INTERVIEW WITH A HITMAN', count=3
+06:58:01 root INFO: [Entity-Merge] Merged entity 'INTERVIEW WITH A HITMAN': type=EVENT, chunk_ids=3, descriptions=3
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'PERRY BHANDAL', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'PERRY BHANDAL': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'ASSOCIATED BRITISH PICTURE CORPORATION', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'ASSOCIATED BRITISH PICTURE CORPORATION': type=ORGANIZATION, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'HERBERT BRENON', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'HERBERT BRENON': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'LEO FONG', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'LEO FONG': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'JOHN FARRELL', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'JOHN FARRELL': type=PERSON, chunk_ids=2, descriptions=2
+06:58:01 root INFO: [Entity-Merge] Start merging entity 'YOUTUBE', count=2
+06:58:01 root INFO: [Entity-Merge] Merged entity 'YOUTUBE': type=ORGANIZATION, chunk_ids=2, descriptions=2
+06:58:01 HiRAG INFO: ✅ Entity extraction completed in 192.541s
+06:58:01 HiRAG INFO: 📤 Upserting 619 new entities...
+06:58:02 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.179s
+06:58:02 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.184s
+06:58:02 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.191s
+06:58:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.615s
+06:58:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.645s
+06:58:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.680s
+06:58:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.925s
+06:58:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.637s
+06:58:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.695s
+06:58:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.694s
+06:58:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.638s
+06:58:04 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.663s
+06:58:04 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.664s
+06:58:04 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.659s
+06:58:04 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.705s
+06:58:04 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.664s
+06:58:05 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.637s
+06:58:05 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.682s
+06:58:05 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.684s
+06:58:05 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.623s
+06:58:05 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.633s
+06:58:05 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.710s
+06:58:05 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.685s
+06:58:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.635s
+06:58:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.648s
+06:58:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.695s
+06:58:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.635s
+06:58:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.384s
+06:58:07 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.654s
+06:58:07 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.693s
+06:58:07 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.610s
+06:58:07 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.674s
+06:58:07 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.648s
+06:58:07 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.644s
+06:58:08 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.637s
+06:58:08 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.701s
+06:58:08 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.778s
+06:58:08 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.717s
+06:58:08 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.627s
+06:58:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.643s
+06:58:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.627s
+06:58:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.649s
+06:58:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.649s
+06:58:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.656s
+06:58:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.661s
+06:58:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.706s
+06:58:10 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.736s
+06:58:10 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.678s
+06:58:10 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.649s
+06:58:10 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.613s
+06:58:10 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.662s
+06:58:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.677s
+06:58:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.616s
+06:58:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.655s
+06:58:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.667s
+06:58:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.710s
+06:58:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.670s
+06:58:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.656s
+06:58:12 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.697s
+06:58:12 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.647s
+06:58:12 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.671s
+06:58:12 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.723s
+06:58:12 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.621s
+06:58:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.637s
+06:58:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.661s
+06:58:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.658s
+06:58:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.665s
+06:58:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.666s
+06:58:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.667s
+06:58:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.659s
+06:58:14 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.628s
+06:58:14 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.647s
+06:58:14 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.739s
+06:58:14 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.647s
+06:58:14 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.643s
+06:58:15 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.666s
+06:58:15 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.711s
+06:58:15 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.744s
+06:58:15 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.705s
+06:58:15 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.622s
+06:58:15 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.616s
+06:58:15 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.683s
+06:58:16 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.703s
+06:58:16 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.641s
+06:58:16 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.900s
+06:58:16 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.620s
+06:58:16 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.637s
+06:58:17 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.770s
+06:58:17 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.693s
+06:58:17 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.721s
+06:58:17 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.698s
+06:58:17 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.603s
+06:58:17 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.653s
+06:58:17 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.647s
+06:58:18 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.816s
+06:58:18 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.581s
+06:58:18 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.646s
+06:58:18 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.640s
+06:58:19 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.646s
+06:58:19 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.622s
+06:58:19 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.618s
+06:58:19 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.665s
+06:58:19 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.697s
+06:58:19 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.646s
+06:58:19 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.661s
+06:58:20 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.594s
+06:58:20 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.616s
+06:58:20 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.338s
+06:58:20 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.749s
+06:58:20 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.636s
+06:58:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.629s
+06:58:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.697s
+06:58:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.695s
+06:58:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.672s
+06:58:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.634s
+06:58:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.651s
+06:58:22 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.740s
+06:58:22 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.708s
+06:58:22 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.851s
+06:58:22 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.782s
+06:58:22 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.676s
+06:58:22 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.597s
+06:58:23 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.654s
+06:58:23 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.700s
+06:58:23 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.686s
+06:58:23 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.624s
+06:58:23 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.673s
+06:58:23 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.626s
+06:58:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.644s
+06:58:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.718s
+06:58:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.652s
+06:58:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.669s
+06:58:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.667s
+06:58:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.685s
+06:58:25 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.600s
+06:58:25 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.628s
+06:58:25 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.651s
+06:58:25 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.738s
+06:58:25 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.849s
+06:58:25 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.821s
+06:58:26 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.702s
+06:58:26 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.753s
+06:58:26 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.639s
+06:58:26 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.667s
+06:58:26 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.607s
+06:58:27 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.622s
+06:58:27 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.645s
+06:58:27 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.636s
+06:58:27 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.619s
+06:58:27 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.615s
+06:58:27 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.617s
+06:58:27 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.639s
+06:58:28 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.622s
+06:58:28 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.675s
+06:58:28 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.650s
+06:58:28 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.691s
+06:58:28 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.669s
+06:58:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.818s
+06:58:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.728s
+06:58:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.739s
+06:58:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.620s
+06:58:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.618s
+06:58:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.634s
+06:58:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.624s
+06:58:30 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.652s
+06:58:30 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.653s
+06:58:30 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.711s
+06:58:30 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.418s
+06:58:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.649s
+06:58:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.650s
+06:58:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.584s
+06:58:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.623s
+06:58:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.667s
+06:58:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.616s
+06:58:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.634s
+06:58:32 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.672s
+06:58:32 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.641s
+06:58:32 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.656s
+06:58:32 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.745s
+06:58:32 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.617s
+06:58:32 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.652s
+06:58:33 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.624s
+06:58:33 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.633s
+06:58:33 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.622s
+06:58:33 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.034s
+06:58:34 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.666s
+06:58:34 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.627s
+06:58:34 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.705s
+06:58:34 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.733s
+06:58:34 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.693s
+06:58:35 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.697s
+06:58:35 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.614s
+06:58:35 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.683s
+06:58:35 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.745s
+06:58:36 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.740s
+06:58:36 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.647s
+06:58:36 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.762s
+06:58:36 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.720s
+06:58:37 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.743s
+06:58:37 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.789s
+06:58:37 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.754s
+06:58:37 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.697s
+06:58:37 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.577s
+06:58:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=5.049s
+06:58:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.658s
+06:58:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.711s
+06:58:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.674s
+06:58:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.669s
+06:58:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.615s
+06:58:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.623s
+06:58:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.630s
+06:58:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.605s
+06:58:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.696s
+06:58:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.632s
+06:58:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.664s
+06:58:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.680s
+06:58:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.680s
+06:58:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.631s
+06:58:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.734s
+06:58:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.608s
+06:58:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.676s
+06:58:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.606s
+06:58:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.661s
+06:58:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.650s
+06:58:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.671s
+06:58:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.680s
+06:58:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.659s
+06:58:42 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.662s
+06:58:42 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.662s
+06:58:42 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.689s
+06:58:42 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.608s
+06:58:42 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.699s
+06:58:42 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.852s
+06:58:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.773s
+06:58:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.716s
+06:58:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.639s
+06:58:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.847s
+06:58:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.684s
+06:58:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.832s
+06:58:44 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.687s
+06:58:44 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.633s
+06:58:44 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.715s
+06:58:44 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.698s
+06:58:45 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.676s
+06:58:45 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.648s
+06:58:45 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.406s
+06:58:45 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.642s
+06:58:45 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.684s
+06:58:45 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.754s
+06:58:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.628s
+06:58:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.587s
+06:58:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.666s
+06:58:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.714s
+06:58:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.701s
+06:58:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.777s
+06:58:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.650s
+06:58:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.713s
+06:58:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.662s
+06:58:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.689s
+06:58:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.631s
+06:58:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.617s
+06:58:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.652s
+06:58:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.633s
+06:58:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.657s
+06:58:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.656s
+06:58:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.675s
+06:58:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.623s
+06:58:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.631s
+06:58:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.626s
+06:58:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.633s
+06:58:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.735s
+06:58:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.671s
+06:58:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.689s
+06:58:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.662s
+06:58:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.680s
+06:58:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.650s
+06:58:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.677s
+06:58:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.626s
+06:58:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.767s
+06:58:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.372s
+06:58:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.632s
+06:58:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.636s
+06:58:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.620s
+06:58:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.406s
+06:58:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.619s
+06:58:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.654s
+06:58:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.619s
+06:58:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.617s
+06:58:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.631s
+06:58:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.662s
+06:58:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.693s
+06:58:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.633s
+06:58:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.654s
+06:58:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.643s
+06:58:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.624s
+06:58:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.710s
+06:58:54 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.700s
+06:58:54 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.659s
+06:58:54 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.842s
+06:58:54 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.754s
+06:58:54 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.892s
+06:58:54 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.648s
+06:58:55 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.646s
+06:58:55 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.637s
+06:58:55 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.640s
+06:58:55 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.738s
+06:58:56 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.666s
+06:58:56 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.697s
+06:58:56 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.737s
+06:58:56 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.636s
+06:58:56 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.703s
+06:58:56 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.690s
+06:58:56 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.759s
+06:58:57 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.728s
+06:58:57 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.651s
+06:58:57 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.636s
+06:58:57 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.720s
+06:58:57 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.672s
+06:58:58 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.746s
+06:58:58 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.669s
+06:58:58 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.722s
+06:58:58 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.764s
+06:58:58 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.658s
+06:58:58 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.653s
+06:58:58 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.630s
+06:58:59 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.634s
+06:58:59 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.726s
+06:58:59 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.717s
+06:58:59 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.736s
+06:58:59 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.632s
+06:59:00 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.716s
+06:59:00 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.747s
+06:59:00 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.901s
+06:59:00 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.787s
+06:59:01 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.677s
+06:59:01 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.722s
+06:59:01 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.697s
+06:59:01 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.696s
+06:59:01 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.746s
+06:59:01 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.652s
+06:59:01 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.660s
+06:59:01 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.690s
+06:59:02 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.702s
+06:59:02 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.754s
+06:59:02 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.645s
+06:59:02 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.667s
+06:59:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.689s
+06:59:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.731s
+06:59:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.715s
+06:59:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.693s
+06:59:03 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.653s
+06:59:04 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.744s
+06:59:04 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.730s
+06:59:04 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.772s
+06:59:04 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.720s
+06:59:04 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.638s
+06:59:04 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.720s
+06:59:04 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.733s
+06:59:05 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.834s
+06:59:05 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.800s
+06:59:05 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.692s
+06:59:05 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.761s
+06:59:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.638s
+06:59:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.702s
+06:59:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.687s
+06:59:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.716s
+06:59:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.753s
+06:59:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.690s
+06:59:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.690s
+06:59:06 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.692s
+06:59:07 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.634s
+06:59:07 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.633s
+06:59:07 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.650s
+06:59:07 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.710s
+06:59:08 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.648s
+06:59:08 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.687s
+06:59:08 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.639s
+06:59:08 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.749s
+06:59:08 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.839s
+06:59:08 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.816s
+06:59:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.847s
+06:59:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.694s
+06:59:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.659s
+06:59:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.671s
+06:59:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.708s
+06:59:09 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.740s
+06:59:10 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.704s
+06:59:10 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.653s
+06:59:10 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.654s
+06:59:10 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.719s
+06:59:10 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.640s
+06:59:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.717s
+06:59:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.709s
+06:59:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.675s
+06:59:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.658s
+06:59:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.698s
+06:59:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.728s
+06:59:11 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.766s
+06:59:12 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.909s
+06:59:12 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.743s
+06:59:12 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.744s
+06:59:12 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.791s
+06:59:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.647s
+06:59:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.650s
+06:59:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.633s
+06:59:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.703s
+06:59:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.643s
+06:59:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.686s
+06:59:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.693s
+06:59:13 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.657s
+06:59:14 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.697s
+06:59:14 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.646s
+06:59:14 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.651s
+06:59:14 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.716s
+06:59:15 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.641s
+06:59:15 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.718s
+06:59:15 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.781s
+06:59:15 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.703s
+06:59:15 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.828s
+06:59:16 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.672s
+06:59:16 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.723s
+06:59:16 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.721s
+06:59:16 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.651s
+06:59:16 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.649s
+06:59:16 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.717s
+06:59:16 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.717s
+06:59:17 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.677s
+06:59:17 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.708s
+06:59:17 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.626s
+06:59:17 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.735s
+06:59:18 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.742s
+06:59:18 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.752s
+06:59:18 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.642s
+06:59:18 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.761s
+06:59:18 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.671s
+06:59:18 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.693s
+06:59:18 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.689s
+06:59:18 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.748s
+06:59:19 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.891s
+06:59:19 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.831s
+06:59:19 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.870s
+06:59:19 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.854s
+06:59:20 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.688s
+06:59:20 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.680s
+06:59:20 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.658s
+06:59:20 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.733s
+06:59:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.760s
+06:59:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.763s
+06:59:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.716s
+06:59:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.787s
+06:59:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.653s
+06:59:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.708s
+06:59:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.702s
+06:59:21 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.701s
+06:59:22 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.719s
+06:59:22 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.663s
+06:59:22 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.736s
+06:59:22 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.736s
+06:59:23 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.849s
+06:59:23 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.850s
+06:59:23 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.775s
+06:59:23 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.776s
+06:59:23 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.655s
+06:59:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.688s
+06:59:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.671s
+06:59:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.826s
+06:59:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.678s
+06:59:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.643s
+06:59:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.664s
+06:59:24 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.699s
+06:59:25 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.669s
+06:59:25 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.705s
+06:59:25 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.670s
+06:59:25 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.680s
+06:59:26 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.696s
+06:59:26 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.698s
+06:59:26 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.699s
+06:59:26 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.701s
+06:59:26 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.856s
+06:59:26 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.862s
+06:59:26 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.863s
+06:59:27 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.779s
+06:59:27 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.693s
+06:59:27 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.741s
+06:59:27 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.710s
+06:59:27 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.727s
+06:59:28 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.658s
+06:59:28 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.891s
+06:59:28 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.898s
+06:59:28 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.797s
+06:59:28 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.657s
+06:59:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.649s
+06:59:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.709s
+06:59:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.731s
+06:59:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.705s
+06:59:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.667s
+06:59:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.750s
+06:59:29 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.744s
+06:59:30 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.896s
+06:59:30 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.643s
+06:59:30 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.728s
+06:59:30 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.758s
+06:59:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.669s
+06:59:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.739s
+06:59:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.731s
+06:59:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.731s
+06:59:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.727s
+06:59:31 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.641s
+06:59:32 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.664s
+06:59:32 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.701s
+06:59:32 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.679s
+06:59:32 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.740s
+06:59:32 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.633s
+06:59:32 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.669s
+06:59:33 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.640s
+06:59:33 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.701s
+06:59:33 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.757s
+06:59:33 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.719s
+06:59:34 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.918s
+06:59:34 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.738s
+06:59:34 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.917s
+06:59:34 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.761s
+06:59:34 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.707s
+06:59:34 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.665s
+06:59:34 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.715s
+06:59:35 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.756s
+06:59:35 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.638s
+06:59:35 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.703s
+06:59:35 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.723s
+06:59:35 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.759s
+06:59:36 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.637s
+06:59:36 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.658s
+06:59:36 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.673s
+06:59:36 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.747s
+06:59:36 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.680s
+06:59:36 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.653s
+06:59:37 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.657s
+06:59:37 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.735s
+06:59:37 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.995s
+06:59:37 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.100s
+06:59:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.899s
+06:59:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.859s
+06:59:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.639s
+06:59:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.662s
+06:59:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.717s
+06:59:38 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.894s
+06:59:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.701s
+06:59:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.676s
+06:59:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.702s
+06:59:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.668s
+06:59:39 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.641s
+06:59:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.673s
+06:59:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.723s
+06:59:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.853s
+06:59:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.663s
+06:59:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.634s
+06:59:40 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.758s
+06:59:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.642s
+06:59:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.994s
+06:59:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.014s
+06:59:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.742s
+06:59:41 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.666s
+06:59:42 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.721s
+06:59:42 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.734s
+06:59:42 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.733s
+06:59:42 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.807s
+06:59:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.738s
+06:59:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.795s
+06:59:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.825s
+06:59:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.856s
+06:59:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.636s
+06:59:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.652s
+06:59:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.699s
+06:59:43 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.738s
+06:59:44 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.706s
+06:59:44 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.656s
+06:59:44 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.630s
+06:59:44 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.712s
+06:59:45 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.951s
+06:59:45 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.833s
+06:59:45 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.926s
+06:59:45 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.811s
+06:59:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.733s
+06:59:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.732s
+06:59:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.715s
+06:59:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.756s
+06:59:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.688s
+06:59:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.700s
+06:59:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.699s
+06:59:46 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.714s
+06:59:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.672s
+06:59:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.721s
+06:59:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.717s
+06:59:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.702s
+06:59:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.633s
+06:59:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.678s
+06:59:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.740s
+06:59:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.776s
+06:59:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.061s
+06:59:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.836s
+06:59:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.964s
+06:59:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.876s
+06:59:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.753s
+06:59:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.758s
+06:59:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.842s
+06:59:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.873s
+06:59:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.663s
+06:59:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.688s
+06:59:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.656s
+06:59:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.746s
+06:59:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.680s
+06:59:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.676s
+06:59:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.678s
+06:59:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.685s
+06:59:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.693s
+06:59:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.746s
+06:59:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.800s
+06:59:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=0.707s
+06:59:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140272441773376', elapsed=1.099s
+06:59:53 HiRAG INFO: ✅ Entity upsert completed in 111.896s
+06:59:53 HiRAG INFO: ✅ Graph nodes upsert completed in 0.016s
+06:59:53 HiRAG INFO: 🔗 Extracting relations from 43 chunks...
+[2025-06-26T06:59:53Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+06:59:53 HiRAG WARNING: Could not fetch existing entities for relations: lance error: LanceError(IO): sql parser error: Expected: (, found: chunk_ids, /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lance-datafusion-0.29.0/src/sql.rs:106:8
+07:00:00 root INFO: [Relation] Finished extracting relations for chunk chunk-71950cb48537100bdccae648ba49dbff, took 7.00 seconds
+07:00:02 root WARNING: Target entity LAMBERG not found in entities_dict, skipping relation {'src_id': 'COUNT AND DUKE OF LUCCA', 'tgt_id': 'LAMBERG', 'weight': 9.0, 'description': 'Lambert succeeded as count and duke of Lucca, indicating his direct role and relationship to this title.', 'source_id': 'chunk-1f91bfd918df15f1bc5fee82a634df24'}
+07:00:02 root WARNING: Target entity LAMBERG not found in entities_dict, skipping relation {'src_id': 'TUSCANY', 'tgt_id': 'LAMBERG', 'weight': 9.0, 'description': 'Lambert also held the title of margrave of Tuscany, indicating his governance over this region.', 'source_id': 'chunk-1f91bfd918df15f1bc5fee82a634df24'}
+07:00:02 root INFO: [Relation] Finished extracting relations for chunk chunk-1f91bfd918df15f1bc5fee82a634df24, took 9.14 seconds
+07:00:03 root INFO: [Relation] Finished extracting relations for chunk chunk-6f0a4ec951ffa0d7c60695104c565cb0, took 9.96 seconds
+07:00:03 root INFO: [Relation] Finished extracting relations for chunk chunk-4fa26b2f1061b735530fc3d080a65ded, took 10.00 seconds
+07:00:05 root INFO: [Relation] Finished extracting relations for chunk chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1, took 12.69 seconds
+07:00:09 root INFO: [Relation] Finished extracting relations for chunk chunk-9549ccd9e8ff759c531183f83ba2d19f, took 9.20 seconds
+07:00:09 root INFO: [Relation] Finished extracting relations for chunk chunk-4d88a1c85531fd8fe852f44c733f0d98, took 7.35 seconds
+07:00:10 root INFO: [Relation] Finished extracting relations for chunk chunk-b61f96f5e65b7f879bb66a2c5aaabbb8, took 7.20 seconds

@@ -31,7 +31,7 @@ Entity_types: [person, technology, mission, organization, location]
 Text:
 while Alex clenched his jaw, the buzz of frustration dull against the backdrop of Taylor's authoritarian certainty. It was this competitive undercurrent that kept him alert, the sense that his and Jordan's shared commitment to discovery was an unspoken rebellion against Cruz's narrowing vision of control and order.
 
-Then Taylor did something unexpected. They paused beside Jordan and, for a moment, observed the device with something akin to reverence. “If this tech can be understood..." Taylor said, their voice quieter, "It could change the game for us. For all of us.”
+Then Taylor did something unexpected. They paused beside Jordan and, for a moment, observed the device with something akin to reverence. "If this tech can be understood..." Taylor said, their voice quieter, "It could change the game for us. For all of us."
 
 The underlying dismissal earlier seemed to falter, replaced by a glimpse of reluctant respect for the gravity of what lay in their hands. Jordan looked up, and for a fleeting heartbeat, their eyes locked with Taylor's, a wordless clash of wills softening into an uneasy truce.
 
@@ -98,15 +98,24 @@ Given a text document that is potentially relevant to a list of entities, identi
 -Steps-
 1. From the entities given by user, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
 For each pair of related entities, extract the following information:
-- source_entity: name of the source entity, as identified in step 1
-- target_entity: name of the target entity, as identified in step 1
+- source_entity: name of the source entity, MUST be exactly one of the entity names from the provided entities list
+- target_entity: name of the target entity, MUST be exactly one of the entity names from the provided entities list  
 - relationship_description: explanation as to why you think the source entity and the target entity are related to each other
 - relationship_strength: a numeric score indicating strength of the relationship between the source entity and target entity
  Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
 
-2. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+2. Return output in English as a single list of all the relationships identified in step 1. Use **{record_delimiter}** as the list delimiter.
 
 3. When finished, output {completion_delimiter}
+
+######################
+-Important Constraints-
+######################
+- ONLY use entity names that appear EXACTLY in the provided entities list
+- DO NOT create new entity names or modify existing ones
+- DO NOT extract relationships involving entities not in the provided list
+- Entity names are case-sensitive and must match exactly
+- If no valid relationships exist between the provided entities, return an empty list
 
 ######################
 -Examples-
@@ -117,7 +126,7 @@ Entities: ["Alex", "Taylor", "Jordan", "Cruz", "The Device"]
 Text:
 while Alex clenched his jaw, the buzz of frustration dull against the backdrop of Taylor's authoritarian certainty. It was this competitive undercurrent that kept him alert, the sense that his and Jordan's shared commitment to discovery was an unspoken rebellion against Cruz's narrowing vision of control and order.
 
-Then Taylor did something unexpected. They paused beside Jordan and, for a moment, observed the device with something akin to reverence. “If this tech can be understood..." Taylor said, their voice quieter, "It could change the game for us. For all of us.”
+Then Taylor did something unexpected. They paused beside Jordan and, for a moment, observed the device with something akin to reverence. "If this tech can be understood..." Taylor said, their voice quieter, "It could change the game for us. For all of us."
 
 The underlying dismissal earlier seemed to falter, replaced by a glimpse of reluctant respect for the gravity of what lay in their hands. Jordan looked up, and for a fleeting heartbeat, their eyes locked with Taylor's, a wordless clash of wills softening into an uneasy truce.
 
@@ -146,7 +155,7 @@ Output:
 #############################
 Example 3:
 
-Entity_types: ["Sam Rivera", "Alex", "Control", "Intelligence", "First Contact", "Humanity's Response"]
+Entities: ["Sam Rivera", "Alex", "Control", "Intelligence", "First Contact", "Humanity's Response"]
 Text:
 their voice slicing through the buzz of activity. "Control may be an illusion when facing an intelligence that literally writes its own rules," they stated stoically, casting a watchful eye over the flurry of data.
 

@@ -1,0 +1,138 @@
+nohup: ignoring input
+06:40:32 HiRAG INFO: 🚀 Starting document processing: benchmark/2wiki/2wiki_corpus_100.txt
+06:40:32 HiRAG INFO: 📄 Loaded 36 documents
+06:40:32 HiRAG INFO: ✂️ Created 43 chunks
+[2025-06-26T06:40:32Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+06:40:32 HiRAG INFO: Found 0/43 chunks already processed
+[2025-06-26T06:40:32Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+06:40:32 HiRAG WARNING: Error checking existing entities: lance error: LanceError(IO): sql parser error: Expected: (, found: chunk_ids, /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lance-datafusion-0.29.0/src/sql.rs:106:8
+06:40:32 HiRAG INFO: Found 0 relations already processed
+06:40:32 HiRAG INFO: 📋 RESUME PLAN:
+06:40:32 HiRAG INFO:   ✅ Chunks: 0/43 complete
+06:40:32 HiRAG INFO:   📝 Entity extraction: 0/43 complete
+06:40:32 HiRAG INFO:   🔗 Entities: 0 processed
+06:40:32 HiRAG INFO:   🌐 Relations: 0 processed
+06:40:32 HiRAG INFO:   ⏳ Will process 43 chunks and extract entities from 43 chunks
+06:40:32 HiRAG INFO: 📤 Upserting 43 pending chunks...
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-1f91bfd918df15f1bc5fee82a634df24
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-71950cb48537100bdccae648ba49dbff
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-6f0a4ec951ffa0d7c60695104c565cb0
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-4fa26b2f1061b735530fc3d080a65ded
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-9549ccd9e8ff759c531183f83ba2d19f
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-4d88a1c85531fd8fe852f44c733f0d98
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-a460d016ad25a0f5b5ec8b0303e00fcf
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-b61f96f5e65b7f879bb66a2c5aaabbb8
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-574f5da01d385c6e77d1398235a7786a
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-0dcaf1d9beef97069c7f986932362c42
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-5d6c7f3653eea9bec7f2e50fefb320d5
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-8692c07e38cb3529acd8b567575c0f30
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-97c6779a0556749b42634f1b59c72967
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-4afcb52d5e1151133a4cb7b509379c8d
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-530aa8e3ab97ff9507e29afcc9a4d2a3
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-b4b691b124873e04328823cb3545c80c
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-6e0ec089d5878634e20fe1f2f9924ab9
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-30fd97885ea5a20d234ddf6b018dc747
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-3284e8bf504e24d68ca5f47b964f1640
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-38292aa941e10e1a21ac8c97a2ae6fba
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-64d8945379a2c1b3c3890af0b2ce2f9f
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-1e96b3f6244190cd53c9e61d84402e29
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-55c463593ff4ecd4ec28c25a6adaf53a
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-0eaa8cb11922647e3ba7c909e15588a8
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-55870cf6a965457a09397167e73d6194
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-56866585f6b6dd98d2b27d520b96d74d
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-37390a57136d7db357f4fd4abb3c1b5d
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-7d28723cedfec09ce9670ad9ecbea796
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-a004db36c4c6bcb89239bc5512e01734
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-ca13daf51e9fbe8c78b9e48c407a7357
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-66f157968a4d7cd460f5121ebb47a581
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-c380bc6d12367172e99c89510787feff
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-c5c10fdf80339b1fef8eb45dd8ff5c5a
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-40f30ef93df62cb4a1971b9273724594
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-a46e296c13027db67b309de2d789d236
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-a37292ef07814787d257177e0548b16d
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-621a3a7e53076803ce6174936ca00e71
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-49f3b35aebfbf69a9527b4cbdbdfd709
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-b8e84dc765bad8edcf1445529776c141
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-41a5ed94f57282505a8a81915b2d7f8e
+06:40:32 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-df434da3e0a88db02e658db0605d3290
+06:40:33 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.139s
+06:40:33 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.333s
+06:40:33 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.450s
+06:40:33 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.500s
+06:40:34 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.636s
+06:40:34 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.657s
+06:40:34 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.618s
+06:40:34 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.727s
+06:40:34 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.740s
+06:40:35 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.653s
+06:40:35 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.620s
+06:40:35 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.915s
+06:40:35 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.725s
+06:40:35 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.656s
+06:40:36 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.774s
+06:40:36 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.693s
+06:40:36 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.811s
+06:40:36 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=1.705s
+06:40:36 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.628s
+06:40:37 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.682s
+06:40:37 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.770s
+06:40:37 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.607s
+06:40:37 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.664s
+06:40:37 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.654s
+06:40:38 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.741s
+06:40:38 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.651s
+06:40:38 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.617s
+06:40:38 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.586s
+06:40:38 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.716s
+06:40:38 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.749s
+06:40:38 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.646s
+06:40:39 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.649s
+06:40:39 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.658s
+06:40:39 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.673s
+06:40:39 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.717s
+06:40:39 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.645s
+06:40:40 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.679s
+06:40:40 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.679s
+06:40:40 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.650s
+06:40:40 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.674s
+06:40:40 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.682s
+06:40:40 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.743s
+06:40:41 hirag_prod.storage.lancedb INFO: [upsert_text] End:table/table_name='NativeTable(chunks, uri=kb/hirag.db/chunks.lance, read_consistency_interval=None)', elapsed=0.775s
+06:40:41 HiRAG INFO: ✅ Chunk upsert completed in 8.636s
+06:40:41 HiRAG INFO: 🔍 Extracting entities from 43 pending chunks...
+06:40:49 root INFO: [Entity] Finished extracting entities for chunk chunk-71950cb48537100bdccae648ba49dbff, took 8.23 seconds
+06:40:51 root INFO: [Entity] Finished extracting entities for chunk chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1, took 10.13 seconds
+06:40:57 root INFO: [Entity] Finished extracting entities for chunk chunk-1f91bfd918df15f1bc5fee82a634df24, took 16.69 seconds
+06:41:01 root INFO: [Entity] Finished extracting entities for chunk chunk-6f0a4ec951ffa0d7c60695104c565cb0, took 19.98 seconds
+06:41:01 root INFO: [Entity] Finished extracting entities for chunk chunk-9549ccd9e8ff759c531183f83ba2d19f, took 10.38 seconds
+06:41:02 root INFO: [Entity] Finished extracting entities for chunk chunk-4fa26b2f1061b735530fc3d080a65ded, took 13.49 seconds
+06:41:06 root INFO: [Entity] Finished extracting entities for chunk chunk-4d88a1c85531fd8fe852f44c733f0d98, took 8.46 seconds
+06:41:08 root INFO: [Entity] Finished extracting entities for chunk chunk-574f5da01d385c6e77d1398235a7786a, took 5.55 seconds
+06:41:12 root INFO: [Entity] Finished extracting entities for chunk chunk-b61f96f5e65b7f879bb66a2c5aaabbb8, took 10.72 seconds
+06:41:14 root INFO: [Entity] Finished extracting entities for chunk chunk-a460d016ad25a0f5b5ec8b0303e00fcf, took 13.04 seconds
+06:41:20 root INFO: [Entity] Finished extracting entities for chunk chunk-97c6779a0556749b42634f1b59c72967, took 6.56 seconds
+06:41:21 root INFO: [Entity] Finished extracting entities for chunk chunk-0dcaf1d9beef97069c7f986932362c42, took 15.49 seconds
+06:41:22 root INFO: [Entity] Finished extracting entities for chunk chunk-8692c07e38cb3529acd8b567575c0f30, took 9.98 seconds
+06:41:30 root INFO: [Entity] Finished extracting entities for chunk chunk-5d6c7f3653eea9bec7f2e50fefb320d5, took 22.16 seconds
+06:41:31 root INFO: [Entity] Finished extracting entities for chunk chunk-4afcb52d5e1151133a4cb7b509379c8d, took 10.48 seconds
+06:41:31 root INFO: [Entity] Finished extracting entities for chunk chunk-b4b691b124873e04328823cb3545c80c, took 9.48 seconds
+06:41:42 root INFO: [Entity] Finished extracting entities for chunk chunk-3284e8bf504e24d68ca5f47b964f1640, took 10.29 seconds
+06:41:43 root INFO: [Entity] Finished extracting entities for chunk chunk-6e0ec089d5878634e20fe1f2f9924ab9, took 12.82 seconds
+06:41:47 root INFO: [Entity] Finished extracting entities for chunk chunk-530aa8e3ab97ff9507e29afcc9a4d2a3, took 25.58 seconds
+06:41:54 root INFO: [Entity] Finished extracting entities for chunk chunk-30fd97885ea5a20d234ddf6b018dc747, took 23.80 seconds
+06:41:57 root INFO: [Entity] Finished extracting entities for chunk chunk-64d8945379a2c1b3c3890af0b2ce2f9f, took 14.37 seconds
+06:41:59 root INFO: [Entity] Finished extracting entities for chunk chunk-38292aa941e10e1a21ac8c97a2ae6fba, took 17.17 seconds
+06:42:05 root INFO: [Entity] Finished extracting entities for chunk chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb, took 10.64 seconds
+06:42:09 root INFO: [Entity] Finished extracting entities for chunk chunk-1e96b3f6244190cd53c9e61d84402e29, took 21.75 seconds
+06:42:14 root INFO: [Entity] Finished extracting entities for chunk chunk-55870cf6a965457a09397167e73d6194, took 8.61 seconds
+06:42:17 root INFO: [Entity] Finished extracting entities for chunk chunk-55c463593ff4ecd4ec28c25a6adaf53a, took 19.65 seconds
+06:42:21 root INFO: [Entity] Finished extracting entities for chunk chunk-0eaa8cb11922647e3ba7c909e15588a8, took 21.81 seconds
+06:42:21 root INFO: [Entity] Finished extracting entities for chunk chunk-56866585f6b6dd98d2b27d520b96d74d, took 12.24 seconds
+06:42:34 root INFO: [Entity] Finished extracting entities for chunk chunk-7d28723cedfec09ce9670ad9ecbea796, took 16.79 seconds
+06:42:36 root INFO: [Entity] Finished extracting entities for chunk chunk-ca13daf51e9fbe8c78b9e48c407a7357, took 15.67 seconds
+06:42:37 root INFO: [Entity] Finished extracting entities for chunk chunk-37390a57136d7db357f4fd4abb3c1b5d, took 23.63 seconds
+06:42:39 root INFO: [Entity] Finished extracting entities for chunk chunk-a004db36c4c6bcb89239bc5512e01734, took 18.61 seconds
+06:42:45 root INFO: [Entity] Finished extracting entities for chunk chunk-c380bc6d12367172e99c89510787feff, took 8.39 seconds
+06:42:49 root INFO: [Entity] Finished extracting entities for chunk chunk-66f157968a4d7cd460f5121ebb47a581, took 15.82 seconds

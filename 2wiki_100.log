@@ -1,0 +1,299 @@
+14:43:30 HiRAG INFO: Loading the document from the document path: benchmark/2wiki/2wiki_corpus_100.txt
+[2025-06-19T14:43:30Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+14:43:30 HiRAG INFO: Loaded 36 documents
+14:43:43 HiRAG INFO: Chunking time: 13.627s
+14:43:43 HiRAG INFO: Chunking time: 13.627s
+14:43:43 HiRAG INFO: Chunking time: 13.628s
+14:43:43 HiRAG INFO: Chunking time: 13.627s
+14:43:43 HiRAG INFO: Chunking time: 13.627s
+14:43:43 HiRAG INFO: Chunking time: 13.626s
+14:43:43 HiRAG INFO: Chunking time: 13.625s
+14:43:43 HiRAG INFO: Chunking time: 13.625s
+14:43:43 HiRAG INFO: Chunking time: 13.624s
+14:43:43 HiRAG INFO: Chunking time: 13.623s
+14:43:43 HiRAG INFO: Chunking time: 13.623s
+14:43:43 HiRAG INFO: Chunking time: 13.622s
+14:43:43 HiRAG INFO: Chunking time: 13.621s
+14:43:43 HiRAG INFO: Chunking time: 13.620s
+14:43:43 HiRAG INFO: Chunking time: 13.627s
+14:43:43 HiRAG INFO: Chunking time: 13.626s
+14:43:43 HiRAG INFO: Chunking time: 13.625s
+14:43:43 HiRAG INFO: Chunking time: 13.625s
+14:43:43 HiRAG INFO: Chunking time: 13.624s
+14:43:43 HiRAG INFO: Chunking time: 13.623s
+14:43:43 HiRAG INFO: Chunking time: 13.622s
+14:43:43 HiRAG INFO: Chunking time: 13.620s
+14:43:43 HiRAG INFO: Chunking time: 13.619s
+14:43:43 HiRAG INFO: Chunking time: 13.618s
+14:43:43 HiRAG INFO: Chunking time: 13.617s
+14:43:43 HiRAG INFO: Chunking time: 13.616s
+14:43:43 HiRAG INFO: Chunking time: 13.615s
+14:43:43 HiRAG INFO: Chunking time: 13.613s
+14:43:43 HiRAG INFO: Chunking time: 13.612s
+14:43:43 HiRAG INFO: Chunking time: 13.611s
+14:43:43 HiRAG INFO: Chunking time: 13.610s
+14:43:43 HiRAG INFO: Chunking time: 13.608s
+14:43:43 HiRAG INFO: Chunking time: 13.608s
+14:43:43 HiRAG INFO: Chunking time: 13.606s
+14:43:43 HiRAG INFO: Chunking time: 13.605s
+14:43:43 HiRAG INFO: Chunking time: 13.604s
+14:43:44 HiRAG INFO: Upsert chunks time: 1.182s
+14:43:45 HiRAG INFO: Upsert chunks time: 2.081s
+14:43:46 HiRAG INFO: Upsert chunks time: 2.681s
+14:43:47 HiRAG INFO: Upsert chunks time: 4.069s
+14:43:48 HiRAG INFO: Upsert chunks time: 5.074s
+14:43:49 HiRAG INFO: Upsert chunks time: 6.090s
+14:43:50 HiRAG INFO: Upsert chunks time: 7.231s
+14:43:51 HiRAG INFO: Upsert chunks time: 8.119s
+14:43:52 HiRAG INFO: Upsert chunks time: 9.123s
+14:43:55 HiRAG INFO: Upsert chunks time: 11.657s
+14:43:55 HiRAG INFO: Entity extraction time: 8.992s
+14:43:56 HiRAG INFO: Upsert chunks time: 12.608s
+14:43:56 HiRAG INFO: Entity extraction time: 10.649s
+14:43:57 HiRAG INFO: Entity extraction time: 7.256s
+14:43:57 HiRAG INFO: Entity extraction time: 9.326s
+14:43:57 HiRAG INFO: Entity extraction time: 12.427s
+14:43:57 HiRAG INFO: Upsert chunks time: 13.633s
+14:43:58 HiRAG INFO: Entity extraction time: 9.431s
+14:43:58 HiRAG INFO: Upsert chunks time: 14.643s
+14:43:59 HiRAG INFO: Upsert chunks time: 15.667s
+14:44:00 HiRAG INFO: Entity extraction time: 7.411s
+14:44:01 HiRAG INFO: Upsert chunks time: 17.595s
+14:44:01 HiRAG INFO: Entity extraction time: 9.777s
+14:44:02 HiRAG INFO: Upsert chunks time: 18.726s
+14:44:03 HiRAG INFO: Entity extraction time: 6.897s
+14:44:03 HiRAG INFO: Entity extraction time: 13.053s
+14:44:04 HiRAG INFO: Upsert chunks time: 20.612s
+14:44:05 HiRAG INFO: Entity extraction time: 9.746s
+14:44:05 HiRAG INFO: Upsert chunks time: 21.662s
+14:44:05 HiRAG INFO: Entity extraction time: 6.565s
+14:44:06 HiRAG INFO: Upsert chunks time: 22.581s
+14:44:06 HiRAG INFO: Entity extraction time: 8.149s
+14:44:07 HiRAG INFO: Upsert chunks time: 23.576s
+14:44:07 HiRAG INFO: Entity extraction time: 10.231s
+14:44:08 HiRAG INFO: Upsert chunks time: 24.591s
+14:44:09 HiRAG INFO: Upsert chunks time: 25.697s
+14:44:10 HiRAG INFO: Upsert chunks time: 26.647s
+14:44:11 HiRAG INFO: Entity extraction time: 9.987s
+14:44:11 HiRAG INFO: Upsert chunks time: 28.094s
+14:44:12 HiRAG INFO: Upsert chunks time: 28.611s
+14:44:13 HiRAG INFO: Upsert chunks time: 30.072s
+14:44:14 HiRAG INFO: Entity extraction time: 12.176s
+14:44:14 HiRAG INFO: Upsert chunks time: 31.054s
+14:44:15 HiRAG INFO: Upsert chunks time: 31.683s
+14:44:15 HiRAG INFO: Entity extraction time: 10.487s
+14:44:15 HiRAG INFO: Entity extraction time: 6.467s
+14:44:17 HiRAG INFO: Upsert chunks time: 33.635s
+14:44:19 HiRAG INFO: Upsert chunks time: 35.590s
+14:44:20 HiRAG INFO: Upsert chunks time: 37.119s
+14:44:20 HiRAG INFO: Entity extraction time: 8.542s
+14:44:21 HiRAG INFO: Entity extraction time: 13.322s
+14:44:21 HiRAG INFO: Upsert chunks time: 38.090s
+14:44:22 HiRAG INFO: Upsert chunks time: 38.600s
+14:44:22 HiRAG INFO: Entity extraction time: 12.004s
+14:44:22 HiRAG INFO: Entity extraction time: 10.915s
+14:44:23 HiRAG INFO: Entity extraction time: 9.297s
+14:44:23 HiRAG INFO: Entity extraction time: 8.481s
+14:44:23 HiRAG INFO: Upsert chunks time: 39.541s
+14:44:23 HiRAG INFO: Entity extraction time: 16.052s
+14:44:24 HiRAG INFO: Upsert chunks time: 40.648s
+14:44:25 HiRAG INFO: Upsert chunks time: 41.654s
+14:44:25 HiRAG INFO: Entity extraction time: 10.404s
+14:44:26 HiRAG INFO: Entity extraction time: 19.834s
+14:44:28 HiRAG INFO: Entity extraction time: 23.977s
+14:44:28 HiRAG INFO: Entity extraction time: 7.600s
+14:44:29 HiRAG INFO: Entity extraction time: 6.684s
+14:44:30 HiRAG INFO: Entity extraction time: 6.148s
+14:44:31 HiRAG INFO: Entity extraction time: 9.981s
+14:44:34 HiRAG INFO: Entity extraction time: 11.938s
+14:44:35 HiRAG INFO: Entity extraction time: 16.252s
+14:44:36 HiRAG INFO: Entity extraction time: 19.428s
+14:44:41 HiRAG INFO: Entity extraction time: 16.536s
+14:48:37 HiRAG INFO: Upsert entities time: 261.436s
+14:48:37 HiRAG INFO: Upsert nodes time: 0.000s
+14:48:48 HiRAG INFO: Relation extraction time: 11.526s
+14:48:48 HiRAG INFO: Upsert relations time: 0.001s
+14:49:37 HiRAG INFO: Upsert entities time: 331.371s
+14:49:37 HiRAG INFO: Upsert nodes time: 0.000s
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity EASTENDERS not found in entities_dict, skipping relation {'src_id': 'DAN MILNE', 'tgt_id': 'EASTENDERS', 'weight': 9.0, 'description': "Dan Milne is best known for his role in 'EastEnders', establishing a connection through acting.", 'source_id': 'chunk-6e0ec089d5878634e20fe1f2f9924ab9'}
+  warnings.warn(
+14:49:46 HiRAG INFO: Relation extraction time: 9.344s
+14:49:46 HiRAG INFO: Upsert relations time: 0.001s
+14:49:49 HiRAG INFO: Upsert entities time: 328.436s
+14:49:49 HiRAG INFO: Upsert nodes time: 0.000s
+14:49:56 HiRAG INFO: Relation extraction time: 7.414s
+14:49:56 HiRAG INFO: Upsert relations time: 0.000s
+14:50:20 HiRAG INFO: Upsert entities time: 383.363s
+14:50:20 HiRAG INFO: Upsert nodes time: 0.000s
+14:50:23 HiRAG INFO: Upsert entities time: 386.281s
+14:50:23 HiRAG INFO: Upsert nodes time: 0.000s
+14:50:35 HiRAG INFO: Relation extraction time: 14.707s
+14:50:35 HiRAG INFO: Upsert relations time: 0.001s
+14:50:40 HiRAG INFO: Relation extraction time: 17.080s
+14:50:40 HiRAG INFO: Upsert relations time: 0.001s
+14:50:41 HiRAG INFO: Upsert entities time: 398.141s
+14:50:41 HiRAG INFO: Upsert nodes time: 0.000s
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity ISFAHAN PROVINCE not found in entities_dict, skipping relation {'src_id': 'CHADEGAN COUNTY', 'tgt_id': 'ISFAHAN PROVINCE', 'weight': 10.0, 'description': 'Chadegan County is located within Isfahan Province, establishing an administrative relationship between them.', 'source_id': 'chunk-4afcb52d5e1151133a4cb7b509379c8d'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity ISFAHAN PROVINCE not found in entities_dict, skipping relation {'src_id': 'KABUTARSORKH RURAL DISTRICT', 'tgt_id': 'ISFAHAN PROVINCE', 'weight': 10.0, 'description': 'Kabutarsorkh Rural District is located in Isfahan Province, indicating a direct geographical relationship.', 'source_id': 'chunk-4afcb52d5e1151133a4cb7b509379c8d'}
+  warnings.warn(
+14:50:52 HiRAG INFO: Relation extraction time: 11.655s
+14:50:52 HiRAG INFO: Upsert relations time: 0.001s
+14:51:20 HiRAG INFO: Upsert entities time: 410.449s
+14:51:20 HiRAG INFO: Upsert nodes time: 0.000s
+14:51:22 HiRAG INFO: Upsert entities time: 412.332s
+14:51:24 HiRAG INFO: Upsert nodes time: 2.052s
+14:51:27 HiRAG INFO: Relation extraction time: 7.542s
+14:51:27 HiRAG INFO: Upsert relations time: 0.001s
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity FILM, TELEVISION AND THEATRE not found in entities_dict, skipping relation {'src_id': 'PETER LEVIN', 'tgt_id': 'FILM, TELEVISION AND THEATRE', 'weight': 8.0, 'description': 'Peter Levin is identified as an American director of film, television, and theatre, linking him to these entertainment sectors.', 'source_id': 'chunk-df434da3e0a88db02e658db0605d3290'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity AMERICAN DIRECTOR not found in entities_dict, skipping relation {'src_id': 'PETER LEVIN', 'tgt_id': 'AMERICAN DIRECTOR', 'weight': 7.0, 'description': "Peter Levin's profession as an American director links him to a broader category of professionals in film and television direction.", 'source_id': 'chunk-df434da3e0a88db02e658db0605d3290'}
+  warnings.warn(
+14:51:32 HiRAG INFO: Relation extraction time: 7.320s
+14:51:32 HiRAG INFO: Upsert relations time: 0.000s
+14:52:02 HiRAG INFO: Upsert entities time: 459.284s
+14:52:04 HiRAG INFO: Upsert nodes time: 1.830s
+14:52:05 HiRAG INFO: Upsert entities time: 461.772s
+14:52:05 HiRAG INFO: Upsert nodes time: 0.000s
+14:52:08 HiRAG INFO: Upsert entities time: 462.546s
+14:52:08 HiRAG INFO: Upsert nodes time: 0.000s
+14:52:10 HiRAG INFO: Upsert entities time: 464.228s
+14:52:10 HiRAG INFO: Upsert nodes time: 0.000s
+14:52:15 HiRAG INFO: Relation extraction time: 10.816s
+14:52:15 HiRAG INFO: Upsert relations time: 0.001s
+14:52:16 HiRAG INFO: Upsert entities time: 467.935s
+14:52:16 HiRAG INFO: Upsert nodes time: 0.000s
+14:52:17 HiRAG INFO: Relation extraction time: 12.963s
+14:52:17 HiRAG INFO: Upsert relations time: 0.001s
+14:52:18 HiRAG INFO: Relation extraction time: 10.386s
+14:52:18 HiRAG INFO: Upsert relations time: 0.001s
+14:52:24 HiRAG INFO: Relation extraction time: 14.139s
+14:52:24 HiRAG INFO: Upsert relations time: 0.001s
+14:52:26 HiRAG INFO: Relation extraction time: 10.575s
+14:52:26 HiRAG INFO: Upsert relations time: 0.001s
+14:52:31 HiRAG INFO: Upsert entities time: 511.107s
+14:52:31 HiRAG INFO: Upsert nodes time: 0.000s
+14:52:41 HiRAG INFO: Upsert entities time: 514.851s
+14:52:41 HiRAG INFO: Relation extraction time: 10.448s
+14:52:41 HiRAG INFO: Upsert relations time: 0.001s
+14:52:43 HiRAG INFO: Upsert entities time: 515.707s
+14:52:45 HiRAG INFO: Upsert nodes time: 3.764s
+14:52:47 HiRAG INFO: Upsert nodes time: 3.881s
+14:52:49 HiRAG INFO: Upsert entities time: 513.457s
+14:52:50 HiRAG INFO: Upsert nodes time: 1.385s
+/chatbot/src/hirag_prod/entity/vanilla.py:324: UserWarning: Source entity ALTDID BALLADE not found in entities_dict, skipping relation {'src_id': 'ALTDID BALLADE', 'tgt_id': 'GABRIEL AXEL', 'weight': 10.0, 'description': "Gabriel Axel directed the film 'Altid ballade,' establishing a direct creator-creation relationship.", 'source_id': 'chunk-b4b691b124873e04328823cb3545c80c'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:324: UserWarning: Source entity ALTDID BALLADE not found in entities_dict, skipping relation {'src_id': 'ALTDID BALLADE', 'tgt_id': 'EDITH CARLMAR', 'weight': 9.0, 'description': "The film 'Altid ballade' is a remake of Edith Carlmar's film, linking them through cinematic adaptation.", 'source_id': 'chunk-b4b691b124873e04328823cb3545c80c'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity ALTDID BALLADE not found in entities_dict, skipping relation {'src_id': 'GABRIEL AXEL', 'tgt_id': 'ALTDID BALLADE', 'weight': 10.0, 'description': "Gabriel Axel is the director of 'Altid ballade,' establishing a creator-creation relationship.", 'source_id': 'chunk-b4b691b124873e04328823cb3545c80c'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity ALTDID BALLADE not found in entities_dict, skipping relation {'src_id': 'SIGRID HORNE-RASMUSSEN', 'tgt_id': 'ALTDID BALLADE', 'weight': 9.0, 'description': "Sigrid Horne-Rasmussen starred in 'Altid ballade,' highlighting her involvement in the film.", 'source_id': 'chunk-b4b691b124873e04328823cb3545c80c'}
+  warnings.warn(
+14:52:54 HiRAG INFO: Relation extraction time: 9.478s
+14:52:54 HiRAG INFO: Upsert relations time: 0.000s
+14:52:56 HiRAG INFO: Relation extraction time: 9.775s
+14:52:56 HiRAG INFO: Upsert relations time: 0.002s
+14:52:58 HiRAG INFO: Upsert entities time: 542.928s
+/chatbot/src/hirag_prod/entity/vanilla.py:324: UserWarning: Source entity ELTONTO not found in entities_dict, skipping relation {'src_id': 'ELTONTO', 'tgt_id': 'CHARLIE DAY', 'weight': 8.0, 'description': 'El Tonto is written and directed by Charlie Day, establishing a direct creative relationship.', 'source_id': 'chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity THE AVN HALL OF FAME not found in entities_dict, skipping relation {'src_id': 'SCOTTY FOX', 'tgt_id': 'THE AVN HALL OF FAME', 'weight': 8.0, 'description': "Scotty Fox's membership in the AVN Hall of Fame highlights his significance in the adult film industry.", 'source_id': 'chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity TOMOO SHIMOGAWARA not found in entities_dict, skipping relation {'src_id': 'RINGO-EN NO SHŌJO', 'tgt_id': 'TOMOO SHIMOGAWARA', 'weight': 7.0, 'description': "Tomoo Shimogawara was the art director for Ringo-en no shōjo, linking him to the film's visual style.", 'source_id': 'chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb'}
+  warnings.warn(
+14:53:00 HiRAG INFO: Relation extraction time: 9.825s
+14:53:00 HiRAG INFO: Upsert relations time: 0.000s
+14:53:00 HiRAG INFO: Upsert nodes time: 2.534s
+14:53:03 HiRAG INFO: Upsert entities time: 511.531s
+14:53:04 HiRAG INFO: Upsert nodes time: 1.182s
+14:53:13 HiRAG INFO: Upsert entities time: 555.190s
+14:53:14 HiRAG INFO: Relation extraction time: 14.183s
+14:53:14 HiRAG INFO: Upsert relations time: 0.001s
+14:53:17 HiRAG INFO: Relation extraction time: 12.848s
+14:53:17 HiRAG INFO: Upsert relations time: 0.000s
+14:53:17 HiRAG INFO: Upsert nodes time: 4.558s
+14:53:20 HiRAG INFO: Upsert entities time: 555.149s
+14:53:22 HiRAG INFO: Upsert nodes time: 1.943s
+14:53:23 HiRAG INFO: Upsert entities time: 548.722s
+14:53:23 HiRAG INFO: Upsert nodes time: 0.000s
+14:53:24 HiRAG INFO: Upsert entities time: 543.367s
+14:53:26 HiRAG INFO: Upsert entities time: 544.398s
+14:53:28 HiRAG INFO: Upsert nodes time: 3.209s
+14:53:30 HiRAG INFO: Upsert nodes time: 4.144s
+14:53:33 HiRAG INFO: Relation extraction time: 11.521s
+14:53:33 HiRAG INFO: Upsert relations time: 0.001s
+14:53:34 HiRAG INFO: Relation extraction time: 11.031s
+14:53:34 HiRAG INFO: Upsert relations time: 0.001s
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity JAPAN not found in entities_dict, skipping relation {'src_id': 'THE WONDERFUL WORLD OF CAPTAIN KUHIO', 'tgt_id': 'JAPAN', 'weight': 7.0, 'description': "The film was released in Japan, establishing an international connection with the film's distribution.", 'source_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}
+  warnings.warn(
+14:53:36 HiRAG INFO: Relation extraction time: 18.414s
+14:53:36 HiRAG INFO: Upsert relations time: 0.001s
+14:53:39 HiRAG INFO: Relation extraction time: 11.050s
+14:53:39 HiRAG INFO: Upsert relations time: 0.001s
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity AUSTRALIA not found in entities_dict, skipping relation {'src_id': 'TOM DICKINSON', 'tgt_id': 'AUSTRALIA', 'weight': 5.0, 'description': 'Tom Dickinson was born in Australia, connecting his origin to his identity as a cricketer.', 'source_id': 'chunk-37390a57136d7db357f4fd4abb3c1b5d'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity SCHOOLMASTER not found in entities_dict, skipping relation {'src_id': 'TOM DICKINSON', 'tgt_id': 'SCHOOLMASTER', 'weight': 6.0, 'description': 'After his cricket career, Tom Dickinson became a schoolmaster, indicating a shift in his professional life.', 'source_id': 'chunk-37390a57136d7db357f4fd4abb3c1b5d'}
+  warnings.warn(
+14:53:43 HiRAG INFO: Relation extraction time: 12.562s
+14:53:43 HiRAG INFO: Upsert relations time: 0.001s
+14:54:16 HiRAG INFO: Upsert entities time: 593.540s
+14:54:18 HiRAG INFO: Upsert nodes time: 2.582s
+14:54:30 HiRAG INFO: Upsert entities time: 593.575s
+14:54:31 HiRAG INFO: Upsert entities time: 630.160s
+14:54:31 HiRAG INFO: Upsert nodes time: 0.000s
+14:54:33 HiRAG INFO: Upsert nodes time: 3.411s
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity FIRST-CLASS CRICKETER not found in entities_dict, skipping relation {'src_id': 'JOHN AUBREY ALLEN', 'tgt_id': 'FIRST-CLASS CRICKETER', 'weight': 10.0, 'description': 'John Aubrey Allen is identified as a first-class cricketer, categorizing his level of play in the sport.', 'source_id': 'chunk-7d28723cedfec09ce9670ad9ecbea796'}
+  warnings.warn(
+14:54:34 HiRAG INFO: Relation extraction time: 15.179s
+14:54:34 HiRAG INFO: Upsert relations time: 0.001s
+14:54:35 HiRAG INFO: Upsert entities time: 631.354s
+14:54:35 HiRAG INFO: Upsert nodes time: 0.001s
+14:54:37 HiRAG INFO: Upsert entities time: 626.073s
+14:54:39 HiRAG INFO: Upsert nodes time: 2.129s
+14:54:41 HiRAG INFO: Relation extraction time: 10.076s
+14:54:41 HiRAG INFO: Upsert relations time: 0.000s
+14:54:44 HiRAG INFO: Upsert entities time: 610.428s
+14:54:46 HiRAG INFO: Upsert entities time: 649.467s
+14:54:47 HiRAG INFO: Upsert nodes time: 2.940s
+14:54:47 HiRAG INFO: Relation extraction time: 13.913s
+14:54:47 HiRAG INFO: Upsert relations time: 0.001s
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity RAJINDER SINGH BEDI not found in entities_dict, skipping relation {'src_id': 'AAS KA PANCHHI', 'tgt_id': 'RAJINDER SINGH BEDI', 'weight': 8.0, 'description': 'Rajinder Singh Bedi co-wrote Aas Ka Panchhi, establishing a connection through writing.', 'source_id': 'chunk-a460d016ad25a0f5b5ec8b0303e00fcf'}
+  warnings.warn(
+14:54:51 HiRAG INFO: Relation extraction time: 16.485s
+14:54:51 HiRAG INFO: Upsert relations time: 0.002s
+14:54:52 HiRAG INFO: Upsert nodes time: 5.330s
+14:55:01 HiRAG INFO: Upsert entities time: 638.069s
+14:55:01 HiRAG INFO: Upsert nodes time: 0.001s
+14:55:01 HiRAG INFO: Relation extraction time: 22.042s
+14:55:01 HiRAG INFO: Upsert relations time: 0.002s
+14:55:01 HiRAG INFO: Relation extraction time: 14.004s
+14:55:01 HiRAG INFO: Upsert relations time: 0.001s
+14:55:04 HiRAG INFO: Upsert entities time: 668.260s
+14:55:06 HiRAG INFO: Upsert nodes time: 2.047s
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity LAMBER not found in entities_dict, skipping relation {'src_id': "TUSCANY'S POLITICAL LANDSCAPE", 'tgt_id': 'LAMBER', 'weight': 7.0, 'description': "Lambert's actions and status played a significant role in shaping Tuscany's political landscape.", 'source_id': 'chunk-1f91bfd918df15f1bc5fee82a634df24'}
+  warnings.warn(
+14:55:07 HiRAG INFO: Relation extraction time: 15.568s
+14:55:07 HiRAG INFO: Upsert relations time: 0.001s
+14:55:16 HiRAG INFO: Relation extraction time: 15.270s
+14:55:16 HiRAG INFO: Upsert relations time: 0.001s
+14:55:17 HiRAG INFO: Relation extraction time: 10.297s
+14:55:17 HiRAG INFO: Upsert relations time: 0.001s
+14:55:17 HiRAG INFO: Upsert entities time: 641.736s
+14:55:19 HiRAG INFO: Upsert nodes time: 1.741s
+14:55:34 HiRAG INFO: Relation extraction time: 15.637s
+14:55:34 HiRAG INFO: Upsert relations time: 0.003s
+14:55:44 HiRAG INFO: Upsert entities time: 662.424s
+14:55:45 HiRAG INFO: Upsert entities time: 677.086s
+14:55:47 HiRAG INFO: Upsert nodes time: 3.481s
+14:55:48 HiRAG INFO: Upsert nodes time: 3.584s
+14:56:02 HiRAG INFO: Relation extraction time: 15.189s
+14:56:02 HiRAG INFO: Upsert relations time: 0.002s
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity CLASSIC FILMS not found in entities_dict, skipping relation {'src_id': 'SWASHBUCKLER', 'tgt_id': 'CLASSIC FILMS', 'weight': 8.0, 'description': "The swashbuckler films directed by Curtiz, such as 'Captain Blood', have become classics in cinema history.", 'source_id': 'chunk-1e96b3f6244190cd53c9e61d84402e29'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity CLASSIC FILMS not found in entities_dict, skipping relation {'src_id': 'HOLLYWOOD', 'tgt_id': 'CLASSIC FILMS', 'weight': 9.0, 'description': "CURTIZ's direction and innovative styles set benchmarks for classic films in Hollywood.", 'source_id': 'chunk-1e96b3f6244190cd53c9e61d84402e29'}
+  warnings.warn(
+/chatbot/src/hirag_prod/entity/vanilla.py:331: UserWarning: Target entity CLASSIC FILMS not found in entities_dict, skipping relation {'src_id': 'HISTORICAL EPIC', 'tgt_id': 'CLASSIC FILMS', 'weight': 8.0, 'description': "Curtiz's work on historical epics contributes to the collection of classic films from his era.", 'source_id': 'chunk-1e96b3f6244190cd53c9e61d84402e29'}
+  warnings.warn(
+14:56:09 HiRAG INFO: Relation extraction time: 20.581s
+14:56:09 HiRAG INFO: Upsert relations time: 0.002s
+14:56:09 HiRAG INFO: Total pipeline time: 759.501s
+{'chunks': [{'text': '=+=+=+=+=+=+=+=+=\ntitle: Lothair II\ntext: Lothair II (835 –) was the king of Lotharingia from 855 until his death. He was the second son of Emperor Lothair I and Ermengarde of Tours. He was married to Teutberga (died 875), daughter of Boso the Elder.\n=+=+=+=+=+=+=+=+=\ntitle: Ermengarde of Tours\ntext: Ermengarde of Tours (d. 20 March 851) was the daughter of Hugh of Tours, a member of the Etichonen family. In October 821 in Thionville, she married the Carolingian Emperor Lothair I of the Franks (795–855). In 849, two years before her death, she made a donation to the abbey Erstein in the Elsass, in which she is buried. Lothair and Ermengarde had eight children:', 'uri': 'benchmark/2wiki/2wiki_corpus_100.txt', 'filename': '2wiki_corpus_100.txt', 'private': False, 'uploaded_at': None, 'document_key': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0', '_relevance_score': 0.79296875}, {'text': "title: Teutberga\ntext: Teutberga( died 11 November 875) was a queen of Lotharingia by marriage to Lothair II. She was a daughter of Bosonid Boso the Elder and sister of Hucbert, the lay- abbot of St. Maurice's Abbey.\n=+=+=+=+=+=+=+=+=\ntitle: Theodred II (Bishop of Elmham)\ntext: Theodred II was a medieval Bishop of Elmham. The date of Theodred's consecration unknown, but the date of his death was sometime between 995 and 997.\n=+=+=+=+=+=+=+=+=\ntitle: Lambert, Margrave of Tuscany\ntext: Lambert( died after 938) was the second son of Adalbert II of Tuscany and Bertha, daughter of Lothair II of Lotharingia. He succeeded his elder brother, Guy, as count and duke of Lucca and margrave of Tuscany on his death in 928 or 929 without heirs. In 931, before 17 October, Hugh, King of Italy, disowned and removed Lambert, giving Tuscany and the familial possession of Lucca to his brother Boso. Hugh was Guy and Lambert's half- brother, as they had the same mother. When Guy died, Hugh married Guy's widow, Marozia.", 'uri': 'benchmark/2wiki/2wiki_corpus_100.txt', 'filename': '2wiki_corpus_100.txt', 'private': False, 'uploaded_at': None, 'document_key': 'chunk-1f91bfd918df15f1bc5fee82a634df24', '_relevance_score': 0.6796875}, {'text': '=+=+=+=+=+=+=+=+=\ntitle: Bertha, daughter of Lothair II\ntext: Bertha( 863- 8 – March 925 in Lucca) was countess of Arles by marriage to Theobald of Arles, and margravine of Tuccany by marriage to Adalbert II of Tuscany. She served as regent of Lucca and Tuscany from 915 until 916 during the minority of her son Guy of Tuscany. She was described as beautiful, spirited, and courageous, and her influence over her spouse was, coupled with ambition, attributed to have involved her husbands in many wars. She was the second illegitimate daughter of Lothair II, King of Lotharingia, by his concubine Waldrada.\n=+=+=+=+=+=+=+=+=\ntitle: Adolf I of Lotharingia\ntext: Adolf I of Lotharingia, count of Keldachgau, Vogt of Deutz from 1008 until 1018, was the son of Hermann I" Pusillus"( the Little Pfalzgraf), count palatine of Lotharingia. He left three sons:\n=+=+=+=+=+=+=+=+=\ntitle: Waldrada of Lotharingia\ntext: Waldrada was the mistress, and later the wife, of Lothair II of Lotharingia.', 'uri': 'benchmark/2wiki/2wiki_corpus_100.txt', 'filename': '2wiki_corpus_100.txt', 'private': False, 'uploaded_at': None, 'document_key': 'chunk-4fa26b2f1061b735530fc3d080a65ded', '_relevance_score': 0.6171875}, {'text': '=+=+=+=+=+=+=+=+=\ntitle: Waldrada of Lotharingia\ntext: Waldrada was the mistress, and later the wife, of Lothair II of Lotharingia.\n=+=+=+=+=+=+=+=+=\ntitle: Theobald of Arles\ntext: Theobald( c. 854-895), count of Arles, was a Frank from the Bosonid- family. He was a son of Hucbert and married Bertha, an illegitimate daughter of Lothair II, King of Lotharingia, who was renowned for her beauty and spirit. They had two sons Hugh of Italy and Boso of Tuscany.\n=+=+=+=+=+=+=+=+=\ntitle: The Wonderful World of Captain Kuhio\ntext: The film was released in Japan on 10 October 2009.\n=+=+=+=+=+=+=+=+=\ntitle: Coney Island Baby (film)\ntext: Coney Island Baby is a 2003 comedy- drama in which film producer Amy Hobby made her directorial debut. Karl Geary wrote the film and Tanya Ryno was the film\'s producer. The music was composed by Ryan Shore. The film was shot in Sligo, Ireland, which is known locally as" Coney Island". The film was screened at the Newport International Film Festival. Hobby won the Jury Award for" Best First Time Director". The film made its premiere television broadcast on the Sundance Channel.', 'uri': 'benchmark/2wiki/2wiki_corpus_100.txt', 'filename': '2wiki_corpus_100.txt', 'private': False, 'uploaded_at': None, 'document_key': 'chunk-9549ccd9e8ff759c531183f83ba2d19f', '_relevance_score': 0.494140625}, {'text': '=+=+=+=+=+=+=+=+=\ntitle: Edith Carlmar\ntext: Edith Carlmar (Edith Mary Johanne Mathiesen) (15 November 1911 – 17 May 2003) was an Norwagian actress and Norway\'s first female film director. She is known for films such as "Fjols til fjells" (1957), "Aldri annet enn bråk" (1954), and "Ung flukt" (1959). Her 1949 film, "Døden er et kjærtegnDeath is a Caress"), is considered to be Norway\'s first film noir. The last film she directed, "Ung Flukt", introduced Liv Ullmann, Norway\'s most famous actor internationally, to the silver screen. Carlmar came from a poor family in the working class districts of East Oslo. However, she did manage to take dancing classes and made her debut on stage at the age of 15. In the theater she met Otto Carlmar whom she married three years later. From 1936 she worked as an actress in various theatres. Here she met the film director Tancred Ibsen who introduced her to the world of cinema. In 1949 she and her husband started Carlmar Film A/S, and began writing scripts, directing and producing films. They made ten feature films over a ten-year period. After a decade of film-making Carlmar retired as a director. In the last part of her life she accepted only minor', 'uri': 'benchmark/2wiki/2wiki_corpus_100.txt', 'filename': '2wiki_corpus_100.txt', 'private': False, 'uploaded_at': None, 'document_key': 'chunk-30fd97885ea5a20d234ddf6b018dc747', '_relevance_score': 0.318359375}], 'entities': [{'text': 'WALDRADA', 'document_key': 'ent-60a8981206f2c09ffffc21d9483654a5', 'entity_type': 'PERSON', 'description': 'Waldrada was the mistress and later wife of Lothair II, highlighting her significant role in the royal lineage of Lotharingia.', '_relevance_score': 0.6328125}, {'text': 'WALDRADA', 'document_key': 'ent-60a8981206f2c09ffffc21d9483654a5', 'entity_type': 'PERSON', 'description': 'Waldrada was the mistress and later the wife of Lothair II of Lotharingia, indicating her significant role in the historical narrative.', '_relevance_score': 0.6328125}, {'text': 'LOTHAIR II OF LOTHARINGIA', 'document_key': 'ent-44e3e66aa2b6db5306b4c082ce3eca09', 'entity_type': 'PERSON', 'description': 'Lothair II was a king of Lotharingia, associated with Waldrada as both her lover and husband, marking him as a significant historical figure.', '_relevance_score': 0.62890625}, {'text': 'LOTHAIR II', 'document_key': 'ent-8ce95c5eafa36a16c61a0a0d3e2b9109', 'entity_type': 'PERSON', 'description': 'Lothair II was the king of Lotharingia from 855 until his death, known as the second son of Emperor Lothair I and Ermengarde of Tours.', '_relevance_score': 0.62109375}, {'text': 'LOTHAIR II', 'document_key': 'ent-8ce95c5eafa36a16c61a0a0d3e2b9109', 'entity_type': 'PERSON', 'description': 'Lothair II was King of Lotharingia and the father of Bertha, known for his relationships and complex legacy involving multiple marriages and children.', '_relevance_score': 0.62109375}], 'neighbors': [Entity(id='ent-32593904d9392db6470b123d21f490ed', page_content='BERTHA', metadata=EntityMetadata(entity_type='PERSON', description='Bertha was the illegitimate daughter of Lothair II, noted for her beauty and spirited personality. She entered into marriage with Theobald of Arles, which solidified her status in aristocratic circles.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', page_content='LOTHAIR II', metadata=EntityMetadata(entity_type='PERSON', description='Lothair II was a significant king in the historical context of Lotharingia, known particularly for his marriage to Teutberga, which established her as queen of the region. This union highlights his influence and importance in the political landscape of the time.', chunk_ids=['chunk-1f91bfd918df15f1bc5fee82a634df24'])), Entity(id='ent-34c0b832374dd35a34f208699ca489ff', page_content='LOTHARINGIA', metadata=EntityMetadata(entity_type='GEO', description='Lotharingia was a medieval kingdom located in Western Europe, notable for its association with various rulers and significant historical events throughout its existence. This region played a crucial role in the political landscape of medieval Europe, serving as a central point for power struggles and shifting alliances among emerging kingdoms.', chunk_ids=['chunk-1f91bfd918df15f1bc5fee82a634df24'])), Entity(id='ent-44e3e66aa2b6db5306b4c082ce3eca09', page_content='LOTHAIR II OF LOTHARINGIA', metadata=EntityMetadata(entity_type='PERSON', description='Lothair II was a king of Lotharingia, associated with Waldrada as both her lover and husband, marking him as a significant historical figure.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-32593904d9392db6470b123d21f490ed', page_content='BERTHA', metadata=EntityMetadata(entity_type='PERSON', description='Bertha was the illegitimate daughter of Lothair II, noted for her beauty and spirited personality. She entered into marriage with Theobald of Arles, which solidified her status in aristocratic circles.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', page_content='LOTHAIR II', metadata=EntityMetadata(entity_type='PERSON', description='Lothair II was a significant king in the historical context of Lotharingia, known particularly for his marriage to Teutberga, which established her as queen of the region. This union highlights his influence and importance in the political landscape of the time.', chunk_ids=['chunk-1f91bfd918df15f1bc5fee82a634df24'])), Entity(id='ent-34c0b832374dd35a34f208699ca489ff', page_content='LOTHARINGIA', metadata=EntityMetadata(entity_type='GEO', description='Lotharingia was a medieval kingdom located in Western Europe, notable for its association with various rulers and significant historical events throughout its existence. This region played a crucial role in the political landscape of medieval Europe, serving as a central point for power struggles and shifting alliances among emerging kingdoms.', chunk_ids=['chunk-1f91bfd918df15f1bc5fee82a634df24'])), Entity(id='ent-44e3e66aa2b6db5306b4c082ce3eca09', page_content='LOTHAIR II OF LOTHARINGIA', metadata=EntityMetadata(entity_type='PERSON', description='Lothair II was a king of Lotharingia, associated with Waldrada as both her lover and husband, marking him as a significant historical figure.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-60a8981206f2c09ffffc21d9483654a5', page_content='WALDRADA', metadata=EntityMetadata(entity_type='PERSON', description='Waldrada was a prominent figure in the history of Lotharingia, serving as the mistress and later the wife of Lothair II. Her relationship with Lothair II highlights her significant role in the historical narrative of the region and the dynamics of royal relationships during that time.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-32593904d9392db6470b123d21f490ed', page_content='BERTHA', metadata=EntityMetadata(entity_type='PERSON', description='Bertha was the illegitimate daughter of Lothair II, noted for her beauty and spirited personality. She entered into marriage with Theobald of Arles, which solidified her status in aristocratic circles.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-c423e8362da2e0f314759fb28092461f', page_content='THEOBALD OF ARLES', metadata=EntityMetadata(entity_type='PERSON', description='Theobald of Arles was a notable count of Arles, hailing from the Frankish Bosonid family. His lineage is of significance within the context of medieval nobility. He was married to Bertha, who was the daughter of Lothair II, further emphasizing his prominent status through familial connections.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-34c0b832374dd35a34f208699ca489ff', page_content='LOTHARINGIA', metadata=EntityMetadata(entity_type='GEO', description='Lotharingia was a medieval kingdom located in Western Europe, notable for its association with various rulers and significant historical events throughout its existence. This region played a crucial role in the political landscape of medieval Europe, serving as a central point for power struggles and shifting alliances among emerging kingdoms.', chunk_ids=['chunk-1f91bfd918df15f1bc5fee82a634df24'])), Entity(id='ent-c21da912c4cc6d53cc3828cc1c6456e8', page_content='HUGH OF ITALY', metadata=EntityMetadata(entity_type='PERSON', description='Hugh of Italy is a son of Theobald and Bertha, linking him to the historical narrative of noble lineage in Lotharingia.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-cf437fc2437a75d687af6e404456f431', page_content='BOSO OF TUSCANY', metadata=EntityMetadata(entity_type='PERSON', description='Boso of Tuscany is the second son of Theobald and Bertha, indicating his place in the historical succession of noble families.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-32593904d9392db6470b123d21f490ed', page_content='BERTHA', metadata=EntityMetadata(entity_type='PERSON', description='Bertha was the illegitimate daughter of Lothair II, noted for her beauty and spirited personality. She entered into marriage with Theobald of Arles, which solidified her status in aristocratic circles.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-60a8981206f2c09ffffc21d9483654a5', page_content='WALDRADA', metadata=EntityMetadata(entity_type='PERSON', description='Waldrada was a prominent figure in the history of Lotharingia, serving as the mistress and later the wife of Lothair II. Her relationship with Lothair II highlights her significant role in the historical narrative of the region and the dynamics of royal relationships during that time.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-34c0b832374dd35a34f208699ca489ff', page_content='LOTHARINGIA', metadata=EntityMetadata(entity_type='GEO', description='Lotharingia was a medieval kingdom located in Western Europe, notable for its association with various rulers and significant historical events throughout its existence. This region played a crucial role in the political landscape of medieval Europe, serving as a central point for power struggles and shifting alliances among emerging kingdoms.', chunk_ids=['chunk-1f91bfd918df15f1bc5fee82a634df24'])), Entity(id='ent-1e0fa5983b0912337e26b092da95f0c4', page_content='TEUTBERGA', metadata=EntityMetadata(entity_type='PERSON', description="Teutberga was a queen of Lotharingia, notable for her marriage to Lothair II. She hailed from a distinguished lineage, being the daughter of Bosonid Boso the Elder and the sister of Hucbert, who served as a lay-abbot. Teutberga's noble background positioned her prominently within the aristocracy of her time.", chunk_ids=['chunk-1f91bfd918df15f1bc5fee82a634df24'])), Entity(id='ent-bf316efaa75fed13da807717a82a3b54', page_content='EMPEROR LOTHAIR I', metadata=EntityMetadata(entity_type='PERSON', description='Emperor Lothair I was a Carolingian Emperor of the Franks and the father of Lothair II, who reigned until 855.', chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-bca3734e55c2b7eab4efc5e89de6888e', page_content='ERMENGARDE OF TOURS', metadata=EntityMetadata(entity_type='PERSON', description='Ermengarde of Tours was the wife of Emperor Lothair I and the mother of Lothair II, known for her noble lineage and her donation to the abbey at Erstein.', chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-6ac9456b64341c6741b25f348fc822a8', page_content='HUGH OF TOURS', metadata=EntityMetadata(entity_type='PERSON', description='Hugh of Tours was the father of Ermengarde of Tours, belonging to the Etichonen family, indicating a significant noble background.', chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-4ef2d3736dae547b8c1ff5377c4437a7', page_content="ERMENGARDE'S DEATH", metadata=EntityMetadata(entity_type='EVENT', description='Ermengarde of Tours died on 20 March 851, marking a significant event in the lineage of the Carolingian dynasty.', chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-32593904d9392db6470b123d21f490ed', page_content='BERTHA', metadata=EntityMetadata(entity_type='PERSON', description='Bertha was the illegitimate daughter of Lothair II, noted for her beauty and spirited personality. She entered into marriage with Theobald of Arles, which solidified her status in aristocratic circles.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-60a8981206f2c09ffffc21d9483654a5', page_content='WALDRADA', metadata=EntityMetadata(entity_type='PERSON', description='Waldrada was a prominent figure in the history of Lotharingia, serving as the mistress and later the wife of Lothair II. Her relationship with Lothair II highlights her significant role in the historical narrative of the region and the dynamics of royal relationships during that time.', chunk_ids=['chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-34c0b832374dd35a34f208699ca489ff', page_content='LOTHARINGIA', metadata=EntityMetadata(entity_type='GEO', description='Lotharingia was a medieval kingdom located in Western Europe, notable for its association with various rulers and significant historical events throughout its existence. This region played a crucial role in the political landscape of medieval Europe, serving as a central point for power struggles and shifting alliances among emerging kingdoms.', chunk_ids=['chunk-1f91bfd918df15f1bc5fee82a634df24'])), Entity(id='ent-1e0fa5983b0912337e26b092da95f0c4', page_content='TEUTBERGA', metadata=EntityMetadata(entity_type='PERSON', description="Teutberga was a queen of Lotharingia, notable for her marriage to Lothair II. She hailed from a distinguished lineage, being the daughter of Bosonid Boso the Elder and the sister of Hucbert, who served as a lay-abbot. Teutberga's noble background positioned her prominently within the aristocracy of her time.", chunk_ids=['chunk-1f91bfd918df15f1bc5fee82a634df24'])), Entity(id='ent-bf316efaa75fed13da807717a82a3b54', page_content='EMPEROR LOTHAIR I', metadata=EntityMetadata(entity_type='PERSON', description='Emperor Lothair I was a Carolingian Emperor of the Franks and the father of Lothair II, who reigned until 855.', chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-bca3734e55c2b7eab4efc5e89de6888e', page_content='ERMENGARDE OF TOURS', metadata=EntityMetadata(entity_type='PERSON', description='Ermengarde of Tours was the wife of Emperor Lothair I and the mother of Lothair II, known for her noble lineage and her donation to the abbey at Erstein.', chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-6ac9456b64341c6741b25f348fc822a8', page_content='HUGH OF TOURS', metadata=EntityMetadata(entity_type='PERSON', description='Hugh of Tours was the father of Ermengarde of Tours, belonging to the Etichonen family, indicating a significant noble background.', chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-4ef2d3736dae547b8c1ff5377c4437a7', page_content="ERMENGARDE'S DEATH", metadata=EntityMetadata(entity_type='EVENT', description='Ermengarde of Tours died on 20 March 851, marking a significant event in the lineage of the Carolingian dynasty.', chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0']))], 'relations': [Relation(source='ent-60a8981206f2c09ffffc21d9483654a5', target='ent-32593904d9392db6470b123d21f490ed', properties={'description': 'Waldrada and Bertha are connected through their familial ties to Lothair II, indicating a relationship among women tied by marriage and lineage.', 'weight': 6.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-60a8981206f2c09ffffc21d9483654a5', target='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', properties={'description': 'Waldrada was the mistress and later wife of Lothair II, establishing a romantic and marital relationship.', 'weight': 9.0, 'chunk_id': 'chunk-4fa26b2f1061b735530fc3d080a65ded'}), Relation(source='ent-60a8981206f2c09ffffc21d9483654a5', target='ent-34c0b832374dd35a34f208699ca489ff', properties={'description': 'WALDRADA is associated with Lothair II, the ruling entity of Lotharingia, indicating political ties.', 'weight': 5.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-60a8981206f2c09ffffc21d9483654a5', target='ent-44e3e66aa2b6db5306b4c082ce3eca09', properties={'description': 'Waldrada was the mistress and later the wife of Lothair II, indicating a personal relationship between them.', 'weight': 9.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-60a8981206f2c09ffffc21d9483654a5', target='ent-32593904d9392db6470b123d21f490ed', properties={'description': 'Waldrada and Bertha are connected through their familial ties to Lothair II, indicating a relationship among women tied by marriage and lineage.', 'weight': 6.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-60a8981206f2c09ffffc21d9483654a5', target='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', properties={'description': 'Waldrada was the mistress and later wife of Lothair II, establishing a romantic and marital relationship.', 'weight': 9.0, 'chunk_id': 'chunk-4fa26b2f1061b735530fc3d080a65ded'}), Relation(source='ent-60a8981206f2c09ffffc21d9483654a5', target='ent-34c0b832374dd35a34f208699ca489ff', properties={'description': 'WALDRADA is associated with Lothair II, the ruling entity of Lotharingia, indicating political ties.', 'weight': 5.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-60a8981206f2c09ffffc21d9483654a5', target='ent-44e3e66aa2b6db5306b4c082ce3eca09', properties={'description': 'Waldrada was the mistress and later the wife of Lothair II, indicating a personal relationship between them.', 'weight': 9.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-44e3e66aa2b6db5306b4c082ce3eca09', target='ent-60a8981206f2c09ffffc21d9483654a5', properties={'description': 'Waldrada was the mistress and later the wife of Lothair II, indicating a personal relationship between them.', 'weight': 9.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-44e3e66aa2b6db5306b4c082ce3eca09', target='ent-32593904d9392db6470b123d21f490ed', properties={'description': 'Bertha is the daughter of Lothair II, establishing a familial connection between them.', 'weight': 8.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-44e3e66aa2b6db5306b4c082ce3eca09', target='ent-c423e8362da2e0f314759fb28092461f', properties={'description': "Theobald is connected through marriage to Lothair II's family, specifically through his wife Bertha.", 'weight': 6.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-44e3e66aa2b6db5306b4c082ce3eca09', target='ent-34c0b832374dd35a34f208699ca489ff', properties={'description': 'Lotharingia is the territory ruled by Lothair II, establishing a direct geographical and political relationship.', 'weight': 9.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-44e3e66aa2b6db5306b4c082ce3eca09', target='ent-c21da912c4cc6d53cc3828cc1c6456e8', properties={'description': 'Hugh is the son of Bertha, highlighting his lineage from Lothair II.', 'weight': 7.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-44e3e66aa2b6db5306b4c082ce3eca09', target='ent-cf437fc2437a75d687af6e404456f431', properties={'description': 'Boso is also a direct descendant of Lothair II through Bertha, establishing a familial tie.', 'weight': 7.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-32593904d9392db6470b123d21f490ed', properties={'description': 'Bertha is the illegitimate daughter of Lothair II, establishing a direct blood relationship between them.', 'weight': 10.0, 'chunk_id': 'chunk-4fa26b2f1061b735530fc3d080a65ded'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-60a8981206f2c09ffffc21d9483654a5', properties={'description': 'Waldrada was the mistress and later wife of Lothair II, establishing a romantic and marital relationship.', 'weight': 9.0, 'chunk_id': 'chunk-4fa26b2f1061b735530fc3d080a65ded'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-34c0b832374dd35a34f208699ca489ff', properties={'description': 'Lothair II ruled as the king of Lotharingia, establishing a governance relationship.', 'weight': 9.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-1e0fa5983b0912337e26b092da95f0c4', properties={'description': "Teutberga was married to Lothair II, making their relationship a dynastic alliance between Lotharingia and Teutberga's family.", 'weight': 8.0, 'chunk_id': 'chunk-1f91bfd918df15f1bc5fee82a634df24'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-bf316efaa75fed13da807717a82a3b54', properties={'description': 'Lothair II is the son of Emperor Lothair I, establishing a direct paternal relationship between them.', 'weight': 9.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-bca3734e55c2b7eab4efc5e89de6888e', properties={'description': 'Ermengarde of Tours is the mother of Lothair II, which creates a maternal connection.', 'weight': 8.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-6ac9456b64341c6741b25f348fc822a8', properties={'description': "Lothair II is connected to Hugh of Tours as the grandson through his mother's lineage, maintaining a family link.", 'weight': 6.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-4ef2d3736dae547b8c1ff5377c4437a7', properties={'description': "The historical context of Lothair II includes his mother's death, which would have influenced his reign and personal life.", 'weight': 5.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-32593904d9392db6470b123d21f490ed', properties={'description': 'Bertha is the illegitimate daughter of Lothair II, establishing a direct blood relationship between them.', 'weight': 10.0, 'chunk_id': 'chunk-4fa26b2f1061b735530fc3d080a65ded'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-60a8981206f2c09ffffc21d9483654a5', properties={'description': 'Waldrada was the mistress and later wife of Lothair II, establishing a romantic and marital relationship.', 'weight': 9.0, 'chunk_id': 'chunk-4fa26b2f1061b735530fc3d080a65ded'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-34c0b832374dd35a34f208699ca489ff', properties={'description': 'Lothair II ruled as the king of Lotharingia, establishing a governance relationship.', 'weight': 9.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-1e0fa5983b0912337e26b092da95f0c4', properties={'description': "Teutberga was married to Lothair II, making their relationship a dynastic alliance between Lotharingia and Teutberga's family.", 'weight': 8.0, 'chunk_id': 'chunk-1f91bfd918df15f1bc5fee82a634df24'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-bf316efaa75fed13da807717a82a3b54', properties={'description': 'Lothair II is the son of Emperor Lothair I, establishing a direct paternal relationship between them.', 'weight': 9.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-bca3734e55c2b7eab4efc5e89de6888e', properties={'description': 'Ermengarde of Tours is the mother of Lothair II, which creates a maternal connection.', 'weight': 8.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-6ac9456b64341c6741b25f348fc822a8', properties={'description': "Lothair II is connected to Hugh of Tours as the grandson through his mother's lineage, maintaining a family link.", 'weight': 6.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-4ef2d3736dae547b8c1ff5377c4437a7', properties={'description': "The historical context of Lothair II includes his mother's death, which would have influenced his reign and personal life.", 'weight': 5.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'})]}

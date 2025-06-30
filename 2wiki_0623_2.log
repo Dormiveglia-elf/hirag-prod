@@ -1,0 +1,96 @@
+nohup: ignoring input
+15:12:59 HiRAG INFO: Loading the document from the document path: benchmark/2wiki/2wiki_corpus.txt
+[2025-06-23T15:12:59Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+15:12:59 HiRAG INFO: Loaded 2770 documents
+15:13:00 HiRAG INFO: Chunked 3365 chunks
+16:22:34 HiRAG INFO: Upsert chunks time: 4174.784s
+21:12:35 openai._base_client INFO: Retrying request to /chat/completions in 0.444352 seconds
+21:16:32 openai._base_client INFO: Retrying request to /chat/completions in 0.376647 seconds
+21:22:33 openai._base_client INFO: Retrying request to /chat/completions in 0.388138 seconds
+21:22:33 openai._base_client INFO: Retrying request to /chat/completions in 0.494341 seconds
+21:26:33 openai._base_client INFO: Retrying request to /chat/completions in 0.375934 seconds
+21:36:33 openai._base_client INFO: Retrying request to /chat/completions in 0.379959 seconds
+21:52:48 HiRAG INFO: Entity extraction time: 19813.822s
+22:52:28 openai._base_client INFO: Retrying request to /embeddings in 0.403757 seconds
+[2025-06-24T04:24:29Z ERROR lance::io::commit] Error encountered during auto_cleanup_hook: LanceError(IO): Object at location /kb/hirag.db/entities.lance/_versions/539.manifest not found: No such file or directory (os error 2), /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lance-table-0.29.0/src/io/manifest.rs:49:15
+15:19:13 openai._base_client INFO: Retrying request to /embeddings in 0.377068 seconds
+15:19:43 openai._base_client INFO: Retrying request to /embeddings in 0.444134 seconds
+15:32:51 openai._base_client INFO: Retrying request to /embeddings in 0.461940 seconds
+15:32:51 openai._base_client INFO: Retrying request to /embeddings in 0.406400 seconds
+Traceback (most recent call last):
+  File "/chatbot/main.py", line 33, in <module>
+    asyncio.run(index())
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/chatbot/main.py", line 24, in index
+    await index.insert_to_kb(
+  File "/chatbot/src/hirag_prod/hirag.py", line 246, in insert_to_kb
+    document_path,
+^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/hirag.py", line 181, in _process_document
+    "text": ent.page_content,
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_utils.py", line 341, in _limited_gather
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_utils.py", line 338, in _worker
+    return await c
+           ^^^^^^^
+  File "/chatbot/src/hirag_prod/storage/lancedb.py", line 56, in upsert_text
+    result = table
+    ^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_llm.py", line 24, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_llm.py", line 180, in create_embeddings
+    response = await self.client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/resources/embeddings.py", line 238, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: 404 page not found
+sys:1: RuntimeWarning: coroutine 'LanceDB.upsert_text' was never awaited

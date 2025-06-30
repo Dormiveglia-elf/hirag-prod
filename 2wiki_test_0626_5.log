@@ -1,0 +1,113 @@
+nohup: ignoring input
+06:53:46 HiRAG INFO: 🚀 Starting document processing: benchmark/2wiki/2wiki_corpus_100.txt
+06:53:46 HiRAG INFO: 📄 Loaded 36 documents
+06:53:46 HiRAG INFO: ✂️ Created 43 chunks
+[2025-06-26T06:53:46Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+06:53:46 HiRAG INFO: 🔍 Checking resume state for document: benchmark/2wiki/2wiki_corpus_100.txt
+[2025-06-26T06:53:46Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+06:53:46 HiRAG INFO: 📋 No existing chunks found for URI: benchmark/2wiki/2wiki_corpus_100.txt
+06:53:46 HiRAG INFO: 📊 No existing chunks found, full processing needed
+06:53:46 HiRAG INFO: 🏷️ No existing entities found
+06:53:46 HiRAG INFO: 🔗 No existing relations found
+06:53:46 HiRAG INFO: 📋 RESUME PLAN:
+06:53:46 HiRAG INFO:   📄 Document: benchmark/2wiki/2wiki_corpus_100.txt
+06:53:46 HiRAG INFO:   🆔 Document ID: doc-1f91bfd918df15f1bc5fee82a634df24
+06:53:46 HiRAG INFO:   ✅ Chunks: 0/43 complete
+06:53:46 HiRAG INFO:   📝 Entity extraction: 0/43 complete
+06:53:46 HiRAG INFO:   🔗 Entities: 0 processed
+06:53:46 HiRAG INFO:   🌐 Relations: 0 processed
+06:53:46 HiRAG INFO:   ⏳ Will process 43 chunks and extract entities from 43 chunks
+06:53:46 HiRAG INFO: 📤 Upserting 43 pending chunks...
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-1f91bfd918df15f1bc5fee82a634df24
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-71950cb48537100bdccae648ba49dbff
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-6f0a4ec951ffa0d7c60695104c565cb0
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-4fa26b2f1061b735530fc3d080a65ded
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-9549ccd9e8ff759c531183f83ba2d19f
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-4d88a1c85531fd8fe852f44c733f0d98
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-a460d016ad25a0f5b5ec8b0303e00fcf
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-b61f96f5e65b7f879bb66a2c5aaabbb8
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-574f5da01d385c6e77d1398235a7786a
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-0dcaf1d9beef97069c7f986932362c42
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-5d6c7f3653eea9bec7f2e50fefb320d5
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-8692c07e38cb3529acd8b567575c0f30
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-97c6779a0556749b42634f1b59c72967
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-4afcb52d5e1151133a4cb7b509379c8d
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-530aa8e3ab97ff9507e29afcc9a4d2a3
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-b4b691b124873e04328823cb3545c80c
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-6e0ec089d5878634e20fe1f2f9924ab9
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-30fd97885ea5a20d234ddf6b018dc747
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-3284e8bf504e24d68ca5f47b964f1640
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-38292aa941e10e1a21ac8c97a2ae6fba
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-64d8945379a2c1b3c3890af0b2ce2f9f
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-1e96b3f6244190cd53c9e61d84402e29
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-55c463593ff4ecd4ec28c25a6adaf53a
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-0eaa8cb11922647e3ba7c909e15588a8
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-55870cf6a965457a09397167e73d6194
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-56866585f6b6dd98d2b27d520b96d74d
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-37390a57136d7db357f4fd4abb3c1b5d
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-7d28723cedfec09ce9670ad9ecbea796
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-a004db36c4c6bcb89239bc5512e01734
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-ca13daf51e9fbe8c78b9e48c407a7357
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-66f157968a4d7cd460f5121ebb47a581
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-c380bc6d12367172e99c89510787feff
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-c5c10fdf80339b1fef8eb45dd8ff5c5a
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-40f30ef93df62cb4a1971b9273724594
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-a46e296c13027db67b309de2d789d236
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-a37292ef07814787d257177e0548b16d
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-621a3a7e53076803ce6174936ca00e71
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-49f3b35aebfbf69a9527b4cbdbdfd709
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-b8e84dc765bad8edcf1445529776c141
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-41a5ed94f57282505a8a81915b2d7f8e
+06:53:46 HiRAG INFO: [upsert_text] Submitting chunk id=chunk-df434da3e0a88db02e658db0605d3290
+06:53:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=1.118s
+06:53:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=1.181s
+06:53:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=1.219s
+06:53:47 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=1.231s
+06:53:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.421s
+06:53:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.685s
+06:53:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.702s
+06:53:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.673s
+06:53:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.683s
+06:53:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.634s
+06:53:48 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.706s
+06:53:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.896s
+06:53:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.786s
+06:53:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.783s
+06:53:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.670s
+06:53:49 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.659s
+06:53:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.759s
+06:53:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.664s
+06:53:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.648s
+06:53:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.677s
+06:53:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.708s
+06:53:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.719s
+06:53:50 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.690s
+06:53:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.827s
+06:53:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.656s
+06:53:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.649s
+06:53:51 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.674s
+06:53:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.641s
+06:53:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.681s
+06:53:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=1.394s
+06:53:52 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.701s
+06:53:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.687s
+06:53:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.787s
+06:53:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.684s
+06:53:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.656s
+06:53:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.692s
+06:53:53 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=1.519s
+06:53:54 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.700s
+06:53:54 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.725s
+06:53:54 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.804s
+06:53:54 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.739s
+06:53:54 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.689s
+06:53:55 hirag_prod.storage.lancedb INFO: [upsert_text] Successfully added 1 record to table 'table_instance_140462914703328', elapsed=0.651s
+06:53:55 HiRAG INFO: ✅ Chunk upsert completed in 8.790s
+06:53:55 HiRAG INFO: 🔍 Extracting entities from 43 pending chunks...
+06:54:08 root INFO: [Entity] Finished extracting entities for chunk chunk-71950cb48537100bdccae648ba49dbff, took 13.78 seconds
+06:54:11 root INFO: [Entity] Finished extracting entities for chunk chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1, took 16.57 seconds
+06:54:16 root INFO: [Entity] Finished extracting entities for chunk chunk-6f0a4ec951ffa0d7c60695104c565cb0, took 21.53 seconds
+06:54:20 root INFO: [Entity] Finished extracting entities for chunk chunk-1f91bfd918df15f1bc5fee82a634df24, took 25.49 seconds
+06:54:22 root INFO: [Entity] Finished extracting entities for chunk chunk-4fa26b2f1061b735530fc3d080a65ded, took 13.67 seconds

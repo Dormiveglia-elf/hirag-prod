@@ -1,0 +1,95 @@
+nohup: ignoring input
+14:22:01 HiRAG INFO: Loading the document from the document path: benchmark/2wiki/2wiki_corpus.txt
+[2025-06-23T14:22:01Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+14:22:01 HiRAG INFO: Loaded 2770 documents
+14:22:02 HiRAG INFO: Chunked 3365 chunks
+14:53:31 HiRAG INFO: Upsert chunks time: 1889.352s
+15:01:02 openai._base_client INFO: Retrying request to /chat/completions in 0.444676 seconds
+15:01:02 openai._base_client INFO: Retrying request to /chat/completions in 0.394887 seconds
+15:01:02 openai._base_client INFO: Retrying request to /chat/completions in 0.815207 seconds
+15:01:03 openai._base_client INFO: Retrying request to /chat/completions in 0.976891 seconds
+Traceback (most recent call last):
+  File "/chatbot/main.py", line 33, in <module>
+    asyncio.run(index())
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/chatbot/main.py", line 24, in index
+    await index.insert_to_kb(
+  File "/chatbot/src/hirag_prod/hirag.py", line 246, in insert_to_kb
+    await self._process_document(all_chunks, with_graph)
+  File "/chatbot/src/hirag_prod/hirag.py", line 163, in _process_document
+    entities = await self.entity_extractor.entity(chunks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/entity/vanilla.py", line 217, in entity
+    entities_list = await _limited_gather(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_utils.py", line 341, in _limited_gather
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_utils.py", line 338, in _worker
+    return await c
+           ^^^^^^^
+  File "/chatbot/src/hirag_prod/entity/vanilla.py", line 100, in _process_single_content_entity
+    entity_string_result = await self.extract_func(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_llm.py", line 24, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_llm.py", line 152, in complete
+    response = await self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 1727, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 500 - {'requestId': '1ff5b793-1c4d-4f34-a4d9-441a76c2330b', 'statusCode': 500, 'timestamp': '2025-06-23T15:01:03.877Z', 'path': '/v1/chat/completions', 'message': 'Failed to execute request. Please, try again later.'}
+sys:1: RuntimeWarning: coroutine 'VanillaEntity.entity.<locals>._process_single_content_entity' was never awaited

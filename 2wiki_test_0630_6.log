@@ -1,0 +1,309 @@
+nohup: ignoring input
+10:25:12 HiRAG INFO: 🚀 Starting document processing: benchmark/2wiki/2wiki_corpus_100.txt
+10:25:12 HiRAG INFO: 📄 Loaded 36 documents
+10:25:12 HiRAG INFO: ✂️ Created 43 chunks
+[2025-06-30T10:25:12Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+10:25:12 HiRAG INFO: 🔍 Checking resume state for document: benchmark/2wiki/2wiki_corpus_100.txt
+[2025-06-30T10:25:12Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+10:25:12 HiRAG INFO: 📋 No existing chunks found for URI: benchmark/2wiki/2wiki_corpus_100.txt
+10:25:12 HiRAG INFO: 📊 No existing chunks found, full processing needed
+10:25:12 HiRAG INFO: 🏷️ No existing entities found
+10:25:12 HiRAG INFO: 🔗 No existing relations found
+10:25:12 HiRAG INFO: 📋 RESUME PLAN:
+10:25:12 HiRAG INFO:   📄 Document: benchmark/2wiki/2wiki_corpus_100.txt
+10:25:12 HiRAG INFO:   🆔 Document ID: doc-1f91bfd918df15f1bc5fee82a634df24
+10:25:12 HiRAG INFO:   ✅ Chunks: 0/43 complete
+10:25:12 HiRAG INFO:   📝 Entity extraction: 0/43 complete
+10:25:12 HiRAG INFO:   🔗 Entities: 0 processed
+10:25:12 HiRAG INFO:   🌐 Relations: 0 processed
+10:25:12 HiRAG INFO:   ⏳ Will process 43 chunks and extract entities from 43 chunks
+10:25:12 HiRAG INFO: 📤 Upserting 43 pending chunks using BATCH operation...
+10:25:16 hirag_prod.storage.lancedb INFO: [upsert_texts] Successfully added 43 records to table 'table_instance_140385276874048', elapsed=4.099s
+10:25:16 HiRAG INFO: ✅ Chunk batch upsert completed in 4.099s
+10:25:16 HiRAG INFO: 🔍 Extracting entities from 43 pending chunks...
+10:25:22 root INFO: [Entity] Finished extracting entities for chunk chunk-6f0a4ec951ffa0d7c60695104c565cb0, took 6.60 seconds
+10:25:23 root INFO: [Entity] Finished extracting entities for chunk chunk-71950cb48537100bdccae648ba49dbff, took 7.14 seconds
+10:25:26 root INFO: [Entity] Finished extracting entities for chunk chunk-1f91bfd918df15f1bc5fee82a634df24, took 10.35 seconds
+10:25:32 root INFO: [Entity] Finished extracting entities for chunk chunk-9549ccd9e8ff759c531183f83ba2d19f, took 8.95 seconds
+10:25:32 root INFO: [Entity] Finished extracting entities for chunk chunk-4fa26b2f1061b735530fc3d080a65ded, took 9.64 seconds
+10:25:33 root INFO: [Entity] Finished extracting entities for chunk chunk-4d88a1c85531fd8fe852f44c733f0d98, took 6.94 seconds
+10:25:41 root INFO: [Entity] Finished extracting entities for chunk chunk-574f5da01d385c6e77d1398235a7786a, took 8.26 seconds
+10:25:41 root INFO: [Entity] Finished extracting entities for chunk chunk-b61f96f5e65b7f879bb66a2c5aaabbb8, took 9.49 seconds
+10:25:42 root INFO: [Entity] Finished extracting entities for chunk chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1, took 26.51 seconds
+10:25:44 root INFO: [Entity] Finished extracting entities for chunk chunk-a460d016ad25a0f5b5ec8b0303e00fcf, took 11.88 seconds
+10:25:48 root INFO: [Entity] Finished extracting entities for chunk chunk-8692c07e38cb3529acd8b567575c0f30, took 5.58 seconds
+10:25:49 root INFO: [Entity] Finished extracting entities for chunk chunk-0dcaf1d9beef97069c7f986932362c42, took 8.12 seconds
+10:25:53 root INFO: [Entity] Finished extracting entities for chunk chunk-4afcb52d5e1151133a4cb7b509379c8d, took 5.44 seconds
+10:25:54 root INFO: [Entity] Finished extracting entities for chunk chunk-97c6779a0556749b42634f1b59c72967, took 10.38 seconds
+10:25:55 root INFO: [Entity] Finished extracting entities for chunk chunk-5d6c7f3653eea9bec7f2e50fefb320d5, took 13.29 seconds
+10:25:57 root INFO: [Entity] Finished extracting entities for chunk chunk-530aa8e3ab97ff9507e29afcc9a4d2a3, took 7.52 seconds
+10:26:00 root INFO: [Entity] Finished extracting entities for chunk chunk-30fd97885ea5a20d234ddf6b018dc747, took 5.31 seconds
+10:26:00 root INFO: [Entity] Finished extracting entities for chunk chunk-b4b691b124873e04328823cb3545c80c, took 7.19 seconds
+10:26:01 root INFO: [Entity] Finished extracting entities for chunk chunk-6e0ec089d5878634e20fe1f2f9924ab9, took 6.96 seconds
+10:26:02 root INFO: [Entity] Finished extracting entities for chunk chunk-3284e8bf504e24d68ca5f47b964f1640, took 4.89 seconds
+10:26:06 root INFO: [Entity] Finished extracting entities for chunk chunk-38292aa941e10e1a21ac8c97a2ae6fba, took 5.78 seconds
+10:26:07 root INFO: [Entity] Finished extracting entities for chunk chunk-64d8945379a2c1b3c3890af0b2ce2f9f, took 6.81 seconds
+10:26:10 root INFO: [Entity] Finished extracting entities for chunk chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb, took 8.41 seconds
+10:26:12 root INFO: [Entity] Finished extracting entities for chunk chunk-1e96b3f6244190cd53c9e61d84402e29, took 10.88 seconds
+10:26:15 root INFO: [Entity] Finished extracting entities for chunk chunk-55c463593ff4ecd4ec28c25a6adaf53a, took 9.33 seconds
+10:26:16 root INFO: [Entity] Finished extracting entities for chunk chunk-55870cf6a965457a09397167e73d6194, took 5.46 seconds
+10:26:16 root INFO: [Entity] Finished extracting entities for chunk chunk-56866585f6b6dd98d2b27d520b96d74d, took 3.91 seconds
+10:26:22 root INFO: [Entity] Finished extracting entities for chunk chunk-0eaa8cb11922647e3ba7c909e15588a8, took 14.24 seconds
+10:26:23 root INFO: [Entity] Finished extracting entities for chunk chunk-a004db36c4c6bcb89239bc5512e01734, took 6.74 seconds
+10:26:25 root INFO: [Entity] Finished extracting entities for chunk chunk-37390a57136d7db357f4fd4abb3c1b5d, took 10.17 seconds
+10:26:27 root INFO: [Entity] Finished extracting entities for chunk chunk-7d28723cedfec09ce9670ad9ecbea796, took 11.45 seconds
+10:26:29 root INFO: [Entity] Finished extracting entities for chunk chunk-ca13daf51e9fbe8c78b9e48c407a7357, took 6.99 seconds
+10:26:32 root INFO: [Entity] Finished extracting entities for chunk chunk-66f157968a4d7cd460f5121ebb47a581, took 9.53 seconds
+10:26:34 root INFO: [Entity] Finished extracting entities for chunk chunk-c380bc6d12367172e99c89510787feff, took 8.43 seconds
+10:26:34 root INFO: [Entity] Finished extracting entities for chunk chunk-40f30ef93df62cb4a1971b9273724594, took 5.53 seconds
+10:26:36 root INFO: [Entity] Finished extracting entities for chunk chunk-c5c10fdf80339b1fef8eb45dd8ff5c5a, took 8.55 seconds
+10:26:39 root INFO: [Entity] Finished extracting entities for chunk chunk-a37292ef07814787d257177e0548b16d, took 5.47 seconds
+10:26:42 root INFO: [Entity] Finished extracting entities for chunk chunk-621a3a7e53076803ce6174936ca00e71, took 8.09 seconds
+10:26:43 root INFO: [Entity] Finished extracting entities for chunk chunk-a46e296c13027db67b309de2d789d236, took 11.34 seconds
+10:26:44 root INFO: [Entity] Finished extracting entities for chunk chunk-49f3b35aebfbf69a9527b4cbdbdfd709, took 8.48 seconds
+10:26:49 root INFO: [Entity] Finished extracting entities for chunk chunk-b8e84dc765bad8edcf1445529776c141, took 9.41 seconds
+10:26:49 root INFO: [Entity] Finished extracting entities for chunk chunk-41a5ed94f57282505a8a81915b2d7f8e, took 6.60 seconds
+10:26:49 root INFO: [Entity] Finished extracting entities for chunk chunk-df434da3e0a88db02e658db0605d3290, took 5.57 seconds
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'TEUTBERGA', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'TEUTBERGA': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'LOTHARINGIA', count=4
+10:26:49 root INFO: [Entity-Merge] Merged entity 'LOTHARINGIA': type=GEO, chunk_ids=4, descriptions=4
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'TUSCANY', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'TUSCANY': type=GEO, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'LUCCA', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'LUCCA': type=GEO, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'BOSO THE ELDER', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'BOSO THE ELDER': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'ADALBERT II OF TUSCANY', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'ADALBERT II OF TUSCANY': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'ETAN BORITZER', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'ETAN BORITZER': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS GOD?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS GOD?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS? SERIES', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS? SERIES': type=ORGANIZATION, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'JOHN F. KENNEDY', count=3
+10:26:49 root INFO: [Entity-Merge] Merged entity 'JOHN F. KENNEDY': type=PERSON, chunk_ids=3, descriptions=3
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WADE JUNIOR HIGH SCHOOL', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WADE JUNIOR HIGH SCHOOL': type=GEO, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS LOVE?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS LOVE?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS DEATH?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS DEATH?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS BEAUTIFUL?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS BEAUTIFUL?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS FUNNY?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS FUNNY?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS RIGHT?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS RIGHT?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS PEACE?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS PEACE?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS MONEY?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS MONEY?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS DREAMING?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS DREAMING?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS A FRIEND?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS A FRIEND?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS TRUE?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS TRUE?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS A FAMILY?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS A FAMILY?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WHAT IS A FEELING?', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WHAT IS A FEELING?': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'CONTROVERSY FROM RELIGIOUS FUNDAMENTALISTS', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'CONTROVERSY FROM RELIGIOUS FUNDAMENTALISTS': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'NATIONAL CRITICAL ACCLAIM', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'NATIONAL CRITICAL ACCLAIM': type=EVENT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'LOTHAIR II', count=3
+10:26:49 root INFO: [Entity-Merge] Merged entity 'LOTHAIR II': type=PERSON, chunk_ids=3, descriptions=3
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'BERTHA', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'BERTHA': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WALDRADA', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WALDRADA': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'THEOBALD OF ARLES', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'THEOBALD OF ARLES': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'YOUTUBE', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'YOUTUBE': type=TECHNOLOGY, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'YOUNG MONEY ENTERTAINMENT', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'YOUNG MONEY ENTERTAINMENT': type=ORGANIZATION, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'NICKI MINAJ', count=4
+10:26:49 root INFO: [Entity-Merge] Merged entity 'NICKI MINAJ': type=PERSON, chunk_ids=4, descriptions=4
+10:26:49 root INFO: [Entity-Merge] Start merging entity '2011', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity '2011': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'QUEEN', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'QUEEN': type=EVENT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'THE OTHER WOMAN', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'THE OTHER WOMAN': type=EVENT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity '2016', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity '2016': type=EVENT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'QUEEN OF RAP', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'QUEEN OF RAP': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity '2014', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity '2014': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity '2018', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity '2018': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'CHRIS BALLEW', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'CHRIS BALLEW': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'BERLIN', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'BERLIN': type=GEO, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'JUNE 25, 2019', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'JUNE 25, 2019': type=EVENT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'LUBNOWY', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'LUBNOWY': type=GEO, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'IŁAWA COUNTY', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'IŁAWA COUNTY': type=GEO, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WARMIAN-MASURIAN VOIVODESHIP', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WARMIAN-MASURIAN VOIVODESHIP': type=GEO, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'ALTID BALLADE', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'ALTID BALLADE': type=EVENT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'GABRIEL AXEL', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'GABRIEL AXEL': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'ALDRI ANNET ENN BRÅK', count=3
+10:26:49 root INFO: [Entity-Merge] Merged entity 'ALDRI ANNET ENN BRÅK': type=EVENT, chunk_ids=3, descriptions=3
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'EDITH CARLMAR', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'EDITH CARLMAR': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'FILM NOIR', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'FILM NOIR': type=CONCEPT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'MICHAEL CURTIZ', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'MICHAEL CURTIZ': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'CASABLANCA', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'CASABLANCA': type=EVENT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'TOMOO SHIMOGAWARA', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'TOMOO SHIMOGAWARA': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'HARTLEY LOBBAN', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'HARTLEY LOBBAN': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'WORCESTERSHIRE', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'WORCESTERSHIRE': type=GEO, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'SOMERSET', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'SOMERSET': type=ORGANIZATION, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'FIRST-CLASS CRICKET', count=3
+10:26:49 root INFO: [Entity-Merge] Merged entity 'FIRST-CLASS CRICKET': type=CONCEPT, chunk_ids=3, descriptions=3
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'LANCASHIRE', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'LANCASHIRE': type=ORGANIZATION, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity '1950', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity '1950': type=EVENT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'JOHN WESTLEY', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'JOHN WESTLEY': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'JOHN WESLEY', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'JOHN WESLEY': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'RUAIDHRÍ MAC RUAIDHRÍ', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'RUAIDHRÍ MAC RUAIDHRÍ': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'CLANN RUAIDHRÍ', count=3
+10:26:49 root INFO: [Entity-Merge] Merged entity 'CLANN RUAIDHRÍ': type=ORGANIZATION, chunk_ids=3, descriptions=3
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'ÁINE', count=3
+10:26:49 root INFO: [Entity-Merge] Merged entity 'ÁINE': type=PERSON, chunk_ids=3, descriptions=3
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'CAIRISTÍONA', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'CAIRISTÍONA': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'EÓIN MAC DOMHNAILL I', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'EÓIN MAC DOMHNAILL I': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'HEBRIDES', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'HEBRIDES': type=GEO, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'CLANN DOMHNAILL', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'CLANN DOMHNAILL': type=ORGANIZATION, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'LORD OF THE ISLES', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'LORD OF THE ISLES': type=TITLE, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'FRANK LAUNDER', count=3
+10:26:49 root INFO: [Entity-Merge] Merged entity 'FRANK LAUNDER': type=PERSON, chunk_ids=3, descriptions=3
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'SIDNEY GILLIAT', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'SIDNEY GILLIAT': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'HITCHIN', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'HITCHIN': type=GEO, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'INDIVIDUAL PICTURES', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'INDIVIDUAL PICTURES': type=ORGANIZATION, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'THE ST TRINIANS SERIES', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'THE ST TRINIANS SERIES': type=EVENT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'OH, MR PORTER!', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'OH, MR PORTER!': type=TECHNOLOGY, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'THE LADY VANISHES', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'THE LADY VANISHES': type=TECHNOLOGY, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'MILLIONS LIKE US', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'MILLIONS LIKE US': type=TECHNOLOGY, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'I SEE A DARK STRANGER', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'I SEE A DARK STRANGER': type=TECHNOLOGY, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'BERNADETTE O'FARRELL', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'BERNADETTE O'FARRELL': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'LUKE GOSS', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'LUKE GOSS': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'THE INCITE MILL', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'THE INCITE MILL': type=EVENT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'TOKYO EYES', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'TOKYO EYES': type=EVENT, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'INTERVIEW WITH A HITMAN', count=3
+10:26:49 root INFO: [Entity-Merge] Merged entity 'INTERVIEW WITH A HITMAN': type=EVENT, chunk_ids=3, descriptions=3
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'PERRY BHANDAL', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'PERRY BHANDAL': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'LEO FONG', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'LEO FONG': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 root INFO: [Entity-Merge] Start merging entity 'JOHN FARRELL', count=2
+10:26:49 root INFO: [Entity-Merge] Merged entity 'JOHN FARRELL': type=PERSON, chunk_ids=2, descriptions=2
+10:26:49 HiRAG INFO: ✅ Entity extraction completed in 93.323s
+10:26:49 HiRAG INFO: 📤 Upserting 612 new entities using BATCH operation...
+10:27:03 hirag_prod.storage.lancedb INFO: [upsert_texts] Successfully added 612 records to table 'table_instance_140385276615312', elapsed=13.460s
+10:27:03 HiRAG INFO: ✅ Entity batch upsert completed in 13.463s
+10:27:03 HiRAG INFO: ✅ Graph nodes upsert completed in 0.026s
+10:27:03 HiRAG INFO: 🔗 Extracting relations from 43 chunks...
+[2025-06-30T10:27:03Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+10:27:03 HiRAG WARNING: Could not fetch existing entities for relations: lance error: LanceError(IO): sql parser error: Expected: (, found: chunk_ids, /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lance-datafusion-0.29.0/src/sql.rs:106:8
+10:27:13 root WARNING: Target entity LOTHAIR II not found in entities_dict, skipping relation {'src_id': 'TEUTBERGA', 'tgt_id': 'LOTHAIR II', 'weight': 8.0, 'description': 'Teutberga was queen of Lotharingia by marriage to Lothair II, establishing a royal relationship.', 'source_id': 'chunk-1f91bfd918df15f1bc5fee82a634df24'}
+10:27:13 root WARNING: Target entity LUCARDIA not found in entities_dict, skipping relation {'src_id': 'LAMBERT', 'tgt_id': 'LUCARDIA', 'weight': 8.0, 'description': "Lambert's titles as Count of Lucca and Margrave of Tuscany reflect his influence in the politics of Lucca.", 'source_id': 'chunk-1f91bfd918df15f1bc5fee82a634df24'}
+10:27:13 root INFO: [Relation] Finished extracting relations for chunk chunk-1f91bfd918df15f1bc5fee82a634df24, took 10.90 seconds
+10:27:18 root INFO: [Relation] Finished extracting relations for chunk chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1, took 15.60 seconds
+10:27:21 root INFO: [Relation] Finished extracting relations for chunk chunk-71950cb48537100bdccae648ba49dbff, took 18.34 seconds
+10:27:22 root INFO: [Relation] Finished extracting relations for chunk chunk-6f0a4ec951ffa0d7c60695104c565cb0, took 19.26 seconds
+10:27:22 root INFO: [Relation] Finished extracting relations for chunk chunk-9549ccd9e8ff759c531183f83ba2d19f, took 8.67 seconds
+10:27:23 root WARNING: Target entity GUY OF TUSCANY not found in entities_dict, skipping relation {'src_id': 'BERTHA', 'tgt_id': 'GUY OF TUSCANY', 'weight': 9.0, 'description': 'Bertha served as regent during the minority of her son, Guy of Tuscany, showing a mother-son relationship and her role as a guardian.', 'source_id': 'chunk-4fa26b2f1061b735530fc3d080a65ded'}
+10:27:23 root WARNING: Target entity GUY OF TUSCANY not found in entities_dict, skipping relation {'src_id': 'REGENT OF LUCCA AND TUSCANY', 'tgt_id': 'GUY OF TUSCANY', 'weight': 9.0, 'description': "The Regent of Lucca and Tuscany refers to Bertha, who was regent during her son Guy's minority, highlighting their protector role.", 'source_id': 'chunk-4fa26b2f1061b735530fc3d080a65ded'}
+10:27:23 root INFO: [Relation] Finished extracting relations for chunk chunk-4fa26b2f1061b735530fc3d080a65ded, took 19.93 seconds
+10:27:32 root INFO: [Relation] Finished extracting relations for chunk chunk-574f5da01d385c6e77d1398235a7786a, took 10.12 seconds
+10:27:32 root INFO: [Relation] Finished extracting relations for chunk chunk-4d88a1c85531fd8fe852f44c733f0d98, took 14.15 seconds
+10:27:40 root INFO: [Relation] Finished extracting relations for chunk chunk-8692c07e38cb3529acd8b567575c0f30, took 7.70 seconds
+10:27:42 root INFO: [Relation] Finished extracting relations for chunk chunk-b61f96f5e65b7f879bb66a2c5aaabbb8, took 19.67 seconds
+10:27:48 root WARNING: Target entity SUCKA FREE not found in entities_dict, skipping relation {'src_id': 'MIXTAPES', 'tgt_id': 'SUCKA FREE', 'weight': 8.0, 'description': "'Sucka Free' is another mixtape by NICKI MINAJ, establishing a relationship within her discography.", 'source_id': 'chunk-0dcaf1d9beef97069c7f986932362c42'}
+10:27:48 root WARNING: Target entity BEAM ME UP SCOTTY not found in entities_dict, skipping relation {'src_id': 'MIXTAPES', 'tgt_id': 'BEAM ME UP SCOTTY', 'weight': 8.0, 'description': "'Beam Me Up Scotty' is also among NICKI MINAJ's mixtapes, further connecting her to this body of work.", 'source_id': 'chunk-0dcaf1d9beef97069c7f986932362c42'}
+10:27:48 root INFO: [Relation] Finished extracting relations for chunk chunk-0dcaf1d9beef97069c7f986932362c42, took 25.03 seconds
+10:27:48 root INFO: [Relation] Finished extracting relations for chunk chunk-4afcb52d5e1151133a4cb7b509379c8d, took 6.25 seconds
+10:27:49 root INFO: [Relation] Finished extracting relations for chunk chunk-97c6779a0556749b42634f1b59c72967, took 8.79 seconds
+10:27:50 root INFO: [Relation] Finished extracting relations for chunk chunk-5d6c7f3653eea9bec7f2e50fefb320d5, took 17.30 seconds
+10:27:53 root INFO: [Relation] Finished extracting relations for chunk chunk-a460d016ad25a0f5b5ec8b0303e00fcf, took 31.65 seconds
+10:27:57 root INFO: [Relation] Finished extracting relations for chunk chunk-30fd97885ea5a20d234ddf6b018dc747, took 7.41 seconds
+10:28:00 root WARNING: Source entity ALWAYS BALLADE not found in entities_dict, skipping relation {'src_id': 'ALWAYS BALLADE', 'tgt_id': 'GABRIEL AXEL', 'weight': 7.0, 'description': 'Gabriel Axel directed the Danish remake of Aldri annet enn bråk, entitled Altid ballade, showing his directorial involvement with the title.', 'source_id': 'chunk-6e0ec089d5878634e20fe1f2f9924ab9'}
+10:28:00 root INFO: [Relation] Finished extracting relations for chunk chunk-6e0ec089d5878634e20fe1f2f9924ab9, took 11.61 seconds
+10:28:01 root INFO: [Relation] Finished extracting relations for chunk chunk-b4b691b124873e04328823cb3545c80c, took 13.00 seconds
+10:28:04 root INFO: [Relation] Finished extracting relations for chunk chunk-530aa8e3ab97ff9507e29afcc9a4d2a3, took 16.83 seconds
+10:28:05 root INFO: [Relation] Finished extracting relations for chunk chunk-3284e8bf504e24d68ca5f47b964f1640, took 12.18 seconds
+10:28:10 root INFO: [Relation] Finished extracting relations for chunk chunk-38292aa941e10e1a21ac8c97a2ae6fba, took 13.51 seconds
+10:28:13 root WARNING: Source entity MICHAEL CURTÍZ not found in entities_dict, skipping relation {'src_id': 'MICHAEL CURTÍZ', 'tgt_id': 'OSCAR NOMINATIONS', 'weight': 8.0, 'description': 'Michael Curtiz directed ten actors to Oscar nominations during his career.', 'source_id': 'chunk-64d8945379a2c1b3c3890af0b2ce2f9f'}
+10:28:13 root WARNING: Source entity MICHAEL CURTÍZ not found in entities_dict, skipping relation {'src_id': 'MICHAEL CURTÍZ', 'tgt_id': 'BEST SHORT SUBJECT', 'weight': 9.0, 'description': 'Michael Curtiz won an Oscar for Best Short Subject for "Sons of Liberty.', 'source_id': 'chunk-64d8945379a2c1b3c3890af0b2ce2f9f'}
+10:28:13 root WARNING: Source entity MICHAEL CURTÍZ not found in entities_dict, skipping relation {'src_id': 'MICHAEL CURTÍZ', 'tgt_id': 'THE SILENT ERA', 'weight': 6.0, 'description': 'Michael Curtiz directed classic films from the Silent Era before transitioning to sound films.', 'source_id': 'chunk-64d8945379a2c1b3c3890af0b2ce2f9f'}
+10:28:13 root WARNING: Source entity MICHAEL CURTÍZ not found in entities_dict, skipping relation {'src_id': 'MICHAEL CURTÍZ', 'tgt_id': 'ARTISTIC LIGHTING', 'weight': 8.0, 'description': 'Michael Curtiz introduced a unique visual style using artistic lighting in his films.', 'source_id': 'chunk-64d8945379a2c1b3c3890af0b2ce2f9f'}
+10:28:13 root INFO: [Relation] Finished extracting relations for chunk chunk-64d8945379a2c1b3c3890af0b2ce2f9f, took 12.60 seconds
+10:28:15 root WARNING: Target entity RINGO-EN NO SHŌJO not found in entities_dict, skipping relation {'src_id': 'TOMOO SHIMOGAWARA', 'tgt_id': 'RINGO-EN NO SHŌJO', 'weight': 7.0, 'description': 'Tomoo Shimogawara was the art director for Ringo-en no shōjo, indicating a direct relationship between them.', 'source_id': 'chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb'}
+10:28:15 root INFO: [Relation] Finished extracting relations for chunk chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb, took 10.31 seconds
+10:28:20 root INFO: [Relation] Finished extracting relations for chunk chunk-55c463593ff4ecd4ec28c25a6adaf53a, took 15.74 seconds
+10:28:23 root INFO: [Relation] Finished extracting relations for chunk chunk-55870cf6a965457a09397167e73d6194, took 9.51 seconds
+10:28:27 root INFO: [Relation] Finished extracting relations for chunk chunk-56866585f6b6dd98d2b27d520b96d74d, took 12.45 seconds
+10:28:30 root INFO: [Relation] Finished extracting relations for chunk chunk-0eaa8cb11922647e3ba7c909e15588a8, took 19.15 seconds
+10:28:37 root INFO: [Relation] Finished extracting relations for chunk chunk-1e96b3f6244190cd53c9e61d84402e29, took 36.68 seconds
+10:28:40 root INFO: [Relation] Finished extracting relations for chunk chunk-7d28723cedfec09ce9670ad9ecbea796, took 17.69 seconds
+10:28:43 root INFO: [Relation] Finished extracting relations for chunk chunk-37390a57136d7db357f4fd4abb3c1b5d, took 22.44 seconds
+10:28:43 root INFO: [Relation] Finished extracting relations for chunk chunk-a004db36c4c6bcb89239bc5512e01734, took 16.29 seconds
+10:28:49 root INFO: [Relation] Finished extracting relations for chunk chunk-66f157968a4d7cd460f5121ebb47a581, took 11.78 seconds
+10:28:52 root WARNING: Source entity HENRY KRAUSE not found in entities_dict, skipping relation {'src_id': 'HENRY KRAUSE', 'tgt_id': 'JENNIFER KRAUSE', 'weight': 8.0, 'description': 'Henry Krause is the grandfather of Jennifer Krause.', 'source_id': 'chunk-ca13daf51e9fbe8c78b9e48c407a7357'}
+10:28:52 root WARNING: Source entity HENRY KRAUSE not found in entities_dict, skipping relation {'src_id': 'HENRY KRAUSE', 'tgt_id': 'PAYTON HOEING', 'weight': 7.0, 'description': 'Henry Krause is the great grandfather of Payton Hoeing.', 'source_id': 'chunk-ca13daf51e9fbe8c78b9e48c407a7357'}
+10:28:52 root INFO: [Relation] Finished extracting relations for chunk chunk-ca13daf51e9fbe8c78b9e48c407a7357, took 21.90 seconds
+10:29:00 root INFO: [Relation] Finished extracting relations for chunk chunk-c380bc6d12367172e99c89510787feff, took 19.64 seconds
+10:29:01 root INFO: [Relation] Finished extracting relations for chunk chunk-a37292ef07814787d257177e0548b16d, took 9.01 seconds
+10:29:08 root INFO: [Relation] Finished extracting relations for chunk chunk-c5c10fdf80339b1fef8eb45dd8ff5c5a, took 25.00 seconds
+10:29:10 root INFO: [Relation] Finished extracting relations for chunk chunk-a46e296c13027db67b309de2d789d236, took 20.40 seconds
+10:29:11 root INFO: [Relation] Finished extracting relations for chunk chunk-40f30ef93df62cb4a1971b9273724594, took 27.65 seconds
+10:29:13 root INFO: [Relation] Finished extracting relations for chunk chunk-49f3b35aebfbf69a9527b4cbdbdfd709, took 12.20 seconds
+10:29:16 root INFO: [Relation] Finished extracting relations for chunk chunk-621a3a7e53076803ce6174936ca00e71, took 16.22 seconds
+10:29:19 root INFO: [Relation] Finished extracting relations for chunk chunk-41a5ed94f57282505a8a81915b2d7f8e, took 8.98 seconds
+10:29:20 root INFO: [Relation] Finished extracting relations for chunk chunk-df434da3e0a88db02e658db0605d3290, took 8.66 seconds
+10:29:21 root INFO: [Relation] Finished extracting relations for chunk chunk-b8e84dc765bad8edcf1445529776c141, took 13.35 seconds
+10:29:21 HiRAG INFO: ✅ Relation extraction completed in 138.715s
+10:29:21 HiRAG INFO: 📤 Upserting 732 relations...
+10:29:21 HiRAG INFO: ✅ Relation upsert completed in 0.013s
+10:29:21 HiRAG INFO: 📊 Total processing time: 249.640s
+10:29:21 HiRAG INFO: 🏁 Total pipeline time: 249.673s
+{'chunks': [{'text': '=+=+=+=+=+=+=+=+=\ntitle: Lothair II\ntext: Lothair II (835 –) was the king of Lotharingia from 855 until his death. He was the second son of Emperor Lothair I and Ermengarde of Tours. He was married to Teutberga (died 875), daughter of Boso the Elder.\n=+=+=+=+=+=+=+=+=\ntitle: Ermengarde of Tours\ntext: Ermengarde of Tours (d. 20 March 851) was the daughter of Hugh of Tours, a member of the Etichonen family. In October 821 in Thionville, she married the Carolingian Emperor Lothair I of the Franks (795–855). In 849, two years before her death, she made a donation to the abbey Erstein in the Elsass, in which she is buried. Lothair and Ermengarde had eight children:', 'uri': 'benchmark/2wiki/2wiki_corpus_100.txt', 'filename': '2wiki_corpus_100.txt', 'private': False, 'uploaded_at': None, 'document_key': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0', '_relevance_score': 0.79296875}, {'text': "title: Teutberga\ntext: Teutberga( died 11 November 875) was a queen of Lotharingia by marriage to Lothair II. She was a daughter of Bosonid Boso the Elder and sister of Hucbert, the lay- abbot of St. Maurice's Abbey.\n=+=+=+=+=+=+=+=+=\ntitle: Theodred II (Bishop of Elmham)\ntext: Theodred II was a medieval Bishop of Elmham. The date of Theodred's consecration unknown, but the date of his death was sometime between 995 and 997.\n=+=+=+=+=+=+=+=+=\ntitle: Lambert, Margrave of Tuscany\ntext: Lambert( died after 938) was the second son of Adalbert II of Tuscany and Bertha, daughter of Lothair II of Lotharingia. He succeeded his elder brother, Guy, as count and duke of Lucca and margrave of Tuscany on his death in 928 or 929 without heirs. In 931, before 17 October, Hugh, King of Italy, disowned and removed Lambert, giving Tuscany and the familial possession of Lucca to his brother Boso. Hugh was Guy and Lambert's half- brother, as they had the same mother. When Guy died, Hugh married Guy's widow, Marozia.", 'uri': 'benchmark/2wiki/2wiki_corpus_100.txt', 'filename': '2wiki_corpus_100.txt', 'private': False, 'uploaded_at': None, 'document_key': 'chunk-1f91bfd918df15f1bc5fee82a634df24', '_relevance_score': 0.6796875}, {'text': '=+=+=+=+=+=+=+=+=\ntitle: Bertha, daughter of Lothair II\ntext: Bertha( 863- 8 – March 925 in Lucca) was countess of Arles by marriage to Theobald of Arles, and margravine of Tuccany by marriage to Adalbert II of Tuscany. She served as regent of Lucca and Tuscany from 915 until 916 during the minority of her son Guy of Tuscany. She was described as beautiful, spirited, and courageous, and her influence over her spouse was, coupled with ambition, attributed to have involved her husbands in many wars. She was the second illegitimate daughter of Lothair II, King of Lotharingia, by his concubine Waldrada.\n=+=+=+=+=+=+=+=+=\ntitle: Adolf I of Lotharingia\ntext: Adolf I of Lotharingia, count of Keldachgau, Vogt of Deutz from 1008 until 1018, was the son of Hermann I" Pusillus"( the Little Pfalzgraf), count palatine of Lotharingia. He left three sons:\n=+=+=+=+=+=+=+=+=\ntitle: Waldrada of Lotharingia\ntext: Waldrada was the mistress, and later the wife, of Lothair II of Lotharingia.', 'uri': 'benchmark/2wiki/2wiki_corpus_100.txt', 'filename': '2wiki_corpus_100.txt', 'private': False, 'uploaded_at': None, 'document_key': 'chunk-4fa26b2f1061b735530fc3d080a65ded', '_relevance_score': 0.6171875}, {'text': '=+=+=+=+=+=+=+=+=\ntitle: Waldrada of Lotharingia\ntext: Waldrada was the mistress, and later the wife, of Lothair II of Lotharingia.\n=+=+=+=+=+=+=+=+=\ntitle: Theobald of Arles\ntext: Theobald( c. 854-895), count of Arles, was a Frank from the Bosonid- family. He was a son of Hucbert and married Bertha, an illegitimate daughter of Lothair II, King of Lotharingia, who was renowned for her beauty and spirit. They had two sons Hugh of Italy and Boso of Tuscany.\n=+=+=+=+=+=+=+=+=\ntitle: The Wonderful World of Captain Kuhio\ntext: The film was released in Japan on 10 October 2009.\n=+=+=+=+=+=+=+=+=\ntitle: Coney Island Baby (film)\ntext: Coney Island Baby is a 2003 comedy- drama in which film producer Amy Hobby made her directorial debut. Karl Geary wrote the film and Tanya Ryno was the film\'s producer. The music was composed by Ryan Shore. The film was shot in Sligo, Ireland, which is known locally as" Coney Island". The film was screened at the Newport International Film Festival. Hobby won the Jury Award for" Best First Time Director". The film made its premiere television broadcast on the Sundance Channel.', 'uri': 'benchmark/2wiki/2wiki_corpus_100.txt', 'filename': '2wiki_corpus_100.txt', 'private': False, 'uploaded_at': None, 'document_key': 'chunk-9549ccd9e8ff759c531183f83ba2d19f', '_relevance_score': 0.494140625}, {'text': '=+=+=+=+=+=+=+=+=\ntitle: Edith Carlmar\ntext: Edith Carlmar (Edith Mary Johanne Mathiesen) (15 November 1911 – 17 May 2003) was an Norwagian actress and Norway\'s first female film director. She is known for films such as "Fjols til fjells" (1957), "Aldri annet enn bråk" (1954), and "Ung flukt" (1959). Her 1949 film, "Døden er et kjærtegnDeath is a Caress"), is considered to be Norway\'s first film noir. The last film she directed, "Ung Flukt", introduced Liv Ullmann, Norway\'s most famous actor internationally, to the silver screen. Carlmar came from a poor family in the working class districts of East Oslo. However, she did manage to take dancing classes and made her debut on stage at the age of 15. In the theater she met Otto Carlmar whom she married three years later. From 1936 she worked as an actress in various theatres. Here she met the film director Tancred Ibsen who introduced her to the world of cinema. In 1949 she and her husband started Carlmar Film A/S, and began writing scripts, directing and producing films. They made ten feature films over a ten-year period. After a decade of film-making Carlmar retired as a director. In the last part of her life she accepted only minor', 'uri': 'benchmark/2wiki/2wiki_corpus_100.txt', 'filename': '2wiki_corpus_100.txt', 'private': False, 'uploaded_at': None, 'document_key': 'chunk-30fd97885ea5a20d234ddf6b018dc747', '_relevance_score': 0.318359375}], 'entities': [{'text': 'WALDRADA', 'document_key': 'ent-60a8981206f2c09ffffc21d9483654a5', 'entity_type': 'PERSON', 'description': ['Waldrada was the mistress and later wife of Lothair II of Lotharingia, contributing to his lineage and political alliances.', 'Waldrada was the mistress and later the wife of Lothair II of Lotharingia, indicating her significance in the history of the region.'], '_relevance_score': 0.63671875}, {'text': 'LOTHAIR II', 'document_key': 'ent-8ce95c5eafa36a16c61a0a0d3e2b9109', 'entity_type': 'PERSON', 'description': ['Lothair II was the king of Lotharingia from 855 until his death and the second son of Emperor Lothair I, married to Teutberga.', 'Lothair II was King of Lotharingia and the father of Bertha, influencing the political landscape through his relationships and offspring.', 'Lothair II was a king of Lotharingia, known for his relationships, including with Waldrada, which influenced the political landscape.'], '_relevance_score': 0.62109375}, {'text': 'THE CAROLINGIAN EMPIRE', 'document_key': 'ent-975f92092c8f07c573fc0ef73e57aca2', 'entity_type': 'ORGANIZATION', 'description': ['The Carolingian Empire refers to the realm ruled by the Carolingian dynasty, of which Lothair I and II were a part.'], '_relevance_score': 0.55078125}, {'text': 'MARRIAGE OF LOTHAIR I AND ERMENGARDE', 'document_key': 'ent-eb65dd55ff9fd04001c5c61d45ebed08', 'entity_type': 'EVENT', 'description': ['The marriage of Lothair I and Ermengarde in October 821 signifies an important alliance in the Carolingian dynasty.'], '_relevance_score': 0.546875}, {'text': 'TEUTBERGA', 'document_key': 'ent-1e0fa5983b0912337e26b092da95f0c4', 'entity_type': 'PERSON', 'description': ['Teutberga was a queen of Lotharingia, known for her marriage to Lothair II and her noble lineage as the daughter of Bosonid Boso the Elder.', 'Teutberga was the wife of Lothair II and the daughter of Boso the Elder.'], '_relevance_score': 0.53125}], 'neighbors': [Entity(id='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', page_content='LOTHAIR II', metadata=EntityMetadata(entity_type='PERSON', description=['Lothair II was the king of Lotharingia from 855 until his death and the second son of Emperor Lothair I, married to Teutberga.', 'Lothair II was King of Lotharingia and the father of Bertha, influencing the political landscape through his relationships and offspring.', 'Lothair II was a king of Lotharingia, known for his relationships, including with Waldrada, which influenced the political landscape.'], chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0', 'chunk-4fa26b2f1061b735530fc3d080a65ded', 'chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-2508970cd2bf9dc30cc90e25a2dbb0dc', page_content='ILLEGITIMATE DAUGHTER', metadata=EntityMetadata(entity_type='CONCEPT', description=["Illegitimate Daughter refers to Bertha's status, which adds complexity to her lineage and royal connections."], chunk_ids=['chunk-4fa26b2f1061b735530fc3d080a65ded'])), Entity(id='ent-0a0ffa46e2d8690b5e0285041ea215b7', page_content='LOTHAIR I', metadata=EntityMetadata(entity_type='PERSON', description=['Lothair I was a Carolingian Emperor of the Franks, father of Lothair II.'], chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-1e0fa5983b0912337e26b092da95f0c4', page_content='TEUTBERGA', metadata=EntityMetadata(entity_type='PERSON', description=['Teutberga was a queen of Lotharingia, known for her marriage to Lothair II and her noble lineage as the daughter of Bosonid Boso the Elder.', 'Teutberga was the wife of Lothair II and the daughter of Boso the Elder.'], chunk_ids=['chunk-1f91bfd918df15f1bc5fee82a634df24', 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-34c0b832374dd35a34f208699ca489ff', page_content='LOTHARINGIA', metadata=EntityMetadata(entity_type='GEO', description=['Lotharingia was a historical region once ruled by Lothair II, where Teutberga served as queen, with significance in medieval European politics.', 'Lotharingia is a historical region that was a kingdom ruled by Lothair II from 855.', 'Lotharingia is a historical region in Europe associated with various rulers and political figures, including Lothair II and his descendants.', 'Lotharingia is a historical region significant in medieval European politics, being associated with Lothair II and other notable figures.'], chunk_ids=['chunk-1f91bfd918df15f1bc5fee82a634df24', 'chunk-6f0a4ec951ffa0d7c60695104c565cb0', 'chunk-4fa26b2f1061b735530fc3d080a65ded', 'chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-975f92092c8f07c573fc0ef73e57aca2', page_content='THE CAROLINGIAN EMPIRE', metadata=EntityMetadata(entity_type='ORGANIZATION', description=['The Carolingian Empire refers to the realm ruled by the Carolingian dynasty, of which Lothair I and II were a part.'], chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-32593904d9392db6470b123d21f490ed', page_content='BERTHA', metadata=EntityMetadata(entity_type='PERSON', description=["Bertha was the countess of Arles and margravine of Tuscany by marriage, serving as a regent during her son's minority and noted for her beauty, spirit, and courage.", 'Bertha was the illegitimate daughter of Lothair II, celebrated for her beauty and spirit, and a significant figure in noble lineage.'], chunk_ids=['chunk-4fa26b2f1061b735530fc3d080a65ded', 'chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-60a8981206f2c09ffffc21d9483654a5', page_content='WALDRADA', metadata=EntityMetadata(entity_type='PERSON', description=['Waldrada was the mistress and later wife of Lothair II of Lotharingia, contributing to his lineage and political alliances.', 'Waldrada was the mistress and later the wife of Lothair II of Lotharingia, indicating her significance in the history of the region.'], chunk_ids=['chunk-4fa26b2f1061b735530fc3d080a65ded', 'chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-2508970cd2bf9dc30cc90e25a2dbb0dc', page_content='ILLEGITIMATE DAUGHTER', metadata=EntityMetadata(entity_type='CONCEPT', description=["Illegitimate Daughter refers to Bertha's status, which adds complexity to her lineage and royal connections."], chunk_ids=['chunk-4fa26b2f1061b735530fc3d080a65ded'])), Entity(id='ent-0a0ffa46e2d8690b5e0285041ea215b7', page_content='LOTHAIR I', metadata=EntityMetadata(entity_type='PERSON', description=['Lothair I was a Carolingian Emperor of the Franks, father of Lothair II.'], chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', page_content='LOTHAIR II', metadata=EntityMetadata(entity_type='PERSON', description=['Lothair II was the king of Lotharingia from 855 until his death and the second son of Emperor Lothair I, married to Teutberga.', 'Lothair II was King of Lotharingia and the father of Bertha, influencing the political landscape through his relationships and offspring.', 'Lothair II was a king of Lotharingia, known for his relationships, including with Waldrada, which influenced the political landscape.'], chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0', 'chunk-4fa26b2f1061b735530fc3d080a65ded', 'chunk-9549ccd9e8ff759c531183f83ba2d19f'])), Entity(id='ent-0a0ffa46e2d8690b5e0285041ea215b7', page_content='LOTHAIR I', metadata=EntityMetadata(entity_type='PERSON', description=['Lothair I was a Carolingian Emperor of the Franks, father of Lothair II.'], chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-bca3734e55c2b7eab4efc5e89de6888e', page_content='ERMENGARDE OF TOURS', metadata=EntityMetadata(entity_type='PERSON', description=['Ermengarde of Tours was the daughter of Hugh of Tours and married the Carolingian Emperor Lothair I, from whom she had eight children.'], chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-335ed72aaa1b1e9b31f78c8b5ec6ca0d', page_content='BOSO THE ELDER', metadata=EntityMetadata(entity_type='PERSON', description=['Boso the Elder was an influential noble associated with the Bosonid dynasty, fathering Teutberga and playing a role in the medieval power dynamics.', 'Boso the Elder is the father of Teutberga and a notable historical figure in the context of the Carolingian dynasty.'], chunk_ids=['chunk-1f91bfd918df15f1bc5fee82a634df24', 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'])), Entity(id='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', page_content='LOTHAIR II', metadata=EntityMetadata(entity_type='PERSON', description=['Lothair II was the king of Lotharingia from 855 until his death and the second son of Emperor Lothair I, married to Teutberga.', 'Lothair II was King of Lotharingia and the father of Bertha, influencing the political landscape through his relationships and offspring.', 'Lothair II was a king of Lotharingia, known for his relationships, including with Waldrada, which influenced the political landscape.'], chunk_ids=['chunk-6f0a4ec951ffa0d7c60695104c565cb0', 'chunk-4fa26b2f1061b735530fc3d080a65ded', 'chunk-9549ccd9e8ff759c531183f83ba2d19f']))], 'relations': [Relation(source='ent-60a8981206f2c09ffffc21d9483654a5', target='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', properties={'description': 'Waldrada was the mistress and later the wife of Lothair II, indicating a direct personal relationship.', 'weight': 9.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-60a8981206f2c09ffffc21d9483654a5', target='ent-2508970cd2bf9dc30cc90e25a2dbb0dc', properties={'description': 'Bertha as an illegitimate daughter of Lothair II, born from the relationship with his concubine Waldrada, indicates their ties.', 'weight': 6.0, 'chunk_id': 'chunk-4fa26b2f1061b735530fc3d080a65ded'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-0a0ffa46e2d8690b5e0285041ea215b7', properties={'description': 'Lothair II is the successor and son of Lothair I, continuing the royal lineage.', 'weight': 9.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-1e0fa5983b0912337e26b092da95f0c4', properties={'description': 'Lothair II was married to Teutberga, creating a significant marital alliance.', 'weight': 7.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-34c0b832374dd35a34f208699ca489ff', properties={'description': 'Lothair II was the King of Lotharingia, indicating a royal and regional relationship.', 'weight': 9.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-975f92092c8f07c573fc0ef73e57aca2', properties={'description': 'Lothair II, as a king, was part of the Carolingian Empire, playing a role in its history.', 'weight': 8.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-32593904d9392db6470b123d21f490ed', properties={'description': 'Bertha was an illegitimate daughter of Lothair II, establishing a familial relationship.', 'weight': 8.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-60a8981206f2c09ffffc21d9483654a5', properties={'description': 'Waldrada was the mistress and later the wife of Lothair II, indicating a direct personal relationship.', 'weight': 9.0, 'chunk_id': 'chunk-9549ccd9e8ff759c531183f83ba2d19f'}), Relation(source='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', target='ent-2508970cd2bf9dc30cc90e25a2dbb0dc', properties={'description': 'Bertha, as an illegitimate daughter of Lothair II, highlights a paternal connection even in the context of illegitimacy.', 'weight': 6.0, 'chunk_id': 'chunk-4fa26b2f1061b735530fc3d080a65ded'}), Relation(source='ent-975f92092c8f07c573fc0ef73e57aca2', target='ent-0a0ffa46e2d8690b5e0285041ea215b7', properties={'description': 'Lothair I was a Carolingian Emperor, indicating his leadership role within the empire.', 'weight': 9.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-975f92092c8f07c573fc0ef73e57aca2', target='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', properties={'description': 'Lothair II, as a king, was part of the Carolingian Empire, playing a role in its history.', 'weight': 8.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-eb65dd55ff9fd04001c5c61d45ebed08', target='ent-0a0ffa46e2d8690b5e0285041ea215b7', properties={'description': 'The Marriage of Lothair I and Ermengarde signifies a key alliance in the Carolingian dynasty.', 'weight': 9.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-eb65dd55ff9fd04001c5c61d45ebed08', target='ent-bca3734e55c2b7eab4efc5e89de6888e', properties={'description': 'The Marriage of Lothair I and Ermengarde involves the union of these two prominent figures.', 'weight': 9.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-1e0fa5983b0912337e26b092da95f0c4', target='ent-335ed72aaa1b1e9b31f78c8b5ec6ca0d', properties={'description': 'Teutberga is the daughter of Boso the Elder, which links her directly to him.', 'weight': 7.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'}), Relation(source='ent-1e0fa5983b0912337e26b092da95f0c4', target='ent-8ce95c5eafa36a16c61a0a0d3e2b9109', properties={'description': 'Lothair II was married to Teutberga, creating a significant marital alliance.', 'weight': 7.0, 'chunk_id': 'chunk-6f0a4ec951ffa0d7c60695104c565cb0'})]}

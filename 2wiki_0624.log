@@ -1,0 +1,93 @@
+nohup: ignoring input
+04:26:37 HiRAG INFO: Loading the document from the document path: benchmark/2wiki/2wiki_corpus.txt
+[2025-06-24T04:26:37Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+04:26:38 HiRAG INFO: Loaded 2770 documents
+04:26:38 HiRAG INFO: Chunked 3365 chunks
+04:58:17 HiRAG INFO: Upsert chunks time: 1899.382s
+07:49:49 openai._base_client INFO: Retrying request to /chat/completions in 0.469695 seconds
+07:49:49 openai._base_client INFO: Retrying request to /chat/completions in 0.454976 seconds
+07:49:50 openai._base_client INFO: Retrying request to /chat/completions in 0.940832 seconds
+07:49:50 openai._base_client INFO: Retrying request to /chat/completions in 0.794427 seconds
+Traceback (most recent call last):
+  File "/chatbot/main.py", line 33, in <module>
+    asyncio.run(index())
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/chatbot/main.py", line 24, in index
+    await index.insert_to_kb(
+  File "/chatbot/src/hirag_prod/hirag.py", line 246, in insert_to_kb
+    await self._process_document(all_chunks, with_graph)
+  File "/chatbot/src/hirag_prod/hirag.py", line 163, in _process_document
+    entities = await self.entity_extractor.entity(chunks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/entity/vanilla.py", line 240, in entity
+    merged_entities = await _limited_gather(merge_coros, entity_merge_concurrency)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_utils.py", line 341, in _limited_gather
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_utils.py", line 338, in _worker
+    return await c
+           ^^^^^^^
+  File "/chatbot/src/hirag_prod/entity/vanilla.py", line 198, in _merge_entities
+    entity = Entity(
+             ^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/pydantic/main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Entity
+metadata.description
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+sys:1: RuntimeWarning: coroutine 'VanillaEntity.entity.<locals>._merge_entities' was never awaited
+
+
+
+
+Traceback (most recent call last):
+  File "/chatbot/main.py", line 33, in <module>
+    asyncio.run(index())
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/chatbot/main.py", line 29, in index
+    print(await index.query_all("When did Lothair Ii's mother die?"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/hirag.py", line 318, in query_all
+    recall_entities = await self.query_entities(query, topk=10, topn=5)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/hirag.py", line 290, in query_entities
+    entities = await self.vdb.query(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/storage/lancedb.py", line 188, in query
+    return await reranked_query.to_list()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/lancedb/query.py", line 2264, in to_list
+    return (await self.to_arrow(timeout=timeout)).to_pylist()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/lancedb/query.py", line 2244, in to_arrow
+    batch_iter = await self.to_batches(timeout=timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/lancedb/query.py", line 2847, in to_batches
+    results = pa.Table.from_batches(await reader.read_all(), reader.schema)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/lancedb/arrow.py", line 48, in read_all
+    return [batch async for batch in self]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/lancedb/arrow.py", line 54, in __anext__
+    return await self._inner.__anext__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: lance error: LanceError(IO): Execution error: Not found: kb/hirag.db/entities.lance/data/b57cf8ae-d300-4a6a-a7a3-56101cbefdc0.lance, /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lance-io-0.29.0/src/local.rs:100:31, /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lance-0.29.0/src/dataset/scanner.rs:2926:83

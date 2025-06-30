@@ -1,0 +1,3632 @@
+15:37:06 HiRAG INFO: Loading the document from the document path: benchmark/2wiki/2wiki_corpus.txt
+[2025-06-19T15:37:06Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+15:37:06 HiRAG INFO: Loaded 2770 documents
+15:37:46 HiRAG INFO: Chunking time: 39.315s
+15:37:46 HiRAG INFO: Chunking time: 39.316s
+15:37:46 HiRAG INFO: Chunking time: 39.316s
+15:37:46 HiRAG INFO: Chunking time: 39.355s
+15:37:46 HiRAG INFO: Chunking time: 39.355s
+15:37:46 HiRAG INFO: Chunking time: 39.354s
+15:37:46 HiRAG INFO: Chunking time: 39.354s
+15:37:46 HiRAG INFO: Chunking time: 39.353s
+15:37:46 HiRAG INFO: Chunking time: 39.352s
+15:37:46 HiRAG INFO: Chunking time: 39.351s
+15:37:46 HiRAG INFO: Chunking time: 39.350s
+15:37:46 HiRAG INFO: Chunking time: 39.349s
+15:37:46 HiRAG INFO: Chunking time: 39.349s
+15:37:46 HiRAG INFO: Chunking time: 39.348s
+15:37:46 HiRAG INFO: Chunking time: 39.347s
+15:37:46 HiRAG INFO: Chunking time: 39.346s
+15:37:46 HiRAG INFO: Chunking time: 39.345s
+15:37:46 HiRAG INFO: Chunking time: 39.344s
+15:37:46 HiRAG INFO: Chunking time: 39.343s
+15:37:46 HiRAG INFO: Chunking time: 39.342s
+15:37:46 HiRAG INFO: Chunking time: 39.341s
+15:37:46 HiRAG INFO: Chunking time: 39.340s
+15:37:46 HiRAG INFO: Chunking time: 39.339s
+15:37:46 HiRAG INFO: Chunking time: 39.376s
+15:37:46 HiRAG INFO: Chunking time: 39.376s
+15:37:46 HiRAG INFO: Chunking time: 39.373s
+15:37:46 HiRAG INFO: Chunking time: 39.372s
+15:37:46 HiRAG INFO: Chunking time: 39.371s
+15:37:46 HiRAG INFO: Chunking time: 39.370s
+15:37:46 HiRAG INFO: Chunking time: 39.369s
+15:37:46 HiRAG INFO: Chunking time: 39.368s
+15:37:46 HiRAG INFO: Chunking time: 39.367s
+15:37:46 HiRAG INFO: Chunking time: 39.366s
+15:37:46 HiRAG INFO: Chunking time: 39.365s
+15:37:46 HiRAG INFO: Chunking time: 39.364s
+15:37:46 HiRAG INFO: Chunking time: 39.363s
+15:37:46 HiRAG INFO: Chunking time: 39.362s
+15:37:46 HiRAG INFO: Chunking time: 39.361s
+15:37:46 HiRAG INFO: Chunking time: 39.360s
+15:37:46 HiRAG INFO: Chunking time: 39.359s
+15:37:46 HiRAG INFO: Chunking time: 39.358s
+15:37:46 HiRAG INFO: Chunking time: 39.357s
+15:37:46 HiRAG INFO: Chunking time: 39.356s
+15:37:46 HiRAG INFO: Chunking time: 39.355s
+15:37:46 HiRAG INFO: Chunking time: 39.354s
+15:37:46 HiRAG INFO: Chunking time: 39.352s
+15:37:46 HiRAG INFO: Chunking time: 39.351s
+15:37:46 HiRAG INFO: Chunking time: 39.350s
+15:37:46 HiRAG INFO: Chunking time: 39.349s
+15:37:46 HiRAG INFO: Chunking time: 39.347s
+15:37:46 HiRAG INFO: Chunking time: 39.346s
+15:37:46 HiRAG INFO: Chunking time: 39.348s
+15:37:46 HiRAG INFO: Chunking time: 39.345s
+15:37:46 HiRAG INFO: Chunking time: 39.343s
+15:37:46 HiRAG INFO: Chunking time: 39.341s
+15:37:46 HiRAG INFO: Chunking time: 39.339s
+15:37:46 HiRAG INFO: Chunking time: 39.337s
+15:37:46 HiRAG INFO: Chunking time: 39.335s
+15:37:46 HiRAG INFO: Chunking time: 39.332s
+15:37:46 HiRAG INFO: Chunking time: 39.330s
+15:37:46 HiRAG INFO: Chunking time: 39.328s
+15:37:46 HiRAG INFO: Chunking time: 39.326s
+15:37:46 HiRAG INFO: Chunking time: 39.323s
+15:37:46 HiRAG INFO: Chunking time: 39.321s
+15:37:46 HiRAG INFO: Chunking time: 39.319s
+15:37:46 HiRAG INFO: Chunking time: 39.317s
+15:37:46 HiRAG INFO: Chunking time: 39.315s
+15:37:46 HiRAG INFO: Chunking time: 39.313s
+15:37:46 HiRAG INFO: Chunking time: 39.311s
+15:37:46 HiRAG INFO: Chunking time: 39.308s
+15:37:46 HiRAG INFO: Chunking time: 39.306s
+15:37:46 HiRAG INFO: Chunking time: 39.304s
+15:37:46 HiRAG INFO: Chunking time: 39.302s
+15:37:46 HiRAG INFO: Chunking time: 39.300s
+15:37:46 HiRAG INFO: Chunking time: 39.298s
+15:37:46 HiRAG INFO: Chunking time: 39.295s
+15:37:46 HiRAG INFO: Chunking time: 39.293s
+15:37:46 HiRAG INFO: Chunking time: 39.291s
+15:37:46 HiRAG INFO: Chunking time: 39.289s
+15:37:46 HiRAG INFO: Chunking time: 39.286s
+15:37:46 HiRAG INFO: Chunking time: 39.284s
+15:37:46 HiRAG INFO: Chunking time: 39.281s
+15:37:46 HiRAG INFO: Chunking time: 39.277s
+15:37:46 HiRAG INFO: Chunking time: 39.276s
+15:37:46 HiRAG INFO: Chunking time: 39.274s
+15:37:46 HiRAG INFO: Chunking time: 39.271s
+15:37:46 HiRAG INFO: Chunking time: 39.293s
+15:37:46 HiRAG INFO: Chunking time: 39.291s
+15:37:46 HiRAG INFO: Chunking time: 39.288s
+15:37:46 HiRAG INFO: Chunking time: 39.285s
+15:37:46 HiRAG INFO: Chunking time: 39.284s
+15:37:46 HiRAG INFO: Chunking time: 39.282s
+15:37:46 HiRAG INFO: Chunking time: 39.280s
+15:37:46 HiRAG INFO: Chunking time: 39.277s
+15:37:46 HiRAG INFO: Chunking time: 39.279s
+15:37:46 HiRAG INFO: Chunking time: 39.276s
+15:37:46 HiRAG INFO: Chunking time: 39.275s
+15:37:46 HiRAG INFO: Chunking time: 39.273s
+15:37:46 HiRAG INFO: Chunking time: 39.269s
+15:37:46 HiRAG INFO: Chunking time: 39.266s
+15:37:46 HiRAG INFO: Chunking time: 39.264s
+15:37:46 HiRAG INFO: Chunking time: 39.262s
+15:37:46 HiRAG INFO: Chunking time: 39.259s
+15:37:46 HiRAG INFO: Chunking time: 39.255s
+15:37:46 HiRAG INFO: Chunking time: 39.253s
+15:37:46 HiRAG INFO: Chunking time: 39.250s
+15:37:46 HiRAG INFO: Chunking time: 39.248s
+15:37:46 HiRAG INFO: Chunking time: 39.245s
+15:37:46 HiRAG INFO: Chunking time: 39.243s
+15:37:46 HiRAG INFO: Chunking time: 39.241s
+15:37:46 HiRAG INFO: Chunking time: 39.239s
+15:37:46 HiRAG INFO: Chunking time: 39.236s
+15:37:46 HiRAG INFO: Chunking time: 39.234s
+15:37:46 HiRAG INFO: Chunking time: 39.231s
+15:37:46 HiRAG INFO: Chunking time: 39.229s
+15:37:46 HiRAG INFO: Chunking time: 39.057s
+15:37:46 HiRAG INFO: Chunking time: 39.054s
+15:37:46 HiRAG INFO: Chunking time: 39.051s
+15:37:46 HiRAG INFO: Chunking time: 39.049s
+15:37:46 HiRAG INFO: Chunking time: 39.046s
+15:37:46 HiRAG INFO: Chunking time: 39.044s
+15:37:46 HiRAG INFO: Chunking time: 39.042s
+15:37:46 HiRAG INFO: Chunking time: 39.041s
+15:37:46 HiRAG INFO: Chunking time: 39.039s
+15:37:46 HiRAG INFO: Chunking time: 39.038s
+15:37:46 HiRAG INFO: Chunking time: 39.037s
+15:37:46 HiRAG INFO: Chunking time: 39.036s
+15:37:46 HiRAG INFO: Chunking time: 39.035s
+15:37:46 HiRAG INFO: Chunking time: 39.034s
+15:37:46 HiRAG INFO: Chunking time: 39.033s
+15:37:46 HiRAG INFO: Chunking time: 39.032s
+15:37:46 HiRAG INFO: Chunking time: 39.031s
+15:37:46 HiRAG INFO: Chunking time: 39.030s
+15:37:46 HiRAG INFO: Chunking time: 39.029s
+15:37:46 HiRAG INFO: Chunking time: 39.029s
+15:37:46 HiRAG INFO: Chunking time: 39.027s
+15:37:46 HiRAG INFO: Chunking time: 39.027s
+15:37:46 HiRAG INFO: Chunking time: 39.025s
+15:37:46 HiRAG INFO: Chunking time: 39.024s
+15:37:46 HiRAG INFO: Chunking time: 39.022s
+15:37:46 HiRAG INFO: Chunking time: 39.021s
+15:37:46 HiRAG INFO: Chunking time: 39.022s
+15:37:46 HiRAG INFO: Chunking time: 39.021s
+15:37:46 HiRAG INFO: Chunking time: 39.020s
+15:37:46 HiRAG INFO: Chunking time: 39.019s
+15:37:46 HiRAG INFO: Chunking time: 39.018s
+15:37:46 HiRAG INFO: Chunking time: 39.017s
+15:37:46 HiRAG INFO: Chunking time: 39.015s
+15:37:46 HiRAG INFO: Chunking time: 39.014s
+15:37:46 HiRAG INFO: Chunking time: 39.012s
+15:37:46 HiRAG INFO: Chunking time: 39.018s
+15:37:46 HiRAG INFO: Chunking time: 39.017s
+15:37:46 HiRAG INFO: Chunking time: 39.016s
+15:37:46 HiRAG INFO: Chunking time: 39.015s
+15:37:46 HiRAG INFO: Chunking time: 39.013s
+15:37:46 HiRAG INFO: Chunking time: 39.011s
+15:37:46 HiRAG INFO: Chunking time: 39.010s
+15:37:46 HiRAG INFO: Chunking time: 39.008s
+15:37:46 HiRAG INFO: Chunking time: 39.007s
+15:37:46 HiRAG INFO: Chunking time: 39.005s
+15:37:46 HiRAG INFO: Chunking time: 39.004s
+15:37:46 HiRAG INFO: Chunking time: 39.002s
+15:37:46 HiRAG INFO: Chunking time: 39.001s
+15:37:46 HiRAG INFO: Chunking time: 39.000s
+15:37:46 HiRAG INFO: Chunking time: 38.998s
+15:37:46 HiRAG INFO: Chunking time: 38.996s
+15:37:46 HiRAG INFO: Chunking time: 38.994s
+15:37:46 HiRAG INFO: Chunking time: 38.992s
+15:37:46 HiRAG INFO: Chunking time: 38.991s
+15:37:46 HiRAG INFO: Chunking time: 38.990s
+15:37:46 HiRAG INFO: Chunking time: 38.989s
+15:37:46 HiRAG INFO: Chunking time: 38.986s
+15:37:46 HiRAG INFO: Chunking time: 38.985s
+15:37:46 HiRAG INFO: Chunking time: 38.983s
+15:37:46 HiRAG INFO: Chunking time: 38.981s
+15:37:46 HiRAG INFO: Chunking time: 38.979s
+15:37:46 HiRAG INFO: Chunking time: 38.977s
+15:37:46 HiRAG INFO: Chunking time: 38.975s
+15:37:46 HiRAG INFO: Chunking time: 38.973s
+15:37:46 HiRAG INFO: Chunking time: 38.971s
+15:37:46 HiRAG INFO: Chunking time: 38.970s
+15:37:46 HiRAG INFO: Chunking time: 38.967s
+15:37:46 HiRAG INFO: Chunking time: 38.966s
+15:37:46 HiRAG INFO: Chunking time: 38.963s
+15:37:46 HiRAG INFO: Chunking time: 38.962s
+15:37:46 HiRAG INFO: Chunking time: 38.961s
+15:37:46 HiRAG INFO: Chunking time: 38.958s
+15:37:46 HiRAG INFO: Chunking time: 38.956s
+15:37:46 HiRAG INFO: Chunking time: 38.953s
+15:37:46 HiRAG INFO: Chunking time: 38.951s
+15:37:46 HiRAG INFO: Chunking time: 38.948s
+15:37:46 HiRAG INFO: Chunking time: 38.946s
+15:37:46 HiRAG INFO: Chunking time: 38.944s
+15:37:46 HiRAG INFO: Chunking time: 38.945s
+15:37:46 HiRAG INFO: Chunking time: 38.947s
+15:37:46 HiRAG INFO: Chunking time: 38.948s
+15:37:46 HiRAG INFO: Chunking time: 38.949s
+15:37:46 HiRAG INFO: Chunking time: 38.950s
+15:37:46 HiRAG INFO: Chunking time: 38.951s
+15:37:46 HiRAG INFO: Chunking time: 38.952s
+15:37:46 HiRAG INFO: Chunking time: 38.953s
+15:37:46 HiRAG INFO: Chunking time: 38.954s
+15:37:46 HiRAG INFO: Chunking time: 38.955s
+15:37:46 HiRAG INFO: Chunking time: 38.957s
+15:37:46 HiRAG INFO: Chunking time: 38.958s
+15:37:46 HiRAG INFO: Chunking time: 38.959s
+15:37:46 HiRAG INFO: Chunking time: 38.960s
+15:37:46 HiRAG INFO: Chunking time: 38.961s
+15:37:46 HiRAG INFO: Chunking time: 38.962s
+15:37:46 HiRAG INFO: Chunking time: 38.963s
+15:37:46 HiRAG INFO: Chunking time: 38.964s
+15:37:46 HiRAG INFO: Chunking time: 38.966s
+15:37:46 HiRAG INFO: Chunking time: 38.966s
+15:37:46 HiRAG INFO: Chunking time: 38.968s
+15:37:46 HiRAG INFO: Chunking time: 38.968s
+15:37:46 HiRAG INFO: Chunking time: 38.970s
+15:37:46 HiRAG INFO: Chunking time: 38.970s
+15:37:46 HiRAG INFO: Chunking time: 38.972s
+15:37:46 HiRAG INFO: Chunking time: 38.972s
+15:37:46 HiRAG INFO: Chunking time: 38.974s
+15:37:46 HiRAG INFO: Chunking time: 38.974s
+15:37:46 HiRAG INFO: Chunking time: 38.976s
+15:37:46 HiRAG INFO: Chunking time: 38.977s
+15:37:46 HiRAG INFO: Chunking time: 38.978s
+15:37:46 HiRAG INFO: Chunking time: 38.979s
+15:37:46 HiRAG INFO: Chunking time: 38.980s
+15:37:46 HiRAG INFO: Chunking time: 38.981s
+15:37:46 HiRAG INFO: Chunking time: 38.982s
+15:37:46 HiRAG INFO: Chunking time: 38.983s
+15:37:46 HiRAG INFO: Chunking time: 38.985s
+15:37:46 HiRAG INFO: Chunking time: 38.985s
+15:37:46 HiRAG INFO: Chunking time: 38.987s
+15:37:46 HiRAG INFO: Chunking time: 38.987s
+15:37:46 HiRAG INFO: Chunking time: 38.988s
+15:37:46 HiRAG INFO: Chunking time: 38.989s
+15:37:46 HiRAG INFO: Chunking time: 38.990s
+15:37:46 HiRAG INFO: Chunking time: 38.991s
+15:37:46 HiRAG INFO: Chunking time: 38.993s
+15:37:46 HiRAG INFO: Chunking time: 38.994s
+15:37:46 HiRAG INFO: Chunking time: 38.995s
+15:37:46 HiRAG INFO: Chunking time: 38.996s
+15:37:46 HiRAG INFO: Chunking time: 38.997s
+15:37:46 HiRAG INFO: Chunking time: 38.999s
+15:37:46 HiRAG INFO: Chunking time: 39.000s
+15:37:46 HiRAG INFO: Chunking time: 39.001s
+15:37:46 HiRAG INFO: Chunking time: 39.001s
+15:37:46 HiRAG INFO: Chunking time: 39.003s
+15:37:46 HiRAG INFO: Chunking time: 39.003s
+15:37:46 HiRAG INFO: Chunking time: 39.005s
+15:37:46 HiRAG INFO: Chunking time: 39.005s
+15:37:46 HiRAG INFO: Chunking time: 39.007s
+15:37:46 HiRAG INFO: Chunking time: 39.007s
+15:37:46 HiRAG INFO: Chunking time: 39.009s
+15:37:46 HiRAG INFO: Chunking time: 39.009s
+15:37:46 HiRAG INFO: Chunking time: 39.011s
+15:37:46 HiRAG INFO: Chunking time: 39.012s
+15:37:46 HiRAG INFO: Chunking time: 39.013s
+15:37:46 HiRAG INFO: Chunking time: 39.014s
+15:37:46 HiRAG INFO: Chunking time: 39.015s
+15:37:46 HiRAG INFO: Chunking time: 39.016s
+15:37:46 HiRAG INFO: Chunking time: 39.017s
+15:37:46 HiRAG INFO: Chunking time: 39.018s
+15:37:46 HiRAG INFO: Chunking time: 39.020s
+15:37:46 HiRAG INFO: Chunking time: 39.021s
+15:37:46 HiRAG INFO: Chunking time: 39.025s
+15:37:46 HiRAG INFO: Chunking time: 39.026s
+15:37:46 HiRAG INFO: Chunking time: 39.027s
+15:37:46 HiRAG INFO: Chunking time: 39.028s
+15:37:46 HiRAG INFO: Chunking time: 39.029s
+15:37:46 HiRAG INFO: Chunking time: 39.030s
+15:37:46 HiRAG INFO: Chunking time: 39.030s
+15:37:46 HiRAG INFO: Chunking time: 39.032s
+15:37:46 HiRAG INFO: Chunking time: 39.033s
+15:37:46 HiRAG INFO: Chunking time: 39.033s
+15:37:46 HiRAG INFO: Chunking time: 39.035s
+15:37:46 HiRAG INFO: Chunking time: 39.036s
+15:37:46 HiRAG INFO: Chunking time: 39.037s
+15:37:46 HiRAG INFO: Chunking time: 39.038s
+15:37:46 HiRAG INFO: Chunking time: 39.039s
+15:37:46 HiRAG INFO: Chunking time: 39.040s
+15:37:46 HiRAG INFO: Chunking time: 39.041s
+15:37:46 HiRAG INFO: Chunking time: 39.041s
+15:37:46 HiRAG INFO: Chunking time: 39.043s
+15:37:46 HiRAG INFO: Chunking time: 39.043s
+15:37:46 HiRAG INFO: Chunking time: 39.045s
+15:37:46 HiRAG INFO: Chunking time: 39.045s
+15:37:46 HiRAG INFO: Chunking time: 39.046s
+15:37:46 HiRAG INFO: Chunking time: 39.048s
+15:37:46 HiRAG INFO: Chunking time: 39.049s
+15:37:46 HiRAG INFO: Chunking time: 39.050s
+15:37:46 HiRAG INFO: Chunking time: 39.051s
+15:37:46 HiRAG INFO: Chunking time: 39.052s
+15:37:46 HiRAG INFO: Chunking time: 39.053s
+15:37:46 HiRAG INFO: Chunking time: 39.054s
+15:37:46 HiRAG INFO: Chunking time: 39.055s
+15:37:46 HiRAG INFO: Chunking time: 39.057s
+15:37:46 HiRAG INFO: Chunking time: 39.058s
+15:37:46 HiRAG INFO: Chunking time: 39.059s
+15:37:46 HiRAG INFO: Chunking time: 39.060s
+15:37:46 HiRAG INFO: Chunking time: 39.061s
+15:37:46 HiRAG INFO: Chunking time: 39.062s
+15:37:46 HiRAG INFO: Chunking time: 39.063s
+15:37:46 HiRAG INFO: Chunking time: 39.064s
+15:37:46 HiRAG INFO: Chunking time: 39.065s
+15:37:46 HiRAG INFO: Chunking time: 39.066s
+15:37:46 HiRAG INFO: Chunking time: 39.067s
+15:37:46 HiRAG INFO: Chunking time: 39.069s
+15:37:46 HiRAG INFO: Chunking time: 39.070s
+15:37:46 HiRAG INFO: Chunking time: 39.071s
+15:37:46 HiRAG INFO: Chunking time: 39.072s
+15:37:46 HiRAG INFO: Chunking time: 39.073s
+15:37:46 HiRAG INFO: Chunking time: 39.074s
+15:37:46 HiRAG INFO: Chunking time: 39.076s
+15:37:46 HiRAG INFO: Chunking time: 39.077s
+15:37:46 HiRAG INFO: Chunking time: 39.078s
+15:37:46 HiRAG INFO: Chunking time: 39.079s
+15:37:46 HiRAG INFO: Chunking time: 39.080s
+15:37:46 HiRAG INFO: Chunking time: 39.081s
+15:37:46 HiRAG INFO: Chunking time: 39.082s
+15:37:46 HiRAG INFO: Chunking time: 39.083s
+15:37:46 HiRAG INFO: Chunking time: 39.084s
+15:37:46 HiRAG INFO: Chunking time: 39.085s
+15:37:46 HiRAG INFO: Chunking time: 39.086s
+15:37:46 HiRAG INFO: Chunking time: 39.087s
+15:37:46 HiRAG INFO: Chunking time: 39.088s
+15:37:46 HiRAG INFO: Chunking time: 39.090s
+15:37:46 HiRAG INFO: Chunking time: 39.090s
+15:37:46 HiRAG INFO: Chunking time: 39.092s
+15:37:46 HiRAG INFO: Chunking time: 39.093s
+15:37:46 HiRAG INFO: Chunking time: 39.094s
+15:37:46 HiRAG INFO: Chunking time: 39.095s
+15:37:46 HiRAG INFO: Chunking time: 39.096s
+15:37:46 HiRAG INFO: Chunking time: 39.097s
+15:37:46 HiRAG INFO: Chunking time: 39.098s
+15:37:46 HiRAG INFO: Chunking time: 39.099s
+15:37:46 HiRAG INFO: Chunking time: 39.100s
+15:37:46 HiRAG INFO: Chunking time: 39.101s
+15:37:46 HiRAG INFO: Chunking time: 39.102s
+15:37:46 HiRAG INFO: Chunking time: 39.103s
+15:37:46 HiRAG INFO: Chunking time: 39.104s
+15:37:46 HiRAG INFO: Chunking time: 39.105s
+15:37:46 HiRAG INFO: Chunking time: 39.106s
+15:37:46 HiRAG INFO: Chunking time: 39.107s
+15:37:46 HiRAG INFO: Chunking time: 39.108s
+15:37:46 HiRAG INFO: Chunking time: 39.109s
+15:37:46 HiRAG INFO: Chunking time: 39.110s
+15:37:46 HiRAG INFO: Chunking time: 39.111s
+15:37:46 HiRAG INFO: Chunking time: 39.112s
+15:37:46 HiRAG INFO: Chunking time: 39.113s
+15:37:46 HiRAG INFO: Chunking time: 39.114s
+15:37:46 HiRAG INFO: Chunking time: 39.116s
+15:37:46 HiRAG INFO: Chunking time: 39.117s
+15:37:46 HiRAG INFO: Chunking time: 39.118s
+15:37:46 HiRAG INFO: Chunking time: 39.119s
+15:37:46 HiRAG INFO: Chunking time: 39.120s
+15:37:46 HiRAG INFO: Chunking time: 39.121s
+15:37:46 HiRAG INFO: Chunking time: 39.122s
+15:37:46 HiRAG INFO: Chunking time: 39.123s
+15:37:46 HiRAG INFO: Chunking time: 39.124s
+15:37:46 HiRAG INFO: Chunking time: 39.125s
+15:37:46 HiRAG INFO: Chunking time: 39.126s
+15:37:46 HiRAG INFO: Chunking time: 39.127s
+15:37:46 HiRAG INFO: Chunking time: 39.128s
+15:37:46 HiRAG INFO: Chunking time: 39.129s
+15:37:46 HiRAG INFO: Chunking time: 39.130s
+15:37:46 HiRAG INFO: Chunking time: 39.131s
+15:37:46 HiRAG INFO: Chunking time: 39.132s
+15:37:46 HiRAG INFO: Chunking time: 39.133s
+15:37:46 HiRAG INFO: Chunking time: 39.134s
+15:37:46 HiRAG INFO: Chunking time: 39.135s
+15:37:46 HiRAG INFO: Chunking time: 39.136s
+15:37:46 HiRAG INFO: Chunking time: 39.137s
+15:37:46 HiRAG INFO: Chunking time: 39.138s
+15:37:46 HiRAG INFO: Chunking time: 39.139s
+15:37:46 HiRAG INFO: Chunking time: 39.140s
+15:37:46 HiRAG INFO: Chunking time: 39.141s
+15:37:46 HiRAG INFO: Chunking time: 39.142s
+15:37:46 HiRAG INFO: Chunking time: 39.143s
+15:37:46 HiRAG INFO: Chunking time: 39.144s
+15:37:46 HiRAG INFO: Chunking time: 39.146s
+15:37:46 HiRAG INFO: Chunking time: 39.146s
+15:37:46 HiRAG INFO: Chunking time: 39.147s
+15:37:46 HiRAG INFO: Chunking time: 39.148s
+15:37:46 HiRAG INFO: Chunking time: 39.150s
+15:37:46 HiRAG INFO: Chunking time: 39.151s
+15:37:46 HiRAG INFO: Chunking time: 39.152s
+15:37:46 HiRAG INFO: Chunking time: 39.154s
+15:37:46 HiRAG INFO: Chunking time: 39.154s
+15:37:46 HiRAG INFO: Chunking time: 39.155s
+15:37:46 HiRAG INFO: Chunking time: 39.156s
+15:37:46 HiRAG INFO: Chunking time: 39.157s
+15:37:46 HiRAG INFO: Chunking time: 39.158s
+15:37:46 HiRAG INFO: Chunking time: 39.159s
+15:37:46 HiRAG INFO: Chunking time: 39.160s
+15:37:46 HiRAG INFO: Chunking time: 39.162s
+15:37:46 HiRAG INFO: Chunking time: 39.163s
+15:37:46 HiRAG INFO: Chunking time: 39.164s
+15:37:46 HiRAG INFO: Chunking time: 39.165s
+15:37:46 HiRAG INFO: Chunking time: 39.166s
+15:37:46 HiRAG INFO: Chunking time: 39.168s
+15:37:46 HiRAG INFO: Chunking time: 39.169s
+15:37:46 HiRAG INFO: Chunking time: 39.170s
+15:37:46 HiRAG INFO: Chunking time: 39.171s
+15:37:46 HiRAG INFO: Chunking time: 39.172s
+15:37:46 HiRAG INFO: Chunking time: 39.173s
+15:37:46 HiRAG INFO: Chunking time: 39.174s
+15:37:46 HiRAG INFO: Chunking time: 39.175s
+15:37:46 HiRAG INFO: Chunking time: 39.176s
+15:37:46 HiRAG INFO: Chunking time: 39.177s
+15:37:46 HiRAG INFO: Chunking time: 39.179s
+15:37:46 HiRAG INFO: Chunking time: 39.179s
+15:37:46 HiRAG INFO: Chunking time: 39.181s
+15:37:46 HiRAG INFO: Chunking time: 39.182s
+15:37:46 HiRAG INFO: Chunking time: 39.183s
+15:37:46 HiRAG INFO: Chunking time: 39.184s
+15:37:46 HiRAG INFO: Chunking time: 39.185s
+15:37:46 HiRAG INFO: Chunking time: 39.187s
+15:37:46 HiRAG INFO: Chunking time: 39.187s
+15:37:46 HiRAG INFO: Chunking time: 39.189s
+15:37:46 HiRAG INFO: Chunking time: 39.190s
+15:37:46 HiRAG INFO: Chunking time: 39.191s
+15:37:46 HiRAG INFO: Chunking time: 39.192s
+15:37:46 HiRAG INFO: Chunking time: 39.193s
+15:37:46 HiRAG INFO: Chunking time: 39.194s
+15:37:46 HiRAG INFO: Chunking time: 39.195s
+15:37:46 HiRAG INFO: Chunking time: 39.195s
+15:37:46 HiRAG INFO: Chunking time: 39.197s
+15:37:46 HiRAG INFO: Chunking time: 39.197s
+15:37:46 HiRAG INFO: Chunking time: 39.199s
+15:37:46 HiRAG INFO: Chunking time: 39.200s
+15:37:46 HiRAG INFO: Chunking time: 39.201s
+15:37:46 HiRAG INFO: Chunking time: 39.202s
+15:37:46 HiRAG INFO: Chunking time: 39.203s
+15:37:46 HiRAG INFO: Chunking time: 39.204s
+15:37:46 HiRAG INFO: Chunking time: 39.205s
+15:37:46 HiRAG INFO: Chunking time: 39.206s
+15:37:46 HiRAG INFO: Chunking time: 39.207s
+15:37:46 HiRAG INFO: Chunking time: 39.208s
+15:37:46 HiRAG INFO: Chunking time: 39.209s
+15:37:46 HiRAG INFO: Chunking time: 39.210s
+15:37:46 HiRAG INFO: Chunking time: 39.211s
+15:37:46 HiRAG INFO: Chunking time: 39.212s
+15:37:46 HiRAG INFO: Chunking time: 39.214s
+15:37:46 HiRAG INFO: Chunking time: 39.214s
+15:37:46 HiRAG INFO: Chunking time: 39.215s
+15:37:46 HiRAG INFO: Chunking time: 39.216s
+15:37:46 HiRAG INFO: Chunking time: 39.218s
+15:37:46 HiRAG INFO: Chunking time: 39.219s
+15:37:46 HiRAG INFO: Chunking time: 39.220s
+15:37:46 HiRAG INFO: Chunking time: 39.221s
+15:37:46 HiRAG INFO: Chunking time: 39.221s
+15:37:46 HiRAG INFO: Chunking time: 39.222s
+15:37:46 HiRAG INFO: Chunking time: 39.224s
+15:37:46 HiRAG INFO: Chunking time: 39.225s
+15:37:46 HiRAG INFO: Chunking time: 39.227s
+15:37:46 HiRAG INFO: Chunking time: 39.229s
+15:37:46 HiRAG INFO: Chunking time: 39.230s
+15:37:46 HiRAG INFO: Chunking time: 39.231s
+15:37:46 HiRAG INFO: Chunking time: 39.232s
+15:37:46 HiRAG INFO: Chunking time: 39.233s
+15:37:46 HiRAG INFO: Chunking time: 39.234s
+15:37:46 HiRAG INFO: Chunking time: 39.235s
+15:37:46 HiRAG INFO: Chunking time: 39.236s
+15:37:46 HiRAG INFO: Chunking time: 39.237s
+15:37:46 HiRAG INFO: Chunking time: 39.238s
+15:37:46 HiRAG INFO: Chunking time: 39.240s
+15:37:46 HiRAG INFO: Chunking time: 39.240s
+15:37:46 HiRAG INFO: Chunking time: 39.242s
+15:37:46 HiRAG INFO: Chunking time: 39.243s
+15:37:46 HiRAG INFO: Chunking time: 39.244s
+15:37:46 HiRAG INFO: Chunking time: 39.245s
+15:37:46 HiRAG INFO: Chunking time: 39.246s
+15:37:46 HiRAG INFO: Chunking time: 39.247s
+15:37:46 HiRAG INFO: Chunking time: 39.248s
+15:37:46 HiRAG INFO: Chunking time: 39.249s
+15:37:46 HiRAG INFO: Chunking time: 39.251s
+15:37:46 HiRAG INFO: Chunking time: 39.252s
+15:37:46 HiRAG INFO: Chunking time: 39.253s
+15:37:46 HiRAG INFO: Chunking time: 39.255s
+15:37:46 HiRAG INFO: Chunking time: 39.256s
+15:37:46 HiRAG INFO: Chunking time: 39.256s
+15:37:46 HiRAG INFO: Chunking time: 39.257s
+15:37:46 HiRAG INFO: Chunking time: 39.258s
+15:37:46 HiRAG INFO: Chunking time: 39.259s
+15:37:46 HiRAG INFO: Chunking time: 39.261s
+15:37:46 HiRAG INFO: Chunking time: 39.261s
+15:37:46 HiRAG INFO: Chunking time: 39.263s
+15:37:46 HiRAG INFO: Chunking time: 39.264s
+15:37:46 HiRAG INFO: Chunking time: 39.265s
+15:37:46 HiRAG INFO: Chunking time: 39.265s
+15:37:46 HiRAG INFO: Chunking time: 39.267s
+15:37:46 HiRAG INFO: Chunking time: 39.267s
+15:37:46 HiRAG INFO: Chunking time: 39.269s
+15:37:46 HiRAG INFO: Chunking time: 39.269s
+15:37:46 HiRAG INFO: Chunking time: 39.270s
+15:37:46 HiRAG INFO: Chunking time: 39.271s
+15:37:46 HiRAG INFO: Chunking time: 39.272s
+15:37:46 HiRAG INFO: Chunking time: 39.273s
+15:37:46 HiRAG INFO: Chunking time: 39.274s
+15:37:46 HiRAG INFO: Chunking time: 39.275s
+15:37:46 HiRAG INFO: Chunking time: 39.276s
+15:37:46 HiRAG INFO: Chunking time: 39.277s
+15:37:46 HiRAG INFO: Chunking time: 39.278s
+15:37:46 HiRAG INFO: Chunking time: 39.279s
+15:37:46 HiRAG INFO: Chunking time: 39.280s
+15:37:46 HiRAG INFO: Chunking time: 39.282s
+15:37:46 HiRAG INFO: Chunking time: 39.282s
+15:37:46 HiRAG INFO: Chunking time: 39.283s
+15:37:46 HiRAG INFO: Chunking time: 39.284s
+15:37:46 HiRAG INFO: Chunking time: 39.285s
+15:37:46 HiRAG INFO: Chunking time: 39.286s
+15:37:46 HiRAG INFO: Chunking time: 39.287s
+15:37:46 HiRAG INFO: Chunking time: 39.289s
+15:37:46 HiRAG INFO: Chunking time: 39.290s
+15:37:46 HiRAG INFO: Chunking time: 39.291s
+15:37:46 HiRAG INFO: Chunking time: 39.291s
+15:37:46 HiRAG INFO: Chunking time: 39.295s
+15:37:46 HiRAG INFO: Chunking time: 39.296s
+15:37:46 HiRAG INFO: Chunking time: 39.297s
+15:37:46 HiRAG INFO: Chunking time: 39.299s
+15:37:46 HiRAG INFO: Chunking time: 39.301s
+15:37:46 HiRAG INFO: Chunking time: 39.317s
+15:37:46 HiRAG INFO: Chunking time: 39.321s
+15:37:46 HiRAG INFO: Chunking time: 39.322s
+15:37:46 HiRAG INFO: Chunking time: 39.324s
+15:37:46 HiRAG INFO: Chunking time: 39.325s
+15:37:46 HiRAG INFO: Chunking time: 39.326s
+15:37:46 HiRAG INFO: Chunking time: 39.327s
+15:37:46 HiRAG INFO: Chunking time: 39.327s
+15:37:46 HiRAG INFO: Chunking time: 39.329s
+15:37:46 HiRAG INFO: Chunking time: 39.331s
+15:37:46 HiRAG INFO: Chunking time: 39.331s
+15:37:46 HiRAG INFO: Chunking time: 39.333s
+15:37:46 HiRAG INFO: Chunking time: 39.333s
+15:37:46 HiRAG INFO: Chunking time: 39.335s
+15:37:46 HiRAG INFO: Chunking time: 39.335s
+15:37:46 HiRAG INFO: Chunking time: 39.337s
+15:37:46 HiRAG INFO: Chunking time: 39.338s
+15:37:46 HiRAG INFO: Chunking time: 39.339s
+15:37:46 HiRAG INFO: Chunking time: 39.340s
+15:37:46 HiRAG INFO: Chunking time: 39.341s
+15:37:46 HiRAG INFO: Chunking time: 39.342s
+15:37:46 HiRAG INFO: Chunking time: 39.343s
+15:37:46 HiRAG INFO: Chunking time: 39.345s
+15:37:46 HiRAG INFO: Chunking time: 39.345s
+15:37:46 HiRAG INFO: Chunking time: 39.347s
+15:37:46 HiRAG INFO: Chunking time: 39.348s
+15:37:46 HiRAG INFO: Chunking time: 39.349s
+15:37:46 HiRAG INFO: Chunking time: 39.351s
+15:37:46 HiRAG INFO: Chunking time: 39.351s
+15:37:46 HiRAG INFO: Chunking time: 39.353s
+15:37:46 HiRAG INFO: Chunking time: 39.355s
+15:37:46 HiRAG INFO: Chunking time: 39.356s
+15:37:46 HiRAG INFO: Chunking time: 39.357s
+15:37:46 HiRAG INFO: Chunking time: 39.357s
+15:37:46 HiRAG INFO: Chunking time: 39.359s
+15:37:46 HiRAG INFO: Chunking time: 39.359s
+15:37:46 HiRAG INFO: Chunking time: 39.361s
+15:37:46 HiRAG INFO: Chunking time: 39.361s
+15:37:46 HiRAG INFO: Chunking time: 39.363s
+15:37:46 HiRAG INFO: Chunking time: 39.363s
+15:37:46 HiRAG INFO: Chunking time: 39.364s
+15:37:46 HiRAG INFO: Chunking time: 39.365s
+15:37:46 HiRAG INFO: Chunking time: 39.372s
+15:37:46 HiRAG INFO: Chunking time: 39.376s
+15:37:46 HiRAG INFO: Chunking time: 39.377s
+15:37:46 HiRAG INFO: Chunking time: 39.378s
+15:37:46 HiRAG INFO: Chunking time: 39.379s
+15:37:46 HiRAG INFO: Chunking time: 39.380s
+15:37:46 HiRAG INFO: Chunking time: 39.380s
+15:37:46 HiRAG INFO: Chunking time: 39.381s
+15:37:46 HiRAG INFO: Chunking time: 39.383s
+15:37:46 HiRAG INFO: Chunking time: 39.383s
+15:37:46 HiRAG INFO: Chunking time: 39.385s
+15:37:46 HiRAG INFO: Chunking time: 39.385s
+15:37:46 HiRAG INFO: Chunking time: 39.387s
+15:37:46 HiRAG INFO: Chunking time: 39.387s
+15:37:46 HiRAG INFO: Chunking time: 39.389s
+15:37:46 HiRAG INFO: Chunking time: 39.390s
+15:37:46 HiRAG INFO: Chunking time: 39.390s
+15:37:46 HiRAG INFO: Chunking time: 39.392s
+15:37:46 HiRAG INFO: Chunking time: 39.393s
+15:37:46 HiRAG INFO: Chunking time: 39.394s
+15:37:46 HiRAG INFO: Chunking time: 39.395s
+15:37:46 HiRAG INFO: Chunking time: 39.397s
+15:37:46 HiRAG INFO: Chunking time: 39.397s
+15:37:46 HiRAG INFO: Chunking time: 39.399s
+15:37:46 HiRAG INFO: Chunking time: 39.399s
+15:37:46 HiRAG INFO: Chunking time: 39.401s
+15:37:46 HiRAG INFO: Chunking time: 39.401s
+15:37:46 HiRAG INFO: Chunking time: 39.403s
+15:37:46 HiRAG INFO: Chunking time: 39.404s
+15:37:46 HiRAG INFO: Chunking time: 39.405s
+15:37:46 HiRAG INFO: Chunking time: 38.998s
+15:37:46 HiRAG INFO: Chunking time: 39.000s
+15:37:46 HiRAG INFO: Chunking time: 39.000s
+15:37:46 HiRAG INFO: Chunking time: 39.000s
+15:37:46 HiRAG INFO: Chunking time: 39.000s
+15:37:46 HiRAG INFO: Chunking time: 39.001s
+15:37:46 HiRAG INFO: Chunking time: 39.001s
+15:37:46 HiRAG INFO: Chunking time: 39.002s
+15:37:46 HiRAG INFO: Chunking time: 39.003s
+15:37:46 HiRAG INFO: Chunking time: 39.004s
+15:37:46 HiRAG INFO: Chunking time: 39.005s
+15:37:46 HiRAG INFO: Chunking time: 39.006s
+15:37:46 HiRAG INFO: Chunking time: 39.007s
+15:37:46 HiRAG INFO: Chunking time: 39.008s
+15:37:46 HiRAG INFO: Chunking time: 39.010s
+15:37:46 HiRAG INFO: Chunking time: 39.010s
+15:37:46 HiRAG INFO: Chunking time: 39.011s
+15:37:46 HiRAG INFO: Chunking time: 39.012s
+15:37:46 HiRAG INFO: Chunking time: 39.014s
+15:37:46 HiRAG INFO: Chunking time: 39.015s
+15:37:46 HiRAG INFO: Chunking time: 39.016s
+15:37:46 HiRAG INFO: Chunking time: 39.016s
+15:37:46 HiRAG INFO: Chunking time: 39.018s
+15:37:46 HiRAG INFO: Chunking time: 39.018s
+15:37:46 HiRAG INFO: Chunking time: 39.020s
+15:37:46 HiRAG INFO: Chunking time: 39.020s
+15:37:46 HiRAG INFO: Chunking time: 39.022s
+15:37:46 HiRAG INFO: Chunking time: 39.022s
+15:37:46 HiRAG INFO: Chunking time: 39.023s
+15:37:46 HiRAG INFO: Chunking time: 39.024s
+15:37:46 HiRAG INFO: Chunking time: 39.025s
+15:37:46 HiRAG INFO: Chunking time: 39.026s
+15:37:46 HiRAG INFO: Chunking time: 39.027s
+15:37:46 HiRAG INFO: Chunking time: 39.028s
+15:37:46 HiRAG INFO: Chunking time: 39.029s
+15:37:46 HiRAG INFO: Chunking time: 39.030s
+15:37:46 HiRAG INFO: Chunking time: 39.031s
+15:37:46 HiRAG INFO: Chunking time: 39.032s
+15:37:46 HiRAG INFO: Chunking time: 39.034s
+15:37:46 HiRAG INFO: Chunking time: 39.035s
+15:37:46 HiRAG INFO: Chunking time: 39.036s
+15:37:46 HiRAG INFO: Chunking time: 39.038s
+15:37:46 HiRAG INFO: Chunking time: 39.038s
+15:37:46 HiRAG INFO: Chunking time: 39.040s
+15:37:46 HiRAG INFO: Chunking time: 39.040s
+15:37:46 HiRAG INFO: Chunking time: 39.041s
+15:37:46 HiRAG INFO: Chunking time: 39.042s
+15:37:46 HiRAG INFO: Chunking time: 39.043s
+15:37:46 HiRAG INFO: Chunking time: 39.044s
+15:37:46 HiRAG INFO: Chunking time: 39.045s
+15:37:46 HiRAG INFO: Chunking time: 39.045s
+15:37:46 HiRAG INFO: Chunking time: 39.047s
+15:37:46 HiRAG INFO: Chunking time: 39.048s
+15:37:46 HiRAG INFO: Chunking time: 39.049s
+15:37:46 HiRAG INFO: Chunking time: 39.050s
+15:37:46 HiRAG INFO: Chunking time: 39.051s
+15:37:46 HiRAG INFO: Chunking time: 39.052s
+15:37:46 HiRAG INFO: Chunking time: 39.052s
+15:37:46 HiRAG INFO: Chunking time: 39.054s
+15:37:46 HiRAG INFO: Chunking time: 39.055s
+15:37:46 HiRAG INFO: Chunking time: 39.056s
+15:37:46 HiRAG INFO: Chunking time: 39.056s
+15:37:46 HiRAG INFO: Chunking time: 39.057s
+15:37:46 HiRAG INFO: Chunking time: 39.058s
+15:37:46 HiRAG INFO: Chunking time: 39.059s
+15:37:46 HiRAG INFO: Chunking time: 39.060s
+15:37:46 HiRAG INFO: Chunking time: 39.062s
+15:37:46 HiRAG INFO: Chunking time: 39.062s
+15:37:46 HiRAG INFO: Chunking time: 39.063s
+15:37:46 HiRAG INFO: Chunking time: 39.064s
+15:37:46 HiRAG INFO: Chunking time: 39.065s
+15:37:46 HiRAG INFO: Chunking time: 39.066s
+15:37:46 HiRAG INFO: Chunking time: 39.067s
+15:37:46 HiRAG INFO: Chunking time: 39.068s
+15:37:46 HiRAG INFO: Chunking time: 39.069s
+15:37:46 HiRAG INFO: Chunking time: 39.071s
+15:37:46 HiRAG INFO: Chunking time: 39.071s
+15:37:46 HiRAG INFO: Chunking time: 39.072s
+15:37:46 HiRAG INFO: Chunking time: 39.073s
+15:37:46 HiRAG INFO: Chunking time: 39.074s
+15:37:46 HiRAG INFO: Chunking time: 39.075s
+15:37:46 HiRAG INFO: Chunking time: 39.077s
+15:37:46 HiRAG INFO: Chunking time: 39.078s
+15:37:46 HiRAG INFO: Chunking time: 39.079s
+15:37:46 HiRAG INFO: Chunking time: 39.080s
+15:37:46 HiRAG INFO: Chunking time: 39.081s
+15:37:46 HiRAG INFO: Chunking time: 39.082s
+15:37:46 HiRAG INFO: Chunking time: 39.083s
+15:37:46 HiRAG INFO: Chunking time: 39.085s
+15:37:46 HiRAG INFO: Chunking time: 39.086s
+15:37:46 HiRAG INFO: Chunking time: 39.087s
+15:37:46 HiRAG INFO: Chunking time: 39.088s
+15:37:46 HiRAG INFO: Chunking time: 39.089s
+15:37:46 HiRAG INFO: Chunking time: 39.090s
+15:37:46 HiRAG INFO: Chunking time: 39.091s
+15:37:46 HiRAG INFO: Chunking time: 39.092s
+15:37:46 HiRAG INFO: Chunking time: 39.093s
+15:37:46 HiRAG INFO: Chunking time: 39.094s
+15:37:46 HiRAG INFO: Chunking time: 39.095s
+15:37:46 HiRAG INFO: Chunking time: 39.095s
+15:37:46 HiRAG INFO: Chunking time: 39.097s
+15:37:46 HiRAG INFO: Chunking time: 39.098s
+15:37:46 HiRAG INFO: Chunking time: 39.099s
+15:37:46 HiRAG INFO: Chunking time: 39.100s
+15:37:46 HiRAG INFO: Chunking time: 39.101s
+15:37:46 HiRAG INFO: Chunking time: 39.102s
+15:37:46 HiRAG INFO: Chunking time: 39.103s
+15:37:46 HiRAG INFO: Chunking time: 39.104s
+15:37:46 HiRAG INFO: Chunking time: 39.105s
+15:37:46 HiRAG INFO: Chunking time: 39.106s
+15:37:46 HiRAG INFO: Chunking time: 39.107s
+15:37:46 HiRAG INFO: Chunking time: 39.108s
+15:37:46 HiRAG INFO: Chunking time: 39.109s
+15:37:46 HiRAG INFO: Chunking time: 39.110s
+15:37:46 HiRAG INFO: Chunking time: 39.111s
+15:37:46 HiRAG INFO: Chunking time: 39.112s
+15:37:46 HiRAG INFO: Chunking time: 39.113s
+15:37:46 HiRAG INFO: Chunking time: 39.114s
+15:37:47 HiRAG INFO: Chunking time: 39.115s
+15:37:47 HiRAG INFO: Chunking time: 39.117s
+15:37:47 HiRAG INFO: Chunking time: 39.117s
+15:37:47 HiRAG INFO: Chunking time: 39.118s
+15:37:47 HiRAG INFO: Chunking time: 39.119s
+15:37:47 HiRAG INFO: Chunking time: 39.121s
+15:37:47 HiRAG INFO: Chunking time: 39.122s
+15:37:47 HiRAG INFO: Chunking time: 39.123s
+15:37:47 HiRAG INFO: Chunking time: 39.124s
+15:37:47 HiRAG INFO: Chunking time: 39.125s
+15:37:47 HiRAG INFO: Chunking time: 39.126s
+15:37:47 HiRAG INFO: Chunking time: 39.127s
+15:37:47 HiRAG INFO: Chunking time: 39.128s
+15:37:47 HiRAG INFO: Chunking time: 39.129s
+15:37:47 HiRAG INFO: Chunking time: 39.130s
+15:37:47 HiRAG INFO: Chunking time: 39.131s
+15:37:47 HiRAG INFO: Chunking time: 39.132s
+15:37:47 HiRAG INFO: Chunking time: 39.133s
+15:37:47 HiRAG INFO: Chunking time: 39.134s
+15:37:47 HiRAG INFO: Chunking time: 39.135s
+15:37:47 HiRAG INFO: Chunking time: 39.136s
+15:37:47 HiRAG INFO: Chunking time: 39.143s
+15:37:47 HiRAG INFO: Chunking time: 39.144s
+15:37:47 HiRAG INFO: Chunking time: 39.146s
+15:37:47 HiRAG INFO: Chunking time: 39.146s
+15:37:47 HiRAG INFO: Chunking time: 39.147s
+15:37:47 HiRAG INFO: Chunking time: 39.148s
+15:37:47 HiRAG INFO: Chunking time: 39.149s
+15:37:47 HiRAG INFO: Chunking time: 39.150s
+15:37:47 HiRAG INFO: Chunking time: 39.151s
+15:37:47 HiRAG INFO: Chunking time: 39.152s
+15:37:47 HiRAG INFO: Chunking time: 39.153s
+15:37:47 HiRAG INFO: Chunking time: 39.155s
+15:37:47 HiRAG INFO: Chunking time: 39.155s
+15:37:47 HiRAG INFO: Chunking time: 39.157s
+15:37:47 HiRAG INFO: Chunking time: 39.157s
+15:37:47 HiRAG INFO: Chunking time: 39.158s
+15:37:47 HiRAG INFO: Chunking time: 39.159s
+15:37:47 HiRAG INFO: Chunking time: 39.160s
+15:37:47 HiRAG INFO: Chunking time: 39.161s
+15:37:47 HiRAG INFO: Chunking time: 39.161s
+15:37:47 HiRAG INFO: Chunking time: 39.163s
+15:37:47 HiRAG INFO: Chunking time: 39.163s
+15:37:47 HiRAG INFO: Chunking time: 39.165s
+15:37:47 HiRAG INFO: Chunking time: 39.165s
+15:37:47 HiRAG INFO: Chunking time: 39.166s
+15:37:47 HiRAG INFO: Chunking time: 39.167s
+15:37:47 HiRAG INFO: Chunking time: 39.168s
+15:37:47 HiRAG INFO: Chunking time: 39.171s
+15:37:47 HiRAG INFO: Chunking time: 39.171s
+15:37:47 HiRAG INFO: Chunking time: 39.173s
+15:37:47 HiRAG INFO: Chunking time: 39.174s
+15:37:47 HiRAG INFO: Chunking time: 39.176s
+15:37:47 HiRAG INFO: Chunking time: 39.176s
+15:37:47 HiRAG INFO: Chunking time: 39.178s
+15:37:47 HiRAG INFO: Chunking time: 39.179s
+15:37:47 HiRAG INFO: Chunking time: 39.180s
+15:37:47 HiRAG INFO: Chunking time: 39.180s
+15:37:47 HiRAG INFO: Chunking time: 39.182s
+15:37:47 HiRAG INFO: Chunking time: 39.183s
+15:37:47 HiRAG INFO: Chunking time: 39.184s
+15:37:47 HiRAG INFO: Chunking time: 39.184s
+15:37:47 HiRAG INFO: Chunking time: 39.186s
+15:37:47 HiRAG INFO: Chunking time: 39.186s
+15:37:47 HiRAG INFO: Chunking time: 39.188s
+15:37:47 HiRAG INFO: Chunking time: 39.189s
+15:37:47 HiRAG INFO: Chunking time: 39.190s
+15:37:47 HiRAG INFO: Chunking time: 39.191s
+15:37:47 HiRAG INFO: Chunking time: 39.193s
+15:37:47 HiRAG INFO: Chunking time: 39.193s
+15:37:47 HiRAG INFO: Chunking time: 39.195s
+15:37:47 HiRAG INFO: Chunking time: 39.195s
+15:37:47 HiRAG INFO: Chunking time: 39.197s
+15:37:47 HiRAG INFO: Chunking time: 39.198s
+15:37:47 HiRAG INFO: Chunking time: 39.199s
+15:37:47 HiRAG INFO: Chunking time: 39.200s
+15:37:47 HiRAG INFO: Chunking time: 39.201s
+15:37:47 HiRAG INFO: Chunking time: 39.202s
+15:37:47 HiRAG INFO: Chunking time: 39.203s
+15:37:47 HiRAG INFO: Chunking time: 39.204s
+15:37:47 HiRAG INFO: Chunking time: 39.205s
+15:37:47 HiRAG INFO: Chunking time: 39.206s
+15:37:47 HiRAG INFO: Chunking time: 39.207s
+15:37:47 HiRAG INFO: Chunking time: 39.208s
+15:37:47 HiRAG INFO: Chunking time: 39.209s
+15:37:47 HiRAG INFO: Chunking time: 39.211s
+15:37:47 HiRAG INFO: Chunking time: 39.211s
+15:37:47 HiRAG INFO: Chunking time: 39.213s
+15:37:47 HiRAG INFO: Chunking time: 39.213s
+15:37:47 HiRAG INFO: Chunking time: 39.215s
+15:37:47 HiRAG INFO: Chunking time: 39.215s
+15:37:47 HiRAG INFO: Chunking time: 39.217s
+15:37:47 HiRAG INFO: Chunking time: 39.218s
+15:37:47 HiRAG INFO: Chunking time: 39.219s
+15:37:47 HiRAG INFO: Chunking time: 39.219s
+15:37:47 HiRAG INFO: Chunking time: 39.221s
+15:37:47 HiRAG INFO: Chunking time: 39.222s
+15:37:47 HiRAG INFO: Chunking time: 39.223s
+15:37:47 HiRAG INFO: Chunking time: 39.224s
+15:37:47 HiRAG INFO: Chunking time: 39.225s
+15:37:47 HiRAG INFO: Chunking time: 39.226s
+15:37:47 HiRAG INFO: Chunking time: 39.227s
+15:37:47 HiRAG INFO: Chunking time: 39.228s
+15:37:47 HiRAG INFO: Chunking time: 39.230s
+15:37:47 HiRAG INFO: Chunking time: 39.231s
+15:37:47 HiRAG INFO: Chunking time: 39.233s
+15:37:47 HiRAG INFO: Chunking time: 39.233s
+15:37:47 HiRAG INFO: Chunking time: 39.234s
+15:37:47 HiRAG INFO: Chunking time: 39.235s
+15:37:47 HiRAG INFO: Chunking time: 39.236s
+15:37:47 HiRAG INFO: Chunking time: 39.237s
+15:37:47 HiRAG INFO: Chunking time: 39.238s
+15:37:47 HiRAG INFO: Chunking time: 39.239s
+15:37:47 HiRAG INFO: Chunking time: 39.240s
+15:37:47 HiRAG INFO: Chunking time: 39.241s
+15:37:47 HiRAG INFO: Chunking time: 39.242s
+15:37:47 HiRAG INFO: Chunking time: 39.243s
+15:37:47 HiRAG INFO: Chunking time: 39.244s
+15:37:47 HiRAG INFO: Chunking time: 39.245s
+15:37:47 HiRAG INFO: Chunking time: 39.246s
+15:37:47 HiRAG INFO: Chunking time: 39.247s
+15:37:47 HiRAG INFO: Chunking time: 39.248s
+15:37:47 HiRAG INFO: Chunking time: 39.249s
+15:37:47 HiRAG INFO: Chunking time: 39.250s
+15:37:47 HiRAG INFO: Chunking time: 39.251s
+15:37:47 HiRAG INFO: Chunking time: 39.252s
+15:37:47 HiRAG INFO: Chunking time: 39.253s
+15:37:47 HiRAG INFO: Chunking time: 39.254s
+15:37:47 HiRAG INFO: Chunking time: 39.255s
+15:37:47 HiRAG INFO: Chunking time: 39.256s
+15:37:47 HiRAG INFO: Chunking time: 39.257s
+15:37:47 HiRAG INFO: Chunking time: 39.258s
+15:37:47 HiRAG INFO: Chunking time: 39.259s
+15:37:47 HiRAG INFO: Chunking time: 39.260s
+15:37:47 HiRAG INFO: Chunking time: 39.260s
+15:37:47 HiRAG INFO: Chunking time: 39.262s
+15:37:47 HiRAG INFO: Chunking time: 39.263s
+15:37:47 HiRAG INFO: Chunking time: 39.264s
+15:37:47 HiRAG INFO: Chunking time: 39.264s
+15:37:47 HiRAG INFO: Chunking time: 39.265s
+15:37:47 HiRAG INFO: Chunking time: 39.266s
+15:37:47 HiRAG INFO: Chunking time: 39.270s
+15:37:47 HiRAG INFO: Chunking time: 39.271s
+15:37:47 HiRAG INFO: Chunking time: 39.273s
+15:37:47 HiRAG INFO: Chunking time: 39.273s
+15:37:47 HiRAG INFO: Chunking time: 39.275s
+15:37:47 HiRAG INFO: Chunking time: 39.276s
+15:37:47 HiRAG INFO: Chunking time: 39.277s
+15:37:47 HiRAG INFO: Chunking time: 39.280s
+15:37:47 HiRAG INFO: Chunking time: 39.280s
+15:37:47 HiRAG INFO: Chunking time: 39.282s
+15:37:47 HiRAG INFO: Chunking time: 39.283s
+15:37:47 HiRAG INFO: Chunking time: 39.285s
+15:37:47 HiRAG INFO: Chunking time: 39.286s
+15:37:47 HiRAG INFO: Chunking time: 39.290s
+15:37:47 HiRAG INFO: Chunking time: 39.291s
+15:37:47 HiRAG INFO: Chunking time: 39.292s
+15:37:47 HiRAG INFO: Chunking time: 39.293s
+15:37:47 HiRAG INFO: Chunking time: 39.294s
+15:37:47 HiRAG INFO: Chunking time: 39.295s
+15:37:47 HiRAG INFO: Chunking time: 39.300s
+15:37:47 HiRAG INFO: Chunking time: 39.301s
+15:37:47 HiRAG INFO: Chunking time: 39.302s
+15:37:47 HiRAG INFO: Chunking time: 39.302s
+15:37:47 HiRAG INFO: Chunking time: 39.301s
+15:37:47 HiRAG INFO: Chunking time: 39.303s
+15:37:47 HiRAG INFO: Chunking time: 39.304s
+15:37:47 HiRAG INFO: Chunking time: 39.306s
+15:37:47 HiRAG INFO: Chunking time: 39.307s
+15:37:47 HiRAG INFO: Chunking time: 39.308s
+15:37:47 HiRAG INFO: Chunking time: 39.309s
+15:37:47 HiRAG INFO: Chunking time: 39.310s
+15:37:47 HiRAG INFO: Chunking time: 39.312s
+15:37:47 HiRAG INFO: Chunking time: 39.312s
+15:37:47 HiRAG INFO: Chunking time: 39.314s
+15:37:47 HiRAG INFO: Chunking time: 39.315s
+15:37:47 HiRAG INFO: Chunking time: 39.316s
+15:37:47 HiRAG INFO: Chunking time: 39.317s
+15:37:47 HiRAG INFO: Chunking time: 39.318s
+15:37:47 HiRAG INFO: Chunking time: 39.319s
+15:37:47 HiRAG INFO: Chunking time: 39.320s
+15:37:47 HiRAG INFO: Chunking time: 39.321s
+15:37:47 HiRAG INFO: Chunking time: 39.323s
+15:37:47 HiRAG INFO: Chunking time: 39.324s
+15:37:47 HiRAG INFO: Chunking time: 39.326s
+15:37:47 HiRAG INFO: Chunking time: 39.327s
+15:37:47 HiRAG INFO: Chunking time: 39.328s
+15:37:47 HiRAG INFO: Chunking time: 39.328s
+15:37:47 HiRAG INFO: Chunking time: 39.329s
+15:37:47 HiRAG INFO: Chunking time: 39.330s
+15:37:47 HiRAG INFO: Chunking time: 39.331s
+15:37:47 HiRAG INFO: Chunking time: 39.332s
+15:37:47 HiRAG INFO: Chunking time: 39.334s
+15:37:47 HiRAG INFO: Chunking time: 39.334s
+15:37:47 HiRAG INFO: Chunking time: 39.336s
+15:37:47 HiRAG INFO: Chunking time: 39.337s
+15:37:47 HiRAG INFO: Chunking time: 39.338s
+15:37:47 HiRAG INFO: Chunking time: 39.338s
+15:37:47 HiRAG INFO: Chunking time: 39.339s
+15:37:47 HiRAG INFO: Chunking time: 39.340s
+15:37:47 HiRAG INFO: Chunking time: 39.342s
+15:37:47 HiRAG INFO: Chunking time: 39.343s
+15:37:47 HiRAG INFO: Chunking time: 39.344s
+15:37:47 HiRAG INFO: Chunking time: 39.345s
+15:37:47 HiRAG INFO: Chunking time: 39.347s
+15:37:47 HiRAG INFO: Chunking time: 39.348s
+15:37:47 HiRAG INFO: Chunking time: 39.349s
+15:37:47 HiRAG INFO: Chunking time: 39.350s
+15:37:47 HiRAG INFO: Chunking time: 39.352s
+15:37:47 HiRAG INFO: Chunking time: 39.353s
+15:37:47 HiRAG INFO: Chunking time: 39.355s
+15:37:47 HiRAG INFO: Chunking time: 39.356s
+15:37:47 HiRAG INFO: Chunking time: 39.357s
+15:37:47 HiRAG INFO: Chunking time: 39.359s
+15:37:47 HiRAG INFO: Chunking time: 39.359s
+15:37:47 HiRAG INFO: Chunking time: 39.360s
+15:37:47 HiRAG INFO: Chunking time: 39.361s
+15:37:47 HiRAG INFO: Chunking time: 39.363s
+15:37:47 HiRAG INFO: Chunking time: 39.363s
+15:37:47 HiRAG INFO: Chunking time: 39.364s
+15:37:47 HiRAG INFO: Chunking time: 39.365s
+15:37:47 HiRAG INFO: Chunking time: 39.367s
+15:37:47 HiRAG INFO: Chunking time: 39.367s
+15:37:47 HiRAG INFO: Chunking time: 39.369s
+15:37:47 HiRAG INFO: Chunking time: 39.370s
+15:37:47 HiRAG INFO: Chunking time: 39.371s
+15:37:47 HiRAG INFO: Chunking time: 39.372s
+15:37:47 HiRAG INFO: Chunking time: 39.373s
+15:37:47 HiRAG INFO: Chunking time: 39.375s
+15:37:47 HiRAG INFO: Chunking time: 39.375s
+15:37:47 HiRAG INFO: Chunking time: 39.376s
+15:37:47 HiRAG INFO: Chunking time: 39.378s
+15:37:47 HiRAG INFO: Chunking time: 39.378s
+15:37:47 HiRAG INFO: Chunking time: 39.379s
+15:37:47 HiRAG INFO: Chunking time: 39.380s
+15:37:47 HiRAG INFO: Chunking time: 39.382s
+15:37:47 HiRAG INFO: Chunking time: 39.382s
+15:37:47 HiRAG INFO: Chunking time: 39.384s
+15:37:47 HiRAG INFO: Chunking time: 39.384s
+15:37:47 HiRAG INFO: Chunking time: 39.386s
+15:37:47 HiRAG INFO: Chunking time: 39.386s
+15:37:47 HiRAG INFO: Chunking time: 39.388s
+15:37:47 HiRAG INFO: Chunking time: 39.389s
+15:37:47 HiRAG INFO: Chunking time: 39.390s
+15:37:47 HiRAG INFO: Chunking time: 39.391s
+15:37:47 HiRAG INFO: Chunking time: 39.392s
+15:37:47 HiRAG INFO: Chunking time: 39.394s
+15:37:47 HiRAG INFO: Chunking time: 39.395s
+15:37:47 HiRAG INFO: Chunking time: 39.396s
+15:37:47 HiRAG INFO: Chunking time: 39.397s
+15:37:47 HiRAG INFO: Chunking time: 39.398s
+15:37:47 HiRAG INFO: Chunking time: 39.399s
+15:37:47 HiRAG INFO: Chunking time: 39.400s
+15:37:47 HiRAG INFO: Chunking time: 39.401s
+15:37:47 HiRAG INFO: Chunking time: 39.402s
+15:37:47 HiRAG INFO: Chunking time: 39.404s
+15:37:47 HiRAG INFO: Chunking time: 39.404s
+15:37:47 HiRAG INFO: Chunking time: 39.406s
+15:37:47 HiRAG INFO: Chunking time: 39.407s
+15:37:47 HiRAG INFO: Chunking time: 39.409s
+15:37:47 HiRAG INFO: Chunking time: 39.409s
+15:37:47 HiRAG INFO: Chunking time: 39.411s
+15:37:47 HiRAG INFO: Chunking time: 39.411s
+15:37:47 HiRAG INFO: Chunking time: 39.413s
+15:37:47 HiRAG INFO: Chunking time: 39.414s
+15:37:47 HiRAG INFO: Chunking time: 39.415s
+15:37:47 HiRAG INFO: Chunking time: 39.416s
+15:37:47 HiRAG INFO: Chunking time: 39.417s
+15:37:47 HiRAG INFO: Chunking time: 39.418s
+15:37:47 HiRAG INFO: Chunking time: 39.420s
+15:37:47 HiRAG INFO: Chunking time: 39.421s
+15:37:47 HiRAG INFO: Chunking time: 39.422s
+15:37:47 HiRAG INFO: Chunking time: 39.424s
+15:37:47 HiRAG INFO: Chunking time: 39.426s
+15:37:47 HiRAG INFO: Chunking time: 39.426s
+15:37:47 HiRAG INFO: Chunking time: 39.428s
+15:37:47 HiRAG INFO: Chunking time: 39.428s
+15:37:47 HiRAG INFO: Chunking time: 39.430s
+15:37:47 HiRAG INFO: Chunking time: 39.431s
+15:37:47 HiRAG INFO: Chunking time: 39.431s
+15:37:47 HiRAG INFO: Chunking time: 39.432s
+15:37:47 HiRAG INFO: Chunking time: 39.433s
+15:37:47 HiRAG INFO: Chunking time: 39.434s
+15:37:47 HiRAG INFO: Chunking time: 39.435s
+15:37:47 HiRAG INFO: Chunking time: 39.437s
+15:37:47 HiRAG INFO: Chunking time: 39.437s
+15:37:47 HiRAG INFO: Chunking time: 39.442s
+15:37:47 HiRAG INFO: Chunking time: 39.442s
+15:37:47 HiRAG INFO: Chunking time: 39.444s
+15:37:47 HiRAG INFO: Chunking time: 39.444s
+15:37:47 HiRAG INFO: Chunking time: 39.446s
+15:37:47 HiRAG INFO: Chunking time: 39.447s
+15:37:47 HiRAG INFO: Chunking time: 39.448s
+15:37:47 HiRAG INFO: Chunking time: 39.449s
+15:37:47 HiRAG INFO: Chunking time: 39.449s
+15:37:47 HiRAG INFO: Chunking time: 39.451s
+15:37:47 HiRAG INFO: Chunking time: 39.452s
+15:37:47 HiRAG INFO: Chunking time: 39.453s
+15:37:47 HiRAG INFO: Chunking time: 39.454s
+15:37:47 HiRAG INFO: Chunking time: 39.455s
+15:37:47 HiRAG INFO: Chunking time: 39.456s
+15:37:47 HiRAG INFO: Chunking time: 39.458s
+15:37:47 HiRAG INFO: Chunking time: 39.458s
+15:37:47 HiRAG INFO: Chunking time: 39.460s
+15:37:47 HiRAG INFO: Chunking time: 39.461s
+15:37:47 HiRAG INFO: Chunking time: 39.462s
+15:37:47 HiRAG INFO: Chunking time: 39.463s
+15:37:47 HiRAG INFO: Chunking time: 39.464s
+15:37:47 HiRAG INFO: Chunking time: 39.466s
+15:37:47 HiRAG INFO: Chunking time: 39.466s
+15:37:47 HiRAG INFO: Chunking time: 39.468s
+15:37:47 HiRAG INFO: Chunking time: 39.469s
+15:37:47 HiRAG INFO: Chunking time: 39.470s
+15:37:47 HiRAG INFO: Chunking time: 39.471s
+15:37:47 HiRAG INFO: Chunking time: 39.472s
+15:37:47 HiRAG INFO: Chunking time: 39.474s
+15:37:47 HiRAG INFO: Chunking time: 39.475s
+15:37:47 HiRAG INFO: Chunking time: 39.476s
+15:37:47 HiRAG INFO: Chunking time: 39.477s
+15:37:47 HiRAG INFO: Chunking time: 39.478s
+15:37:47 HiRAG INFO: Chunking time: 39.479s
+15:37:47 HiRAG INFO: Chunking time: 39.481s
+15:37:47 HiRAG INFO: Chunking time: 39.482s
+15:37:47 HiRAG INFO: Chunking time: 39.483s
+15:37:47 HiRAG INFO: Chunking time: 39.484s
+15:37:47 HiRAG INFO: Chunking time: 39.485s
+15:37:47 HiRAG INFO: Chunking time: 39.486s
+15:37:47 HiRAG INFO: Chunking time: 39.487s
+15:37:47 HiRAG INFO: Chunking time: 39.488s
+15:37:47 HiRAG INFO: Chunking time: 39.489s
+15:37:47 HiRAG INFO: Chunking time: 39.490s
+15:37:47 HiRAG INFO: Chunking time: 39.492s
+15:37:47 HiRAG INFO: Chunking time: 39.492s
+15:37:47 HiRAG INFO: Chunking time: 39.493s
+15:37:47 HiRAG INFO: Chunking time: 39.495s
+15:37:47 HiRAG INFO: Chunking time: 39.496s
+15:37:47 HiRAG INFO: Chunking time: 39.497s
+15:37:47 HiRAG INFO: Chunking time: 39.499s
+15:37:47 HiRAG INFO: Chunking time: 39.500s
+15:37:47 HiRAG INFO: Chunking time: 39.502s
+15:37:47 HiRAG INFO: Chunking time: 39.503s
+15:37:47 HiRAG INFO: Chunking time: 39.504s
+15:37:47 HiRAG INFO: Chunking time: 39.504s
+15:37:47 HiRAG INFO: Chunking time: 39.507s
+15:37:47 HiRAG INFO: Chunking time: 39.507s
+15:37:47 HiRAG INFO: Chunking time: 39.508s
+15:37:47 HiRAG INFO: Chunking time: 39.509s
+15:37:47 HiRAG INFO: Chunking time: 39.511s
+15:37:47 HiRAG INFO: Chunking time: 39.512s
+15:37:47 HiRAG INFO: Chunking time: 39.513s
+15:37:47 HiRAG INFO: Chunking time: 39.514s
+15:37:47 HiRAG INFO: Chunking time: 39.515s
+15:37:47 HiRAG INFO: Chunking time: 39.516s
+15:37:47 HiRAG INFO: Chunking time: 39.517s
+15:37:47 HiRAG INFO: Chunking time: 39.518s
+15:37:47 HiRAG INFO: Chunking time: 39.520s
+15:37:47 HiRAG INFO: Chunking time: 39.521s
+15:37:47 HiRAG INFO: Chunking time: 39.522s
+15:37:47 HiRAG INFO: Chunking time: 39.523s
+15:37:47 HiRAG INFO: Chunking time: 39.525s
+15:37:47 HiRAG INFO: Chunking time: 39.525s
+15:37:47 HiRAG INFO: Chunking time: 39.527s
+15:37:47 HiRAG INFO: Chunking time: 39.528s
+15:37:47 HiRAG INFO: Chunking time: 39.529s
+15:37:47 HiRAG INFO: Chunking time: 39.530s
+15:37:47 HiRAG INFO: Chunking time: 39.531s
+15:37:47 HiRAG INFO: Chunking time: 39.532s
+15:37:47 HiRAG INFO: Chunking time: 39.534s
+15:37:47 HiRAG INFO: Chunking time: 39.534s
+15:37:47 HiRAG INFO: Chunking time: 39.536s
+15:37:47 HiRAG INFO: Chunking time: 39.538s
+15:37:47 HiRAG INFO: Chunking time: 39.539s
+15:37:47 HiRAG INFO: Chunking time: 39.534s
+15:37:47 HiRAG INFO: Chunking time: 39.536s
+15:37:47 HiRAG INFO: Chunking time: 39.536s
+15:37:47 HiRAG INFO: Chunking time: 39.537s
+15:37:47 HiRAG INFO: Chunking time: 39.538s
+15:37:47 HiRAG INFO: Chunking time: 39.538s
+15:37:47 HiRAG INFO: Chunking time: 39.539s
+15:37:47 HiRAG INFO: Chunking time: 39.540s
+15:37:47 HiRAG INFO: Chunking time: 39.540s
+15:37:47 HiRAG INFO: Chunking time: 39.541s
+15:37:47 HiRAG INFO: Chunking time: 39.543s
+15:37:47 HiRAG INFO: Chunking time: 39.544s
+15:37:47 HiRAG INFO: Chunking time: 39.546s
+15:37:47 HiRAG INFO: Chunking time: 39.547s
+15:37:47 HiRAG INFO: Chunking time: 39.548s
+15:37:47 HiRAG INFO: Chunking time: 39.549s
+15:37:47 HiRAG INFO: Chunking time: 39.550s
+15:37:47 HiRAG INFO: Chunking time: 39.551s
+15:37:47 HiRAG INFO: Chunking time: 39.552s
+15:37:47 HiRAG INFO: Chunking time: 39.553s
+15:37:47 HiRAG INFO: Chunking time: 39.555s
+15:37:47 HiRAG INFO: Chunking time: 39.555s
+15:37:47 HiRAG INFO: Chunking time: 39.557s
+15:37:47 HiRAG INFO: Chunking time: 39.558s
+15:37:47 HiRAG INFO: Chunking time: 39.559s
+15:37:47 HiRAG INFO: Chunking time: 39.560s
+15:37:47 HiRAG INFO: Chunking time: 39.561s
+15:37:47 HiRAG INFO: Chunking time: 39.562s
+15:37:47 HiRAG INFO: Chunking time: 39.564s
+15:37:47 HiRAG INFO: Chunking time: 39.565s
+15:37:47 HiRAG INFO: Chunking time: 39.566s
+15:37:47 HiRAG INFO: Chunking time: 39.567s
+15:37:47 HiRAG INFO: Chunking time: 39.567s
+15:37:47 HiRAG INFO: Chunking time: 39.570s
+15:37:47 HiRAG INFO: Chunking time: 39.571s
+15:37:47 HiRAG INFO: Chunking time: 39.572s
+15:37:47 HiRAG INFO: Chunking time: 39.573s
+15:37:47 HiRAG INFO: Chunking time: 39.574s
+15:37:47 HiRAG INFO: Chunking time: 39.575s
+15:37:47 HiRAG INFO: Chunking time: 39.576s
+15:37:47 HiRAG INFO: Chunking time: 39.577s
+15:37:47 HiRAG INFO: Chunking time: 39.578s
+15:37:47 HiRAG INFO: Chunking time: 39.579s
+15:37:47 HiRAG INFO: Chunking time: 39.581s
+15:37:47 HiRAG INFO: Chunking time: 39.582s
+15:37:47 HiRAG INFO: Chunking time: 39.583s
+15:37:47 HiRAG INFO: Chunking time: 39.583s
+15:37:47 HiRAG INFO: Chunking time: 39.585s
+15:37:47 HiRAG INFO: Chunking time: 39.586s
+15:37:47 HiRAG INFO: Chunking time: 39.587s
+15:37:47 HiRAG INFO: Chunking time: 39.588s
+15:37:47 HiRAG INFO: Chunking time: 39.589s
+15:37:47 HiRAG INFO: Chunking time: 39.590s
+15:37:47 HiRAG INFO: Chunking time: 39.592s
+15:37:47 HiRAG INFO: Chunking time: 39.592s
+15:37:47 HiRAG INFO: Chunking time: 39.594s
+15:37:47 HiRAG INFO: Chunking time: 39.595s
+15:37:47 HiRAG INFO: Chunking time: 39.596s
+15:37:47 HiRAG INFO: Chunking time: 39.597s
+15:37:47 HiRAG INFO: Chunking time: 39.598s
+15:37:47 HiRAG INFO: Chunking time: 39.600s
+15:37:47 HiRAG INFO: Chunking time: 39.600s
+15:37:47 HiRAG INFO: Chunking time: 39.602s
+15:37:47 HiRAG INFO: Chunking time: 39.603s
+15:37:47 HiRAG INFO: Chunking time: 39.604s
+15:37:47 HiRAG INFO: Chunking time: 39.606s
+15:37:47 HiRAG INFO: Chunking time: 39.606s
+15:37:47 HiRAG INFO: Chunking time: 39.608s
+15:37:47 HiRAG INFO: Chunking time: 39.610s
+15:37:47 HiRAG INFO: Chunking time: 39.611s
+15:37:47 HiRAG INFO: Chunking time: 39.612s
+15:37:47 HiRAG INFO: Chunking time: 39.613s
+15:37:47 HiRAG INFO: Chunking time: 39.614s
+15:37:47 HiRAG INFO: Chunking time: 39.616s
+15:37:47 HiRAG INFO: Chunking time: 39.616s
+15:37:47 HiRAG INFO: Chunking time: 39.617s
+15:37:47 HiRAG INFO: Chunking time: 39.618s
+15:37:47 HiRAG INFO: Chunking time: 39.619s
+15:37:47 HiRAG INFO: Chunking time: 39.620s
+15:37:47 HiRAG INFO: Chunking time: 39.621s
+15:37:47 HiRAG INFO: Chunking time: 39.622s
+15:37:47 HiRAG INFO: Chunking time: 39.623s
+15:37:47 HiRAG INFO: Chunking time: 39.624s
+15:37:47 HiRAG INFO: Chunking time: 39.625s
+15:37:47 HiRAG INFO: Chunking time: 39.626s
+15:37:47 HiRAG INFO: Chunking time: 39.628s
+15:37:47 HiRAG INFO: Chunking time: 39.628s
+15:37:47 HiRAG INFO: Chunking time: 39.630s
+15:37:47 HiRAG INFO: Chunking time: 39.631s
+15:37:47 HiRAG INFO: Chunking time: 39.632s
+15:37:47 HiRAG INFO: Chunking time: 39.633s
+15:37:47 HiRAG INFO: Chunking time: 39.634s
+15:37:47 HiRAG INFO: Chunking time: 39.635s
+15:37:47 HiRAG INFO: Chunking time: 39.636s
+15:37:47 HiRAG INFO: Chunking time: 39.637s
+15:37:47 HiRAG INFO: Chunking time: 39.638s
+15:37:47 HiRAG INFO: Chunking time: 39.639s
+15:37:47 HiRAG INFO: Chunking time: 39.641s
+15:37:47 HiRAG INFO: Chunking time: 39.641s
+15:37:47 HiRAG INFO: Chunking time: 39.643s
+15:37:47 HiRAG INFO: Chunking time: 39.643s
+15:37:47 HiRAG INFO: Chunking time: 39.645s
+15:37:47 HiRAG INFO: Chunking time: 39.646s
+15:37:47 HiRAG INFO: Chunking time: 39.647s
+15:37:47 HiRAG INFO: Chunking time: 39.648s
+15:37:47 HiRAG INFO: Chunking time: 39.650s
+15:37:47 HiRAG INFO: Chunking time: 39.651s
+15:37:47 HiRAG INFO: Chunking time: 39.652s
+15:37:47 HiRAG INFO: Chunking time: 39.654s
+15:37:47 HiRAG INFO: Chunking time: 39.655s
+15:37:47 HiRAG INFO: Chunking time: 39.656s
+15:37:47 HiRAG INFO: Chunking time: 39.657s
+15:37:47 HiRAG INFO: Chunking time: 39.658s
+15:37:47 HiRAG INFO: Chunking time: 39.659s
+15:37:47 HiRAG INFO: Chunking time: 39.660s
+15:37:47 HiRAG INFO: Chunking time: 39.661s
+15:37:47 HiRAG INFO: Chunking time: 39.663s
+15:37:47 HiRAG INFO: Chunking time: 39.664s
+15:37:47 HiRAG INFO: Chunking time: 39.665s
+15:37:47 HiRAG INFO: Chunking time: 39.666s
+15:37:47 HiRAG INFO: Chunking time: 39.667s
+15:37:47 HiRAG INFO: Chunking time: 39.668s
+15:37:47 HiRAG INFO: Chunking time: 39.669s
+15:37:47 HiRAG INFO: Chunking time: 39.670s
+15:37:47 HiRAG INFO: Chunking time: 39.671s
+15:37:47 HiRAG INFO: Chunking time: 39.672s
+15:37:47 HiRAG INFO: Chunking time: 39.674s
+15:37:47 HiRAG INFO: Chunking time: 39.674s
+15:37:47 HiRAG INFO: Chunking time: 39.676s
+15:37:47 HiRAG INFO: Chunking time: 39.677s
+15:37:47 HiRAG INFO: Chunking time: 39.678s
+15:37:47 HiRAG INFO: Chunking time: 39.680s
+15:37:47 HiRAG INFO: Chunking time: 39.680s
+15:37:47 HiRAG INFO: Chunking time: 39.682s
+15:37:47 HiRAG INFO: Chunking time: 39.683s
+15:37:47 HiRAG INFO: Chunking time: 39.684s
+15:37:47 HiRAG INFO: Chunking time: 39.685s
+15:37:47 HiRAG INFO: Chunking time: 39.686s
+15:37:47 HiRAG INFO: Chunking time: 39.687s
+15:37:47 HiRAG INFO: Chunking time: 39.689s
+15:37:47 HiRAG INFO: Chunking time: 39.689s
+15:37:47 HiRAG INFO: Chunking time: 39.691s
+15:37:47 HiRAG INFO: Chunking time: 39.692s
+15:37:47 HiRAG INFO: Chunking time: 39.693s
+15:37:47 HiRAG INFO: Chunking time: 39.694s
+15:37:47 HiRAG INFO: Chunking time: 39.695s
+15:37:47 HiRAG INFO: Chunking time: 39.696s
+15:37:47 HiRAG INFO: Chunking time: 39.697s
+15:37:47 HiRAG INFO: Chunking time: 39.701s
+15:37:47 HiRAG INFO: Chunking time: 39.702s
+15:37:47 HiRAG INFO: Chunking time: 39.703s
+15:37:47 HiRAG INFO: Chunking time: 39.705s
+15:37:47 HiRAG INFO: Chunking time: 39.705s
+15:37:47 HiRAG INFO: Chunking time: 39.707s
+15:37:47 HiRAG INFO: Chunking time: 39.707s
+15:37:47 HiRAG INFO: Chunking time: 39.709s
+15:37:47 HiRAG INFO: Chunking time: 39.710s
+15:37:47 HiRAG INFO: Chunking time: 39.711s
+15:37:47 HiRAG INFO: Chunking time: 39.712s
+15:37:47 HiRAG INFO: Chunking time: 39.713s
+15:37:47 HiRAG INFO: Chunking time: 39.715s
+15:37:47 HiRAG INFO: Chunking time: 39.716s
+15:37:47 HiRAG INFO: Chunking time: 39.717s
+15:37:47 HiRAG INFO: Chunking time: 39.718s
+15:37:47 HiRAG INFO: Chunking time: 39.719s
+15:37:47 HiRAG INFO: Chunking time: 39.721s
+15:37:47 HiRAG INFO: Chunking time: 39.721s
+15:37:47 HiRAG INFO: Chunking time: 39.723s
+15:37:47 HiRAG INFO: Chunking time: 39.723s
+15:37:47 HiRAG INFO: Chunking time: 39.725s
+15:37:47 HiRAG INFO: Chunking time: 39.726s
+15:37:47 HiRAG INFO: Chunking time: 39.727s
+15:37:47 HiRAG INFO: Chunking time: 39.728s
+15:37:47 HiRAG INFO: Chunking time: 39.729s
+15:37:47 HiRAG INFO: Chunking time: 39.730s
+15:37:47 HiRAG INFO: Chunking time: 39.732s
+15:37:47 HiRAG INFO: Chunking time: 39.732s
+15:37:47 HiRAG INFO: Chunking time: 39.734s
+15:37:47 HiRAG INFO: Chunking time: 39.735s
+15:37:47 HiRAG INFO: Chunking time: 39.736s
+15:37:47 HiRAG INFO: Chunking time: 39.738s
+15:37:47 HiRAG INFO: Chunking time: 39.739s
+15:37:47 HiRAG INFO: Chunking time: 39.740s
+15:37:47 HiRAG INFO: Chunking time: 39.741s
+15:37:47 HiRAG INFO: Chunking time: 39.742s
+15:37:47 HiRAG INFO: Chunking time: 39.744s
+15:37:47 HiRAG INFO: Chunking time: 39.744s
+15:37:47 HiRAG INFO: Chunking time: 39.746s
+15:37:47 HiRAG INFO: Chunking time: 39.746s
+15:37:47 HiRAG INFO: Chunking time: 39.747s
+15:37:47 HiRAG INFO: Chunking time: 39.749s
+15:37:47 HiRAG INFO: Chunking time: 39.749s
+15:37:47 HiRAG INFO: Chunking time: 39.751s
+15:37:47 HiRAG INFO: Chunking time: 39.751s
+15:37:47 HiRAG INFO: Chunking time: 39.753s
+15:37:47 HiRAG INFO: Chunking time: 39.753s
+15:37:47 HiRAG INFO: Chunking time: 39.755s
+15:37:47 HiRAG INFO: Chunking time: 39.756s
+15:37:47 HiRAG INFO: Chunking time: 39.757s
+15:37:47 HiRAG INFO: Chunking time: 39.758s
+15:37:47 HiRAG INFO: Chunking time: 39.759s
+15:37:47 HiRAG INFO: Chunking time: 39.760s
+15:37:47 HiRAG INFO: Chunking time: 39.761s
+15:37:47 HiRAG INFO: Chunking time: 39.762s
+15:37:47 HiRAG INFO: Chunking time: 39.763s
+15:37:47 HiRAG INFO: Chunking time: 39.764s
+15:37:47 HiRAG INFO: Chunking time: 39.765s
+15:37:47 HiRAG INFO: Chunking time: 39.766s
+15:37:47 HiRAG INFO: Chunking time: 39.767s
+15:37:47 HiRAG INFO: Chunking time: 39.769s
+15:37:47 HiRAG INFO: Chunking time: 39.770s
+15:37:47 HiRAG INFO: Chunking time: 39.771s
+15:37:47 HiRAG INFO: Chunking time: 39.772s
+15:37:47 HiRAG INFO: Chunking time: 39.772s
+15:37:47 HiRAG INFO: Chunking time: 39.774s
+15:37:47 HiRAG INFO: Chunking time: 39.774s
+15:37:47 HiRAG INFO: Chunking time: 39.775s
+15:37:47 HiRAG INFO: Chunking time: 39.776s
+15:37:47 HiRAG INFO: Chunking time: 39.777s
+15:37:47 HiRAG INFO: Chunking time: 39.778s
+15:37:47 HiRAG INFO: Chunking time: 39.779s
+15:37:47 HiRAG INFO: Chunking time: 39.780s
+15:37:47 HiRAG INFO: Chunking time: 39.781s
+15:37:47 HiRAG INFO: Chunking time: 39.782s
+15:37:47 HiRAG INFO: Chunking time: 39.783s
+15:37:47 HiRAG INFO: Chunking time: 39.784s
+15:37:47 HiRAG INFO: Chunking time: 39.785s
+15:37:47 HiRAG INFO: Chunking time: 39.786s
+15:37:47 HiRAG INFO: Chunking time: 39.787s
+15:37:47 HiRAG INFO: Chunking time: 39.788s
+15:37:47 HiRAG INFO: Chunking time: 39.790s
+15:37:47 HiRAG INFO: Chunking time: 39.791s
+15:37:47 HiRAG INFO: Chunking time: 39.792s
+15:37:47 HiRAG INFO: Chunking time: 39.793s
+15:37:47 HiRAG INFO: Chunking time: 39.794s
+15:37:47 HiRAG INFO: Chunking time: 39.795s
+15:37:47 HiRAG INFO: Chunking time: 39.796s
+15:37:47 HiRAG INFO: Chunking time: 39.797s
+15:37:47 HiRAG INFO: Chunking time: 39.799s
+15:37:47 HiRAG INFO: Chunking time: 39.800s
+15:37:47 HiRAG INFO: Chunking time: 39.802s
+15:37:47 HiRAG INFO: Chunking time: 39.803s
+15:37:47 HiRAG INFO: Chunking time: 39.804s
+15:37:47 HiRAG INFO: Chunking time: 39.806s
+15:37:47 HiRAG INFO: Chunking time: 39.808s
+15:37:47 HiRAG INFO: Chunking time: 39.809s
+15:37:47 HiRAG INFO: Chunking time: 39.810s
+15:37:47 HiRAG INFO: Chunking time: 39.810s
+15:37:47 HiRAG INFO: Chunking time: 39.812s
+15:37:47 HiRAG INFO: Chunking time: 39.813s
+15:37:47 HiRAG INFO: Chunking time: 39.814s
+15:37:47 HiRAG INFO: Chunking time: 39.815s
+15:37:47 HiRAG INFO: Chunking time: 39.816s
+15:37:47 HiRAG INFO: Chunking time: 39.817s
+15:37:47 HiRAG INFO: Chunking time: 39.818s
+15:37:47 HiRAG INFO: Chunking time: 39.819s
+15:37:47 HiRAG INFO: Chunking time: 39.820s
+15:37:47 HiRAG INFO: Chunking time: 39.821s
+15:37:47 HiRAG INFO: Chunking time: 39.823s
+15:37:47 HiRAG INFO: Chunking time: 39.824s
+15:37:47 HiRAG INFO: Chunking time: 39.825s
+15:37:47 HiRAG INFO: Chunking time: 39.826s
+15:37:47 HiRAG INFO: Chunking time: 39.827s
+15:37:47 HiRAG INFO: Chunking time: 39.828s
+15:37:47 HiRAG INFO: Chunking time: 39.830s
+15:37:47 HiRAG INFO: Chunking time: 39.831s
+15:37:47 HiRAG INFO: Chunking time: 39.832s
+15:37:47 HiRAG INFO: Chunking time: 39.833s
+15:37:47 HiRAG INFO: Chunking time: 39.834s
+15:37:47 HiRAG INFO: Chunking time: 39.836s
+15:37:47 HiRAG INFO: Chunking time: 39.836s
+15:37:47 HiRAG INFO: Chunking time: 39.838s
+15:37:47 HiRAG INFO: Chunking time: 39.838s
+15:37:47 HiRAG INFO: Chunking time: 39.840s
+15:37:47 HiRAG INFO: Chunking time: 39.841s
+15:37:47 HiRAG INFO: Chunking time: 39.842s
+15:37:47 HiRAG INFO: Chunking time: 39.843s
+15:37:47 HiRAG INFO: Chunking time: 39.845s
+15:37:47 HiRAG INFO: Chunking time: 39.846s
+15:37:47 HiRAG INFO: Chunking time: 39.847s
+15:37:47 HiRAG INFO: Chunking time: 39.848s
+15:37:47 HiRAG INFO: Chunking time: 39.850s
+15:37:47 HiRAG INFO: Chunking time: 39.851s
+15:37:47 HiRAG INFO: Chunking time: 39.851s
+15:37:47 HiRAG INFO: Chunking time: 39.852s
+15:37:47 HiRAG INFO: Chunking time: 39.854s
+15:37:47 HiRAG INFO: Chunking time: 39.855s
+15:37:47 HiRAG INFO: Chunking time: 39.857s
+15:37:47 HiRAG INFO: Chunking time: 39.857s
+15:37:47 HiRAG INFO: Chunking time: 39.858s
+15:37:47 HiRAG INFO: Chunking time: 39.858s
+15:37:47 HiRAG INFO: Chunking time: 39.859s
+15:37:47 HiRAG INFO: Chunking time: 39.860s
+15:37:47 HiRAG INFO: Chunking time: 39.862s
+15:37:47 HiRAG INFO: Chunking time: 39.863s
+15:37:47 HiRAG INFO: Chunking time: 39.865s
+15:37:47 HiRAG INFO: Chunking time: 39.865s
+15:37:47 HiRAG INFO: Chunking time: 39.867s
+15:37:47 HiRAG INFO: Chunking time: 39.868s
+15:37:47 HiRAG INFO: Chunking time: 39.869s
+15:37:47 HiRAG INFO: Chunking time: 39.870s
+15:37:47 HiRAG INFO: Chunking time: 39.872s
+15:37:47 HiRAG INFO: Chunking time: 39.873s
+15:37:47 HiRAG INFO: Chunking time: 39.875s
+15:37:47 HiRAG INFO: Chunking time: 39.875s
+15:37:47 HiRAG INFO: Chunking time: 39.876s
+15:37:47 HiRAG INFO: Chunking time: 39.878s
+15:37:47 HiRAG INFO: Chunking time: 39.878s
+15:37:47 HiRAG INFO: Chunking time: 39.879s
+15:37:47 HiRAG INFO: Chunking time: 39.881s
+15:37:47 HiRAG INFO: Chunking time: 39.882s
+15:37:47 HiRAG INFO: Chunking time: 39.883s
+15:37:47 HiRAG INFO: Chunking time: 39.885s
+15:37:47 HiRAG INFO: Chunking time: 39.885s
+15:37:47 HiRAG INFO: Chunking time: 39.887s
+15:37:47 HiRAG INFO: Chunking time: 39.887s
+15:37:47 HiRAG INFO: Chunking time: 39.889s
+15:37:47 HiRAG INFO: Chunking time: 39.890s
+15:37:47 HiRAG INFO: Chunking time: 39.891s
+15:37:47 HiRAG INFO: Chunking time: 39.892s
+15:37:47 HiRAG INFO: Chunking time: 39.894s
+15:37:47 HiRAG INFO: Chunking time: 39.895s
+15:37:47 HiRAG INFO: Chunking time: 39.897s
+15:37:47 HiRAG INFO: Chunking time: 39.897s
+15:37:47 HiRAG INFO: Chunking time: 39.899s
+15:37:47 HiRAG INFO: Chunking time: 39.899s
+15:37:47 HiRAG INFO: Chunking time: 39.901s
+15:37:47 HiRAG INFO: Chunking time: 39.902s
+15:37:47 HiRAG INFO: Chunking time: 39.903s
+15:37:47 HiRAG INFO: Chunking time: 39.904s
+15:37:47 HiRAG INFO: Chunking time: 39.905s
+15:37:47 HiRAG INFO: Chunking time: 39.906s
+15:37:47 HiRAG INFO: Chunking time: 39.907s
+15:37:47 HiRAG INFO: Chunking time: 39.908s
+15:37:47 HiRAG INFO: Chunking time: 39.910s
+15:37:47 HiRAG INFO: Chunking time: 39.910s
+15:37:47 HiRAG INFO: Chunking time: 39.912s
+15:37:47 HiRAG INFO: Chunking time: 39.913s
+15:37:47 HiRAG INFO: Chunking time: 39.914s
+15:37:47 HiRAG INFO: Chunking time: 39.915s
+15:37:47 HiRAG INFO: Chunking time: 39.917s
+15:37:47 HiRAG INFO: Chunking time: 39.918s
+15:37:47 HiRAG INFO: Chunking time: 39.919s
+15:37:47 HiRAG INFO: Chunking time: 39.920s
+15:37:47 HiRAG INFO: Chunking time: 39.921s
+15:37:47 HiRAG INFO: Chunking time: 39.922s
+15:37:47 HiRAG INFO: Chunking time: 39.924s
+15:37:47 HiRAG INFO: Chunking time: 39.925s
+15:37:47 HiRAG INFO: Chunking time: 39.926s
+15:37:47 HiRAG INFO: Chunking time: 39.927s
+15:37:47 HiRAG INFO: Chunking time: 39.928s
+15:37:47 HiRAG INFO: Chunking time: 39.929s
+15:37:47 HiRAG INFO: Chunking time: 39.930s
+15:37:47 HiRAG INFO: Chunking time: 39.931s
+15:37:47 HiRAG INFO: Chunking time: 39.932s
+15:37:47 HiRAG INFO: Chunking time: 39.933s
+15:37:47 HiRAG INFO: Chunking time: 39.934s
+15:37:47 HiRAG INFO: Chunking time: 39.936s
+15:37:47 HiRAG INFO: Chunking time: 39.936s
+15:37:47 HiRAG INFO: Chunking time: 39.938s
+15:37:47 HiRAG INFO: Chunking time: 39.939s
+15:37:47 HiRAG INFO: Chunking time: 39.941s
+15:37:47 HiRAG INFO: Chunking time: 39.941s
+15:37:47 HiRAG INFO: Chunking time: 39.942s
+15:37:47 HiRAG INFO: Chunking time: 39.943s
+15:37:47 HiRAG INFO: Chunking time: 39.944s
+15:37:47 HiRAG INFO: Chunking time: 39.946s
+15:37:47 HiRAG INFO: Chunking time: 39.946s
+15:37:47 HiRAG INFO: Chunking time: 39.948s
+15:37:47 HiRAG INFO: Chunking time: 39.948s
+15:37:47 HiRAG INFO: Chunking time: 39.950s
+15:37:47 HiRAG INFO: Chunking time: 39.951s
+15:37:47 HiRAG INFO: Chunking time: 39.952s
+15:37:47 HiRAG INFO: Chunking time: 39.952s
+15:37:47 HiRAG INFO: Chunking time: 39.954s
+15:37:47 HiRAG INFO: Chunking time: 39.955s
+15:37:47 HiRAG INFO: Chunking time: 39.956s
+15:37:47 HiRAG INFO: Chunking time: 39.957s
+15:37:47 HiRAG INFO: Chunking time: 39.958s
+15:37:47 HiRAG INFO: Chunking time: 39.959s
+15:37:47 HiRAG INFO: Chunking time: 39.960s
+15:37:47 HiRAG INFO: Chunking time: 39.961s
+15:37:47 HiRAG INFO: Chunking time: 39.962s
+15:37:47 HiRAG INFO: Chunking time: 39.964s
+15:37:47 HiRAG INFO: Chunking time: 39.964s
+15:37:47 HiRAG INFO: Chunking time: 39.988s
+15:37:47 HiRAG INFO: Chunking time: 40.012s
+15:37:47 HiRAG INFO: Chunking time: 40.014s
+15:37:47 HiRAG INFO: Chunking time: 40.014s
+15:37:47 HiRAG INFO: Chunking time: 40.014s
+15:37:47 HiRAG INFO: Chunking time: 40.014s
+15:37:47 HiRAG INFO: Chunking time: 40.014s
+15:37:47 HiRAG INFO: Chunking time: 40.014s
+15:37:47 HiRAG INFO: Chunking time: 40.016s
+15:37:47 HiRAG INFO: Chunking time: 40.016s
+15:37:47 HiRAG INFO: Chunking time: 40.016s
+15:37:47 HiRAG INFO: Chunking time: 40.018s
+15:37:47 HiRAG INFO: Chunking time: 40.018s
+15:37:47 HiRAG INFO: Chunking time: 40.018s
+15:37:47 HiRAG INFO: Chunking time: 40.018s
+15:37:47 HiRAG INFO: Chunking time: 40.020s
+15:37:47 HiRAG INFO: Chunking time: 40.020s
+15:37:47 HiRAG INFO: Chunking time: 40.020s
+15:37:47 HiRAG INFO: Chunking time: 40.020s
+15:37:47 HiRAG INFO: Chunking time: 40.020s
+15:37:47 HiRAG INFO: Chunking time: 40.020s
+15:37:47 HiRAG INFO: Chunking time: 40.021s
+15:37:47 HiRAG INFO: Chunking time: 40.021s
+15:37:47 HiRAG INFO: Chunking time: 40.021s
+15:37:47 HiRAG INFO: Chunking time: 40.016s
+15:37:47 HiRAG INFO: Chunking time: 40.015s
+15:37:47 HiRAG INFO: Chunking time: 40.015s
+15:37:47 HiRAG INFO: Chunking time: 40.014s
+15:37:47 HiRAG INFO: Chunking time: 40.014s
+15:37:47 HiRAG INFO: Chunking time: 40.014s
+15:37:48 HiRAG INFO: Chunking time: 40.556s
+15:37:48 HiRAG INFO: Chunking time: 40.556s
+15:37:48 HiRAG INFO: Chunking time: 40.556s
+15:37:48 HiRAG INFO: Chunking time: 40.556s
+15:37:48 HiRAG INFO: Chunking time: 40.557s
+15:37:48 HiRAG INFO: Chunking time: 40.558s
+15:37:48 HiRAG INFO: Chunking time: 40.561s
+15:37:48 HiRAG INFO: Chunking time: 40.561s
+15:37:48 HiRAG INFO: Chunking time: 40.561s
+15:37:48 HiRAG INFO: Chunking time: 40.562s
+15:37:48 HiRAG INFO: Chunking time: 40.565s
+15:37:48 HiRAG INFO: Chunking time: 40.565s
+15:37:48 HiRAG INFO: Chunking time: 40.565s
+15:37:48 HiRAG INFO: Chunking time: 40.565s
+15:37:48 HiRAG INFO: Chunking time: 40.565s
+15:37:48 HiRAG INFO: Chunking time: 40.565s
+15:37:48 HiRAG INFO: Chunking time: 40.565s
+15:37:48 HiRAG INFO: Chunking time: 40.566s
+15:37:48 HiRAG INFO: Chunking time: 40.566s
+15:37:48 HiRAG INFO: Chunking time: 40.566s
+15:37:48 HiRAG INFO: Chunking time: 40.566s
+15:37:48 HiRAG INFO: Chunking time: 40.567s
+15:37:48 HiRAG INFO: Chunking time: 40.567s
+15:37:48 HiRAG INFO: Chunking time: 40.568s
+15:37:48 HiRAG INFO: Chunking time: 40.568s
+15:37:48 HiRAG INFO: Chunking time: 40.568s
+15:37:48 HiRAG INFO: Chunking time: 40.568s
+15:37:48 HiRAG INFO: Chunking time: 40.568s
+15:37:48 HiRAG INFO: Chunking time: 40.569s
+15:37:48 HiRAG INFO: Chunking time: 40.569s
+15:37:48 HiRAG INFO: Chunking time: 40.571s
+15:37:48 HiRAG INFO: Chunking time: 40.571s
+15:37:48 HiRAG INFO: Chunking time: 40.571s
+15:37:48 HiRAG INFO: Chunking time: 40.572s
+15:37:48 HiRAG INFO: Chunking time: 40.572s
+15:37:48 HiRAG INFO: Chunking time: 40.573s
+15:37:48 HiRAG INFO: Chunking time: 40.573s
+15:37:48 HiRAG INFO: Chunking time: 40.573s
+15:37:48 HiRAG INFO: Chunking time: 40.574s
+15:37:48 HiRAG INFO: Chunking time: 40.574s
+15:37:48 HiRAG INFO: Chunking time: 40.575s
+15:37:48 HiRAG INFO: Chunking time: 40.575s
+15:37:48 HiRAG INFO: Chunking time: 40.575s
+15:37:48 HiRAG INFO: Chunking time: 40.576s
+15:37:48 HiRAG INFO: Chunking time: 40.576s
+15:37:48 HiRAG INFO: Chunking time: 40.576s
+15:37:48 HiRAG INFO: Chunking time: 40.577s
+15:37:48 HiRAG INFO: Chunking time: 40.577s
+15:37:48 HiRAG INFO: Chunking time: 40.578s
+15:37:48 HiRAG INFO: Chunking time: 40.578s
+15:37:48 HiRAG INFO: Chunking time: 40.579s
+15:37:48 HiRAG INFO: Chunking time: 40.579s
+15:37:48 HiRAG INFO: Chunking time: 40.579s
+15:37:48 HiRAG INFO: Chunking time: 40.580s
+15:37:48 HiRAG INFO: Chunking time: 40.581s
+15:37:48 HiRAG INFO: Chunking time: 40.581s
+15:37:48 HiRAG INFO: Chunking time: 40.583s
+15:37:48 HiRAG INFO: Chunking time: 40.584s
+15:37:48 HiRAG INFO: Chunking time: 40.585s
+15:37:48 HiRAG INFO: Chunking time: 40.586s
+15:37:48 HiRAG INFO: Chunking time: 40.587s
+15:37:48 HiRAG INFO: Chunking time: 40.588s
+15:37:48 HiRAG INFO: Chunking time: 40.589s
+15:37:48 HiRAG INFO: Chunking time: 40.590s
+15:37:48 HiRAG INFO: Chunking time: 40.592s
+15:37:48 HiRAG INFO: Chunking time: 40.593s
+15:37:48 HiRAG INFO: Chunking time: 40.595s
+15:37:48 HiRAG INFO: Chunking time: 40.595s
+15:37:48 HiRAG INFO: Chunking time: 40.597s
+15:37:48 HiRAG INFO: Chunking time: 40.602s
+15:37:48 HiRAG INFO: Chunking time: 40.602s
+15:37:48 HiRAG INFO: Chunking time: 40.602s
+15:37:48 HiRAG INFO: Chunking time: 40.603s
+15:37:48 HiRAG INFO: Chunking time: 40.604s
+15:37:48 HiRAG INFO: Chunking time: 40.605s
+15:37:48 HiRAG INFO: Chunking time: 40.607s
+15:37:48 HiRAG INFO: Chunking time: 40.608s
+15:37:48 HiRAG INFO: Chunking time: 40.609s
+15:37:48 HiRAG INFO: Chunking time: 40.610s
+15:37:48 HiRAG INFO: Chunking time: 40.611s
+15:37:48 HiRAG INFO: Chunking time: 40.612s
+15:37:48 HiRAG INFO: Chunking time: 40.613s
+15:37:48 HiRAG INFO: Chunking time: 40.616s
+15:37:48 HiRAG INFO: Chunking time: 40.617s
+15:37:48 HiRAG INFO: Chunking time: 40.617s
+15:37:48 HiRAG INFO: Chunking time: 40.617s
+15:37:48 HiRAG INFO: Chunking time: 40.618s
+15:37:48 HiRAG INFO: Chunking time: 40.618s
+15:37:48 HiRAG INFO: Chunking time: 40.618s
+15:37:48 HiRAG INFO: Chunking time: 40.619s
+15:37:48 HiRAG INFO: Chunking time: 40.619s
+15:37:48 HiRAG INFO: Chunking time: 40.620s
+15:37:48 HiRAG INFO: Chunking time: 40.621s
+15:37:48 HiRAG INFO: Chunking time: 40.621s
+15:37:48 HiRAG INFO: Chunking time: 40.622s
+15:37:48 HiRAG INFO: Chunking time: 40.623s
+15:37:48 HiRAG INFO: Chunking time: 40.624s
+15:37:48 HiRAG INFO: Chunking time: 40.625s
+15:37:48 HiRAG INFO: Chunking time: 40.625s
+15:37:48 HiRAG INFO: Chunking time: 40.627s
+15:37:48 HiRAG INFO: Chunking time: 40.627s
+15:37:48 HiRAG INFO: Chunking time: 40.630s
+15:37:48 HiRAG INFO: Chunking time: 40.630s
+15:37:48 HiRAG INFO: Chunking time: 40.631s
+15:37:48 HiRAG INFO: Chunking time: 40.632s
+15:37:48 HiRAG INFO: Chunking time: 40.633s
+15:37:48 HiRAG INFO: Chunking time: 40.633s
+15:37:48 HiRAG INFO: Chunking time: 40.634s
+15:37:48 HiRAG INFO: Chunking time: 40.635s
+15:37:48 HiRAG INFO: Chunking time: 40.636s
+15:37:48 HiRAG INFO: Chunking time: 40.637s
+15:37:48 HiRAG INFO: Chunking time: 40.652s
+15:37:48 HiRAG INFO: Chunking time: 40.653s
+15:37:48 HiRAG INFO: Chunking time: 40.654s
+15:37:48 HiRAG INFO: Chunking time: 40.655s
+15:37:48 HiRAG INFO: Chunking time: 40.656s
+15:37:48 HiRAG INFO: Chunking time: 40.657s
+15:37:48 HiRAG INFO: Chunking time: 40.660s
+15:37:48 HiRAG INFO: Chunking time: 40.660s
+15:37:48 HiRAG INFO: Chunking time: 40.661s
+15:37:48 HiRAG INFO: Chunking time: 40.662s
+15:37:48 HiRAG INFO: Chunking time: 40.662s
+15:37:48 HiRAG INFO: Chunking time: 40.664s
+15:37:48 HiRAG INFO: Chunking time: 40.665s
+15:37:48 HiRAG INFO: Chunking time: 40.678s
+15:37:48 HiRAG INFO: Chunking time: 40.680s
+15:37:48 HiRAG INFO: Chunking time: 40.681s
+15:37:48 HiRAG INFO: Chunking time: 40.682s
+15:37:48 HiRAG INFO: Chunking time: 40.683s
+15:37:48 HiRAG INFO: Chunking time: 40.716s
+15:37:48 HiRAG INFO: Chunking time: 40.723s
+15:37:48 HiRAG INFO: Chunking time: 40.723s
+15:37:48 HiRAG INFO: Chunking time: 40.723s
+15:37:48 HiRAG INFO: Chunking time: 40.723s
+15:37:48 HiRAG INFO: Chunking time: 40.723s
+15:37:48 HiRAG INFO: Chunking time: 40.724s
+15:37:48 HiRAG INFO: Chunking time: 40.726s
+15:37:48 HiRAG INFO: Chunking time: 40.731s
+15:37:48 HiRAG INFO: Chunking time: 40.731s
+15:37:48 HiRAG INFO: Chunking time: 40.731s
+15:37:48 HiRAG INFO: Chunking time: 40.731s
+15:37:48 HiRAG INFO: Chunking time: 40.732s
+15:37:48 HiRAG INFO: Chunking time: 40.733s
+15:37:48 HiRAG INFO: Chunking time: 40.733s
+15:37:48 HiRAG INFO: Chunking time: 40.733s
+15:37:48 HiRAG INFO: Chunking time: 40.734s
+15:37:48 HiRAG INFO: Chunking time: 40.735s
+15:37:48 HiRAG INFO: Chunking time: 40.736s
+15:37:48 HiRAG INFO: Chunking time: 40.736s
+15:37:48 HiRAG INFO: Chunking time: 40.737s
+15:37:48 HiRAG INFO: Chunking time: 40.738s
+15:37:48 HiRAG INFO: Chunking time: 40.741s
+15:37:48 HiRAG INFO: Chunking time: 40.741s
+15:37:48 HiRAG INFO: Chunking time: 40.742s
+15:37:48 HiRAG INFO: Chunking time: 40.742s
+15:37:48 HiRAG INFO: Chunking time: 40.748s
+15:37:48 HiRAG INFO: Chunking time: 40.748s
+15:37:48 HiRAG INFO: Chunking time: 40.751s
+15:37:48 HiRAG INFO: Chunking time: 40.751s
+15:37:48 HiRAG INFO: Chunking time: 40.751s
+15:37:48 HiRAG INFO: Chunking time: 40.752s
+15:37:48 HiRAG INFO: Chunking time: 40.752s
+15:37:48 HiRAG INFO: Chunking time: 40.754s
+15:37:48 HiRAG INFO: Chunking time: 40.755s
+15:37:48 HiRAG INFO: Chunking time: 40.756s
+15:37:48 HiRAG INFO: Chunking time: 40.763s
+15:37:48 HiRAG INFO: Chunking time: 40.764s
+15:37:48 HiRAG INFO: Chunking time: 40.764s
+15:37:48 HiRAG INFO: Chunking time: 40.764s
+15:37:48 HiRAG INFO: Chunking time: 40.764s
+15:37:48 HiRAG INFO: Chunking time: 40.764s
+15:37:48 HiRAG INFO: Chunking time: 40.764s
+15:37:48 HiRAG INFO: Chunking time: 40.764s
+15:37:48 HiRAG INFO: Chunking time: 40.764s
+15:37:48 HiRAG INFO: Chunking time: 40.765s
+15:37:48 HiRAG INFO: Chunking time: 40.765s
+15:37:48 HiRAG INFO: Chunking time: 40.765s
+15:37:48 HiRAG INFO: Chunking time: 40.765s
+15:37:48 HiRAG INFO: Chunking time: 40.765s
+15:37:48 HiRAG INFO: Chunking time: 40.765s
+15:37:48 HiRAG INFO: Chunking time: 40.766s
+15:37:48 HiRAG INFO: Chunking time: 40.767s
+15:37:48 HiRAG INFO: Chunking time: 40.768s
+15:37:48 HiRAG INFO: Chunking time: 40.770s
+15:37:48 HiRAG INFO: Chunking time: 40.770s
+15:37:48 HiRAG INFO: Chunking time: 40.772s
+15:37:48 HiRAG INFO: Chunking time: 40.772s
+15:37:48 HiRAG INFO: Chunking time: 40.774s
+15:37:48 HiRAG INFO: Chunking time: 40.775s
+15:37:48 HiRAG INFO: Chunking time: 40.776s
+15:37:48 HiRAG INFO: Chunking time: 40.777s
+15:37:48 HiRAG INFO: Chunking time: 40.778s
+15:37:48 HiRAG INFO: Chunking time: 40.779s
+15:37:48 HiRAG INFO: Chunking time: 40.780s
+15:37:48 HiRAG INFO: Chunking time: 40.781s
+15:37:48 HiRAG INFO: Chunking time: 40.782s
+15:37:48 HiRAG INFO: Chunking time: 40.783s
+15:37:48 HiRAG INFO: Chunking time: 40.784s
+15:37:48 HiRAG INFO: Chunking time: 40.785s
+15:37:48 HiRAG INFO: Chunking time: 40.786s
+15:37:48 HiRAG INFO: Chunking time: 40.787s
+15:37:48 HiRAG INFO: Chunking time: 40.788s
+15:37:48 HiRAG INFO: Chunking time: 40.789s
+15:37:48 HiRAG INFO: Chunking time: 40.791s
+15:37:48 HiRAG INFO: Chunking time: 40.791s
+15:37:48 HiRAG INFO: Chunking time: 40.792s
+15:37:48 HiRAG INFO: Chunking time: 40.793s
+15:37:48 HiRAG INFO: Chunking time: 40.795s
+15:37:48 HiRAG INFO: Chunking time: 40.795s
+15:37:48 HiRAG INFO: Chunking time: 40.796s
+15:37:48 HiRAG INFO: Chunking time: 40.797s
+15:37:48 HiRAG INFO: Chunking time: 40.799s
+15:37:48 HiRAG INFO: Chunking time: 40.799s
+15:37:48 HiRAG INFO: Chunking time: 40.800s
+15:37:48 HiRAG INFO: Chunking time: 40.801s
+15:37:48 HiRAG INFO: Chunking time: 40.803s
+15:37:48 HiRAG INFO: Chunking time: 40.803s
+15:37:48 HiRAG INFO: Chunking time: 40.810s
+15:37:48 HiRAG INFO: Chunking time: 40.811s
+15:37:48 HiRAG INFO: Chunking time: 40.813s
+15:37:48 HiRAG INFO: Chunking time: 40.814s
+15:37:48 HiRAG INFO: Chunking time: 40.815s
+15:37:48 HiRAG INFO: Chunking time: 40.817s
+15:37:48 HiRAG INFO: Chunking time: 40.818s
+15:37:48 HiRAG INFO: Chunking time: 40.818s
+15:37:48 HiRAG INFO: Chunking time: 40.821s
+15:37:48 HiRAG INFO: Chunking time: 40.822s
+15:37:48 HiRAG INFO: Chunking time: 40.824s
+15:37:48 HiRAG INFO: Chunking time: 40.824s
+15:37:48 HiRAG INFO: Chunking time: 40.825s
+15:37:48 HiRAG INFO: Chunking time: 40.826s
+15:37:48 HiRAG INFO: Chunking time: 40.828s
+15:37:48 HiRAG INFO: Chunking time: 40.828s
+15:37:48 HiRAG INFO: Chunking time: 40.828s
+15:37:48 HiRAG INFO: Chunking time: 40.830s
+15:37:48 HiRAG INFO: Chunking time: 40.831s
+15:37:48 HiRAG INFO: Chunking time: 40.831s
+15:37:48 HiRAG INFO: Chunking time: 40.832s
+15:37:48 HiRAG INFO: Chunking time: 40.833s
+15:37:48 HiRAG INFO: Chunking time: 40.834s
+15:37:48 HiRAG INFO: Chunking time: 40.834s
+15:37:48 HiRAG INFO: Chunking time: 40.835s
+15:37:48 HiRAG INFO: Chunking time: 40.837s
+15:37:48 HiRAG INFO: Chunking time: 40.837s
+15:37:48 HiRAG INFO: Chunking time: 40.837s
+15:37:48 HiRAG INFO: Chunking time: 40.842s
+15:37:48 HiRAG INFO: Chunking time: 40.842s
+15:37:48 HiRAG INFO: Chunking time: 40.844s
+15:37:48 HiRAG INFO: Chunking time: 40.844s
+15:37:48 HiRAG INFO: Chunking time: 40.846s
+15:37:48 HiRAG INFO: Chunking time: 40.846s
+15:37:48 HiRAG INFO: Chunking time: 40.848s
+15:37:48 HiRAG INFO: Chunking time: 40.847s
+15:37:48 HiRAG INFO: Chunking time: 40.849s
+15:37:48 HiRAG INFO: Chunking time: 40.850s
+15:37:48 HiRAG INFO: Chunking time: 40.900s
+15:37:48 HiRAG INFO: Chunking time: 40.901s
+15:37:48 HiRAG INFO: Chunking time: 40.901s
+15:37:48 HiRAG INFO: Chunking time: 40.901s
+15:37:48 HiRAG INFO: Chunking time: 40.902s
+15:37:48 HiRAG INFO: Chunking time: 40.902s
+15:37:48 HiRAG INFO: Chunking time: 40.902s
+15:37:48 HiRAG INFO: Chunking time: 40.902s
+15:37:48 HiRAG INFO: Chunking time: 40.902s
+15:37:48 HiRAG INFO: Chunking time: 40.902s
+15:37:48 HiRAG INFO: Chunking time: 40.902s
+15:37:48 HiRAG INFO: Chunking time: 40.903s
+15:37:48 HiRAG INFO: Chunking time: 40.903s
+15:37:48 HiRAG INFO: Chunking time: 40.903s
+15:37:48 HiRAG INFO: Chunking time: 40.903s
+15:37:48 HiRAG INFO: Chunking time: 40.903s
+15:37:48 HiRAG INFO: Chunking time: 40.903s
+15:37:48 HiRAG INFO: Chunking time: 40.903s
+15:37:48 HiRAG INFO: Chunking time: 40.903s
+15:37:48 HiRAG INFO: Chunking time: 40.903s
+15:37:48 HiRAG INFO: Chunking time: 40.906s
+15:37:48 HiRAG INFO: Chunking time: 40.908s
+15:37:48 HiRAG INFO: Chunking time: 40.909s
+15:37:48 HiRAG INFO: Chunking time: 40.911s
+15:37:48 HiRAG INFO: Chunking time: 40.911s
+15:37:48 HiRAG INFO: Chunking time: 40.912s
+15:37:48 HiRAG INFO: Chunking time: 40.913s
+15:37:48 HiRAG INFO: Chunking time: 40.914s
+15:37:48 HiRAG INFO: Chunking time: 40.916s
+15:37:48 HiRAG INFO: Chunking time: 40.916s
+15:37:48 HiRAG INFO: Chunking time: 40.920s
+15:37:48 HiRAG INFO: Chunking time: 40.921s
+15:37:48 HiRAG INFO: Chunking time: 40.922s
+15:37:48 HiRAG INFO: Chunking time: 40.923s
+15:37:48 HiRAG INFO: Chunking time: 40.926s
+15:37:48 HiRAG INFO: Upsert chunks time: 2.703s
+15:37:48 HiRAG INFO: Chunking time: 40.953s
+15:37:48 HiRAG INFO: Chunking time: 40.954s
+15:37:48 HiRAG INFO: Chunking time: 40.955s
+15:37:48 HiRAG INFO: Chunking time: 40.955s
+15:37:48 HiRAG INFO: Chunking time: 40.955s
+15:37:48 HiRAG INFO: Chunking time: 40.955s
+15:37:48 HiRAG INFO: Chunking time: 40.956s
+15:37:48 HiRAG INFO: Chunking time: 40.957s
+15:37:48 HiRAG INFO: Chunking time: 40.957s
+15:37:48 HiRAG INFO: Chunking time: 40.957s
+15:37:48 HiRAG INFO: Chunking time: 40.957s
+15:37:48 HiRAG INFO: Chunking time: 40.957s
+15:37:48 HiRAG INFO: Chunking time: 40.957s
+15:37:48 HiRAG INFO: Chunking time: 40.958s
+15:37:48 HiRAG INFO: Chunking time: 40.958s
+15:37:48 HiRAG INFO: Chunking time: 40.958s
+15:37:48 HiRAG INFO: Chunking time: 40.958s
+15:37:48 HiRAG INFO: Chunking time: 40.959s
+15:37:48 HiRAG INFO: Chunking time: 40.960s
+15:37:48 HiRAG INFO: Chunking time: 40.960s
+15:37:48 HiRAG INFO: Chunking time: 40.961s
+15:37:48 HiRAG INFO: Chunking time: 40.961s
+15:37:48 HiRAG INFO: Chunking time: 40.961s
+15:37:48 HiRAG INFO: Chunking time: 40.962s
+15:37:48 HiRAG INFO: Chunking time: 40.963s
+15:37:48 HiRAG INFO: Chunking time: 40.963s
+15:37:48 HiRAG INFO: Chunking time: 40.964s
+15:37:48 HiRAG INFO: Chunking time: 40.965s
+15:37:48 HiRAG INFO: Chunking time: 40.967s
+15:37:48 HiRAG INFO: Chunking time: 40.968s
+15:37:48 HiRAG INFO: Chunking time: 40.969s
+15:37:48 HiRAG INFO: Chunking time: 40.971s
+15:37:48 HiRAG INFO: Chunking time: 40.972s
+15:37:48 HiRAG INFO: Chunking time: 40.973s
+15:37:48 HiRAG INFO: Chunking time: 40.974s
+15:37:48 HiRAG INFO: Chunking time: 40.975s
+15:37:48 HiRAG INFO: Chunking time: 40.977s
+15:37:48 HiRAG INFO: Chunking time: 40.978s
+15:37:48 HiRAG INFO: Chunking time: 40.979s
+15:37:48 HiRAG INFO: Chunking time: 40.980s
+15:37:48 HiRAG INFO: Chunking time: 40.981s
+15:37:48 HiRAG INFO: Chunking time: 40.981s
+15:37:48 HiRAG INFO: Chunking time: 40.983s
+15:37:48 HiRAG INFO: Chunking time: 40.985s
+15:37:48 HiRAG INFO: Chunking time: 40.988s
+15:37:48 HiRAG INFO: Chunking time: 40.988s
+15:37:48 HiRAG INFO: Chunking time: 40.990s
+15:37:48 HiRAG INFO: Chunking time: 40.990s
+15:37:48 HiRAG INFO: Chunking time: 40.992s
+15:37:48 HiRAG INFO: Chunking time: 40.993s
+15:37:48 HiRAG INFO: Chunking time: 40.994s
+15:37:48 HiRAG INFO: Chunking time: 40.995s
+15:37:48 HiRAG INFO: Chunking time: 40.997s
+15:37:48 HiRAG INFO: Chunking time: 40.998s
+15:37:48 HiRAG INFO: Chunking time: 41.000s
+15:37:48 HiRAG INFO: Chunking time: 41.001s
+15:37:48 HiRAG INFO: Chunking time: 41.002s
+15:37:48 HiRAG INFO: Chunking time: 41.003s
+15:37:48 HiRAG INFO: Chunking time: 41.004s
+15:37:48 HiRAG INFO: Chunking time: 41.005s
+15:37:48 HiRAG INFO: Chunking time: 41.006s
+15:37:48 HiRAG INFO: Chunking time: 41.007s
+15:37:48 HiRAG INFO: Chunking time: 41.009s
+15:37:48 HiRAG INFO: Chunking time: 41.009s
+15:37:48 HiRAG INFO: Chunking time: 41.011s
+15:37:48 HiRAG INFO: Chunking time: 41.013s
+15:37:48 HiRAG INFO: Chunking time: 41.013s
+15:37:48 HiRAG INFO: Chunking time: 41.014s
+15:37:48 HiRAG INFO: Chunking time: 41.016s
+15:37:48 HiRAG INFO: Chunking time: 41.018s
+15:37:48 HiRAG INFO: Chunking time: 41.020s
+15:37:48 HiRAG INFO: Chunking time: 41.018s
+15:37:48 HiRAG INFO: Chunking time: 41.018s
+15:37:48 HiRAG INFO: Chunking time: 41.021s
+15:37:48 HiRAG INFO: Chunking time: 41.021s
+15:37:48 HiRAG INFO: Chunking time: 41.021s
+15:37:48 HiRAG INFO: Chunking time: 41.022s
+15:37:48 HiRAG INFO: Chunking time: 41.023s
+15:37:48 HiRAG INFO: Chunking time: 41.024s
+15:37:48 HiRAG INFO: Chunking time: 41.025s
+15:37:48 HiRAG INFO: Chunking time: 41.027s
+15:37:48 HiRAG INFO: Chunking time: 41.027s
+15:37:48 HiRAG INFO: Chunking time: 41.028s
+15:37:48 HiRAG INFO: Chunking time: 41.029s
+15:37:48 HiRAG INFO: Chunking time: 41.029s
+15:37:48 HiRAG INFO: Chunking time: 41.031s
+15:37:48 HiRAG INFO: Chunking time: 41.031s
+15:37:48 HiRAG INFO: Chunking time: 41.032s
+15:37:48 HiRAG INFO: Chunking time: 41.033s
+15:37:48 HiRAG INFO: Chunking time: 41.034s
+15:37:48 HiRAG INFO: Chunking time: 41.034s
+15:37:48 HiRAG INFO: Chunking time: 41.036s
+15:37:48 HiRAG INFO: Chunking time: 41.036s
+15:37:48 HiRAG INFO: Chunking time: 41.037s
+15:37:48 HiRAG INFO: Chunking time: 41.038s
+15:37:48 HiRAG INFO: Chunking time: 41.040s
+15:37:48 HiRAG INFO: Chunking time: 41.040s
+15:37:48 HiRAG INFO: Chunking time: 41.042s
+15:37:48 HiRAG INFO: Chunking time: 41.040s
+15:37:48 HiRAG INFO: Chunking time: 41.041s
+15:37:48 HiRAG INFO: Chunking time: 41.042s
+15:37:48 HiRAG INFO: Chunking time: 41.042s
+15:37:48 HiRAG INFO: Chunking time: 41.043s
+15:37:48 HiRAG INFO: Chunking time: 41.043s
+15:37:48 HiRAG INFO: Chunking time: 41.046s
+15:37:48 HiRAG INFO: Chunking time: 41.045s
+15:37:48 HiRAG INFO: Chunking time: 41.046s
+15:37:48 HiRAG INFO: Chunking time: 41.046s
+15:37:48 HiRAG INFO: Chunking time: 41.047s
+15:37:48 HiRAG INFO: Chunking time: 41.048s
+15:37:48 HiRAG INFO: Chunking time: 41.049s
+15:37:48 HiRAG INFO: Chunking time: 41.049s
+15:37:48 HiRAG INFO: Chunking time: 41.050s
+15:37:48 HiRAG INFO: Chunking time: 41.050s
+15:37:48 HiRAG INFO: Chunking time: 41.051s
+15:37:48 HiRAG INFO: Chunking time: 41.052s
+15:37:48 HiRAG INFO: Chunking time: 41.053s
+15:37:48 HiRAG INFO: Chunking time: 41.055s
+15:37:48 HiRAG INFO: Chunking time: 41.057s
+15:37:48 HiRAG INFO: Chunking time: 41.058s
+15:37:48 HiRAG INFO: Chunking time: 41.058s
+15:37:48 HiRAG INFO: Chunking time: 41.060s
+15:37:48 HiRAG INFO: Chunking time: 41.061s
+15:37:48 HiRAG INFO: Chunking time: 41.062s
+15:37:48 HiRAG INFO: Chunking time: 41.063s
+15:37:48 HiRAG INFO: Chunking time: 41.064s
+15:37:48 HiRAG INFO: Chunking time: 41.065s
+15:37:48 HiRAG INFO: Chunking time: 41.066s
+15:37:48 HiRAG INFO: Chunking time: 41.066s
+15:37:49 HiRAG INFO: Chunking time: 41.067s
+15:37:49 HiRAG INFO: Chunking time: 41.067s
+15:37:49 HiRAG INFO: Chunking time: 41.068s
+15:37:49 HiRAG INFO: Chunking time: 41.068s
+15:37:49 HiRAG INFO: Chunking time: 41.069s
+15:37:49 HiRAG INFO: Chunking time: 41.070s
+15:37:49 HiRAG INFO: Chunking time: 41.072s
+15:37:49 HiRAG INFO: Chunking time: 41.073s
+15:37:49 HiRAG INFO: Chunking time: 41.073s
+15:37:49 HiRAG INFO: Chunking time: 41.073s
+15:37:49 HiRAG INFO: Chunking time: 41.074s
+15:37:49 HiRAG INFO: Chunking time: 41.074s
+15:37:49 HiRAG INFO: Chunking time: 41.075s
+15:37:49 HiRAG INFO: Chunking time: 41.075s
+15:37:49 HiRAG INFO: Chunking time: 41.077s
+15:37:49 HiRAG INFO: Chunking time: 41.077s
+15:37:49 HiRAG INFO: Chunking time: 41.078s
+15:37:49 HiRAG INFO: Chunking time: 41.078s
+15:37:49 HiRAG INFO: Chunking time: 41.079s
+15:37:49 HiRAG INFO: Chunking time: 41.079s
+15:37:49 HiRAG INFO: Chunking time: 41.081s
+15:37:49 HiRAG INFO: Chunking time: 41.081s
+15:37:49 HiRAG INFO: Chunking time: 41.076s
+15:37:49 HiRAG INFO: Chunking time: 41.076s
+15:37:49 HiRAG INFO: Chunking time: 41.076s
+15:37:49 HiRAG INFO: Chunking time: 41.076s
+15:37:49 HiRAG INFO: Chunking time: 41.084s
+15:37:49 HiRAG INFO: Chunking time: 41.076s
+15:37:49 HiRAG INFO: Chunking time: 41.077s
+15:37:49 HiRAG INFO: Chunking time: 41.078s
+15:37:49 HiRAG INFO: Chunking time: 41.087s
+15:37:49 HiRAG INFO: Chunking time: 41.079s
+15:37:49 HiRAG INFO: Chunking time: 41.079s
+15:37:49 HiRAG INFO: Chunking time: 41.080s
+15:37:49 HiRAG INFO: Chunking time: 41.080s
+15:37:49 HiRAG INFO: Chunking time: 41.081s
+15:37:49 HiRAG INFO: Chunking time: 41.092s
+15:37:49 HiRAG INFO: Chunking time: 41.083s
+15:37:49 HiRAG INFO: Chunking time: 41.083s
+15:37:49 HiRAG INFO: Chunking time: 41.084s
+15:37:49 HiRAG INFO: Chunking time: 41.084s
+15:37:49 HiRAG INFO: Chunking time: 41.085s
+15:37:49 HiRAG INFO: Chunking time: 41.086s
+15:37:49 HiRAG INFO: Chunking time: 41.087s
+15:37:49 HiRAG INFO: Chunking time: 41.087s
+15:37:49 HiRAG INFO: Chunking time: 41.087s
+15:37:49 HiRAG INFO: Chunking time: 41.089s
+15:37:49 HiRAG INFO: Chunking time: 41.089s
+15:37:49 HiRAG INFO: Chunking time: 41.090s
+15:37:49 HiRAG INFO: Chunking time: 41.091s
+15:37:49 HiRAG INFO: Chunking time: 41.091s
+15:37:49 HiRAG INFO: Chunking time: 41.093s
+15:37:49 HiRAG INFO: Chunking time: 41.093s
+15:37:49 HiRAG INFO: Chunking time: 41.093s
+15:37:49 HiRAG INFO: Chunking time: 41.093s
+15:37:49 HiRAG INFO: Chunking time: 41.097s
+15:37:49 HiRAG INFO: Chunking time: 41.111s
+15:37:49 HiRAG INFO: Chunking time: 41.112s
+15:37:49 HiRAG INFO: Chunking time: 41.115s
+15:37:49 HiRAG INFO: Chunking time: 41.116s
+15:37:49 HiRAG INFO: Chunking time: 41.118s
+15:37:49 HiRAG INFO: Chunking time: 41.119s
+15:37:49 HiRAG INFO: Chunking time: 41.120s
+15:37:49 HiRAG INFO: Chunking time: 41.124s
+15:37:49 HiRAG INFO: Chunking time: 41.124s
+15:37:49 HiRAG INFO: Chunking time: 41.125s
+15:37:49 HiRAG INFO: Chunking time: 41.125s
+15:37:49 HiRAG INFO: Chunking time: 41.126s
+15:37:49 HiRAG INFO: Chunking time: 41.126s
+15:37:49 HiRAG INFO: Chunking time: 41.127s
+15:37:49 HiRAG INFO: Chunking time: 41.126s
+15:37:49 HiRAG INFO: Chunking time: 41.126s
+15:37:49 HiRAG INFO: Chunking time: 41.127s
+15:37:49 HiRAG INFO: Chunking time: 41.127s
+15:37:49 HiRAG INFO: Chunking time: 41.127s
+15:37:49 HiRAG INFO: Chunking time: 41.127s
+15:37:49 HiRAG INFO: Chunking time: 41.128s
+15:37:49 HiRAG INFO: Chunking time: 41.129s
+15:37:49 HiRAG INFO: Chunking time: 41.129s
+15:37:49 HiRAG INFO: Chunking time: 41.129s
+15:37:49 HiRAG INFO: Chunking time: 41.129s
+15:37:49 HiRAG INFO: Chunking time: 41.134s
+15:37:49 HiRAG INFO: Chunking time: 41.135s
+15:37:49 HiRAG INFO: Chunking time: 41.140s
+15:37:49 HiRAG INFO: Chunking time: 41.140s
+15:37:49 HiRAG INFO: Chunking time: 41.141s
+15:37:49 HiRAG INFO: Chunking time: 41.141s
+15:37:49 HiRAG INFO: Chunking time: 41.153s
+15:37:49 HiRAG INFO: Chunking time: 41.143s
+15:37:49 HiRAG INFO: Chunking time: 41.143s
+15:37:49 HiRAG INFO: Chunking time: 41.144s
+15:37:49 HiRAG INFO: Chunking time: 41.146s
+15:37:49 HiRAG INFO: Chunking time: 41.148s
+15:37:49 HiRAG INFO: Chunking time: 41.148s
+15:37:49 HiRAG INFO: Chunking time: 41.147s
+15:37:49 HiRAG INFO: Chunking time: 41.148s
+15:37:49 HiRAG INFO: Chunking time: 41.150s
+15:37:49 HiRAG INFO: Chunking time: 41.150s
+15:37:49 HiRAG INFO: Chunking time: 41.151s
+15:37:49 HiRAG INFO: Chunking time: 41.152s
+15:37:49 HiRAG INFO: Chunking time: 41.163s
+15:37:49 HiRAG INFO: Chunking time: 41.164s
+15:37:49 HiRAG INFO: Chunking time: 41.165s
+15:37:49 HiRAG INFO: Chunking time: 41.168s
+15:37:49 HiRAG INFO: Chunking time: 41.168s
+15:37:49 HiRAG INFO: Chunking time: 41.168s
+15:37:49 HiRAG INFO: Chunking time: 41.168s
+15:37:49 HiRAG INFO: Chunking time: 41.169s
+15:37:49 HiRAG INFO: Chunking time: 41.201s
+15:37:49 HiRAG INFO: Chunking time: 41.204s
+15:37:49 HiRAG INFO: Chunking time: 41.205s
+15:37:49 HiRAG INFO: Chunking time: 41.205s
+15:37:49 HiRAG INFO: Chunking time: 41.208s
+15:37:49 HiRAG INFO: Chunking time: 41.211s
+15:37:49 HiRAG INFO: Chunking time: 41.212s
+15:37:49 HiRAG INFO: Chunking time: 41.213s
+15:37:49 HiRAG INFO: Chunking time: 41.213s
+15:37:49 HiRAG INFO: Chunking time: 41.214s
+15:37:49 HiRAG INFO: Chunking time: 41.214s
+15:37:49 HiRAG INFO: Chunking time: 41.214s
+15:37:49 HiRAG INFO: Chunking time: 41.214s
+15:37:49 HiRAG INFO: Chunking time: 41.215s
+15:37:49 HiRAG INFO: Chunking time: 41.216s
+15:37:49 HiRAG INFO: Chunking time: 41.216s
+15:37:49 HiRAG INFO: Chunking time: 41.219s
+15:37:49 HiRAG INFO: Chunking time: 41.219s
+15:37:49 HiRAG INFO: Chunking time: 41.219s
+15:37:49 HiRAG INFO: Chunking time: 41.219s
+15:37:49 HiRAG INFO: Chunking time: 41.220s
+15:37:49 HiRAG INFO: Chunking time: 41.220s
+15:37:49 HiRAG INFO: Chunking time: 41.222s
+15:37:49 HiRAG INFO: Chunking time: 41.224s
+15:37:49 HiRAG INFO: Chunking time: 41.225s
+15:37:49 HiRAG INFO: Chunking time: 41.225s
+15:37:49 HiRAG INFO: Chunking time: 41.225s
+15:37:49 HiRAG INFO: Chunking time: 41.225s
+15:37:49 HiRAG INFO: Chunking time: 41.226s
+15:37:49 HiRAG INFO: Chunking time: 41.227s
+15:37:49 HiRAG INFO: Chunking time: 41.228s
+15:37:49 HiRAG INFO: Chunking time: 41.229s
+15:37:49 HiRAG INFO: Chunking time: 41.229s
+15:37:49 HiRAG INFO: Chunking time: 41.230s
+15:37:49 HiRAG INFO: Chunking time: 41.231s
+15:37:49 HiRAG INFO: Chunking time: 41.232s
+15:37:49 HiRAG INFO: Chunking time: 41.233s
+15:37:49 HiRAG INFO: Chunking time: 41.236s
+15:37:49 HiRAG INFO: Chunking time: 41.236s
+15:37:49 HiRAG INFO: Chunking time: 41.237s
+15:37:49 HiRAG INFO: Chunking time: 41.237s
+15:37:49 HiRAG INFO: Chunking time: 41.239s
+15:37:49 HiRAG INFO: Chunking time: 41.240s
+15:37:49 HiRAG INFO: Chunking time: 41.241s
+15:37:49 HiRAG INFO: Chunking time: 41.242s
+15:37:49 HiRAG INFO: Chunking time: 41.243s
+15:37:49 HiRAG INFO: Chunking time: 41.244s
+15:37:49 HiRAG INFO: Chunking time: 41.244s
+15:37:49 HiRAG INFO: Chunking time: 41.245s
+15:37:49 HiRAG INFO: Chunking time: 41.246s
+15:37:49 HiRAG INFO: Chunking time: 41.246s
+15:37:49 HiRAG INFO: Chunking time: 41.247s
+15:37:49 HiRAG INFO: Chunking time: 41.249s
+15:37:49 HiRAG INFO: Chunking time: 41.249s
+15:37:49 HiRAG INFO: Chunking time: 41.250s
+15:37:49 HiRAG INFO: Chunking time: 41.251s
+15:37:49 HiRAG INFO: Chunking time: 41.253s
+15:37:49 HiRAG INFO: Chunking time: 41.255s
+15:37:49 HiRAG INFO: Chunking time: 41.256s
+15:37:49 HiRAG INFO: Chunking time: 41.256s
+15:37:49 HiRAG INFO: Chunking time: 41.257s
+15:37:49 HiRAG INFO: Chunking time: 41.258s
+15:37:49 HiRAG INFO: Chunking time: 41.259s
+15:37:49 HiRAG INFO: Chunking time: 41.259s
+15:37:49 HiRAG INFO: Chunking time: 41.260s
+15:37:49 HiRAG INFO: Chunking time: 41.262s
+15:37:49 HiRAG INFO: Chunking time: 41.263s
+15:37:49 HiRAG INFO: Chunking time: 41.263s
+15:37:49 HiRAG INFO: Chunking time: 41.264s
+15:37:49 HiRAG INFO: Chunking time: 41.264s
+15:37:49 HiRAG INFO: Chunking time: 41.265s
+15:37:49 HiRAG INFO: Chunking time: 41.265s
+15:37:49 HiRAG INFO: Chunking time: 41.266s
+15:37:49 HiRAG INFO: Chunking time: 41.267s
+15:37:49 HiRAG INFO: Chunking time: 41.267s
+15:37:49 HiRAG INFO: Chunking time: 41.268s
+15:37:49 HiRAG INFO: Chunking time: 41.269s
+15:37:49 HiRAG INFO: Chunking time: 41.269s
+15:37:49 HiRAG INFO: Chunking time: 41.270s
+15:37:49 HiRAG INFO: Chunking time: 41.271s
+15:37:49 HiRAG INFO: Chunking time: 41.272s
+15:37:49 HiRAG INFO: Chunking time: 41.273s
+15:37:49 HiRAG INFO: Chunking time: 41.273s
+15:37:49 HiRAG INFO: Chunking time: 41.274s
+15:37:49 HiRAG INFO: Chunking time: 41.274s
+15:37:49 HiRAG INFO: Chunking time: 41.275s
+15:37:49 HiRAG INFO: Chunking time: 41.276s
+15:37:49 HiRAG INFO: Chunking time: 41.277s
+15:37:49 HiRAG INFO: Chunking time: 41.277s
+15:37:49 HiRAG INFO: Chunking time: 41.278s
+15:37:49 HiRAG INFO: Chunking time: 41.279s
+15:37:49 HiRAG INFO: Chunking time: 41.279s
+15:37:49 HiRAG INFO: Chunking time: 41.280s
+15:37:49 HiRAG INFO: Chunking time: 41.281s
+15:37:49 HiRAG INFO: Chunking time: 41.282s
+15:37:49 HiRAG INFO: Chunking time: 41.282s
+15:37:49 HiRAG INFO: Chunking time: 41.283s
+15:37:49 HiRAG INFO: Chunking time: 41.284s
+15:37:49 HiRAG INFO: Chunking time: 41.285s
+15:37:49 HiRAG INFO: Chunking time: 41.285s
+15:37:49 HiRAG INFO: Chunking time: 41.286s
+15:37:49 HiRAG INFO: Chunking time: 41.288s
+15:37:49 HiRAG INFO: Chunking time: 41.288s
+15:37:49 HiRAG INFO: Chunking time: 41.289s
+15:37:49 HiRAG INFO: Chunking time: 41.289s
+15:37:49 HiRAG INFO: Chunking time: 41.290s
+15:37:49 HiRAG INFO: Chunking time: 41.295s
+15:37:49 HiRAG INFO: Chunking time: 41.295s
+15:37:49 HiRAG INFO: Chunking time: 41.297s
+15:37:49 HiRAG INFO: Chunking time: 41.297s
+15:37:49 HiRAG INFO: Chunking time: 41.297s
+15:37:49 HiRAG INFO: Chunking time: 41.298s
+15:37:49 HiRAG INFO: Chunking time: 41.299s
+15:37:49 HiRAG INFO: Chunking time: 41.300s
+15:37:49 HiRAG INFO: Chunking time: 41.300s
+15:37:49 HiRAG INFO: Chunking time: 41.301s
+15:37:49 HiRAG INFO: Chunking time: 41.302s
+15:37:49 HiRAG INFO: Chunking time: 41.302s
+15:37:49 HiRAG INFO: Chunking time: 41.302s
+15:37:49 HiRAG INFO: Chunking time: 41.303s
+15:37:49 HiRAG INFO: Chunking time: 41.304s
+15:37:49 HiRAG INFO: Chunking time: 41.305s
+15:37:49 HiRAG INFO: Chunking time: 41.305s
+15:37:49 HiRAG INFO: Chunking time: 41.306s
+15:37:49 HiRAG INFO: Chunking time: 41.306s
+15:37:49 HiRAG INFO: Chunking time: 41.307s
+15:37:49 HiRAG INFO: Chunking time: 41.308s
+15:37:49 HiRAG INFO: Chunking time: 41.309s
+15:37:49 HiRAG INFO: Chunking time: 41.309s
+15:37:49 HiRAG INFO: Chunking time: 41.310s
+15:37:49 HiRAG INFO: Chunking time: 41.311s
+15:37:49 HiRAG INFO: Chunking time: 41.312s
+15:37:49 HiRAG INFO: Chunking time: 41.313s
+15:37:49 HiRAG INFO: Chunking time: 41.314s
+15:37:49 HiRAG INFO: Chunking time: 41.314s
+15:37:49 HiRAG INFO: Chunking time: 41.314s
+15:37:49 HiRAG INFO: Chunking time: 41.316s
+15:37:49 HiRAG INFO: Chunking time: 41.316s
+15:37:49 HiRAG INFO: Chunking time: 41.317s
+15:37:49 HiRAG INFO: Chunking time: 41.318s
+15:37:49 HiRAG INFO: Chunking time: 41.320s
+15:37:49 HiRAG INFO: Chunking time: 41.320s
+15:37:49 HiRAG INFO: Chunking time: 41.320s
+15:37:49 HiRAG INFO: Chunking time: 41.321s
+15:37:49 HiRAG INFO: Chunking time: 41.322s
+15:37:49 HiRAG INFO: Chunking time: 41.322s
+15:37:49 HiRAG INFO: Chunking time: 41.323s
+15:37:49 HiRAG INFO: Chunking time: 41.323s
+15:37:49 HiRAG INFO: Chunking time: 41.324s
+15:37:49 HiRAG INFO: Chunking time: 41.325s
+15:37:49 HiRAG INFO: Chunking time: 41.326s
+15:37:49 HiRAG INFO: Chunking time: 41.326s
+15:37:49 HiRAG INFO: Chunking time: 41.327s
+15:37:49 HiRAG INFO: Chunking time: 41.328s
+15:37:49 HiRAG INFO: Chunking time: 41.328s
+15:37:49 HiRAG INFO: Chunking time: 41.329s
+15:37:49 HiRAG INFO: Chunking time: 41.330s
+15:37:49 HiRAG INFO: Chunking time: 41.331s
+15:37:49 HiRAG INFO: Chunking time: 41.332s
+15:37:49 HiRAG INFO: Chunking time: 41.332s
+15:37:49 HiRAG INFO: Chunking time: 41.333s
+15:37:49 HiRAG INFO: Chunking time: 41.345s
+15:37:49 HiRAG INFO: Chunking time: 41.346s
+15:37:49 HiRAG INFO: Chunking time: 41.352s
+15:37:49 HiRAG INFO: Chunking time: 41.353s
+15:37:49 HiRAG INFO: Chunking time: 41.360s
+15:37:49 HiRAG INFO: Chunking time: 41.363s
+15:37:49 HiRAG INFO: Chunking time: 41.361s
+15:37:49 HiRAG INFO: Chunking time: 41.362s
+15:37:49 HiRAG INFO: Chunking time: 41.362s
+15:37:49 HiRAG INFO: Chunking time: 41.362s
+15:37:49 HiRAG INFO: Chunking time: 41.362s
+15:37:49 HiRAG INFO: Chunking time: 41.362s
+15:37:49 HiRAG INFO: Chunking time: 41.362s
+15:37:49 HiRAG INFO: Chunking time: 41.362s
+15:37:49 HiRAG INFO: Chunking time: 41.363s
+15:37:49 HiRAG INFO: Chunking time: 41.364s
+15:37:49 HiRAG INFO: Chunking time: 41.364s
+15:37:49 HiRAG INFO: Chunking time: 41.364s
+15:37:49 HiRAG INFO: Chunking time: 41.365s
+15:37:49 HiRAG INFO: Chunking time: 41.365s
+15:37:49 HiRAG INFO: Chunking time: 41.365s
+15:37:49 HiRAG INFO: Chunking time: 41.365s
+15:37:49 HiRAG INFO: Chunking time: 41.365s
+15:37:49 HiRAG INFO: Chunking time: 41.365s
+15:37:49 HiRAG INFO: Chunking time: 41.367s
+15:37:49 HiRAG INFO: Chunking time: 41.368s
+15:37:49 HiRAG INFO: Chunking time: 41.369s
+15:37:49 HiRAG INFO: Chunking time: 41.370s
+15:37:49 HiRAG INFO: Chunking time: 41.370s
+15:37:49 HiRAG INFO: Chunking time: 41.375s
+15:37:49 HiRAG INFO: Chunking time: 41.375s
+15:37:49 HiRAG INFO: Chunking time: 41.377s
+15:37:49 HiRAG INFO: Chunking time: 41.377s
+15:37:49 HiRAG INFO: Chunking time: 41.379s
+15:37:49 HiRAG INFO: Chunking time: 41.380s
+15:37:49 HiRAG INFO: Chunking time: 41.382s
+15:37:49 HiRAG INFO: Chunking time: 41.387s
+15:37:49 HiRAG INFO: Chunking time: 41.390s
+15:37:49 HiRAG INFO: Chunking time: 41.391s
+15:37:49 HiRAG INFO: Chunking time: 41.397s
+15:37:49 HiRAG INFO: Chunking time: 41.398s
+15:37:49 HiRAG INFO: Chunking time: 41.399s
+15:37:49 HiRAG INFO: Chunking time: 41.401s
+15:37:49 HiRAG INFO: Chunking time: 41.400s
+15:37:49 HiRAG INFO: Chunking time: 41.404s
+15:37:49 HiRAG INFO: Chunking time: 41.404s
+15:37:49 HiRAG INFO: Chunking time: 41.405s
+15:37:49 HiRAG INFO: Chunking time: 41.406s
+15:37:49 HiRAG INFO: Chunking time: 41.407s
+15:37:49 HiRAG INFO: Chunking time: 41.408s
+15:37:49 HiRAG INFO: Chunking time: 41.409s
+15:37:49 HiRAG INFO: Chunking time: 41.421s
+15:37:49 HiRAG INFO: Chunking time: 41.421s
+15:37:49 HiRAG INFO: Chunking time: 41.424s
+15:37:49 HiRAG INFO: Chunking time: 41.424s
+15:37:49 HiRAG INFO: Chunking time: 41.424s
+15:37:49 HiRAG INFO: Chunking time: 41.425s
+15:37:49 HiRAG INFO: Chunking time: 41.426s
+15:37:49 HiRAG INFO: Chunking time: 41.427s
+15:37:49 HiRAG INFO: Chunking time: 41.428s
+15:37:49 HiRAG INFO: Chunking time: 41.429s
+15:37:49 HiRAG INFO: Chunking time: 41.430s
+15:37:49 HiRAG INFO: Chunking time: 41.431s
+15:37:49 HiRAG INFO: Chunking time: 41.432s
+15:37:49 HiRAG INFO: Chunking time: 41.432s
+15:37:49 HiRAG INFO: Chunking time: 41.433s
+15:37:49 HiRAG INFO: Chunking time: 41.434s
+15:37:49 HiRAG INFO: Chunking time: 41.435s
+15:37:49 HiRAG INFO: Chunking time: 41.435s
+15:37:49 HiRAG INFO: Chunking time: 41.437s
+15:37:49 HiRAG INFO: Chunking time: 41.438s
+15:37:49 HiRAG INFO: Chunking time: 41.439s
+15:37:49 HiRAG INFO: Chunking time: 41.439s
+15:37:49 HiRAG INFO: Chunking time: 41.440s
+15:37:49 HiRAG INFO: Chunking time: 41.443s
+15:37:49 HiRAG INFO: Chunking time: 41.444s
+15:37:49 HiRAG INFO: Chunking time: 41.444s
+15:37:49 HiRAG INFO: Chunking time: 41.444s
+15:37:49 HiRAG INFO: Chunking time: 41.445s
+15:37:49 HiRAG INFO: Chunking time: 41.445s
+15:37:49 HiRAG INFO: Chunking time: 41.445s
+15:37:49 HiRAG INFO: Chunking time: 41.446s
+15:37:49 HiRAG INFO: Chunking time: 41.446s
+15:37:49 HiRAG INFO: Chunking time: 41.447s
+15:37:49 HiRAG INFO: Chunking time: 41.447s
+15:37:49 HiRAG INFO: Chunking time: 41.451s
+15:37:49 HiRAG INFO: Chunking time: 41.448s
+15:37:49 HiRAG INFO: Chunking time: 41.449s
+15:37:49 HiRAG INFO: Chunking time: 41.451s
+15:37:49 HiRAG INFO: Chunking time: 41.470s
+15:37:49 HiRAG INFO: Chunking time: 41.470s
+15:37:49 HiRAG INFO: Chunking time: 41.471s
+15:37:49 HiRAG INFO: Chunking time: 41.471s
+15:37:49 HiRAG INFO: Chunking time: 41.472s
+15:37:49 HiRAG INFO: Chunking time: 41.472s
+15:37:49 HiRAG INFO: Chunking time: 41.472s
+15:37:49 HiRAG INFO: Chunking time: 41.473s
+15:37:49 HiRAG INFO: Chunking time: 41.475s
+15:37:49 HiRAG INFO: Chunking time: 41.474s
+15:37:49 HiRAG INFO: Chunking time: 41.476s
+15:37:49 HiRAG INFO: Chunking time: 41.477s
+15:37:49 HiRAG INFO: Chunking time: 41.478s
+15:37:49 HiRAG INFO: Chunking time: 41.477s
+15:37:49 HiRAG INFO: Chunking time: 41.478s
+15:37:49 HiRAG INFO: Chunking time: 41.478s
+15:37:49 HiRAG INFO: Chunking time: 41.479s
+15:37:49 HiRAG INFO: Chunking time: 41.481s
+15:37:49 HiRAG INFO: Chunking time: 41.480s
+15:37:49 HiRAG INFO: Chunking time: 41.482s
+15:37:49 HiRAG INFO: Chunking time: 41.484s
+15:37:49 HiRAG INFO: Chunking time: 41.484s
+15:37:49 HiRAG INFO: Chunking time: 41.485s
+15:37:49 HiRAG INFO: Chunking time: 41.485s
+15:37:49 HiRAG INFO: Chunking time: 41.487s
+15:37:49 HiRAG INFO: Chunking time: 41.488s
+15:37:49 HiRAG INFO: Chunking time: 41.489s
+15:37:49 HiRAG INFO: Chunking time: 41.490s
+15:37:49 HiRAG INFO: Chunking time: 41.490s
+15:37:49 HiRAG INFO: Chunking time: 41.490s
+15:37:49 HiRAG INFO: Chunking time: 41.492s
+15:37:49 HiRAG INFO: Chunking time: 41.491s
+15:37:49 HiRAG INFO: Chunking time: 41.492s
+15:37:49 HiRAG INFO: Chunking time: 41.492s
+15:37:49 HiRAG INFO: Chunking time: 41.494s
+15:37:49 HiRAG INFO: Chunking time: 41.494s
+15:37:49 HiRAG INFO: Chunking time: 41.495s
+15:37:49 HiRAG INFO: Chunking time: 41.496s
+15:37:49 HiRAG INFO: Chunking time: 41.496s
+15:37:49 HiRAG INFO: Chunking time: 41.497s
+15:37:49 HiRAG INFO: Chunking time: 41.498s
+15:37:49 HiRAG INFO: Chunking time: 41.498s
+15:37:49 HiRAG INFO: Chunking time: 41.499s
+15:37:49 HiRAG INFO: Chunking time: 41.499s
+15:37:49 HiRAG INFO: Chunking time: 41.500s
+15:37:49 HiRAG INFO: Chunking time: 41.503s
+15:37:49 HiRAG INFO: Chunking time: 41.504s
+15:37:49 HiRAG INFO: Chunking time: 41.504s
+15:37:49 HiRAG INFO: Chunking time: 41.506s
+15:37:49 HiRAG INFO: Chunking time: 41.505s
+15:37:49 HiRAG INFO: Chunking time: 41.506s
+15:37:49 HiRAG INFO: Chunking time: 41.506s
+15:37:49 HiRAG INFO: Chunking time: 41.507s
+15:37:49 HiRAG INFO: Chunking time: 41.507s
+15:37:49 HiRAG INFO: Chunking time: 41.507s
+15:37:49 HiRAG INFO: Chunking time: 41.508s
+15:37:49 HiRAG INFO: Chunking time: 41.508s
+15:37:49 HiRAG INFO: Chunking time: 41.509s
+15:37:49 HiRAG INFO: Chunking time: 41.509s
+15:37:49 HiRAG INFO: Chunking time: 41.510s
+15:37:49 HiRAG INFO: Chunking time: 41.510s
+15:37:49 HiRAG INFO: Chunking time: 41.511s
+15:37:49 HiRAG INFO: Chunking time: 41.512s
+15:37:49 HiRAG INFO: Chunking time: 41.512s
+15:37:49 HiRAG INFO: Chunking time: 41.512s
+15:37:49 HiRAG INFO: Chunking time: 41.514s
+15:37:49 HiRAG INFO: Chunking time: 41.514s
+15:37:49 HiRAG INFO: Chunking time: 41.514s
+15:37:49 HiRAG INFO: Chunking time: 41.516s
+15:37:49 HiRAG INFO: Chunking time: 41.515s
+15:37:49 HiRAG INFO: Chunking time: 41.516s
+15:37:49 HiRAG INFO: Chunking time: 41.516s
+15:37:49 HiRAG INFO: Chunking time: 41.518s
+15:37:49 HiRAG INFO: Chunking time: 41.518s
+15:37:49 HiRAG INFO: Chunking time: 41.519s
+15:37:49 HiRAG INFO: Chunking time: 41.519s
+15:37:49 HiRAG INFO: Chunking time: 41.521s
+15:37:49 HiRAG INFO: Chunking time: 41.522s
+15:37:49 HiRAG INFO: Chunking time: 41.523s
+15:37:49 HiRAG INFO: Chunking time: 41.524s
+15:37:49 HiRAG INFO: Chunking time: 41.525s
+15:37:49 HiRAG INFO: Chunking time: 41.524s
+15:37:49 HiRAG INFO: Chunking time: 41.525s
+15:37:49 HiRAG INFO: Chunking time: 41.526s
+15:37:49 HiRAG INFO: Chunking time: 41.526s
+15:37:49 HiRAG INFO: Chunking time: 41.527s
+15:37:49 HiRAG INFO: Chunking time: 41.528s
+15:37:49 HiRAG INFO: Chunking time: 41.528s
+15:37:49 HiRAG INFO: Chunking time: 41.529s
+15:37:49 HiRAG INFO: Chunking time: 41.529s
+15:37:49 HiRAG INFO: Chunking time: 41.531s
+15:37:49 HiRAG INFO: Chunking time: 41.531s
+15:37:49 HiRAG INFO: Chunking time: 41.533s
+15:37:49 HiRAG INFO: Chunking time: 41.532s
+15:37:49 HiRAG INFO: Chunking time: 41.532s
+15:37:49 HiRAG INFO: Chunking time: 41.533s
+15:37:49 HiRAG INFO: Chunking time: 41.533s
+15:37:49 HiRAG INFO: Chunking time: 41.535s
+15:37:49 HiRAG INFO: Chunking time: 41.536s
+15:37:49 HiRAG INFO: Chunking time: 41.536s
+15:37:49 HiRAG INFO: Chunking time: 41.531s
+15:37:49 HiRAG INFO: Chunking time: 41.537s
+15:37:49 HiRAG INFO: Chunking time: 41.533s
+15:37:49 HiRAG INFO: Chunking time: 41.534s
+15:37:49 HiRAG INFO: Chunking time: 41.554s
+15:37:49 HiRAG INFO: Chunking time: 41.556s
+15:37:49 HiRAG INFO: Chunking time: 41.559s
+15:37:49 HiRAG INFO: Chunking time: 41.553s
+15:37:49 HiRAG INFO: Chunking time: 41.557s
+15:37:49 HiRAG INFO: Upsert chunks time: 3.363s
+15:37:49 HiRAG INFO: Chunking time: 41.567s
+15:37:49 HiRAG INFO: Chunking time: 41.613s
+15:37:49 HiRAG INFO: Chunking time: 41.629s
+15:37:49 HiRAG INFO: Chunking time: 41.632s
+15:37:49 HiRAG INFO: Chunking time: 41.632s
+15:37:49 HiRAG INFO: Chunking time: 41.630s
+15:37:49 HiRAG INFO: Chunking time: 41.631s
+15:37:49 HiRAG INFO: Chunking time: 41.633s
+15:37:49 HiRAG INFO: Chunking time: 41.643s
+15:37:49 HiRAG INFO: Chunking time: 41.634s
+15:37:49 HiRAG INFO: Chunking time: 41.647s
+15:37:49 HiRAG INFO: Chunking time: 41.636s
+15:37:49 HiRAG INFO: Chunking time: 41.637s
+15:37:49 HiRAG INFO: Chunking time: 41.638s
+15:37:49 HiRAG INFO: Chunking time: 41.638s
+15:37:49 HiRAG INFO: Chunking time: 41.640s
+15:37:49 HiRAG INFO: Chunking time: 41.640s
+15:37:49 HiRAG INFO: Chunking time: 41.641s
+15:37:49 HiRAG INFO: Chunking time: 41.641s
+15:37:49 HiRAG INFO: Chunking time: 41.643s
+15:37:49 HiRAG INFO: Chunking time: 41.643s
+15:37:49 HiRAG INFO: Chunking time: 41.644s
+15:37:49 HiRAG INFO: Chunking time: 41.655s
+15:37:49 HiRAG INFO: Chunking time: 41.649s
+15:37:49 HiRAG INFO: Chunking time: 41.646s
+15:37:49 HiRAG INFO: Chunking time: 41.647s
+15:37:49 HiRAG INFO: Chunking time: 41.648s
+15:37:49 HiRAG INFO: Chunking time: 41.650s
+15:37:49 HiRAG INFO: Chunking time: 41.662s
+15:37:49 HiRAG INFO: Chunking time: 41.652s
+15:37:49 HiRAG INFO: Chunking time: 41.653s
+15:37:49 HiRAG INFO: Chunking time: 41.654s
+15:37:49 HiRAG INFO: Chunking time: 41.655s
+15:37:49 HiRAG INFO: Chunking time: 41.656s
+15:37:49 HiRAG INFO: Chunking time: 41.657s
+15:37:49 HiRAG INFO: Chunking time: 41.657s
+15:37:49 HiRAG INFO: Chunking time: 41.658s
+15:37:49 HiRAG INFO: Chunking time: 41.658s
+15:37:49 HiRAG INFO: Chunking time: 41.660s
+15:37:49 HiRAG INFO: Chunking time: 41.659s
+15:37:49 HiRAG INFO: Chunking time: 41.661s
+15:37:49 HiRAG INFO: Chunking time: 41.661s
+15:37:49 HiRAG INFO: Chunking time: 41.663s
+15:37:49 HiRAG INFO: Chunking time: 41.665s
+15:37:49 HiRAG INFO: Chunking time: 41.665s
+15:37:49 HiRAG INFO: Chunking time: 41.665s
+15:37:49 HiRAG INFO: Chunking time: 41.667s
+15:37:49 HiRAG INFO: Chunking time: 41.667s
+15:37:49 HiRAG INFO: Chunking time: 41.668s
+15:37:49 HiRAG INFO: Chunking time: 41.669s
+15:37:49 HiRAG INFO: Chunking time: 41.671s
+15:37:49 HiRAG INFO: Chunking time: 41.671s
+15:37:49 HiRAG INFO: Chunking time: 41.674s
+15:37:49 HiRAG INFO: Chunking time: 41.676s
+15:37:49 HiRAG INFO: Chunking time: 41.676s
+15:37:49 HiRAG INFO: Chunking time: 41.677s
+15:37:49 HiRAG INFO: Chunking time: 41.677s
+15:37:49 HiRAG INFO: Chunking time: 41.678s
+15:37:49 HiRAG INFO: Chunking time: 41.679s
+15:37:49 HiRAG INFO: Chunking time: 41.680s
+15:37:49 HiRAG INFO: Chunking time: 41.684s
+15:37:49 HiRAG INFO: Chunking time: 41.685s
+15:37:49 HiRAG INFO: Chunking time: 41.686s
+15:37:49 HiRAG INFO: Chunking time: 41.686s
+15:37:49 HiRAG INFO: Chunking time: 41.686s
+15:37:49 HiRAG INFO: Chunking time: 41.687s
+15:37:49 HiRAG INFO: Chunking time: 41.687s
+15:37:49 HiRAG INFO: Chunking time: 41.688s
+15:37:49 HiRAG INFO: Chunking time: 41.688s
+15:37:49 HiRAG INFO: Chunking time: 41.689s
+15:37:49 HiRAG INFO: Chunking time: 41.690s
+15:37:49 HiRAG INFO: Chunking time: 41.692s
+15:37:49 HiRAG INFO: Chunking time: 41.694s
+15:37:49 HiRAG INFO: Chunking time: 41.695s
+15:37:49 HiRAG INFO: Chunking time: 41.695s
+15:37:49 HiRAG INFO: Chunking time: 41.696s
+15:37:49 HiRAG INFO: Chunking time: 41.697s
+15:37:49 HiRAG INFO: Chunking time: 41.698s
+15:37:49 HiRAG INFO: Chunking time: 41.698s
+15:37:49 HiRAG INFO: Chunking time: 41.699s
+15:37:49 HiRAG INFO: Chunking time: 41.700s
+15:37:49 HiRAG INFO: Chunking time: 41.701s
+15:37:49 HiRAG INFO: Chunking time: 41.702s
+15:37:49 HiRAG INFO: Chunking time: 41.703s
+15:37:49 HiRAG INFO: Chunking time: 41.705s
+15:37:49 HiRAG INFO: Chunking time: 41.705s
+15:37:49 HiRAG INFO: Chunking time: 41.707s
+15:37:49 HiRAG INFO: Chunking time: 41.708s
+15:37:49 HiRAG INFO: Chunking time: 41.710s
+15:37:49 HiRAG INFO: Chunking time: 41.709s
+15:37:49 HiRAG INFO: Chunking time: 41.711s
+15:37:49 HiRAG INFO: Chunking time: 41.710s
+15:37:49 HiRAG INFO: Chunking time: 41.711s
+15:37:49 HiRAG INFO: Chunking time: 41.713s
+15:37:49 HiRAG INFO: Chunking time: 41.714s
+15:37:49 HiRAG INFO: Chunking time: 41.714s
+15:37:49 HiRAG INFO: Chunking time: 41.715s
+15:37:49 HiRAG INFO: Chunking time: 41.716s
+15:37:49 HiRAG INFO: Chunking time: 41.717s
+15:37:49 HiRAG INFO: Chunking time: 41.720s
+15:37:49 HiRAG INFO: Chunking time: 41.718s
+15:37:49 HiRAG INFO: Chunking time: 41.719s
+15:37:49 HiRAG INFO: Chunking time: 41.721s
+15:37:49 HiRAG INFO: Chunking time: 41.721s
+15:37:49 HiRAG INFO: Chunking time: 41.722s
+15:37:49 HiRAG INFO: Chunking time: 41.723s
+15:37:49 HiRAG INFO: Chunking time: 41.724s
+15:37:49 HiRAG INFO: Chunking time: 41.725s
+15:37:49 HiRAG INFO: Chunking time: 41.725s
+15:37:49 HiRAG INFO: Chunking time: 41.726s
+15:37:49 HiRAG INFO: Chunking time: 41.728s
+15:37:49 HiRAG INFO: Chunking time: 41.729s
+15:37:49 HiRAG INFO: Chunking time: 41.729s
+15:37:49 HiRAG INFO: Chunking time: 41.729s
+15:37:49 HiRAG INFO: Chunking time: 41.730s
+15:37:49 HiRAG INFO: Chunking time: 41.731s
+15:37:49 HiRAG INFO: Chunking time: 41.732s
+15:37:49 HiRAG INFO: Chunking time: 41.733s
+15:37:49 HiRAG INFO: Chunking time: 41.733s
+15:37:49 HiRAG INFO: Chunking time: 41.734s
+15:37:49 HiRAG INFO: Chunking time: 41.734s
+15:37:49 HiRAG INFO: Chunking time: 41.735s
+15:37:49 HiRAG INFO: Chunking time: 41.736s
+15:37:49 HiRAG INFO: Chunking time: 41.737s
+15:37:49 HiRAG INFO: Chunking time: 41.737s
+15:37:49 HiRAG INFO: Chunking time: 41.738s
+15:37:49 HiRAG INFO: Chunking time: 41.738s
+15:37:49 HiRAG INFO: Chunking time: 41.740s
+15:37:49 HiRAG INFO: Chunking time: 41.740s
+15:37:49 HiRAG INFO: Chunking time: 41.740s
+15:37:49 HiRAG INFO: Chunking time: 41.741s
+15:37:49 HiRAG INFO: Chunking time: 41.742s
+15:37:49 HiRAG INFO: Chunking time: 41.743s
+15:37:49 HiRAG INFO: Chunking time: 41.743s
+15:37:49 HiRAG INFO: Chunking time: 41.744s
+15:37:49 HiRAG INFO: Chunking time: 41.744s
+15:37:49 HiRAG INFO: Chunking time: 41.745s
+15:37:49 HiRAG INFO: Chunking time: 41.746s
+15:37:49 HiRAG INFO: Chunking time: 41.746s
+15:37:49 HiRAG INFO: Chunking time: 41.747s
+15:37:49 HiRAG INFO: Chunking time: 41.747s
+15:37:49 HiRAG INFO: Chunking time: 41.749s
+15:37:49 HiRAG INFO: Chunking time: 41.749s
+15:37:49 HiRAG INFO: Chunking time: 41.750s
+15:37:49 HiRAG INFO: Chunking time: 41.750s
+15:37:49 HiRAG INFO: Chunking time: 41.751s
+15:37:49 HiRAG INFO: Chunking time: 41.752s
+15:37:49 HiRAG INFO: Chunking time: 41.751s
+15:37:49 HiRAG INFO: Chunking time: 41.753s
+15:37:49 HiRAG INFO: Chunking time: 41.804s
+15:37:49 HiRAG INFO: Chunking time: 41.805s
+15:37:49 HiRAG INFO: Chunking time: 41.806s
+15:37:49 HiRAG INFO: Chunking time: 41.807s
+15:37:49 HiRAG INFO: Chunking time: 41.819s
+15:37:49 HiRAG INFO: Chunking time: 41.819s
+15:37:49 HiRAG INFO: Chunking time: 41.819s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.821s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.821s
+15:37:49 HiRAG INFO: Chunking time: 41.820s
+15:37:49 HiRAG INFO: Chunking time: 41.821s
+15:37:49 HiRAG INFO: Chunking time: 41.822s
+15:37:49 HiRAG INFO: Chunking time: 41.824s
+15:37:49 HiRAG INFO: Chunking time: 41.824s
+15:37:49 HiRAG INFO: Chunking time: 41.825s
+15:37:49 HiRAG INFO: Chunking time: 41.826s
+15:37:49 HiRAG INFO: Chunking time: 41.826s
+15:37:49 HiRAG INFO: Chunking time: 41.828s
+15:37:49 HiRAG INFO: Chunking time: 41.829s
+15:37:49 HiRAG INFO: Chunking time: 41.829s
+15:37:49 HiRAG INFO: Chunking time: 41.830s
+15:37:49 HiRAG INFO: Chunking time: 41.831s
+15:37:49 HiRAG INFO: Chunking time: 41.831s
+15:37:49 HiRAG INFO: Chunking time: 41.833s
+15:37:49 HiRAG INFO: Chunking time: 41.833s
+15:37:49 HiRAG INFO: Chunking time: 41.833s
+15:37:49 HiRAG INFO: Chunking time: 41.834s
+15:37:49 HiRAG INFO: Chunking time: 41.835s
+15:37:49 HiRAG INFO: Chunking time: 41.837s
+15:37:49 HiRAG INFO: Chunking time: 41.838s
+15:37:49 HiRAG INFO: Chunking time: 41.839s
+15:37:49 HiRAG INFO: Chunking time: 41.840s
+15:37:49 HiRAG INFO: Chunking time: 41.840s
+15:37:49 HiRAG INFO: Chunking time: 41.841s
+15:37:49 HiRAG INFO: Chunking time: 41.841s
+15:37:49 HiRAG INFO: Chunking time: 41.842s
+15:37:49 HiRAG INFO: Chunking time: 41.843s
+15:37:49 HiRAG INFO: Chunking time: 41.845s
+15:37:49 HiRAG INFO: Chunking time: 41.844s
+15:37:49 HiRAG INFO: Chunking time: 41.845s
+15:37:49 HiRAG INFO: Chunking time: 41.846s
+15:37:49 HiRAG INFO: Chunking time: 41.847s
+15:37:49 HiRAG INFO: Chunking time: 41.847s
+15:37:49 HiRAG INFO: Chunking time: 41.848s
+15:37:49 HiRAG INFO: Chunking time: 41.849s
+15:37:49 HiRAG INFO: Chunking time: 41.850s
+15:37:49 HiRAG INFO: Chunking time: 41.850s
+15:37:49 HiRAG INFO: Chunking time: 41.851s
+15:37:49 HiRAG INFO: Chunking time: 41.851s
+15:37:49 HiRAG INFO: Chunking time: 41.852s
+15:37:49 HiRAG INFO: Chunking time: 41.853s
+15:37:49 HiRAG INFO: Chunking time: 41.853s
+15:37:49 HiRAG INFO: Chunking time: 41.854s
+15:37:49 HiRAG INFO: Chunking time: 41.855s
+15:37:49 HiRAG INFO: Chunking time: 41.856s
+15:37:49 HiRAG INFO: Chunking time: 41.856s
+15:37:49 HiRAG INFO: Chunking time: 41.857s
+15:37:49 HiRAG INFO: Chunking time: 41.858s
+15:37:49 HiRAG INFO: Chunking time: 41.858s
+15:37:49 HiRAG INFO: Chunking time: 41.859s
+15:37:49 HiRAG INFO: Chunking time: 41.859s
+15:37:49 HiRAG INFO: Chunking time: 41.861s
+15:37:49 HiRAG INFO: Chunking time: 41.861s
+15:37:49 HiRAG INFO: Chunking time: 41.862s
+15:37:49 HiRAG INFO: Chunking time: 41.863s
+15:37:49 HiRAG INFO: Chunking time: 41.863s
+15:37:49 HiRAG INFO: Chunking time: 41.864s
+15:37:49 HiRAG INFO: Chunking time: 41.865s
+15:37:49 HiRAG INFO: Chunking time: 41.866s
+15:37:49 HiRAG INFO: Chunking time: 41.867s
+15:37:49 HiRAG INFO: Chunking time: 41.868s
+15:37:49 HiRAG INFO: Chunking time: 41.868s
+15:37:49 HiRAG INFO: Chunking time: 41.869s
+15:37:49 HiRAG INFO: Chunking time: 41.870s
+15:37:49 HiRAG INFO: Chunking time: 41.871s
+15:37:49 HiRAG INFO: Chunking time: 41.872s
+15:37:49 HiRAG INFO: Chunking time: 41.872s
+15:37:49 HiRAG INFO: Chunking time: 41.872s
+15:37:49 HiRAG INFO: Chunking time: 41.873s
+15:37:49 HiRAG INFO: Chunking time: 41.873s
+15:37:49 HiRAG INFO: Chunking time: 41.874s
+15:37:49 HiRAG INFO: Chunking time: 41.875s
+15:37:49 HiRAG INFO: Chunking time: 41.875s
+15:37:49 HiRAG INFO: Chunking time: 41.877s
+15:37:49 HiRAG INFO: Chunking time: 41.877s
+15:37:49 HiRAG INFO: Chunking time: 41.878s
+15:37:49 HiRAG INFO: Chunking time: 41.879s
+15:37:49 HiRAG INFO: Chunking time: 41.880s
+15:37:49 HiRAG INFO: Chunking time: 41.880s
+15:37:49 HiRAG INFO: Chunking time: 41.882s
+15:37:49 HiRAG INFO: Chunking time: 41.882s
+15:37:49 HiRAG INFO: Chunking time: 41.882s
+15:37:49 HiRAG INFO: Chunking time: 41.883s
+15:37:49 HiRAG INFO: Chunking time: 41.884s
+15:37:49 HiRAG INFO: Chunking time: 41.885s
+15:37:49 HiRAG INFO: Chunking time: 41.887s
+15:37:49 HiRAG INFO: Chunking time: 41.886s
+15:37:49 HiRAG INFO: Chunking time: 41.887s
+15:37:49 HiRAG INFO: Chunking time: 41.888s
+15:37:49 HiRAG INFO: Chunking time: 41.889s
+15:37:49 HiRAG INFO: Chunking time: 41.889s
+15:37:49 HiRAG INFO: Chunking time: 41.891s
+15:37:49 HiRAG INFO: Chunking time: 41.891s
+15:37:49 HiRAG INFO: Chunking time: 41.892s
+15:37:49 HiRAG INFO: Chunking time: 41.893s
+15:37:49 HiRAG INFO: Chunking time: 41.893s
+15:37:49 HiRAG INFO: Chunking time: 41.893s
+15:37:49 HiRAG INFO: Chunking time: 41.894s
+15:37:49 HiRAG INFO: Chunking time: 41.895s
+15:37:49 HiRAG INFO: Chunking time: 41.895s
+15:37:49 HiRAG INFO: Chunking time: 41.896s
+15:37:49 HiRAG INFO: Chunking time: 41.896s
+15:37:49 HiRAG INFO: Chunking time: 41.897s
+15:37:49 HiRAG INFO: Chunking time: 41.897s
+15:37:49 HiRAG INFO: Chunking time: 41.898s
+15:37:49 HiRAG INFO: Chunking time: 41.898s
+15:37:49 HiRAG INFO: Chunking time: 41.900s
+15:37:49 HiRAG INFO: Chunking time: 41.902s
+15:37:49 HiRAG INFO: Chunking time: 41.901s
+15:37:49 HiRAG INFO: Chunking time: 41.903s
+15:37:49 HiRAG INFO: Chunking time: 41.903s
+15:37:49 HiRAG INFO: Chunking time: 41.903s
+15:37:49 HiRAG INFO: Chunking time: 41.905s
+15:37:49 HiRAG INFO: Chunking time: 41.905s
+15:37:49 HiRAG INFO: Chunking time: 41.905s
+15:37:49 HiRAG INFO: Chunking time: 41.906s
+15:37:49 HiRAG INFO: Chunking time: 41.907s
+15:37:49 HiRAG INFO: Chunking time: 41.906s
+15:37:49 HiRAG INFO: Chunking time: 41.907s
+15:37:49 HiRAG INFO: Chunking time: 41.907s
+15:37:49 HiRAG INFO: Chunking time: 41.908s
+15:37:49 HiRAG INFO: Chunking time: 41.910s
+15:37:49 HiRAG INFO: Chunking time: 41.910s
+15:37:49 HiRAG INFO: Chunking time: 41.913s
+15:37:49 HiRAG INFO: Chunking time: 41.914s
+15:37:49 HiRAG INFO: Chunking time: 41.914s
+15:37:49 HiRAG INFO: Chunking time: 41.915s
+15:37:49 HiRAG INFO: Chunking time: 41.915s
+15:37:49 HiRAG INFO: Chunking time: 41.917s
+15:37:49 HiRAG INFO: Chunking time: 41.917s
+15:37:49 HiRAG INFO: Chunking time: 41.918s
+15:37:49 HiRAG INFO: Chunking time: 41.920s
+15:37:49 HiRAG INFO: Chunking time: 41.921s
+15:37:49 HiRAG INFO: Chunking time: 41.921s
+15:37:49 HiRAG INFO: Chunking time: 41.921s
+15:37:49 HiRAG INFO: Chunking time: 41.938s
+15:37:49 HiRAG INFO: Chunking time: 41.938s
+15:37:49 HiRAG INFO: Chunking time: 41.939s
+15:37:49 HiRAG INFO: Chunking time: 41.939s
+15:37:49 HiRAG INFO: Chunking time: 41.939s
+15:37:49 HiRAG INFO: Chunking time: 41.939s
+15:37:49 HiRAG INFO: Chunking time: 41.940s
+15:37:49 HiRAG INFO: Chunking time: 41.940s
+15:37:49 HiRAG INFO: Chunking time: 41.940s
+15:37:49 HiRAG INFO: Chunking time: 41.942s
+15:37:49 HiRAG INFO: Chunking time: 41.941s
+15:37:49 HiRAG INFO: Chunking time: 41.941s
+15:37:49 HiRAG INFO: Chunking time: 41.941s
+15:37:49 HiRAG INFO: Chunking time: 41.942s
+15:37:49 HiRAG INFO: Chunking time: 41.942s
+15:37:49 HiRAG INFO: Chunking time: 41.942s
+15:37:49 HiRAG INFO: Chunking time: 41.942s
+15:37:49 HiRAG INFO: Chunking time: 41.943s
+15:37:49 HiRAG INFO: Chunking time: 41.943s
+15:37:49 HiRAG INFO: Chunking time: 41.944s
+15:37:49 HiRAG INFO: Chunking time: 41.944s
+15:37:49 HiRAG INFO: Chunking time: 41.945s
+15:37:49 HiRAG INFO: Chunking time: 41.944s
+15:37:49 HiRAG INFO: Chunking time: 41.944s
+15:37:49 HiRAG INFO: Chunking time: 41.945s
+15:37:49 HiRAG INFO: Chunking time: 41.945s
+15:37:49 HiRAG INFO: Chunking time: 41.945s
+15:37:49 HiRAG INFO: Chunking time: 41.945s
+15:37:49 HiRAG INFO: Chunking time: 41.946s
+15:37:49 HiRAG INFO: Chunking time: 41.946s
+15:37:49 HiRAG INFO: Chunking time: 41.946s
+15:37:49 HiRAG INFO: Chunking time: 41.947s
+15:37:49 HiRAG INFO: Chunking time: 41.947s
+15:37:49 HiRAG INFO: Chunking time: 41.949s
+15:37:49 HiRAG INFO: Chunking time: 41.947s
+15:37:49 HiRAG INFO: Chunking time: 41.948s
+15:37:49 HiRAG INFO: Chunking time: 41.948s
+15:37:49 HiRAG INFO: Chunking time: 41.948s
+15:37:49 HiRAG INFO: Chunking time: 41.949s
+15:37:49 HiRAG INFO: Chunking time: 41.950s
+15:37:49 HiRAG INFO: Chunking time: 41.950s
+15:37:49 HiRAG INFO: Chunking time: 41.950s
+15:37:49 HiRAG INFO: Chunking time: 41.951s
+15:37:49 HiRAG INFO: Chunking time: 41.951s
+15:37:49 HiRAG INFO: Chunking time: 41.951s
+15:37:49 HiRAG INFO: Chunking time: 41.953s
+15:37:49 HiRAG INFO: Chunking time: 41.952s
+15:37:49 HiRAG INFO: Chunking time: 41.952s
+15:37:49 HiRAG INFO: Chunking time: 41.954s
+15:37:49 HiRAG INFO: Chunking time: 41.947s
+15:37:49 HiRAG INFO: Chunking time: 41.947s
+15:37:49 HiRAG INFO: Chunking time: 41.947s
+15:37:49 HiRAG INFO: Chunking time: 41.947s
+15:37:49 HiRAG INFO: Chunking time: 41.946s
+15:37:49 HiRAG INFO: Chunking time: 41.956s
+15:37:49 HiRAG INFO: Chunking time: 41.955s
+15:37:49 HiRAG INFO: Chunking time: 41.955s
+15:37:49 HiRAG INFO: Chunking time: 41.956s
+15:37:49 HiRAG INFO: Chunking time: 41.951s
+15:37:49 HiRAG INFO: Chunking time: 41.957s
+15:37:49 HiRAG INFO: Chunking time: 41.957s
+15:37:49 HiRAG INFO: Chunking time: 41.958s
+15:37:49 HiRAG INFO: Chunking time: 41.957s
+15:37:49 HiRAG INFO: Chunking time: 41.959s
+15:37:49 HiRAG INFO: Chunking time: 41.948s
+15:37:49 HiRAG INFO: Chunking time: 41.957s
+15:37:49 HiRAG INFO: Chunking time: 42.000s
+15:37:49 HiRAG INFO: Chunking time: 41.999s
+15:37:49 HiRAG INFO: Chunking time: 41.999s
+15:37:49 HiRAG INFO: Chunking time: 42.000s
+15:37:49 HiRAG INFO: Chunking time: 41.999s
+15:37:50 HiRAG INFO: Upsert chunks time: 2.683s
+15:37:51 HiRAG INFO: Upsert chunks time: 5.102s
+15:37:52 HiRAG INFO: Upsert chunks time: 6.302s
+15:37:53 HiRAG INFO: Upsert chunks time: 7.575s
+15:37:54 HiRAG INFO: Upsert chunks time: 8.039s
+15:37:54 HiRAG INFO: Upsert chunks time: 8.725s
+15:37:56 HiRAG INFO: Upsert chunks time: 10.010s
+15:37:57 HiRAG INFO: Upsert chunks time: 11.306s
+15:38:02 HiRAG INFO: Upsert chunks time: 15.839s
+15:38:04 HiRAG INFO: Upsert chunks time: 18.141s
+15:38:04 HiRAG INFO: Upsert chunks time: 18.486s
+15:38:06 HiRAG INFO: Upsert chunks time: 20.158s
+15:38:08 HiRAG INFO: Upsert chunks time: 22.561s
+15:38:09 HiRAG INFO: Entity extraction time: 20.340s
+15:38:12 HiRAG INFO: Upsert chunks time: 26.476s
+15:38:14 HiRAG INFO: Upsert chunks time: 28.754s
+15:38:16 HiRAG INFO: Entity extraction time: 22.285s
+15:38:17 HiRAG INFO: Entity extraction time: 26.712s
+15:38:20 HiRAG INFO: Upsert chunks time: 33.840s
+15:38:20 HiRAG INFO: Entity extraction time: 31.797s
+15:38:21 HiRAG INFO: Upsert chunks time: 35.594s
+15:38:22 HiRAG INFO: Upsert chunks time: 35.970s
+15:38:22 HiRAG INFO: Upsert chunks time: 36.573s
+15:38:24 HiRAG INFO: Entity extraction time: 32.336s
+15:38:25 HiRAG INFO: Entity extraction time: 34.531s
+15:38:26 HiRAG INFO: Upsert chunks time: 40.793s
+15:38:27 HiRAG INFO: Entity extraction time: 29.558s
+15:38:27 HiRAG INFO: Upsert chunks time: 41.694s
+15:38:28 HiRAG INFO: Entity extraction time: 32.123s
+15:38:29 HiRAG INFO: Upsert chunks time: 43.239s
+15:38:30 HiRAG INFO: Entity extraction time: 36.377s
+15:38:30 HiRAG INFO: Upsert chunks time: 44.526s
+15:38:31 HiRAG INFO: Entity extraction time: 36.176s
+15:38:32 HiRAG INFO: Upsert chunks time: 46.066s
+15:38:32 HiRAG INFO: Upsert chunks time: 46.382s
+15:38:33 HiRAG INFO: Upsert chunks time: 46.905s
+15:38:34 HiRAG INFO: Upsert chunks time: 48.596s
+15:38:36 HiRAG INFO: Upsert chunks time: 49.788s
+15:38:39 HiRAG INFO: Upsert chunks time: 53.305s
+15:38:39 HiRAG INFO: Upsert chunks time: 53.741s
+15:38:40 HiRAG INFO: Upsert chunks time: 54.626s
+15:38:42 HiRAG INFO: Upsert chunks time: 55.823s
+15:38:42 HiRAG INFO: Upsert chunks time: 56.135s
+15:38:43 HiRAG INFO: Entity extraction time: 38.684s
+15:38:43 HiRAG INFO: Upsert chunks time: 57.661s
+15:38:45 HiRAG INFO: Upsert chunks time: 59.183s
+15:38:49 HiRAG INFO: Upsert chunks time: 63.439s
+15:38:50 HiRAG INFO: Upsert chunks time: 63.963s
+15:38:50 HiRAG INFO: Entity extraction time: 43.967s
+15:38:50 HiRAG INFO: Entity extraction time: 45.954s
+15:38:51 HiRAG INFO: Upsert chunks time: 65.568s
+15:38:52 HiRAG INFO: Upsert chunks time: 66.175s
+15:38:52 HiRAG INFO: Entity extraction time: 43.985s
+15:38:54 HiRAG INFO: Entity extraction time: 52.774s
+15:38:55 HiRAG INFO: Upsert chunks time: 69.123s
+15:38:59 HiRAG INFO: Upsert chunks time: 72.849s
+15:39:03 HiRAG INFO: Upsert chunks time: 77.732s
+15:39:06 HiRAG INFO: Upsert chunks time: 80.683s
+15:39:09 HiRAG INFO: Upsert chunks time: 83.050s
+15:39:10 HiRAG INFO: Entity extraction time: 55.527s
+15:39:13 HiRAG INFO: Upsert chunks time: 87.551s
+15:39:16 HiRAG INFO: Upsert chunks time: 89.933s
+15:39:17 HiRAG INFO: Upsert chunks time: 91.465s
+15:39:19 HiRAG INFO: Upsert chunks time: 93.262s
+15:39:21 HiRAG INFO: Upsert chunks time: 95.335s
+15:39:21 HiRAG INFO: Entity extraction time: 53.919s
+15:39:22 HiRAG INFO: Upsert chunks time: 96.441s
+15:39:25 HiRAG INFO: Entity extraction time: 63.830s
+15:39:27 HiRAG INFO: Upsert chunks time: 101.049s
+15:39:27 HiRAG INFO: Upsert chunks time: 101.455s
+15:39:27 HiRAG INFO: Entity extraction time: 65.577s
+15:39:29 HiRAG INFO: Entity extraction time: 66.300s
+15:39:29 HiRAG INFO: Upsert chunks time: 103.202s
+15:39:29 HiRAG INFO: Upsert chunks time: 103.617s
+15:39:30 HiRAG INFO: Entity extraction time: 63.270s
+15:39:31 HiRAG INFO: Upsert chunks time: 104.814s
+15:39:34 HiRAG INFO: Upsert chunks time: 107.772s
+15:39:36 HiRAG INFO: Upsert chunks time: 110.372s
+15:39:37 HiRAG INFO: Entity extraction time: 66.564s
+15:39:37 HiRAG INFO: Entity extraction time: 65.319s
+15:39:38 HiRAG INFO: Upsert chunks time: 112.204s
+15:39:39 HiRAG INFO: Upsert chunks time: 113.042s
+15:39:39 HiRAG INFO: Upsert chunks time: 113.500s
+15:39:41 HiRAG INFO: Upsert chunks time: 115.153s
+15:39:42 HiRAG INFO: Upsert chunks time: 116.133s
+15:39:43 HiRAG INFO: Upsert chunks time: 117.061s
+15:39:44 HiRAG INFO: Entity extraction time: 72.173s
+15:39:47 HiRAG INFO: Upsert chunks time: 121.214s
+15:39:50 HiRAG INFO: Upsert chunks time: 124.041s
+15:39:52 HiRAG INFO: Upsert chunks time: 126.247s
+15:39:53 HiRAG INFO: Upsert chunks time: 127.498s
+15:39:54 HiRAG INFO: Upsert chunks time: 127.789s
+15:39:54 HiRAG INFO: Upsert chunks time: 128.138s
+15:39:56 HiRAG INFO: Upsert chunks time: 129.844s
+15:39:56 HiRAG INFO: Entity extraction time: 87.405s
+15:39:58 HiRAG INFO: Upsert chunks time: 132.419s
+15:39:58 HiRAG INFO: Upsert chunks time: 132.632s
+15:39:59 HiRAG INFO: Entity extraction time: 84.841s
+15:40:02 HiRAG INFO: Entity extraction time: 109.768s
+15:40:03 HiRAG INFO: Upsert chunks time: 136.814s
+15:40:04 HiRAG INFO: Upsert chunks time: 138.562s
+15:40:05 HiRAG INFO: Upsert chunks time: 139.006s
+15:40:07 HiRAG INFO: Entity extraction time: 94.023s
+15:40:07 HiRAG INFO: Upsert chunks time: 141.678s
+15:40:08 HiRAG INFO: Entity extraction time: 88.521s
+15:40:09 HiRAG INFO: Upsert chunks time: 142.921s
+15:40:09 HiRAG INFO: Entity extraction time: 87.604s
+15:40:10 HiRAG INFO: Upsert chunks time: 144.287s
+15:40:11 HiRAG INFO: Upsert chunks time: 144.949s
+15:40:12 HiRAG INFO: Entity extraction time: 91.837s
+15:40:16 HiRAG INFO: Upsert chunks time: 149.842s
+15:40:16 HiRAG INFO: Upsert chunks time: 150.107s
+15:40:17 HiRAG INFO: Entity extraction time: 93.142s
+15:40:20 HiRAG INFO: Entity extraction time: 98.699s
+15:40:23 HiRAG INFO: Upsert chunks time: 156.792s
+15:40:23 HiRAG INFO: Upsert chunks time: 157.445s
+15:40:24 HiRAG INFO: Upsert chunks time: 158.675s
+15:40:26 HiRAG INFO: Entity extraction time: 101.164s
+15:40:29 HiRAG INFO: Upsert chunks time: 163.711s
+15:40:30 HiRAG INFO: Upsert chunks time: 164.426s
+15:40:31 HiRAG INFO: Upsert chunks time: 165.624s
+15:40:34 HiRAG INFO: Upsert chunks time: 168.495s
+15:40:36 HiRAG INFO: Entity extraction time: 104.191s
+15:40:37 HiRAG INFO: Upsert chunks time: 171.350s
+15:40:40 HiRAG INFO: Upsert chunks time: 174.138s
+15:40:42 HiRAG INFO: Upsert chunks time: 175.956s
+15:40:44 HiRAG INFO: Upsert chunks time: 177.914s
+15:40:45 HiRAG INFO: Upsert chunks time: 179.447s
+15:40:46 HiRAG INFO: Upsert chunks time: 180.067s
+15:40:47 HiRAG INFO: Upsert chunks time: 181.453s
+15:40:49 HiRAG INFO: Upsert chunks time: 183.255s
+15:40:50 HiRAG INFO: Upsert chunks time: 184.651s
+15:40:52 HiRAG INFO: Upsert chunks time: 186.013s
+15:40:52 HiRAG INFO: Entity extraction time: 121.169s
+15:40:53 HiRAG INFO: Upsert chunks time: 187.233s
+15:40:54 HiRAG INFO: Upsert chunks time: 187.816s
+15:40:54 HiRAG INFO: Upsert chunks time: 188.637s
+15:40:58 HiRAG INFO: Upsert chunks time: 192.249s
+15:40:58 HiRAG INFO: Entity extraction time: 123.502s
+15:41:00 HiRAG INFO: Upsert chunks time: 193.800s
+15:41:03 HiRAG INFO: Upsert chunks time: 196.724s
+15:41:04 HiRAG INFO: Upsert chunks time: 198.007s
+15:41:05 HiRAG INFO: Upsert chunks time: 199.395s
+15:41:10 HiRAG INFO: Upsert chunks time: 204.607s
+15:41:13 HiRAG INFO: Upsert chunks time: 207.552s
+15:41:14 HiRAG INFO: Upsert chunks time: 207.870s
+15:41:15 HiRAG INFO: Upsert chunks time: 208.749s
+15:41:15 HiRAG INFO: Entity extraction time: 126.284s
+15:41:16 HiRAG INFO: Upsert chunks time: 209.770s
+15:41:20 HiRAG INFO: Upsert chunks time: 213.816s
+15:41:25 HiRAG INFO: Upsert chunks time: 218.925s
+15:41:26 HiRAG INFO: Upsert chunks time: 219.687s
+15:41:27 HiRAG INFO: Upsert chunks time: 221.062s
+15:41:27 HiRAG INFO: Entity extraction time: 143.549s
+15:41:28 HiRAG INFO: Upsert chunks time: 221.888s
+15:41:29 HiRAG INFO: Upsert chunks time: 223.138s
+15:41:30 HiRAG INFO: Upsert chunks time: 224.392s
+15:41:31 HiRAG INFO: Upsert chunks time: 224.773s
+15:41:36 HiRAG INFO: Upsert chunks time: 229.730s
+15:41:37 HiRAG INFO: Upsert chunks time: 231.058s
+15:41:38 HiRAG INFO: Upsert chunks time: 232.005s
+15:41:40 HiRAG INFO: Upsert chunks time: 233.820s
+15:41:40 HiRAG INFO: Entity extraction time: 140.654s
+15:41:41 HiRAG INFO: Entity extraction time: 185.521s
+15:41:42 HiRAG INFO: Upsert chunks time: 236.116s
+15:41:46 HiRAG INFO: Upsert chunks time: 240.367s
+15:41:46 HiRAG INFO: Upsert chunks time: 240.640s
+15:41:47 HiRAG INFO: Upsert chunks time: 241.653s
+15:41:48 HiRAG INFO: Entity extraction time: 145.322s
+15:41:50 HiRAG INFO: Entity extraction time: 180.510s
+15:41:55 HiRAG INFO: Upsert chunks time: 248.866s
+15:41:55 HiRAG INFO: Entity extraction time: 215.482s
+15:41:56 openai._base_client INFO: Retrying request to /chat/completions in 0.380200 seconds
+15:41:59 openai._base_client INFO: Retrying request to /chat/completions in 0.425093 seconds
+15:42:00 HiRAG INFO: Upsert chunks time: 253.887s
+15:42:03 openai._base_client INFO: Retrying request to /chat/completions in 0.499227 seconds
+15:42:03 HiRAG INFO: Upsert chunks time: 257.027s
+15:42:05 HiRAG INFO: Upsert chunks time: 258.954s
+15:42:06 HiRAG INFO: Upsert chunks time: 259.818s
+15:42:09 HiRAG INFO: Upsert chunks time: 263.223s
+15:42:10 openai._base_client INFO: Retrying request to /chat/completions in 0.412762 seconds
+15:42:10 HiRAG INFO: Upsert chunks time: 263.991s
+15:42:10 openai._base_client INFO: Retrying request to /chat/completions in 0.396175 seconds
+15:42:11 HiRAG INFO: Upsert chunks time: 264.955s
+15:42:11 openai._base_client INFO: Retrying request to /chat/completions in 0.444126 seconds
+15:42:11 openai._base_client INFO: Retrying request to /chat/completions in 0.402807 seconds
+15:42:12 HiRAG INFO: Upsert chunks time: 265.982s
+15:42:13 openai._base_client INFO: Retrying request to /chat/completions in 0.416619 seconds
+15:42:14 openai._base_client INFO: Retrying request to /chat/completions in 0.398121 seconds
+15:42:14 openai._base_client INFO: Retrying request to /chat/completions in 0.468615 seconds
+15:42:15 openai._base_client INFO: Retrying request to /chat/completions in 0.400408 seconds
+15:42:15 HiRAG INFO: Upsert chunks time: 268.835s
+15:42:15 openai._base_client INFO: Retrying request to /chat/completions in 0.395900 seconds
+15:42:17 openai._base_client INFO: Retrying request to /chat/completions in 0.397043 seconds
+15:42:20 openai._base_client INFO: Retrying request to /embeddings in 0.421608 seconds
+15:42:20 openai._base_client INFO: Retrying request to /chat/completions in 0.393695 seconds
+15:42:21 openai._base_client INFO: Retrying request to /embeddings in 0.445107 seconds
+15:42:21 openai._base_client INFO: Retrying request to /chat/completions in 0.437306 seconds
+15:42:22 openai._base_client INFO: Retrying request to /embeddings in 0.428086 seconds
+15:42:22 openai._base_client INFO: Retrying request to /chat/completions in 0.482024 seconds
+15:42:22 openai._base_client INFO: Retrying request to /chat/completions in 0.395059 seconds
+15:42:22 openai._base_client INFO: Retrying request to /chat/completions in 0.382250 seconds
+15:42:23 openai._base_client INFO: Retrying request to /embeddings in 0.452724 seconds
+15:42:24 openai._base_client INFO: Retrying request to /embeddings in 0.380039 seconds
+15:42:24 openai._base_client INFO: Retrying request to /chat/completions in 0.409080 seconds
+15:42:25 openai._base_client INFO: Retrying request to /embeddings in 0.499597 seconds
+15:42:25 openai._base_client INFO: Retrying request to /chat/completions in 0.405416 seconds
+15:42:26 openai._base_client INFO: Retrying request to /embeddings in 0.440397 seconds
+15:42:26 openai._base_client INFO: Retrying request to /chat/completions in 0.389877 seconds
+15:42:27 openai._base_client INFO: Retrying request to /chat/completions in 0.498644 seconds
+15:42:27 openai._base_client INFO: Retrying request to /chat/completions in 0.499487 seconds
+15:42:27 openai._base_client INFO: Retrying request to /embeddings in 0.471985 seconds
+15:42:27 openai._base_client INFO: Retrying request to /chat/completions in 0.471639 seconds
+15:42:28 openai._base_client INFO: Retrying request to /chat/completions in 0.490652 seconds
+15:42:28 openai._base_client INFO: Retrying request to /embeddings in 0.439809 seconds
+15:42:28 openai._base_client INFO: Retrying request to /chat/completions in 0.388013 seconds
+15:42:29 openai._base_client INFO: Retrying request to /embeddings in 0.425913 seconds
+15:42:29 openai._base_client INFO: Retrying request to /chat/completions in 0.424238 seconds
+15:42:29 openai._base_client INFO: Retrying request to /chat/completions in 0.380671 seconds
+15:42:30 openai._base_client INFO: Retrying request to /embeddings in 0.440021 seconds
+15:42:35 openai._base_client INFO: Retrying request to /chat/completions in 0.375087 seconds
+15:42:35 openai._base_client INFO: Retrying request to /embeddings in 0.423784 seconds
+15:42:35 openai._base_client INFO: Retrying request to /chat/completions in 0.481945 seconds
+15:42:36 openai._base_client INFO: Retrying request to /embeddings in 0.422850 seconds
+15:42:36 openai._base_client INFO: Retrying request to /embeddings in 0.452851 seconds
+15:42:36 openai._base_client INFO: Retrying request to /chat/completions in 0.454097 seconds
+15:42:36 openai._base_client INFO: Retrying request to /embeddings in 0.445341 seconds
+15:42:36 openai._base_client INFO: Retrying request to /embeddings in 0.411737 seconds
+15:42:36 openai._base_client INFO: Retrying request to /chat/completions in 0.407439 seconds
+15:42:36 openai._base_client INFO: Retrying request to /chat/completions in 0.456078 seconds
+15:42:36 openai._base_client INFO: Retrying request to /chat/completions in 0.419132 seconds
+15:42:36 openai._base_client INFO: Retrying request to /chat/completions in 0.493999 seconds
+15:42:36 openai._base_client INFO: Retrying request to /embeddings in 0.488427 seconds
+15:42:37 openai._base_client INFO: Retrying request to /embeddings in 0.393564 seconds
+15:42:38 openai._base_client INFO: Retrying request to /chat/completions in 0.413267 seconds
+15:42:38 openai._base_client INFO: Retrying request to /chat/completions in 0.434871 seconds
+15:42:38 openai._base_client INFO: Retrying request to /embeddings in 0.436102 seconds
+15:42:39 openai._base_client INFO: Retrying request to /embeddings in 0.447042 seconds
+15:42:40 openai._base_client INFO: Retrying request to /chat/completions in 0.473735 seconds
+15:42:40 openai._base_client INFO: Retrying request to /chat/completions in 0.470805 seconds
+15:42:40 openai._base_client INFO: Retrying request to /embeddings in 0.487588 seconds
+15:42:41 openai._base_client INFO: Retrying request to /embeddings in 0.499984 seconds
+15:42:41 openai._base_client INFO: Retrying request to /chat/completions in 0.419897 seconds
+15:42:42 openai._base_client INFO: Retrying request to /embeddings in 0.390411 seconds
+15:42:43 openai._base_client INFO: Retrying request to /chat/completions in 0.375103 seconds
+15:42:43 openai._base_client INFO: Retrying request to /embeddings in 0.424613 seconds
+15:42:44 openai._base_client INFO: Retrying request to /embeddings in 0.401122 seconds
+15:42:44 openai._base_client INFO: Retrying request to /chat/completions in 0.411298 seconds
+15:42:45 openai._base_client INFO: Retrying request to /embeddings in 0.424401 seconds
+15:42:45 openai._base_client INFO: Retrying request to /chat/completions in 0.450834 seconds
+15:42:45 openai._base_client INFO: Retrying request to /chat/completions in 0.473539 seconds
+15:42:45 openai._base_client INFO: Retrying request to /chat/completions in 0.498422 seconds
+15:42:46 openai._base_client INFO: Retrying request to /embeddings in 0.439708 seconds
+15:42:47 openai._base_client INFO: Retrying request to /chat/completions in 0.415186 seconds
+15:42:47 openai._base_client INFO: Retrying request to /embeddings in 0.451591 seconds
+15:42:48 openai._base_client INFO: Retrying request to /embeddings in 0.495228 seconds
+15:42:48 openai._base_client INFO: Retrying request to /chat/completions in 0.499046 seconds
+15:42:48 openai._base_client INFO: Retrying request to /chat/completions in 0.378962 seconds
+15:42:49 openai._base_client INFO: Retrying request to /embeddings in 0.452052 seconds
+15:42:50 openai._base_client INFO: Retrying request to /embeddings in 0.422638 seconds
+15:42:50 openai._base_client INFO: Retrying request to /chat/completions in 0.393604 seconds
+15:42:50 openai._base_client INFO: Retrying request to /chat/completions in 0.477638 seconds
+15:42:51 openai._base_client INFO: Retrying request to /embeddings in 0.384677 seconds
+15:42:52 openai._base_client INFO: Retrying request to /chat/completions in 0.457364 seconds
+15:42:52 openai._base_client INFO: Retrying request to /embeddings in 0.425493 seconds
+15:42:53 openai._base_client INFO: Retrying request to /embeddings in 0.393652 seconds
+15:42:53 openai._base_client INFO: Retrying request to /chat/completions in 0.460378 seconds
+15:42:54 openai._base_client INFO: Retrying request to /embeddings in 0.478647 seconds
+15:42:54 openai._base_client INFO: Retrying request to /chat/completions in 0.432751 seconds
+15:42:55 openai._base_client INFO: Retrying request to /chat/completions in 0.434673 seconds
+15:42:55 openai._base_client INFO: Retrying request to /embeddings in 0.410640 seconds
+15:42:56 openai._base_client INFO: Retrying request to /chat/completions in 0.445576 seconds
+15:42:56 openai._base_client INFO: Retrying request to /embeddings in 0.445795 seconds
+15:42:57 openai._base_client INFO: Retrying request to /embeddings in 0.400606 seconds
+15:42:57 openai._base_client INFO: Retrying request to /chat/completions in 0.476152 seconds
+15:42:57 openai._base_client INFO: Retrying request to /chat/completions in 0.423710 seconds
+15:42:58 openai._base_client INFO: Retrying request to /embeddings in 0.378072 seconds
+15:42:59 openai._base_client INFO: Retrying request to /embeddings in 0.473919 seconds
+15:42:59 openai._base_client INFO: Retrying request to /chat/completions in 0.444289 seconds
+15:43:00 openai._base_client INFO: Retrying request to /chat/completions in 0.494217 seconds
+15:43:00 openai._base_client INFO: Retrying request to /chat/completions in 0.407448 seconds
+15:43:00 openai._base_client INFO: Retrying request to /embeddings in 0.434350 seconds
+15:43:01 openai._base_client INFO: Retrying request to /chat/completions in 0.485808 seconds
+15:43:01 openai._base_client INFO: Retrying request to /embeddings in 0.397824 seconds
+15:43:02 openai._base_client INFO: Retrying request to /embeddings in 0.384019 seconds
+15:43:02 openai._base_client INFO: Retrying request to /chat/completions in 0.388482 seconds
+15:43:03 openai._base_client INFO: Retrying request to /embeddings in 0.476439 seconds
+15:43:04 openai._base_client INFO: Retrying request to /embeddings in 0.460793 seconds
+15:43:05 openai._base_client INFO: Retrying request to /embeddings in 0.469603 seconds
+15:43:05 openai._base_client INFO: Retrying request to /chat/completions in 0.463422 seconds
+15:43:06 openai._base_client INFO: Retrying request to /chat/completions in 0.468083 seconds
+15:43:06 openai._base_client INFO: Retrying request to /embeddings in 0.420436 seconds
+15:43:07 openai._base_client INFO: Retrying request to /embeddings in 0.403251 seconds
+15:43:07 openai._base_client INFO: Retrying request to /chat/completions in 0.494598 seconds
+15:43:08 openai._base_client INFO: Retrying request to /embeddings in 0.387949 seconds
+15:43:08 openai._base_client INFO: Retrying request to /chat/completions in 0.380195 seconds
+15:43:08 openai._base_client INFO: Retrying request to /chat/completions in 0.458138 seconds
+15:43:08 openai._base_client INFO: Retrying request to /chat/completions in 0.424576 seconds
+15:43:09 openai._base_client INFO: Retrying request to /embeddings in 0.450019 seconds
+15:43:09 openai._base_client INFO: Retrying request to /chat/completions in 0.403150 seconds
+15:43:10 openai._base_client INFO: Retrying request to /embeddings in 0.378721 seconds
+15:43:10 openai._base_client INFO: Retrying request to /chat/completions in 0.431175 seconds
+15:43:11 openai._base_client INFO: Retrying request to /chat/completions in 0.375895 seconds
+15:43:11 openai._base_client INFO: Retrying request to /chat/completions in 0.466287 seconds
+15:43:11 openai._base_client INFO: Retrying request to /embeddings in 0.458150 seconds
+15:43:12 openai._base_client INFO: Retrying request to /embeddings in 0.394222 seconds
+15:43:13 openai._base_client INFO: Retrying request to /embeddings in 0.426191 seconds
+15:43:14 openai._base_client INFO: Retrying request to /embeddings in 0.437211 seconds
+15:43:14 openai._base_client INFO: Retrying request to /chat/completions in 0.407937 seconds
+15:43:15 openai._base_client INFO: Retrying request to /embeddings in 0.416434 seconds
+15:43:16 openai._base_client INFO: Retrying request to /chat/completions in 0.444914 seconds
+15:43:16 openai._base_client INFO: Retrying request to /embeddings in 0.444096 seconds
+15:43:17 openai._base_client INFO: Retrying request to /chat/completions in 0.465256 seconds
+15:43:17 openai._base_client INFO: Retrying request to /embeddings in 0.488944 seconds
+15:43:17 openai._base_client INFO: Retrying request to /chat/completions in 0.448811 seconds
+15:43:17 openai._base_client INFO: Retrying request to /chat/completions in 0.431793 seconds
+15:43:17 openai._base_client INFO: Retrying request to /chat/completions in 0.420180 seconds
+15:43:17 openai._base_client INFO: Retrying request to /chat/completions in 0.387119 seconds
+15:43:18 openai._base_client INFO: Retrying request to /embeddings in 0.382546 seconds
+15:43:18 openai._base_client INFO: Retrying request to /chat/completions in 0.489606 seconds
+15:43:19 openai._base_client INFO: Retrying request to /embeddings in 0.386176 seconds
+15:43:20 openai._base_client INFO: Retrying request to /chat/completions in 0.472316 seconds
+15:43:20 openai._base_client INFO: Retrying request to /embeddings in 0.494853 seconds
+15:43:20 openai._base_client INFO: Retrying request to /chat/completions in 0.399390 seconds
+15:43:20 openai._base_client INFO: Retrying request to /chat/completions in 0.393631 seconds
+15:43:21 openai._base_client INFO: Retrying request to /embeddings in 0.477559 seconds
+15:43:22 openai._base_client INFO: Retrying request to /embeddings in 0.470231 seconds
+15:43:22 openai._base_client INFO: Retrying request to /chat/completions in 0.380449 seconds
+15:43:23 openai._base_client INFO: Retrying request to /embeddings in 0.378543 seconds
+15:43:24 openai._base_client INFO: Retrying request to /embeddings in 0.492239 seconds
+15:43:24 openai._base_client INFO: Retrying request to /chat/completions in 0.413768 seconds
+15:43:25 openai._base_client INFO: Retrying request to /embeddings in 0.441146 seconds
+15:43:25 openai._base_client INFO: Retrying request to /chat/completions in 0.463926 seconds
+15:43:25 openai._base_client INFO: Retrying request to /chat/completions in 0.432021 seconds
+15:43:26 openai._base_client INFO: Retrying request to /embeddings in 0.436828 seconds
+15:43:26 openai._base_client INFO: Retrying request to /chat/completions in 0.474835 seconds
+15:43:27 openai._base_client INFO: Retrying request to /chat/completions in 0.450049 seconds
+15:43:27 openai._base_client INFO: Retrying request to /embeddings in 0.385592 seconds
+15:43:28 openai._base_client INFO: Retrying request to /chat/completions in 0.390722 seconds
+15:43:28 openai._base_client INFO: Retrying request to /embeddings in 0.404850 seconds
+15:43:29 openai._base_client INFO: Retrying request to /embeddings in 0.383691 seconds
+15:43:29 openai._base_client INFO: Retrying request to /chat/completions in 0.430337 seconds
+15:43:29 openai._base_client INFO: Retrying request to /chat/completions in 0.465706 seconds
+15:43:30 openai._base_client INFO: Retrying request to /embeddings in 0.454086 seconds
+15:43:31 openai._base_client INFO: Retrying request to /embeddings in 0.404712 seconds
+15:43:31 openai._base_client INFO: Retrying request to /chat/completions in 0.457336 seconds
+15:43:31 openai._base_client INFO: Retrying request to /chat/completions in 0.464839 seconds
+15:43:32 openai._base_client INFO: Retrying request to /embeddings in 0.441382 seconds
+15:43:32 openai._base_client INFO: Retrying request to /chat/completions in 0.427442 seconds
+15:43:33 openai._base_client INFO: Retrying request to /embeddings in 0.453917 seconds
+15:43:34 openai._base_client INFO: Retrying request to /chat/completions in 0.497134 seconds
+15:43:34 openai._base_client INFO: Retrying request to /embeddings in 0.420629 seconds
+15:43:35 openai._base_client INFO: Retrying request to /embeddings in 0.419565 seconds
+15:43:35 openai._base_client INFO: Retrying request to /chat/completions in 0.495711 seconds
+15:43:36 openai._base_client INFO: Retrying request to /embeddings in 0.470669 seconds
+15:43:36 openai._base_client INFO: Retrying request to /chat/completions in 0.993911 seconds
+15:43:36 openai._base_client INFO: Retrying request to /chat/completions in 0.461577 seconds
+15:43:37 openai._base_client INFO: Retrying request to /embeddings in 0.398785 seconds
+15:43:38 openai._base_client INFO: Retrying request to /embeddings in 0.474548 seconds
+15:43:39 openai._base_client INFO: Retrying request to /embeddings in 0.427839 seconds
+15:43:40 openai._base_client INFO: Retrying request to /embeddings in 0.499063 seconds
+15:43:40 openai._base_client INFO: Retrying request to /chat/completions in 0.393667 seconds
+15:43:40 openai._base_client INFO: Retrying request to /chat/completions in 0.438635 seconds
+15:43:40 openai._base_client INFO: Retrying request to /chat/completions in 0.781437 seconds
+15:43:41 openai._base_client INFO: Retrying request to /embeddings in 0.377543 seconds
+15:43:42 openai._base_client INFO: Retrying request to /embeddings in 0.442983 seconds
+15:43:42 openai._base_client INFO: Retrying request to /chat/completions in 0.474011 seconds
+15:43:42 openai._base_client INFO: Retrying request to /chat/completions in 0.436163 seconds
+15:43:43 openai._base_client INFO: Retrying request to /embeddings in 0.473134 seconds
+15:43:43 openai._base_client INFO: Retrying request to /chat/completions in 0.396149 seconds
+15:43:43 openai._base_client INFO: Retrying request to /chat/completions in 0.379956 seconds
+15:43:43 openai._base_client INFO: Retrying request to /chat/completions in 0.757805 seconds
+15:43:44 openai._base_client INFO: Retrying request to /embeddings in 0.437366 seconds
+15:43:45 openai._base_client INFO: Retrying request to /embeddings in 0.393995 seconds
+15:43:45 openai._base_client INFO: Retrying request to /chat/completions in 0.446622 seconds
+15:43:46 openai._base_client INFO: Retrying request to /embeddings in 0.448402 seconds
+15:43:46 openai._base_client INFO: Retrying request to /chat/completions in 0.496558 seconds
+15:43:47 openai._base_client INFO: Retrying request to /embeddings in 0.466256 seconds
+15:43:48 openai._base_client INFO: Retrying request to /embeddings in 0.414586 seconds
+15:43:49 openai._base_client INFO: Retrying request to /embeddings in 0.478905 seconds
+15:43:49 openai._base_client INFO: Retrying request to /chat/completions in 0.492223 seconds
+15:43:49 openai._base_client INFO: Retrying request to /chat/completions in 0.454274 seconds
+15:43:50 openai._base_client INFO: Retrying request to /embeddings in 0.385999 seconds
+15:43:50 openai._base_client INFO: Retrying request to /chat/completions in 0.431252 seconds
+15:43:50 openai._base_client INFO: Retrying request to /chat/completions in 0.979971 seconds
+15:43:51 openai._base_client INFO: Retrying request to /embeddings in 0.404397 seconds
+15:43:51 openai._base_client INFO: Retrying request to /chat/completions in 0.886281 seconds
+15:43:51 openai._base_client INFO: Retrying request to /chat/completions in 0.464119 seconds
+15:43:51 openai._base_client INFO: Retrying request to /chat/completions in 0.853651 seconds
+15:43:52 openai._base_client INFO: Retrying request to /embeddings in 0.393628 seconds
+15:43:52 openai._base_client INFO: Retrying request to /chat/completions in 0.423135 seconds
+15:43:52 openai._base_client INFO: Retrying request to /chat/completions in 0.750090 seconds
+15:43:53 openai._base_client INFO: Retrying request to /embeddings in 0.447587 seconds
+15:43:53 openai._base_client INFO: Retrying request to /chat/completions in 0.804670 seconds
+15:43:54 openai._base_client INFO: Retrying request to /embeddings in 0.496022 seconds
+15:43:54 openai._base_client INFO: Retrying request to /chat/completions in 0.897242 seconds
+15:43:55 openai._base_client INFO: Retrying request to /embeddings in 0.376213 seconds
+15:43:55 openai._base_client INFO: Retrying request to /chat/completions in 0.440454 seconds
+15:43:55 openai._base_client INFO: Retrying request to /chat/completions in 0.893955 seconds
+15:43:55 openai._base_client INFO: Retrying request to /chat/completions in 0.781043 seconds
+15:43:56 openai._base_client INFO: Retrying request to /chat/completions in 0.815488 seconds
+15:43:56 openai._base_client INFO: Retrying request to /embeddings in 0.414232 seconds
+15:43:57 openai._base_client INFO: Retrying request to /embeddings in 0.413265 seconds
+15:43:58 openai._base_client INFO: Retrying request to /chat/completions in 0.831536 seconds
+15:43:58 openai._base_client INFO: Retrying request to /embeddings in 0.468652 seconds
+15:43:59 openai._base_client INFO: Retrying request to /embeddings in 0.427834 seconds
+15:44:00 openai._base_client INFO: Retrying request to /embeddings in 0.392716 seconds
+15:44:00 openai._base_client INFO: Retrying request to /embeddings in 0.906758 seconds
+15:44:01 openai._base_client INFO: Retrying request to /embeddings in 0.423914 seconds
+15:44:01 openai._base_client INFO: Retrying request to /chat/completions in 0.932107 seconds
+15:44:01 openai._base_client INFO: Retrying request to /embeddings in 0.789640 seconds
+15:44:01 openai._base_client INFO: Retrying request to /chat/completions in 0.968660 seconds
+15:44:02 openai._base_client INFO: Retrying request to /embeddings in 0.417571 seconds
+15:44:02 openai._base_client INFO: Retrying request to /embeddings in 0.845656 seconds
+15:44:02 openai._base_client INFO: Retrying request to /chat/completions in 0.825013 seconds
+15:44:02 openai._base_client INFO: Retrying request to /chat/completions in 0.803233 seconds
+15:44:02 openai._base_client INFO: Retrying request to /chat/completions in 0.944219 seconds
+15:44:03 openai._base_client INFO: Retrying request to /embeddings in 0.876386 seconds
+15:44:03 openai._base_client INFO: Retrying request to /embeddings in 0.472331 seconds
+15:44:04 openai._base_client INFO: Retrying request to /embeddings in 0.390842 seconds
+15:44:04 openai._base_client INFO: Retrying request to /embeddings in 0.766675 seconds
+15:44:04 openai._base_client INFO: Retrying request to /chat/completions in 0.875994 seconds
+15:44:05 openai._base_client INFO: Retrying request to /embeddings in 0.417479 seconds
+15:44:05 openai._base_client INFO: Retrying request to /embeddings in 0.851658 seconds
+15:44:06 openai._base_client INFO: Retrying request to /embeddings in 0.388792 seconds
+15:44:06 openai._base_client INFO: Retrying request to /chat/completions in 0.782253 seconds
+15:44:06 openai._base_client INFO: Retrying request to /embeddings in 0.786236 seconds
+15:44:06 openai._base_client INFO: Retrying request to /chat/completions in 0.811710 seconds
+15:44:07 openai._base_client INFO: Retrying request to /embeddings in 0.411710 seconds
+15:44:07 openai._base_client INFO: Retrying request to /chat/completions in 0.900651 seconds
+15:44:07 openai._base_client INFO: Retrying request to /chat/completions in 0.926234 seconds
+15:44:07 openai._base_client INFO: Retrying request to /embeddings in 0.988428 seconds
+15:44:08 openai._base_client INFO: Retrying request to /embeddings in 0.376864 seconds
+15:44:08 openai._base_client INFO: Retrying request to /chat/completions in 0.986767 seconds
+15:44:08 openai._base_client INFO: Retrying request to /chat/completions in 0.806421 seconds
+15:44:08 openai._base_client INFO: Retrying request to /embeddings in 0.901400 seconds
+15:44:09 openai._base_client INFO: Retrying request to /chat/completions in 0.840028 seconds
+15:44:09 openai._base_client INFO: Retrying request to /embeddings in 0.493925 seconds
+15:44:09 openai._base_client INFO: Retrying request to /embeddings in 0.904093 seconds
+15:44:10 openai._base_client INFO: Retrying request to /chat/completions in 0.996491 seconds
+15:44:10 openai._base_client INFO: Retrying request to /chat/completions in 0.905085 seconds
+15:44:10 openai._base_client INFO: Retrying request to /embeddings in 0.946610 seconds
+15:44:10 openai._base_client INFO: Retrying request to /embeddings in 0.404380 seconds
+15:44:11 openai._base_client INFO: Retrying request to /embeddings in 0.444462 seconds
+15:44:12 openai._base_client INFO: Retrying request to /embeddings in 0.404289 seconds
+15:44:13 openai._base_client INFO: Retrying request to /embeddings in 0.420597 seconds
+15:44:14 openai._base_client INFO: Retrying request to /embeddings in 0.417817 seconds
+15:44:15 openai._base_client INFO: Retrying request to /embeddings in 0.480405 seconds
+15:44:15 openai._base_client INFO: Retrying request to /chat/completions in 0.897722 seconds
+15:44:15 openai._base_client INFO: Retrying request to /embeddings in 0.771744 seconds
+15:44:15 openai._base_client INFO: Retrying request to /chat/completions in 0.939407 seconds
+15:44:16 openai._base_client INFO: Retrying request to /embeddings in 0.460126 seconds
+15:44:16 openai._base_client INFO: Retrying request to /embeddings in 0.759083 seconds
+15:44:16 openai._base_client INFO: Retrying request to /chat/completions in 0.809666 seconds
+15:44:16 openai._base_client INFO: Retrying request to /embeddings in 0.893619 seconds
+15:44:16 openai._base_client INFO: Retrying request to /chat/completions in 0.813560 seconds
+15:44:16 openai._base_client INFO: Retrying request to /chat/completions in 0.846462 seconds
+15:44:16 openai._base_client INFO: Retrying request to /embeddings in 0.894306 seconds
+15:44:16 openai._base_client INFO: Retrying request to /embeddings in 0.865338 seconds
+15:44:16 openai._base_client INFO: Retrying request to /chat/completions in 0.885449 seconds
+15:44:16 openai._base_client INFO: Retrying request to /chat/completions in 0.806401 seconds
+15:44:16 openai._base_client INFO: Retrying request to /embeddings in 0.992368 seconds
+15:44:17 openai._base_client INFO: Retrying request to /embeddings in 0.472446 seconds
+15:44:17 openai._base_client INFO: Retrying request to /embeddings in 0.896643 seconds
+15:44:18 openai._base_client INFO: Retrying request to /embeddings in 0.445367 seconds
+15:44:19 openai._base_client INFO: Retrying request to /chat/completions in 0.954436 seconds
+15:44:19 openai._base_client INFO: Retrying request to /chat/completions in 0.975997 seconds
+15:44:19 openai._base_client INFO: Retrying request to /embeddings in 0.778992 seconds
+15:44:19 openai._base_client INFO: Retrying request to /embeddings in 0.478615 seconds
+15:44:19 openai._base_client INFO: Retrying request to /embeddings in 0.819503 seconds
+15:44:20 openai._base_client INFO: Retrying request to /embeddings in 0.444561 seconds
+15:44:20 openai._base_client INFO: Retrying request to /chat/completions in 0.864148 seconds
+15:44:20 openai._base_client INFO: Retrying request to /chat/completions in 0.856218 seconds
+15:44:20 openai._base_client INFO: Retrying request to /embeddings in 0.759175 seconds
+15:44:21 openai._base_client INFO: Retrying request to /embeddings in 0.400210 seconds
+15:44:21 openai._base_client INFO: Retrying request to /embeddings in 0.978434 seconds
+15:44:21 openai._base_client INFO: Retrying request to /chat/completions in 0.969305 seconds
+15:44:22 openai._base_client INFO: Retrying request to /embeddings in 0.450418 seconds
+15:44:22 openai._base_client INFO: Retrying request to /embeddings in 0.929782 seconds
+15:44:23 openai._base_client INFO: Retrying request to /embeddings in 0.493824 seconds
+15:44:23 openai._base_client INFO: Retrying request to /chat/completions in 0.859651 seconds
+15:44:23 openai._base_client INFO: Retrying request to /embeddings in 0.786358 seconds
+15:44:24 openai._base_client INFO: Retrying request to /embeddings in 0.457284 seconds
+15:44:24 openai._base_client INFO: Retrying request to /embeddings in 0.915731 seconds
+15:44:24 openai._base_client INFO: Retrying request to /chat/completions in 0.977286 seconds
+15:44:25 openai._base_client INFO: Retrying request to /embeddings in 0.425201 seconds
+15:44:25 openai._base_client INFO: Retrying request to /embeddings in 0.830014 seconds
+15:44:26 openai._base_client INFO: Retrying request to /embeddings in 0.480662 seconds
+15:44:26 openai._base_client INFO: Retrying request to /chat/completions in 0.891338 seconds
+15:44:26 openai._base_client INFO: Retrying request to /chat/completions in 0.842279 seconds
+15:44:26 openai._base_client INFO: Retrying request to /chat/completions in 0.893664 seconds
+15:44:26 openai._base_client INFO: Retrying request to /embeddings in 0.757662 seconds
+15:44:27 openai._base_client INFO: Retrying request to /embeddings in 0.426233 seconds
+15:44:27 openai._base_client INFO: Retrying request to /chat/completions in 0.822052 seconds
+15:44:27 openai._base_client INFO: Retrying request to /embeddings in 0.805306 seconds
+15:44:28 openai._base_client INFO: Retrying request to /embeddings in 0.480592 seconds
+15:44:28 openai._base_client INFO: Retrying request to /embeddings in 0.756114 seconds
+15:44:29 openai._base_client INFO: Retrying request to /chat/completions in 0.757568 seconds
+15:44:29 openai._base_client INFO: Retrying request to /embeddings in 0.480437 seconds
+15:44:29 openai._base_client INFO: Retrying request to /chat/completions in 0.922585 seconds
+15:44:30 openai._base_client INFO: Retrying request to /embeddings in 0.445473 seconds
+15:44:30 openai._base_client INFO: Retrying request to /embeddings in 0.848097 seconds
+15:44:30 openai._base_client INFO: Retrying request to /embeddings in 0.819714 seconds
+15:44:30 openai._base_client INFO: Retrying request to /chat/completions in 0.894370 seconds
+15:44:31 openai._base_client INFO: Retrying request to /embeddings in 0.485354 seconds
+15:44:31 openai._base_client INFO: Retrying request to /chat/completions in 0.787156 seconds
+15:44:31 openai._base_client INFO: Retrying request to /embeddings in 0.918159 seconds
+15:44:32 openai._base_client INFO: Retrying request to /embeddings in 0.482182 seconds
+15:44:32 openai._base_client INFO: Retrying request to /embeddings in 0.865122 seconds
+15:44:32 openai._base_client INFO: Retrying request to /chat/completions in 0.908718 seconds
+15:44:33 openai._base_client INFO: Retrying request to /embeddings in 0.417294 seconds
+15:44:34 openai._base_client INFO: Retrying request to /embeddings in 0.780160 seconds
+15:44:34 openai._base_client INFO: Retrying request to /embeddings in 0.459035 seconds
+15:44:34 openai._base_client INFO: Retrying request to /chat/completions in 0.981521 seconds
+15:44:34 openai._base_client INFO: Retrying request to /chat/completions in 0.960610 seconds
+15:44:34 openai._base_client INFO: Retrying request to /embeddings in 0.966472 seconds
+15:44:35 openai._base_client INFO: Retrying request to /embeddings in 0.484213 seconds
+15:44:35 openai._base_client INFO: Retrying request to /chat/completions in 0.759507 seconds
+15:44:35 openai._base_client INFO: Retrying request to /embeddings in 0.921470 seconds
+15:44:36 openai._base_client INFO: Retrying request to /embeddings in 0.439379 seconds
+15:44:36 openai._base_client INFO: Retrying request to /chat/completions in 0.843753 seconds
+15:44:36 openai._base_client INFO: Retrying request to /embeddings in 0.900754 seconds
+15:44:37 openai._base_client INFO: Retrying request to /embeddings in 0.435269 seconds
+15:44:37 openai._base_client INFO: Retrying request to /embeddings in 0.875954 seconds
+15:44:38 openai._base_client INFO: Retrying request to /chat/completions in 0.949530 seconds
+15:44:38 openai._base_client INFO: Retrying request to /embeddings in 0.493392 seconds
+15:44:38 openai._base_client INFO: Retrying request to /chat/completions in 0.801635 seconds
+15:44:38 openai._base_client INFO: Retrying request to /embeddings in 0.820874 seconds
+15:44:39 openai._base_client INFO: Retrying request to /embeddings in 0.393142 seconds
+15:44:39 openai._base_client INFO: Retrying request to /embeddings in 0.801472 seconds
+15:44:40 openai._base_client INFO: Retrying request to /embeddings in 0.472103 seconds
+15:44:40 openai._base_client INFO: Retrying request to /chat/completions in 0.916947 seconds
+15:44:40 openai._base_client INFO: Retrying request to /chat/completions in 0.846961 seconds
+15:44:40 openai._base_client INFO: Retrying request to /embeddings in 0.967576 seconds
+15:44:40 openai._base_client INFO: Retrying request to /chat/completions in 0.860354 seconds
+15:44:41 openai._base_client INFO: Retrying request to /embeddings in 0.436299 seconds
+15:44:42 openai._base_client INFO: Retrying request to /embeddings in 0.871774 seconds
+15:44:42 openai._base_client INFO: Retrying request to /chat/completions in 0.900250 seconds
+15:44:42 openai._base_client INFO: Retrying request to /embeddings in 0.405036 seconds
+15:44:42 openai._base_client INFO: Retrying request to /embeddings in 0.978544 seconds
+15:44:42 openai._base_client INFO: Retrying request to /chat/completions in 0.877940 seconds
+15:44:43 openai._base_client INFO: Retrying request to /embeddings in 0.484697 seconds
+15:44:43 openai._base_client INFO: Retrying request to /embeddings in 0.987603 seconds
+15:44:44 openai._base_client INFO: Retrying request to /embeddings in 0.377453 seconds
+15:44:44 openai._base_client INFO: Retrying request to /embeddings in 0.949644 seconds
+15:44:45 openai._base_client INFO: Retrying request to /embeddings in 0.432287 seconds
+15:44:45 openai._base_client INFO: Retrying request to /embeddings in 0.819448 seconds
+15:44:45 openai._base_client INFO: Retrying request to /chat/completions in 0.830753 seconds
+15:44:46 openai._base_client INFO: Retrying request to /embeddings in 0.426583 seconds
+15:44:46 openai._base_client INFO: Retrying request to /chat/completions in 0.809259 seconds
+15:44:46 openai._base_client INFO: Retrying request to /embeddings in 0.914348 seconds
+15:44:47 openai._base_client INFO: Retrying request to /embeddings in 0.382522 seconds
+15:44:47 openai._base_client INFO: Retrying request to /embeddings in 0.951802 seconds
+15:44:47 openai._base_client INFO: Retrying request to /chat/completions in 0.761417 seconds
+15:44:48 openai._base_client INFO: Retrying request to /embeddings in 0.459286 seconds
+15:44:48 openai._base_client INFO: Retrying request to /embeddings in 0.997867 seconds
+15:44:48 openai._base_client INFO: Retrying request to /chat/completions in 0.949280 seconds
+15:44:48 openai._base_client INFO: Retrying request to /chat/completions in 0.844179 seconds
+15:44:49 openai._base_client INFO: Retrying request to /embeddings in 0.406900 seconds
+15:44:49 openai._base_client INFO: Retrying request to /chat/completions in 0.840928 seconds
+15:44:49 openai._base_client INFO: Retrying request to /embeddings in 0.913744 seconds
+15:44:50 openai._base_client INFO: Retrying request to /embeddings in 0.467607 seconds
+15:44:50 openai._base_client INFO: Retrying request to /chat/completions in 0.903596 seconds
+15:44:50 openai._base_client INFO: Retrying request to /embeddings in 0.855132 seconds
+15:44:51 openai._base_client INFO: Retrying request to /embeddings in 0.408918 seconds
+15:44:51 openai._base_client INFO: Retrying request to /chat/completions in 0.856392 seconds
+15:44:51 openai._base_client INFO: Retrying request to /chat/completions in 0.863361 seconds
+15:44:51 openai._base_client INFO: Retrying request to /embeddings in 0.972666 seconds
+15:44:51 openai._base_client INFO: Retrying request to /chat/completions in 0.938941 seconds
+15:44:52 openai._base_client INFO: Retrying request to /embeddings in 0.472119 seconds
+15:44:52 openai._base_client INFO: Retrying request to /embeddings in 0.938218 seconds
+15:44:53 openai._base_client INFO: Retrying request to /embeddings in 0.377558 seconds
+15:44:53 openai._base_client INFO: Retrying request to /embeddings in 0.906309 seconds
+15:44:54 openai._base_client INFO: Retrying request to /embeddings in 0.477929 seconds
+15:44:54 openai._base_client INFO: Retrying request to /embeddings in 0.891803 seconds
+15:44:55 openai._base_client INFO: Retrying request to /chat/completions in 0.842733 seconds
+15:44:55 openai._base_client INFO: Retrying request to /embeddings in 0.375520 seconds
+15:44:55 openai._base_client INFO: Retrying request to /embeddings in 0.816456 seconds
+15:44:56 openai._base_client INFO: Retrying request to /embeddings in 0.394378 seconds
+15:44:56 openai._base_client INFO: Retrying request to /chat/completions in 0.917562 seconds
+15:44:56 openai._base_client INFO: Retrying request to /embeddings in 0.977478 seconds
+15:44:57 openai._base_client INFO: Retrying request to /embeddings in 0.394678 seconds
+15:44:57 openai._base_client INFO: Retrying request to /chat/completions in 0.828811 seconds
+15:44:57 openai._base_client INFO: Retrying request to /embeddings in 0.783713 seconds
+15:44:57 openai._base_client INFO: Retrying request to /chat/completions in 0.806130 seconds
+15:44:57 openai._base_client INFO: Retrying request to /chat/completions in 0.988851 seconds
+15:44:57 openai._base_client INFO: Retrying request to /chat/completions in 0.789953 seconds
+15:44:58 openai._base_client INFO: Retrying request to /embeddings in 0.394913 seconds
+15:44:58 openai._base_client INFO: Retrying request to /chat/completions in 0.971750 seconds
+15:44:58 openai._base_client INFO: Retrying request to /embeddings in 0.934880 seconds
+15:44:58 openai._base_client INFO: Retrying request to /chat/completions in 0.788751 seconds
+15:44:59 openai._base_client INFO: Retrying request to /embeddings in 0.495591 seconds
+15:44:59 openai._base_client INFO: Retrying request to /embeddings in 0.951271 seconds
+15:45:00 openai._base_client INFO: Retrying request to /embeddings in 0.390293 seconds
+15:45:00 openai._base_client INFO: Retrying request to /chat/completions in 0.834571 seconds
+15:45:00 openai._base_client INFO: Retrying request to /chat/completions in 0.948850 seconds
+15:45:00 openai._base_client INFO: Retrying request to /embeddings in 0.861104 seconds
+15:45:01 openai._base_client INFO: Retrying request to /embeddings in 0.479042 seconds
+15:45:01 openai._base_client INFO: Retrying request to /chat/completions in 0.948490 seconds
+15:45:01 openai._base_client INFO: Retrying request to /embeddings in 0.811326 seconds
+15:45:02 openai._base_client INFO: Retrying request to /embeddings in 0.385541 seconds
+15:45:02 openai._base_client INFO: Retrying request to /embeddings in 0.884417 seconds
+15:45:03 openai._base_client INFO: Retrying request to /chat/completions in 0.762858 seconds
+15:45:03 openai._base_client INFO: Retrying request to /embeddings in 0.465008 seconds
+15:45:03 openai._base_client INFO: Retrying request to /embeddings in 0.902839 seconds
+15:45:04 openai._base_client INFO: Retrying request to /embeddings in 0.434202 seconds
+15:45:04 openai._base_client INFO: Retrying request to /embeddings in 0.928624 seconds
+15:45:05 openai._base_client INFO: Retrying request to /embeddings in 0.460140 seconds
+15:45:05 openai._base_client INFO: Retrying request to /chat/completions in 0.900503 seconds
+15:45:05 openai._base_client INFO: Retrying request to /embeddings in 0.933542 seconds
+15:45:06 openai._base_client INFO: Retrying request to /chat/completions in 0.816498 seconds
+15:45:06 openai._base_client INFO: Retrying request to /embeddings in 0.440479 seconds
+15:45:06 openai._base_client INFO: Retrying request to /chat/completions in 0.970642 seconds
+15:45:07 openai._base_client INFO: Retrying request to /embeddings in 0.947826 seconds
+15:45:07 openai._base_client INFO: Retrying request to /embeddings in 0.446199 seconds
+15:45:07 openai._base_client INFO: Retrying request to /chat/completions in 0.821859 seconds
+15:45:07 openai._base_client INFO: Retrying request to /chat/completions in 0.754689 seconds
+15:45:07 openai._base_client INFO: Retrying request to /embeddings in 0.852900 seconds
+15:45:08 openai._base_client INFO: Retrying request to /embeddings in 0.418202 seconds
+15:45:08 openai._base_client INFO: Retrying request to /chat/completions in 0.899010 seconds
+15:45:08 openai._base_client INFO: Retrying request to /embeddings in 0.834311 seconds
+15:45:09 openai._base_client INFO: Retrying request to /embeddings in 0.463508 seconds
+15:45:09 openai._base_client INFO: Retrying request to /embeddings in 0.905084 seconds
+15:45:09 openai._base_client INFO: Retrying request to /chat/completions in 0.861107 seconds
+15:45:10 openai._base_client INFO: Retrying request to /chat/completions in 0.794592 seconds
+15:45:10 openai._base_client INFO: Retrying request to /embeddings in 0.481424 seconds
+15:45:10 openai._base_client INFO: Retrying request to /embeddings in 0.987604 seconds
+15:45:11 openai._base_client INFO: Retrying request to /embeddings in 0.397333 seconds
+15:45:11 openai._base_client INFO: Retrying request to /embeddings in 0.786756 seconds
+15:45:12 openai._base_client INFO: Retrying request to /chat/completions in 0.925265 seconds
+15:45:12 openai._base_client INFO: Retrying request to /embeddings in 0.459739 seconds
+15:45:12 openai._base_client INFO: Retrying request to /chat/completions in 0.804103 seconds
+15:45:12 openai._base_client INFO: Retrying request to /embeddings in 0.878349 seconds
+15:45:13 openai._base_client INFO: Retrying request to /chat/completions in 0.941386 seconds
+15:45:13 openai._base_client INFO: Retrying request to /embeddings in 0.462731 seconds
+15:45:13 openai._base_client INFO: Retrying request to /embeddings in 0.968107 seconds
+15:45:14 openai._base_client INFO: Retrying request to /embeddings in 0.452242 seconds
+15:45:14 openai._base_client INFO: Retrying request to /chat/completions in 0.846119 seconds
+15:45:14 openai._base_client INFO: Retrying request to /embeddings in 0.903805 seconds
+15:45:15 openai._base_client INFO: Retrying request to /embeddings in 0.448715 seconds
+15:45:15 openai._base_client INFO: Retrying request to /embeddings in 0.850053 seconds
+15:45:15 openai._base_client INFO: Retrying request to /chat/completions in 0.867389 seconds
+15:45:16 openai._base_client INFO: Retrying request to /embeddings in 0.476155 seconds
+15:45:16 openai._base_client INFO: Retrying request to /embeddings in 0.909908 seconds
+15:45:17 openai._base_client INFO: Retrying request to /embeddings in 0.474858 seconds
+15:45:17 openai._base_client INFO: Retrying request to /chat/completions in 0.804987 seconds
+Traceback (most recent call last):
+  File "/chatbot/main.py", line 33, in <module>
+    asyncio.run(index())
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/chatbot/main.py", line 24, in index
+    await index.insert_to_kb(
+  File "/chatbot/src/hirag_prod/hirag.py", line 262, in insert_to_kb
+    await asyncio.gather(*tasks)
+  File "/chatbot/src/hirag_prod/hirag.py", line 183, in _process_document
+    entities = await self.entity_extractor.entity(chunks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/entity/vanilla.py", line 217, in entity
+    entities_list = await _limited_gather(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_utils.py", line 341, in _limited_gather
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_utils.py", line 338, in _worker
+    return await c
+           ^^^^^^^
+  File "/chatbot/src/hirag_prod/entity/vanilla.py", line 100, in _process_single_content_entity
+    entity_string_result = await self.extract_func(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_llm.py", line 22, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/chatbot/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_llm.py", line 110, in complete
+    response = await self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 1727, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+<title>aimlapi.com | 524: A timeout occurred</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+</head>
+<body>
+<div id="cf-wrapper">
+    <div id="cf-error-details" class="p-0">
+        <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">
+            <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">
+                <span class="inline-block">A timeout occurred</span>
+                <span class="code-label">Error code 524</span>
+            </h1>
+            <div>
+                Visit <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_524&utm_campaign=api.aimlapi.com" target="_blank" rel="noopener noreferrer">cloudflare.com</a> for more information.
+            </div>
+            <div class="mt-3">2025-06-19 15:45:17 UTC</div>
+        </header>
+        <div class="my-8 bg-gradient-gray">
+            <div class="w-240 lg:w-full mx-auto">
+                <div class="clearfix md:px-8">
+                    <div id="cf-browser-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    
+    <span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+    
+  </div>
+  <span class="md:block w-full truncate">You</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+  
+    Browser
+  
+  </h3>
+  
+  <span class="leading-1.3 text-2xl text-green-success">Working</span>
+  
+</div>
+                    <div id="cf-cloudflare-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_524&#38;utm_campaign=api.aimlapi.com" target="_blank" rel="noopener noreferrer">
+    <span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+    </a>
+  </div>
+  <span class="md:block w-full truncate">Hong Kong</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+  <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_524&utm_campaign=api.aimlapi.com" target="_blank" rel="noopener noreferrer">
+    Cloudflare
+  </a>
+  </h3>
+  
+  <span class="leading-1.3 text-2xl text-green-success">Working</span>
+  
+</div>
+                    <div id="cf-host-status" class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    
+    <span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+    
+  </div>
+  <span class="md:block w-full truncate">api.aimlapi.com</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+  
+    Host
+  
+  </h3>
+  
+  <span class="leading-1.3 text-2xl text-red-error">Error</span>
+  
+</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+            <div class="clearfix">
+                <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">
+                    <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>
+                    <p>The origin web server timed out responding to this request.</p>
+                </div>
+                <div class="w-1/2 md:w-full float-left leading-relaxed">
+                    <h2 class="text-3xl font-normal leading-1.3 mb-4">What can I do?</h2>
+                    
+                <h3 class="text-15 font-semibold mb-2">If you're a visitor of this website:</h3>
+                <p class="mb-6">Please try again in a few minutes.</p>
+
+                <h3 class="text-15 font-semibold mb-2">If you're the owner of this website:</h3>
+                <p><span>The connection to the origin web server was made, but the origin web server timed out before responding. The likely cause is an overloaded background task, database or application, stressing the resources on your web server. To resolve, please work with your hosting provider or web development team to free up resources for your database or overloaded application.</span> <a rel="noopener noreferrer" href=  "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-524/">Additional troubleshooting information here.</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+    <p class="text-13">
+      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">952424a44c8f2b12</strong></span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+      <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+        Your IP:
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+        <span class="hidden" id="cf-footer-ip">137.189.90.217</span>
+        <span class="cf-footer-separator sm:hidden">&bull;</span>
+      </span>
+      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_524&#38;utm_campaign=api.aimlapi.com" id="brand_link" target="_blank">Cloudflare</a></span>
+      
+    </p>
+    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+  </div><!-- /.error-footer -->
+
+    </div>
+</div>
+</body>
+</html>
+sys:1: RuntimeWarning: coroutine 'LanceDB.upsert_text' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+sys:1: RuntimeWarning: coroutine 'VanillaEntity.entity.<locals>._merge_entities' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
