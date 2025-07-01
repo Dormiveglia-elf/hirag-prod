@@ -337,13 +337,13 @@ class HiRAG:
         if kwargs.get("vdb") is None:
             lancedb = await LanceDB.create(
                 embedding_func=embedding_service.create_embeddings,
-                db_url="kb/hirag.db",
+                db_url="kb_test/hirag.db",
                 strategy_provider=RetrievalStrategyProvider(),
             )
             kwargs["vdb"] = lancedb
         if kwargs.get("gdb") is None:
             gdb = NetworkXGDB.create(
-                path="kb/hirag.gpickle",
+                path="kb_test/hirag.gpickle",
                 llm_func=chat_service.complete,
             )
             kwargs["gdb"] = gdb
@@ -367,7 +367,8 @@ class HiRAG:
         self, chunks, state: DocumentProcessingState, with_graph: bool = True
     ):
         """
-        Enhanced document processing with smart resume capabilities and optimized batch operations
+        Enhanced document processing with smart resume capabilities and optimized batch operations.
+        Now uses unified knowledge graph extraction to avoid redundant processing.
         """
         total_start = time.perf_counter()
 
@@ -427,23 +428,28 @@ class HiRAG:
             logger.info(f"📊 Total processing time: {total_time:.3f}s")
             return
 
-        # Step 2: Entity extraction for pending chunks
+        # Step 2: Unified knowledge graph extraction for pending chunks
         pending_entity_chunks = state.get_pending_entity_chunks(chunks)
         entities = []
+        relations = []
 
         if pending_entity_chunks:
-            start_entity_extraction = time.perf_counter()
+            start_kg_extraction = time.perf_counter()
             logger.info(
-                f"🔍 Extracting entities from {len(pending_entity_chunks)} pending chunks..."
+                f"🔍 Extracting knowledge graph from {len(pending_entity_chunks)} pending chunks..."
             )
 
-            entities = await self.entity_extractor.entity(pending_entity_chunks)
-            entity_extraction_time = time.perf_counter() - start_entity_extraction
+            # Extract both entities and relations in one unified operation
+            entities, relations = await self.entity_extractor.extract_knowledge_graph(
+                pending_entity_chunks, use_cache=False
+            )
+            
+            kg_extraction_time = time.perf_counter() - start_kg_extraction
             logger.info(
-                f"✅ Entity extraction completed in {entity_extraction_time:.3f}s"
+                f"✅ Knowledge graph extraction completed in {kg_extraction_time:.3f}s"
             )
         else:
-            logger.info("⏭️ All chunks already have entities extracted")
+            logger.info("⏭️ All chunks already have knowledge graph extracted")
 
         # Step 3: Process new entities with BATCH optimization
         if entities:
@@ -524,72 +530,30 @@ class HiRAG:
         else:
             logger.info("⏭️ No new entities to process")
 
-        # Step 4: Relation extraction and processing
-        # For simplicity, we'll extract relations from all chunks that had new entity extraction
-        # In a more sophisticated implementation, we could track relation extraction per chunk pair
-        if pending_entity_chunks:
-            start_relation_extraction = time.perf_counter()
-            logger.info(
-                f"🔗 Extracting relations from {len(pending_entity_chunks)} chunks..."
-            )
+        # Step 4: Process relations extracted in the unified approach
+        if relations:
+            start_upsert_relations = time.perf_counter()
+            logger.info(f"📤 Upserting {len(relations)} relations...")
 
-            # Get all entities for relation extraction (both existing and new)
-            all_entities_for_doc = []
+            relation_coros = []
+            for rel in relations:
+                # Simple duplicate check based on source-target pair
+                rel_pair = (rel.source, rel.target)
+                if rel_pair not in state.processed_relation_pairs:
+                    relation_coros.append(self.gdb.upsert_relation(rel))
 
-            # Add new entities
-            all_entities_for_doc.extend(entities)
-
-            # Get existing entities for this document if needed
-            try:
-                existing_entities_data = (
-                    await self.entities_table.query()
-                    .where(f"'{state.document_id}' in chunk_ids")
-                    .to_list()
+            if relation_coros:
+                await _limited_gather(
+                    relation_coros, self.relation_upsert_concurrency
                 )
-
-                # Convert to entity objects (simplified - in production you'd want proper deserialization)
-                for ent_data in existing_entities_data:
-                    if ent_data["document_key"] not in [e.id for e in entities]:
-                        # This is an existing entity not in our new batch
-                        continue
-
-            except Exception as e:
-                logger.warning(f"Could not fetch existing entities for relations: {e}")
-
-            relations = await self.entity_extractor.relation(
-                pending_entity_chunks, all_entities_for_doc
-            )
-            relation_extraction_time = time.perf_counter() - start_relation_extraction
-            logger.info(
-                f"✅ Relation extraction completed in {relation_extraction_time:.3f}s"
-            )
-
-            # Upsert relations
-            if relations:
-                start_upsert_relations = time.perf_counter()
-                logger.info(f"📤 Upserting {len(relations)} relations...")
-
-                relation_coros = []
-                for rel in relations:
-                    # Simple duplicate check based on source-target pair
-                    rel_pair = (rel.source, rel.target)
-                    if rel_pair not in state.processed_relation_pairs:
-                        relation_coros.append(self.gdb.upsert_relation(rel))
-
-                if relation_coros:
-                    await _limited_gather(
-                        relation_coros, self.relation_upsert_concurrency
-                    )
-                    upsert_relations_time = time.perf_counter() - start_upsert_relations
-                    logger.info(
-                        f"✅ Relation upsert completed in {upsert_relations_time:.3f}s"
-                    )
-                else:
-                    logger.info("⏭️ All relations already exist")
+                upsert_relations_time = time.perf_counter() - start_upsert_relations
+                logger.info(
+                    f"✅ Relation upsert completed in {upsert_relations_time:.3f}s"
+                )
             else:
-                logger.info("ℹ️ No relations extracted")
+                logger.info("⏭️ All relations already exist")
         else:
-            logger.info("⏭️ No new chunks for relation extraction")
+            logger.info("ℹ️ No relations to process")
 
         total_time = time.perf_counter() - total_start
         logger.info(f"📊 Total processing time: {total_time:.3f}s")
@@ -632,9 +596,14 @@ class HiRAG:
         - Skipping already processed components
         - Robust error handling and state tracking
         - Detection of document content changes
+        - Unified knowledge graph extraction to avoid redundant processing
         """
         logger.info(f"🚀 Starting document processing: {document_path}")
         start_total = time.perf_counter()
+
+        # Clear entity extractor cache to ensure fresh processing for this document
+        if hasattr(self.entity_extractor, 'clear_cache'):
+            self.entity_extractor.clear_cache()
 
         # Load and chunk the document
         documents = await asyncio.to_thread(

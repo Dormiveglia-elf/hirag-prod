@@ -117,7 +117,7 @@ class LanceDB(BaseVDB):
         start = time.perf_counter()
 
         # Generate embedding
-        embedding = await self.embedding_func(text_to_embed)
+        embedding = await self.embedding_func([text_to_embed])
         properties["vector"] = embedding[0].tolist()
 
         # Ensure table exists and add data
@@ -228,7 +228,7 @@ class LanceDB(BaseVDB):
             List[dict]: _description_
         """
         query_text = query
-        embedding = await self.embedding_func(query_text)
+        embedding = await self.embedding_func([query_text])
         embedding = embedding[0].tolist()
         if columns_to_select is None:
             columns_to_select = [

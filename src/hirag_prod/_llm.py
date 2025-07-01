@@ -161,7 +161,7 @@ class ChatCompletion:
             self._completion_limiter = None
             self._initialized = True
 
-    @rate_limited(max_rate=4, time_period=1, limiter_attr="_completion_limiter")
+    @rate_limited(max_rate=6, time_period=1, limiter_attr="_completion_limiter")
     @api_retry
     async def complete(
         self,
@@ -227,7 +227,7 @@ class EmbeddingService:
                 # Fallback if somehow batch size wasn't set
                 self.default_batch_size = default_batch_size
 
-    @rate_limited(max_rate=4, time_period=1, limiter_attr="_embedding_limiter")
+    @rate_limited(max_rate=6, time_period=1, limiter_attr="_embedding_limiter")
     @api_retry
     async def _create_embeddings_batch(
         self, texts: List[str], model: str = "text-embedding-3-small"

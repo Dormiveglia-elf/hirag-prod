@@ -1,0 +1,381 @@
+nohup: ignoring input
+19:18:31 HiRAG INFO: 🚀 Starting document processing: benchmark/2wiki/2wiki_corpus_100.txt
+19:18:31 root INFO: [KG-Cache] Cleared knowledge graph extraction cache
+19:18:31 HiRAG INFO: 📄 Loaded 36 documents
+19:18:31 HiRAG INFO: ✂️ Created 43 chunks
+[2025-06-30T19:18:31Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+19:18:31 HiRAG INFO: 🔍 Checking resume state for document: benchmark/2wiki/2wiki_corpus_100.txt
+[2025-06-30T19:18:31Z WARN  lance::dataset::scanner] nprobes is not set because nearest has not been called yet
+19:18:31 HiRAG INFO: 📋 No existing chunks found for URI: benchmark/2wiki/2wiki_corpus_100.txt
+19:18:31 HiRAG INFO: 📊 No existing chunks found, full processing needed
+19:18:31 HiRAG INFO: 🏷️ No existing entities found
+19:18:31 HiRAG INFO: 🔗 No existing relations found
+19:18:31 HiRAG INFO: 📋 RESUME PLAN:
+19:18:31 HiRAG INFO:   📄 Document: benchmark/2wiki/2wiki_corpus_100.txt
+19:18:31 HiRAG INFO:   🆔 Document ID: doc-1f91bfd918df15f1bc5fee82a634df24
+19:18:31 HiRAG INFO:   ✅ Chunks: 0/43 complete
+19:18:31 HiRAG INFO:   📝 Entity extraction: 0/43 complete
+19:18:31 HiRAG INFO:   🔗 Entities: 0 processed
+19:18:31 HiRAG INFO:   🌐 Relations: 0 processed
+19:18:31 HiRAG INFO:   ⏳ Will process 43 chunks and extract entities from 43 chunks
+19:18:31 HiRAG INFO: 📤 Upserting 43 pending chunks using BATCH operation...
+19:18:35 hirag_prod.storage.lancedb INFO: [upsert_texts] Successfully added 43 records to table 'table_instance_140254511001008', elapsed=3.876s
+19:18:35 HiRAG INFO: ✅ Chunk batch upsert completed in 3.876s
+19:18:35 HiRAG INFO: 🔍 Extracting knowledge graph from 43 pending chunks...
+19:18:56 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-fe37cfa3895dfb1ec0b6a754f0bca4b1, entities: 10, relations: 7, took 20.73 seconds
+19:18:56 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-6f0a4ec951ffa0d7c60695104c565cb0, entities: 12, relations: 6, took 21.09 seconds
+19:18:57 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-1f91bfd918df15f1bc5fee82a634df24, entities: 17, relations: 1, took 21.47 seconds
+19:18:58 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-71950cb48537100bdccae648ba49dbff, entities: 15, relations: 7, took 22.62 seconds
+19:19:17 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-4fa26b2f1061b735530fc3d080a65ded, entities: 17, relations: 2, took 20.99 seconds
+19:19:17 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-9549ccd9e8ff759c531183f83ba2d19f, entities: 20, relations: 0, took 20.96 seconds
+19:19:19 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-4d88a1c85531fd8fe852f44c733f0d98, entities: 13, relations: 8, took 22.37 seconds
+19:19:20 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-a460d016ad25a0f5b5ec8b0303e00fcf, entities: 20, relations: 0, took 22.35 seconds
+19:19:36 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-574f5da01d385c6e77d1398235a7786a, entities: 10, relations: 8, took 18.67 seconds
+19:19:36 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-b61f96f5e65b7f879bb66a2c5aaabbb8, entities: 17, relations: 0, took 19.19 seconds
+19:19:39 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-0dcaf1d9beef97069c7f986932362c42, entities: 18, relations: 2, took 19.45 seconds
+19:19:39 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-5d6c7f3653eea9bec7f2e50fefb320d5, entities: 14, relations: 4, took 18.75 seconds
+19:19:56 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-97c6779a0556749b42634f1b59c72967, entities: 16, relations: 2, took 20.10 seconds
+19:20:00 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-4afcb52d5e1151133a4cb7b509379c8d, entities: 11, relations: 9, took 20.94 seconds
+19:20:00 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-530aa8e3ab97ff9507e29afcc9a4d2a3, entities: 12, relations: 7, took 21.00 seconds
+19:20:00 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-8692c07e38cb3529acd8b567575c0f30, entities: 17, relations: 2, took 24.47 seconds
+19:20:15 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-3284e8bf504e24d68ca5f47b964f1640, entities: 6, relations: 7, took 14.79 seconds
+19:20:19 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-b4b691b124873e04328823cb3545c80c, entities: 20, relations: 0, took 22.24 seconds
+19:20:21 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-30fd97885ea5a20d234ddf6b018dc747, entities: 14, relations: 0, took 21.33 seconds
+19:20:24 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-6e0ec089d5878634e20fe1f2f9924ab9, entities: 13, relations: 6, took 24.16 seconds
+19:20:35 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-38292aa941e10e1a21ac8c97a2ae6fba, entities: 15, relations: 5, took 19.99 seconds
+19:20:39 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-64d8945379a2c1b3c3890af0b2ce2f9f, entities: 21, relations: 1, took 20.39 seconds
+19:20:41 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-1e96b3f6244190cd53c9e61d84402e29, entities: 22, relations: 0, took 19.67 seconds
+19:20:45 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-f0e2d7e40b6a681e84f93f9b7f57b2cb, entities: 19, relations: 1, took 21.22 seconds
+19:20:56 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-55c463593ff4ecd4ec28c25a6adaf53a, entities: 17, relations: 3, took 21.22 seconds
+19:21:02 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-0eaa8cb11922647e3ba7c909e15588a8, entities: 22, relations: 0, took 23.23 seconds
+19:21:04 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-55870cf6a965457a09397167e73d6194, entities: 11, relations: 8, took 23.48 seconds
+19:21:07 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-56866585f6b6dd98d2b27d520b96d74d, entities: 11, relations: 7, took 21.92 seconds
+19:21:18 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-37390a57136d7db357f4fd4abb3c1b5d, entities: 21, relations: 0, took 21.28 seconds
+19:21:24 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-7d28723cedfec09ce9670ad9ecbea796, entities: 9, relations: 1, took 22.08 seconds
+19:21:26 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-a004db36c4c6bcb89239bc5512e01734, entities: 15, relations: 2, took 21.92 seconds
+19:21:30 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-ca13daf51e9fbe8c78b9e48c407a7357, entities: 20, relations: 0, took 23.41 seconds
+19:21:40 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-66f157968a4d7cd460f5121ebb47a581, entities: 16, relations: 2, took 21.75 seconds
+19:21:45 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-c380bc6d12367172e99c89510787feff, entities: 10, relations: 7, took 20.77 seconds
+19:21:48 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-c5c10fdf80339b1fef8eb45dd8ff5c5a, entities: 18, relations: 0, took 21.27 seconds
+19:21:52 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-40f30ef93df62cb4a1971b9273724594, entities: 12, relations: 7, took 21.97 seconds
+19:22:00 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-a46e296c13027db67b309de2d789d236, entities: 20, relations: 0, took 20.02 seconds
+19:22:05 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-a37292ef07814787d257177e0548b16d, entities: 9, relations: 8, took 19.59 seconds
+19:22:10 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-621a3a7e53076803ce6174936ca00e71, entities: 17, relations: 5, took 22.62 seconds
+19:22:14 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-49f3b35aebfbf69a9527b4cbdbdfd709, entities: 13, relations: 6, took 21.97 seconds
+19:22:26 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-b8e84dc765bad8edcf1445529776c141, entities: 24, relations: 0, took 26.32 seconds
+19:22:33 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-df434da3e0a88db02e658db0605d3290, entities: 17, relations: 5, took 22.39 seconds
+19:22:34 root INFO: [KG] Finished extracting knowledge graph for chunk chunk-41a5ed94f57282505a8a81915b2d7f8e, entities: 13, relations: 5, took 29.23 seconds
+19:22:34 root INFO: [KG-Merge] Merged entity 'TEUTBERGA': type=PERSON, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'LOTHAIR II': type=PERSON, chunks=4, descriptions=7
+19:22:34 root INFO: [KG-Merge] Merged entity 'BOSONID BOSO THE ELDER': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'HUCBERT': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THEODRED II': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LAMBERT, MARGRAVE OF TUSCANY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ADALBERT II OF TUSCANY': type=PERSON, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'LUCCA': type=GEO, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'TUSCANY': type=GEO, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'WHAT IS GOD?': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'WHAT IS? SERIES': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'WADE JUNIOR HIGH SCHOOL': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JOHN F. KENNEDY': type=PERSON, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'NEW YORK CITY DEPARTMENT OF EDUCATION': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BORITZER': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'VENICE, CALIFORNIA': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'HOW TO GET YOUR BOOK PUBLISHED!': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'YOGA TEACHER': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'TEACHINGS OF THE BUDDHA': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LOTHARINGIA': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'EMPEROR LOTHAIR I': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ABBEY ERSTEIN': type=LOCATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BERTHA': type=PERSON, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'THEOBALD OF ARLES': type=PERSON, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'GUY OF TUSCANY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ADOLF I OF LOTHARINGIA': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'WALDRADA': type=PERSON, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'HUGH OF ITALY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BOSO OF TUSCANY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE WONDERFUL WORLD OF CAPTAIN KUHIO': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CONEY ISLAND BABY': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'AMY HOBBY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'KARL GEARY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LLOYD': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'RAKKA': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'EMPTIES': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'INVASION OF THE NEPTUNE MEN': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'SINGLE VIDEO THEORY': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'J. OM PRAKASH': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'MOHAN KUMAR': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'RAJINDER SINGH BEDI': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'RAJENDRA KUMAR': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'VYJAYANTHIMALA': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LEELA CHITNIS': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'SHANKAR JAIKISHAN': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BHARATHIRAJA': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'TRUST': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BON SCOTT': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'RIDE ON': type=TECHNOLOGY, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'PANDA': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ASTRO': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CHANGED IT': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'NICKI MINAJ': type=PERSON, chunks=4, descriptions=6
+19:22:34 root INFO: [KG-Merge] Merged entity 'LIL WAYNE': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'O VALENCIA!': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE DECEMBERISTS': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'COLIN MELOY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE CRANE WIFE': type=TECHNOLOGY, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'TRINIDAD AND TOBAGO': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'YOUNG MONEY ENTERTAINMENT': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'PINK FRIDAY': type=TECHNOLOGY, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'AMERICAN IDOL': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'QUEEN': type=TECHNOLOGY, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE OTHER WOMAN': type=EVENT, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'TIME 100': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'MTV'S HOTTEST MC LIST': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BILLBOARD': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BILLBOARD R&B HIP-HOP AIRPLAY': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'AMERICAN MUSIC AWARDS': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BET AWARDS': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'MTV VIDEO MUSIC AWARDS': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BILLBOARD MUSIC AWARDS': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BILLBOARD WOMEN IN MUSIC AWARDS': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'GRAMMY AWARDS': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'SINGLES': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ALBUMS': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CHRIS BALLEW': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'KRISTIAN LEONTIOU': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ONE ESKIMO': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JIM BOB': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CARTER THE UNSTOPPABLE SEX MACHINE': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ASTRID NORTH': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'GERMAN BAND': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'M.O.D.': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'STORMTROOPERS OF DEATH': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'UNITED FORCES': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LIMESTONE COAST': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'MARUFABAD': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JAWTY': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'SATELLITE TOURNAMENT': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'PRITZERBE FERRY': type=TECHNOLOGY, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'RADZICE': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LUBNOWY': type=GEO, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'GMINA SUSZ': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'IŁAWA COUNTY': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'WARMIAN-MASURIAN VOIVODESHIP': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'TUNSTALL, VIRGINIA': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'NEW KENT COUNTY': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'FOSTER'S CASTLE': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'HAMPSTEAD': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'NASAMKHRALI': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'TELAVI DISTRICT': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ALTID BALLADE': type=EVENT, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'ALDRI ANNET ENN BRÅK': type=EVENT, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'EDITH CARLMAR': type=PERSON, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'OSLO': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'NOTHING BUT TROUBLE': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'DAN MILNE': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BEN PALMER': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CARLMAR FILM A/S': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LIV ULLMANN': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'FJOLS TIL FJELLS': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'UNG FLUKT': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'DØDEN ER ET KJÆRTEGN': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CARLMAR': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LIVE CARGO': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'GOD'S GIFT TO WOMEN': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'MICHAEL CURTIZ': type=PERSON, chunks=3, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'FRANK FAY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LAURA LAPLANTE': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JOAN BLONDELL': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE DEVIL WAS SICK': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'WARNER BROS.': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'HOLLYWOOD': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ACADEMY AWARDS': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CASABLANCA': type=TECHNOLOGY, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'SONS OF LIBERTY': type=TECHNOLOGY, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'DORIS DAY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JOHN GARFIELD': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CAPTAIN BLOOD': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE ADVENTURES OF ROBIN HOOD': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ANGELS WITH DIRTY FACES': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE SEA WOLF': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'MILDRED PIERCE': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'YANKEE DOODLE DANDY': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THIS IS THE ARMY': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'WHITE CHRISTMAS': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'SCOTTY FOX': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'EL TONTO': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE HEART OF DOREON': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CYRUS J. WILLIAMS': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ROBERT NORTH BRADBURY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'PATHÉ EXCHANGE': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'TOM SANTSCHI': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CHARLES PECKHAM DAY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'IT'S ALWAYS SUNNY IN PHILADELPHIA': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'HORRIBLE BOSSES': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'MONSTERS UNIVERSITY': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'PACIFIC RIM': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE LEGO MOVIE': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'FIST FIGHT': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE COOL KIDS': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JOHN WAYNE': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'GLENDALE, CALIFORNIA': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'POVERTY ROW': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'GEORGE 'GABBY' HAYES': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BOB STEELE': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JOHNNY MACK BROWN': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'RIDERS OF DESTINY': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE LUCKY TEXAN': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'WEST OF THE DIVIDE': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BLUE STEEL': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE HEART OF MARYLAND': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'HENRY MOORE': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'HARTLEY LOBBAN': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'VITAGRAPH COMPANY OF AMERICA': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'WARNER BROTHERS': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'HARTLEY W LOBBAN': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JOHN WILLIAM JOSEPH MCMAHON': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'WORCESTERSHIRE': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'SURREY': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'SOMERSET': type=ORGANIZATION, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'TALLINN KALEV': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'PANATHINAIKOS': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LIEGE BASKET': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'RĪGAS ASK': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BC KALEV/CRAMO': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'TTÜ KK': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'AVIS UTILITAS RAPLA': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THOMAS EASTWOOD DICKINSON': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LANCASHIRE': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'SIX NATIONS OF THE GRAND RIVER TERRITORY': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'WESLEY BARRESI': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JOHN AUBREY ALLEN': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'OXFORD UNIVERSITY CRICKET CLUB': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE POLICE': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ROCK AND ROLL HALL OF FAME': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'FRED LE DEUX': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'GEELONG': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'TOM HAWKINS': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'REV. JOHN WESTLEY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JOHN WESLEY': type=PERSON, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'HENRY J. 'RED' KRAUSE, JR.': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JENNIFER KRAUSE': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'PAYTON HOEING': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ZHAO SHOUSHAN': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ZHAO LEJI': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LYON COHEN': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LEONARD COHEN': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'KAYA ALP': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'RUAIDHRÍ MAC RUAIDHRÍ': type=PERSON, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'CLANN RUAIDHRÍ': type=ORGANIZATION, chunks=3, descriptions=5
+19:22:34 root INFO: [KG-Merge] Merged entity 'ROBERT I': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BATTLE OF FAUGHART': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ÁINE': type=PERSON, chunks=3, descriptions=6
+19:22:34 root INFO: [KG-Merge] Merged entity 'RAGHNALL': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CAIRISTÍONA': type=PERSON, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'JOHN OF ISLAY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'RAGHNALL MAC RUAIDHRI': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CLANRANALD': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'HIGHLANDS AND ISLANDS': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'DONNCHADH': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'WILLIAM III': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'EÓIN MAC DOMHNAILL I': type=PERSON, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'CLANN DOMHNAILL': type=ORGANIZATION, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'HEBRIDES': type=GEO, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'LORD OF THE ISLES': type=CONCEPT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'FRANK LAUNDER': type=PERSON, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'SIDNEY GILLIAT': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'HITCHIN': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ENGLAND': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'INDIVIDUAL PICTURES': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'WILL HAY COMEDY 'OH, MR PORTER!'': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE LADY VANISHES': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'MILLIONS LIKE US': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'RONALD SEARLE': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BERNADETTE O'FARRELL': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'MONACO': type=GEO, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE MERRY GENTLEMAN': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'MICHAEL KEATON': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'KELLY MACDONALD': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LUKE GOSS': type=PERSON, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'SHINJI TAKEDA': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BROS': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BLADE II': type=TECHNOLOGY, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'TEKKEN': type=TECHNOLOGY, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'PERRY BHANDAL': type=PERSON, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'MATT CORBOY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'SPRING HANDICAP': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'THE LAST COUPON': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ASSOCIATED BRITISH PICTURE CORPORATION': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ERNEST BRYAN': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'VIKTOR': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'KIRLIAN PICTURES': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'SCANNER RHODES': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'NORTHERN FILM AND MEDIA': type=ORGANIZATION, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CAROLINE TILLETTE': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'STEPHEN MARCUS': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'DANNY MIDWINTER': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ELLIOT GREENE': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'BLOOD STREET': type=EVENT, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'LEO FONG': type=PERSON, chunks=2, descriptions=3
+19:22:34 root INFO: [KG-Merge] Merged entity 'IAN BARRY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'DANA BLANKSTEIN-COHEN': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'CHARLES LEAVITT': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JOHN DONATICH': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'JOHN FARRELL': type=PERSON, chunks=2, descriptions=4
+19:22:34 root INFO: [KG-Merge] Merged entity 'PETER LEVIN': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'TAMMY STORY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ALEX STORY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'RICHARD W. STORY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root INFO: [KG-Merge] Merged entity 'ANDI STORY': type=PERSON, chunks=1, descriptions=2
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: SATELLITE TOURNAMENT -> SPORTING EVENT
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: PRITZERBE FERRY("ENTITY -> ASCENSION ISLAND
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: ("ENTITY -> ALDRI ANNET ENN BRÅK
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: LAURA LAPLANTE"<("ENTITY -> LOGAN SANDLER
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: MICHAEL CURT("ENTITY -> MICHAEL CURTIZ
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: ELLIOT SILVERSTEIN"<("ENTITY -> ELLIOT SILVERSTEIN
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: TOMOO SHIMOGAWARA -> ART DIRECTION
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: CHARLIE DAY -> IT'S ALWAYS SUNNY IN PHILADELPHIA("ENTITY
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: TOMOO SHIMOGAWARA -> ART DIRECTION
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: WALE ADEBANWI -> ST ANTONY'S COLLEGE
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: HENRY MOORE -> NEW ZEALAND
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: HARTLEY LOBBAN -> WORCESTERSHIRE"<|("ENTITY
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: WALE ADEBANWI -> ST ANTONY'S COLLEGE
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: JOHN AUBREY ALLEN -> CRICKET
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: AMY OF GARMORAN -> HIGHLANDS AND ISLANDS("ENTITY
+19:22:34 root WARNING: [KG] Skipping relation with missing entities: HEBRIDES -> EÓIN MAC DOMHNAILL I"<|("ENTITY
+19:22:34 HiRAG INFO: ✅ Knowledge graph extraction completed in 238.594s
+19:22:34 HiRAG INFO: 📤 Upserting 342 new entities using BATCH operation...
+19:22:45 hirag_prod.storage.lancedb INFO: [upsert_texts] Successfully added 342 records to table 'table_instance_140254509027584', elapsed=11.407s
+19:22:45 HiRAG INFO: ✅ Entity batch upsert completed in 11.408s
+19:22:45 HiRAG INFO: ✅ Graph nodes upsert completed in 0.012s
+19:22:45 HiRAG INFO: 📤 Upserting 135 relations...
+19:22:45 HiRAG INFO: ✅ Relation upsert completed in 0.002s
+19:22:45 HiRAG INFO: 📊 Total processing time: 253.893s
+19:22:45 HiRAG INFO: 🏁 Total pipeline time: 253.927s
+Traceback (most recent call last):
+  File "/chatbot/main.py", line 33, in <module>
+    asyncio.run(index())
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/chatbot/main.py", line 29, in index
+    print(await index.query_all("When did Lothair Ii's mother die?"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/hirag.py", line 730, in query_all
+    recall_chunks = await self.query_chunks(query, topk=10, topn=5)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/hirag.py", line 685, in query_chunks
+    chunks = await self.vdb.query(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/storage/lancedb.py", line 231, in query
+    embedding = await self.embedding_func(query_text)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/chatbot/src/hirag_prod/_llm.py", line 277, in create_embeddings
+    raise ValueError(
+ValueError: Text at index 4 is empty after stripping whitespace
