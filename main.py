@@ -29,15 +29,15 @@ def get_test(id: str):
         query = "When did Lothair II's mother die?"
         return document_path, content_type, document_meta, query
     elif id == "s3: small_pdf" or id == "2":
-        document_path = f"s3://monkeyocr/test/input/test_pdf/small.pdf"
+        document_path = f"s3://monkeyocr/test/input/test_pdf/minimum_fire_service_installations_and_equipment.pdf"
         content_type = "application/pdf"
         document_meta = {
             "type": "pdf",
-            "fileName": "small.pdf",
+            "fileName": "minimum_fire_service_installations_and_equipment.pdf",
             "uri": document_path,
             "private": False,
         }
-        query = "Machine Learning Detection Methods?"
+        query = "smoke extraction system basic considerations"
         return document_path, content_type, document_meta, query
     elif id == "oss: U.S.Health" or id == "3":
         document_path = (
@@ -61,22 +61,22 @@ async def index():
 
     await index.set_language("en")  # en | cn
 
-    document_path, content_type, document_meta, query = get_test("1")
+    document_path, content_type, document_meta, query = get_test("2")
 
     await index.insert_to_kb(
         document_path=document_path,
         content_type=content_type,
         document_meta=document_meta,
-        workspace_id="test_workspace",
-        knowledge_base_id="test_pg",
+        workspace_id="demo_fsd",
+        knowledge_base_id="demo_fsd",
         loader_type="dots_ocr",
     )
 
     ret = await index.query(
         query=query,
         summary=True,
-        workspace_id="test_workspace",
-        knowledge_base_id="test_pg",
+        workspace_id="demo_fsd",
+        knowledge_base_id="demo_fsd",
     )
 
     print("———————————————————— Chunks ————————————————————\n")
