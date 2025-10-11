@@ -952,15 +952,17 @@ def chunk_dots_document(
 
 
 # ======================== langchain chunker ========================
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+
 def chunk_langchain_document(
     langchain_doc: File,
     chunk_size: int = CHUNK_SIZE,
     chunk_overlap: int = CHUNK_OVERLAP,
-    separators: Optional[List[str]] = SEPARATORS,
+    separators: Optional[List[str]] = None,
     keep_separator: bool = True,
 ) -> List[Item]:
     """
-    Split a langchain document into chunks and return a list of Chunk objects.
+    Split a langchain document into chunks and return a list of Item objects.
     Each chunk will inherit metadata from the original document.
     """
     text_splitter = RecursiveCharacterTextSplitter(
@@ -973,7 +975,17 @@ def chunk_langchain_document(
     )
     chunk_texts = text_splitter.split_text(langchain_doc.text)
 
-    chunks = []
+    if len(chunk_texts) == 1 and len(langchain_doc.text) > chunk_size:
+        default_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=chunk_size,
+            chunk_overlap=chunk_overlap,
+            length_function=len,
+            keep_separator=False,
+            is_separator_regex=False,
+        )
+        chunk_texts = default_splitter.split_text(langchain_doc.text)
+
+    chunks: List[Item] = []
     original_text = langchain_doc.text
     print("Original text length:", len(original_text))
 
@@ -992,7 +1004,6 @@ def chunk_langchain_document(
             page_number=langchain_doc.pageNumber,
             bbox=bbox,
         )
-
         chunks.append(chunk_obj)
 
     return chunks

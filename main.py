@@ -29,19 +29,48 @@ class DateTimeEncoder(json.JSONEncoder):
 
 
 def get_test(id: str):
-    if id == "wiki_subcorpus" or id == "1":
-        document_path = f"benchmark/2wiki/2wiki_subcorpus.txt"
+    if id == "wiki" or id == "1":
+        document_path = f"benchmark/2wiki/2wiki_corpus.txt"
         content_type = "text/plain"
         document_meta = {
             "type": "txt",
-            "fileName": "2wiki_subcorpus.txt",
+            "fileName": "2wiki_corpus.txt",
             "uri": document_path,
             "private": False,
-            "createdBy": "wiki_subcorpus_test",
-            "updatedBy": "wiki_subcorpus_test",
+            "createdBy": "wiki_test",
+            "updatedBy": "wiki_test",
         }
         query = "When did Lothair II's mother die?"
         return document_path, content_type, document_meta, query
+    
+    elif id == "mix":
+        document_path = f"benchmark/2wiki/mix_corpus.txt"
+        content_type = "text/plain"
+        document_meta = {
+            "type": "txt",
+            "fileName": "mix_corpus.txt",
+            "uri": document_path,
+            "private": False,
+            "createdBy": "mix_corpus",
+            "updatedBy": "mix_corpus",
+        }
+        query = "every shepherdess of Ocean's flocks"
+        return document_path, content_type, document_meta, query
+    
+    elif id == "legal":
+        document_path = f"benchmark/legal.txt"
+        content_type = "text/plain"
+        document_meta = {
+            "type": "txt",
+            "fileName": "legal.txt",
+            "uri": document_path,
+            "private": False,
+            "createdBy": "legal",
+            "updatedBy": "legal",
+        }
+        query = "every shepherdess of Ocean's flocks"
+        return document_path, content_type, document_meta, query
+    
     elif id == "s3: small_pdf" or id == "2":
         document_path = f"s3://monkeyocr/test/input/test_pdf/small.pdf"
         content_type = "application/pdf"
@@ -292,12 +321,12 @@ async def index(test_id="2", summary=True, save_json=False, no_insert=False):
     if not no_insert:
         for dp, dm in zip(document_path, document_meta):
             await index.insert_to_kb(
-                file_id="test_id",
+                file_id="legal",
                 document_path=dp,
                 content_type=content_type,
                 document_meta=dm,
-                workspace_id="test_workspace",
-                knowledge_base_id="test_pg",
+                workspace_id="legal",
+                knowledge_base_id="legal",
             )
     else:
         print("Skipping document insertion (--no-insert flag enabled)")

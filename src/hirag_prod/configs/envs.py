@@ -69,7 +69,7 @@ class Envs(BaseSettings):
     LLM_RATE_LIMIT: int = 60
     LLM_RATE_LIMIT_TIME_UNIT: Literal["second", "minute", "hour"] = "minute"
     LLM_RATE_LIMIT_MIN_INTERVAL_SECONDS: float = 0.1
-    EMBEDDING_RATE_LIMIT: int = 60
+    EMBEDDING_RATE_LIMIT: int = 6000
     EMBEDDING_RATE_LIMIT_TIME_UNIT: Literal["second", "minute", "hour"] = "minute"
     EMBEDDING_RATE_LIMIT_MIN_INTERVAL_SECONDS: float = 0.1
     RERANKER_RATE_LIMIT: int = 60

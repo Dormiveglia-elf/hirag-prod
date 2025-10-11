@@ -38,22 +38,22 @@ class Item(Base):
     caption: Mapped[Optional[str]] = mapped_column(String, nullable=True)
     bbox: Mapped[Optional[List[float]]] = mapped_column(ARRAY(Float), nullable=True)
     # Computed Data
-    token_list: Mapped[List[str]] = mapped_column(ARRAY(String), nullable=False)
+    token_list: Mapped[List[str]] = mapped_column(ARRAY(String), nullable=True)
     token_start_index_list: Mapped[List[int]] = mapped_column(
-        ARRAY(Integer), nullable=False
+        ARRAY(Integer), nullable=True
     )
     token_end_index_list: Mapped[List[int]] = mapped_column(
-        ARRAY(Integer), nullable=False
+        ARRAY(Integer), nullable=True
     )
-    translation: Mapped[str] = mapped_column(Text, nullable=False)
+    translation: Mapped[str] = mapped_column(Text, nullable=True)
     translation_token_list: Mapped[List[str]] = mapped_column(
-        ARRAY(String), nullable=False
+        ARRAY(String), nullable=True
     )
     translation_token_start_index_list: Mapped[List[int]] = mapped_column(
-        ARRAY(Integer), nullable=False
+        ARRAY(Integer), nullable=True
     )
     translation_token_end_index_list: Mapped[List[int]] = mapped_column(
-        ARRAY(Integer), nullable=False
+        ARRAY(Integer), nullable=True
     )
     vector: Mapped[PGVector] = mapped_column(PGVECTOR, nullable=False)
     vector_float_array: Mapped[List[float]] = column_property(

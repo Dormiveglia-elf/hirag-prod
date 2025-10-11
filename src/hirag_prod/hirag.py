@@ -220,14 +220,14 @@ class DocumentProcessor:
                         loader_type="langchain",
                     )
                     items = chunk_langchain_document(generated_md)
-                    extracted_timestamp = await extract_and_apply_timestamp_to_items(
-                        items
-                    )
+                    # extracted_timestamp = await extract_and_apply_timestamp_to_items(
+                    #     items
+                    # )
                     chunks = [
                         item_to_chunk(item) for item in items
                     ]  # Convert items to chunks
-                    if generated_md and extracted_timestamp:
-                        generated_md.extractedTimestamp = extracted_timestamp
+                    # if generated_md and extracted_timestamp:
+                    generated_md.extractedTimestamp = None
                 elif (
                     content_type
                     == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
